@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hey, I&#39;m Ethan.</title>
+    <link>https://ethan-cope.github.io/</link>
+    <description>Recent content on Hey, I&#39;m Ethan.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Wed, 12 Jan 2022 18:21:31 -0600</lastBuildDate><atom:link href="https://ethan-cope.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spelling Test Auto-Grader for Catch Up and Read</title>
+      <link>https://ethan-cope.github.io/posts/auto-grader/</link>
+      <pubDate>Wed, 12 Jan 2022 18:21:31 -0600</pubDate>
+      
+      <guid>https://ethan-cope.github.io/posts/auto-grader/</guid>
+      <description>&amp;ldquo;Automation is good, so long as you know exactly where to put the machine.&amp;rdquo;
+~ Eliyahu Goldratt
+ One perk of being a programmer is my ability to automate boring, repetitive tasks I do daily. But what&amp;rsquo;s even more rewarding is the opportunity to help non-programmers with their data analysis drudgery. Such is the case with this project.
+The Problem The problem in question is that of third-grade spelling tests.</description>
+    </item>
+    
+    <item>
+      <title>Professional CD Crafting with CDRDAO</title>
+      <link>https://ethan-cope.github.io/posts/cdrdao/</link>
+      <pubDate>Tue, 04 Jan 2022 13:55:04 -0500</pubDate>
+      
+      <guid>https://ethan-cope.github.io/posts/cdrdao/</guid>
+      <description>All digital music listeners are equal. Acquisition is painless. Taste is irrelevant. It is pointless to boast about your iTunes collection, or the quality of your playlists on a streaming service. Music became data, one more set of 1&amp;rsquo;s and 0&amp;rsquo;s lurking in your hard drive, invisible to see and impossible to touch. Nothing is less cool than data. ~ David Sax
+ Physical media is back. vinyl and cassette sales are through the roof, and why shouldn&amp;rsquo;t they be?</description>
+    </item>
+    
+    <item>
+      <title>Ethan Cope, Briefly</title>
+      <link>https://ethan-cope.github.io/aboutme/</link>
+      <pubDate>Wed, 29 Dec 2021 13:58:37 -0600</pubDate>
+      
+      <guid>https://ethan-cope.github.io/aboutme/</guid>
+      <description>Hi! I&amp;rsquo;m Ethan Cope, an electrical engineer, multi-instrumentalist, and mac-and-cheese connoisseur.
+I currently live in College Station, Texas, where I study electrical engineering and mix live audio.
+This site is intended to capture the life cycles of my many side-projects. Most of these projects lie somewhere on the broad spectrum of engineering, from open source software to album reviews to DIY electronics.
+So why am I documenting my projects in excruciating detail?</description>
+    </item>
+    
+    <item>
+      <title>Buswarn: RasPi-based Transit Bus Tracking</title>
+      <link>https://ethan-cope.github.io/posts/buswarn/</link>
+      <pubDate>Mon, 27 Sep 2021 12:53:34 -0500</pubDate>
+      
+      <guid>https://ethan-cope.github.io/posts/buswarn/</guid>
+      <description>Public transportation is like a magnifying glass that shows you civilization up close. ~ Chris Gethard
+ What is Buswarn? During the COVID year, I moved off-campus. I didn&amp;rsquo;t realize at the time, but my only lifeline to my in-person classes, study rooms, and meals would be the Texas A&amp;amp;M Bus Transit System. Problems manifested themselves quickly. Buses ran at seemingly random intervals, and the website that displayed the schedule often had errors rendering on my mobile phone.</description>
+    </item>
+    
+    <item>
+      <title>About Hugo</title>
+      <link>https://ethan-cope.github.io/about-hugo/</link>
+      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://ethan-cope.github.io/about-hugo/</guid>
+      <description>Hugo is the world’s fastest framework for building websites. It is written in Go.
+It makes use of a variety of open source projects including:
+ https://github.com/russross/blackfriday https://github.com/alecthomas/chroma https://github.com/muesli/smartcrop https://github.com/spf13/cobra https://github.com/spf13/viper  Learn more and contribute on GitHub.</description>
+    </item>
+    
+  </channel>
+</rss>

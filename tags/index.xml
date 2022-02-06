@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Hey, I&#39;m Ethan.</title>
+    <link>https://ethan-cope.github.io/tags/</link>
+    <description>Recent content in Tags on Hey, I&#39;m Ethan.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Wed, 12 Jan 2022 18:21:31 -0600</lastBuildDate><atom:link href="https://ethan-cope.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>javascript</title>
+      <link>https://ethan-cope.github.io/tags/javascript/</link>
+      <pubDate>Wed, 12 Jan 2022 18:21:31 -0600</pubDate>
+      
+      <guid>https://ethan-cope.github.io/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>webDevelopment</title>
+      <link>https://ethan-cope.github.io/tags/webdevelopment/</link>
+      <pubDate>Wed, 12 Jan 2022 18:21:31 -0600</pubDate>
+      
+      <guid>https://ethan-cope.github.io/tags/webdevelopment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Audio</title>
+      <link>https://ethan-cope.github.io/tags/audio/</link>
+      <pubDate>Tue, 04 Jan 2022 13:55:04 -0500</pubDate>
+      
+      <guid>https://ethan-cope.github.io/tags/audio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CD</title>
+      <link>https://ethan-cope.github.io/tags/cd/</link>
+      <pubDate>Tue, 04 Jan 2022 13:55:04 -0500</pubDate>
+      
+      <guid>https://ethan-cope.github.io/tags/cd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>https://ethan-cope.github.io/tags/linux/</link>
+      <pubDate>Tue, 04 Jan 2022 13:55:04 -0500</pubDate>
+      
+      <guid>https://ethan-cope.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>EmbeddedSystems</title>
+      <link>https://ethan-cope.github.io/tags/embeddedsystems/</link>
+      <pubDate>Mon, 27 Sep 2021 12:53:34 -0500</pubDate>
+      
+      <guid>https://ethan-cope.github.io/tags/embeddedsystems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RaspberryPi</title>
+      <link>https://ethan-cope.github.io/tags/raspberrypi/</link>
+      <pubDate>Mon, 27 Sep 2021 12:53:34 -0500</pubDate>
+      
+      <guid>https://ethan-cope.github.io/tags/raspberrypi/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>untagged on Hey, I&#39;m Ethan.</title>
+    <link>https://example.com/tags/untagged/</link>
+    <description>Recent content in untagged on Hey, I&#39;m Ethan.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Wed, 17 Mar 2021 12:49:54 -0500</lastBuildDate><atom:link href="https://example.com/tags/untagged/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ron Gallo&#39;s PEACEMEAL Review</title>
+      <link>https://example.com/posts/peacemeal-album-review/</link>
+      <pubDate>Wed, 17 Mar 2021 12:49:54 -0500</pubDate>
+      
+      <guid>https://example.com/posts/peacemeal-album-review/</guid>
+      <description>Ron Gallo, PEACEMEAL: (March 5, 2021)
+I&amp;rsquo;ve been eagerly anticipating this album since the first single, &amp;ldquo;HIDE (MYSELF BEHIND YOU)&amp;rdquo; was released. This track&amp;rsquo;s chorus-drenched guitar and almost-dancebeat are a far cry from Ron&amp;rsquo;s early, fuzz and scuzz garage work. Of course, a lot has happened since HEAVY META was released. After a few U.S. tours, two E.P.s and a marriage, Ron&amp;rsquo;s been pretty busy since 2017. But in trading his fuzz pedals for drum machines, what initially appears to be a kitschy sell out is revealed as something&amp;hellip; deeper.</description>
+    </item>
+    
+    <item>
+      <title>Testpost</title>
+      <link>https://example.com/posts/testpost/</link>
+      <pubDate>Tue, 16 Mar 2021 14:09:10 -0500</pubDate>
+      
+      <guid>https://example.com/posts/testpost/</guid>
+      <description>i am writing about code. here is some.
+public static void main(String args[]) { system.out.println(&amp;quot;Hello, World!&amp;quot;); } this code is very important for some reason
+ first reason is it says hello world second reason is &amp;hellip;  blockquote down here  &amp;ldquo;this will make a blockquote but i don&amp;rsquo;t know what that will look like
+ image must be a link to the web i guess </description>
+    </item>
+    
+  </channel>
+</rss>

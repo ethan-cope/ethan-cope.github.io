@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="theme-color" content="#494f5c">
+	<meta name="msapplication-TileColor" content="#494f5c">
+<meta itemprop="name" content="Spelling Test Auto-Grader for Catch Up and Read">
+<meta itemprop="description" content="&ldquo;Automation is good, so long as you know exactly where to put the machine.&rdquo;
+~ Eliyahu Goldratt
+ One perk of being a programmer is my ability to automate boring, repetitive tasks I do daily. But what&rsquo;s even more rewarding is the opportunity to help non-programmers with their data analysis drudgery. Such is the case with this project.
+The Problem The problem in question is that of third-grade spelling tests."><meta itemprop="datePublished" content="2022-01-12T18:21:31-06:00" />
+<meta itemprop="dateModified" content="2022-01-12T18:21:31-06:00" />
+<meta itemprop="wordCount" content="668">
+<meta itemprop="keywords" content="javascript,webDevelopment," /><meta property="og:title" content="Spelling Test Auto-Grader for Catch Up and Read" />
+<meta property="og:description" content="&ldquo;Automation is good, so long as you know exactly where to put the machine.&rdquo;
+~ Eliyahu Goldratt
+ One perk of being a programmer is my ability to automate boring, repetitive tasks I do daily. But what&rsquo;s even more rewarding is the opportunity to help non-programmers with their data analysis drudgery. Such is the case with this project.
+The Problem The problem in question is that of third-grade spelling tests." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ethan-cope.github.io/posts/auto-grader/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-01-12T18:21:31-06:00" />
+<meta property="article:modified_time" content="2022-01-12T18:21:31-06:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Spelling Test Auto-Grader for Catch Up and Read"/>
+<meta name="twitter:description" content="&ldquo;Automation is good, so long as you know exactly where to put the machine.&rdquo;
+~ Eliyahu Goldratt
+ One perk of being a programmer is my ability to automate boring, repetitive tasks I do daily. But what&rsquo;s even more rewarding is the opportunity to help non-programmers with their data analysis drudgery. Such is the case with this project.
+The Problem The problem in question is that of third-grade spelling tests."/>
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="">
+	<link rel="shortcut icon" href="/favicon.ico">
+
+	<title>Spelling Test Auto-Grader for Catch Up and Read</title>
+	<link rel="stylesheet" href="https://ethan-cope.github.io/css/style.min.037b6ee8f8c1baab6a3d0a9da11c3ff18a7552471f16c59fd98538d5ce99208b.css" integrity="sha256-A3tu6PjBuqtqPQqdoRw/8Yp1UkcfFsWf2YU41c6ZIIs=" crossorigin="anonymous">
+	
+</head>
+
+<body id="page">
+	
+	<header id="site-header" class="animated slideInUp">
+		<div class="hdr-wrapper section-inner">
+			<div class="hdr-left">
+				<div class="site-branding">
+					<a href="https://ethan-cope.github.io">Hey, I&#39;m Ethan.</a>
+				</div>
+				<nav class="site-nav hide-in-mobile">
+					
+				<a href="https://ethan-cope.github.io/posts/">Posts</a>
+				<a href="https://ethan-cope.github.io/aboutme/">About</a>
+
+				</nav>
+			</div>
+			<div class="hdr-right hdr-icons">
+				<span class="hdr-social hide-in-mobile"><a href="https://github.com/ethan-cope" target="_blank" rel="noopener me" title="Github"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a><a href="https://www.linkedin.com/in/ethancope/" target="_blank" rel="noopener me" title="Linkedin"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a><a href="https://twitter.com/" target="_blank" rel="noopener me" title="Email"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg></a></span><button id="menu-btn" class="hdr-btn" title="Menu"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button>
+			</div>
+		</div>
+	</header>
+	<div id="mobile-menu" class="animated fast">
+		<ul>
+			<li><a href="https://ethan-cope.github.io/posts/">Posts</a></li>
+			<li><a href="https://ethan-cope.github.io/aboutme/">About</a></li>
+		</ul>
+	</div>
+
+
+	<main class="site-main section-inner animated fadeIn faster">
+		<article class="thin">
+			<header class="post-header">
+				<div class="post-meta"><span>Jan 12, 2022</span></div>
+				<h1>Spelling Test Auto-Grader for Catch Up and Read</h1>
+			</header>
+			<div class="content">
+				<blockquote>
+<p>&ldquo;Automation is good, so long as you know exactly where to put the machine.&rdquo;<br>
+~ Eliyahu Goldratt</p>
+</blockquote>
+<p>One perk of being a programmer is my ability to automate boring, repetitive tasks I do daily.
+But what&rsquo;s even more rewarding is the opportunity to help non-programmers with their data analysis drudgery.
+Such is the case with this project.</p>
+<h2 id="the-problem">The Problem<a href="#the-problem" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p>The problem in question is that of third-grade spelling tests.
+By analyzing patterns of how a student misspells words,
+a smart teacher can determine what concepts that student struggles with and modify their lesson plan accordingly.
+This analysis is tedious, requires a fair amount of calculation, and if you&rsquo;ve made it this far you know where this is going.
+<strong>Automation!!</strong></p>
+<h2 id="constraints">Constraints<a href="#constraints" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p>While the logic of this problem already makes it more than interesting to tackle, additional constraints added to the challenge.</p>
+<ul>
+<li>The program must be intuitive - Any teacher should be able to walk up and use it without training. This means the program needs to be extremely robust and have a very pretty user interface.</li>
+<li>The program must be easily distributable - It can&rsquo;t require installing a program or programming language onto the user&rsquo;s computer</li>
+<li>The program has to be accessible through public school wifi - no easy feat with archaic whitelist-based firewalls.</li>
+</ul>
+<p>Given these constraints, I decided to commit a cardinal sin of web development - combining css, javascript, and HTML on a single file.
+Doing so would allow me to distribute an HTML file containing the program to teachers, bypassing the firewall issue entirely.</p>
+<h2 id="implementation">Implementation<a href="#implementation" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<figure class="middle"><img src="chunks.png"
+         alt="the many chunks of the English language"/><figcaption>
+            <p>the many chunks of the English language</p>
+        </figcaption>
+</figure>
+
+<p>Jumping right in: each word on the test can be split up into chunks, all of which are seen above.
+Teachers normally go through each word the child has misspelled and determine which chunks have been missed.
+They then tally up each of these incorrect chunks and highlight the most missed chunks on the sheet seen above.</p>
+<p>In order to mimic this behavior, my program splits the word into &ldquo;runs&rdquo; of vowels and consonants.
+Using Regex, it handles vowel-consonant pairs on a special case-by case basis.
+For the intents and purposes of this program (and the English language, for that matter) these chunks are vowels.</p>
+<h3 id="an-example">An example<a href="#an-example" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+<p>Let&rsquo;s consider the word <strong>fright</strong></p>
+<ul>
+<li>The first match is <strong>fr</strong>, a run of 2 consonants</li>
+<li>Next, it matches <strong>igh</strong>, a special case called a Long Vowel</li>
+<li>Finally, the program matches t, a single consonant</li>
+</ul>
+<p>So, this word chunked up is <code>['fr', 'igh', 't']</code></p>
+<p>In order to grade the incorrect word, it&rsquo;s chunks need to be compared to the chunks of the correct word.
+The comparison method compares based on the vowel-consonant pattern of the correct word,
+meaning that one mistaken chunk won&rsquo;t affect the validity of other chunks in the word</p>
+<p>let&rsquo;s see this in action!</p>
+<figure class="middle"><img src="ChunkExample.png"
+         alt="word analysis section of program"/><figcaption>
+            <p>word analysis section of program</p>
+        </figcaption>
+</figure>
+
+<p><em>Word Analysis</em></p>
+<ul>
+<li>&ldquo;blayde&rdquo; marks both &lsquo;a&rsquo; and &lsquo;e&rsquo; incorrect because together they form an incorrect long vowel.</li>
+<li>when the program doesn&rsquo;t have enough chunks to work with, as is the case with &ldquo;kat&rdquo;, it gracefully marks these chunks incorrect.</li>
+</ul>
+<p><figure class="right"><img src="ChunkAnalysis.png"
+         alt="chunk analysis section of program"/><figcaption>
+            <p>chunk analysis section of program</p>
+        </figcaption>
+</figure>
+
+<em>Chunk Analysis</em></p>
+<ul>
+<li>The analysis section shows teachers what chunks the student has particular problems with.</li>
+<li>If the program incorrectly marks a chunk as wrong, that specific chunk can be clicked here to factor it out of the calculation.</li>
+</ul>
+<h2 id="takeaways">Takeaways<a href="#takeaways" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p>Outside of the core program, the difficulty of this this project lay in the sheer number of edge cases.
+Word endings, long vowels, and unmatching vowel-consonant patterns all had to be handled gracefully.
+While it would have been great to deploy this to a website to show it off, saving the file locally just made more sense.
+I guess the best solution also happens to be the easiest one in this case!</p>
+<p>In the future, I&rsquo;d love to expand this program to work with the Spanish-language tests as well.
+Doing so would be a slog (mo chunks, mo problems). If anyone wants to take a crack at decoding Spanish, here&rsquo;s the
+<a href="https://github.com/ethan-cope/ChunkGrader">Github Repo</a>.</p>
+
+			</div>
+			<hr class="post-end">
+			<footer class="post-info">
+				<p>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://ethan-cope.github.io/tags/javascript">javascript</a></span><span class="tag"><a href="https://ethan-cope.github.io/tags/webdevelopment">webDevelopment</a></span>
+				</p>
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>668 Words</p>
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2022-01-12 18:21 -0600</p>
+			</footer>
+		</article>
+		<div class="post-nav thin">
+			<a class="prev-post" href="https://ethan-cope.github.io/posts/cdrdao/">
+				<span class="post-nav-label">Older&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span><br><span>Professional CD Crafting with CDRDAO</span>
+			</a>
+		</div>
+		<div id="comments" class="thin">
+</div>
+	</main>
+
+	<footer id="site-footer" class="section-inner thin animated fadeIn faster">
+		<p>&copy; 2022 <a href="https://ethan-cope.github.io">Ethan Cope</a> &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></p>
+		<p>
+			Made with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> &#183; Theme <a href="https://github.com/Track3/hermit" target="_blank" rel="noopener">Hermit</a> &#183; <a href="https://ethan-cope.github.io/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
+		</p>
+	</footer>
+
+
+
+	<script src="https://ethan-cope.github.io/js/bundle.min.7d8545daa55d62427355498dd8da13f98ff79a7938ce7d2a5e2ae1ec0de3beb8.js" integrity="sha256-fYVF2qVdYkJzVUmN2NoT+Y/3mnk4zn0qXirh7A3jvrg=" crossorigin="anonymous"></script>
+	
+
+</body>
+
+</html>

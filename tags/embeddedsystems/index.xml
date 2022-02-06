@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>EmbeddedSystems on Hey, I&#39;m Ethan.</title>
+    <link>https://ethan-cope.github.io/tags/embeddedsystems/</link>
+    <description>Recent content in EmbeddedSystems on Hey, I&#39;m Ethan.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Mon, 27 Sep 2021 12:53:34 -0500</lastBuildDate><atom:link href="https://ethan-cope.github.io/tags/embeddedsystems/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Buswarn: RasPi-based Transit Bus Tracking</title>
+      <link>https://ethan-cope.github.io/posts/buswarn/</link>
+      <pubDate>Mon, 27 Sep 2021 12:53:34 -0500</pubDate>
+      
+      <guid>https://ethan-cope.github.io/posts/buswarn/</guid>
+      <description>Public transportation is like a magnifying glass that shows you civilization up close. ~ Chris Gethard
+ What is Buswarn? During the COVID year, I moved off-campus. I didn&amp;rsquo;t realize at the time, but my only lifeline to my in-person classes, study rooms, and meals would be the Texas A&amp;amp;M Bus Transit System. Problems manifested themselves quickly. Buses ran at seemingly random intervals, and the website that displayed the schedule often had errors rendering on my mobile phone.</description>
+    </item>
+    
+  </channel>
+</rss>
