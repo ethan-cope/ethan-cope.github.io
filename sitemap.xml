@@ -2,19 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://ethan-cope.github.io/tags/hackathon/</loc>
+    <lastmod>2022-02-02T13:28:52-06:00</lastmod>
+  </url><url>
     <loc>https://ethan-cope.github.io/</loc>
-    <lastmod>2022-01-12T18:21:31-06:00</lastmod>
+    <lastmod>2022-02-02T13:28:52-06:00</lastmod>
+  </url><url>
+    <loc>https://ethan-cope.github.io/posts/</loc>
+    <lastmod>2022-02-02T13:28:52-06:00</lastmod>
+  </url><url>
+    <loc>https://ethan-cope.github.io/tags/</loc>
+    <lastmod>2022-02-02T13:28:52-06:00</lastmod>
+  </url><url>
+    <loc>https://ethan-cope.github.io/tags/winner/</loc>
+    <lastmod>2022-02-02T13:28:52-06:00</lastmod>
+  </url><url>
+    <loc>https://ethan-cope.github.io/posts/mymirror/</loc>
+    <lastmod>2022-02-02T13:28:52-06:00</lastmod>
   </url><url>
     <loc>https://ethan-cope.github.io/tags/javascript/</loc>
     <lastmod>2022-01-12T18:21:31-06:00</lastmod>
   </url><url>
-    <loc>https://ethan-cope.github.io/posts/</loc>
-    <lastmod>2022-01-12T18:21:31-06:00</lastmod>
-  </url><url>
     <loc>https://ethan-cope.github.io/posts/auto-grader/</loc>
-    <lastmod>2022-01-12T18:21:31-06:00</lastmod>
-  </url><url>
-    <loc>https://ethan-cope.github.io/tags/</loc>
     <lastmod>2022-01-12T18:21:31-06:00</lastmod>
   </url><url>
     <loc>https://ethan-cope.github.io/tags/webdevelopment/</loc>

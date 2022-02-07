@@ -11,7 +11,7 @@
 <meta itemprop="description" content="Public transportation is like a magnifying glass that shows you civilization up close. ~ Chris Gethard
  What is Buswarn? During the COVID year, I moved off-campus. I didn&rsquo;t realize at the time, but my only lifeline to my in-person classes, study rooms, and meals would be the Texas A&amp;M Bus Transit System. Problems manifested themselves quickly. Buses ran at seemingly random intervals, and the website that displayed the schedule often had errors rendering on my mobile phone."><meta itemprop="datePublished" content="2021-09-27T12:53:34-05:00" />
 <meta itemprop="dateModified" content="2021-09-27T12:53:34-05:00" />
-<meta itemprop="wordCount" content="572">
+<meta itemprop="wordCount" content="577">
 <meta itemprop="keywords" content="RaspberryPi,EmbeddedSystems,Linux," /><meta property="og:title" content="Buswarn: RasPi-based Transit Bus Tracking" />
 <meta property="og:description" content="Public transportation is like a magnifying glass that shows you civilization up close. ~ Chris Gethard
  What is Buswarn? During the COVID year, I moved off-campus. I didn&rsquo;t realize at the time, but my only lifeline to my in-person classes, study rooms, and meals would be the Texas A&amp;M Bus Transit System. Problems manifested themselves quickly. Buses ran at seemingly random intervals, and the website that displayed the schedule often had errors rendering on my mobile phone." />
@@ -112,7 +112,9 @@ Here&rsquo;s the <a href="https://github.com/ethan-cope/pybuswarn">Github Repo</
 <h2 id="future-changes">Future Changes<a href="#future-changes" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
 <p><em>in order from least to most difficult to implement</em></p>
 <ul>
-<li>The Nokia 5110 display (seen above, next to the 7-segs) is a much cleaner display for this purpose, and would be more visible in the event of an outdoor installation. I&rsquo;ve had issues with getting it working on the Pi, so it&rsquo;s currently on the drawing board.</li>
+<li>The Nokia 5110 display suits this project much better than 7-segments.
+The 5110 is a 84x48 px lcd display with a backlight, which consumes less power and is much more visible in high-brightness environments.
+I&rsquo;ve been having problems getting it to work on the Pi, so it&rsquo;s currently on the drawing board.</li>
 <li>A classic engineering problem: it works, but it&rsquo;s not exactly pretty. even a 3d printed enclosure would go a long way to make it more presentable.</li>
 <li>I&rsquo;d love to eventually build these as low-power self-contained nodes in a LORA mesh. This would allow these stations to be installed at any bus station that has sunlight, no internet or power required.
 I&rsquo;ll explore this possibility when I delve more into my self-contained LORA mesh project.</li>
@@ -126,7 +128,7 @@ I&rsquo;ll explore this possibility when I delve more into my self-contained LOR
 				<p>
 					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://ethan-cope.github.io/tags/raspberrypi">RaspberryPi</a></span><span class="tag"><a href="https://ethan-cope.github.io/tags/embeddedsystems">EmbeddedSystems</a></span><span class="tag"><a href="https://ethan-cope.github.io/tags/linux">Linux</a></span>
 				</p>
-				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>572 Words</p>
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>577 Words</p>
 				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2021-09-27 12:53 -0500</p>
 			</footer>
 		</article>

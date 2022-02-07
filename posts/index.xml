@@ -6,8 +6,95 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-		<lastBuildDate>Wed, 12 Jan 2022 18:21:31 -0600</lastBuildDate>
+		<lastBuildDate>Wed, 02 Feb 2022 13:28:52 -0600</lastBuildDate>
 		<atom:link href="https://ethan-cope.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>🏆 MyMirror: a Google-integrated Smart Mirror</title>
+			<link>https://ethan-cope.github.io/posts/mymirror/</link>
+			<pubDate>Wed, 02 Feb 2022 13:28:52 -0600</pubDate>
+			
+			<guid>https://ethan-cope.github.io/posts/mymirror/</guid>
+			<description>Note: More information about myMirror can be found on the project&amp;rsquo;s devpost. Check there for other peoples&#39; contributions!
+Why myMirror? When I wake up in the morning, there&amp;rsquo;s a lot I know I probably should do. For example, I should probably prepare for the day ahead by checking the weather and my daily calendar. But often times, I just don&amp;rsquo;t. For situations like this, myMirror is here to help.
+myMirror solves the above dilemma by integrating this crucial information into your everyday bathroom mirror.</description>
+			<content type="html"><![CDATA[<p><em>Note: More information about myMirror can be found on <a href="https://devpost.com/software/mymirror">the project&rsquo;s devpost</a>.</em>
+<em>Check there for other peoples' contributions!</em></p>
+<h2 id="why-mymirror">Why myMirror?</h2>
+<p>When I wake up in the morning, there&rsquo;s a lot I know I probably should do.
+For example, I should probably prepare for the day ahead by checking the weather and my daily calendar.
+But often times, <strong>I just don&rsquo;t</strong>. For situations like this, myMirror is here to help.</p>
+<p>myMirror solves the above dilemma by integrating this crucial information into your everyday bathroom mirror.
+myMirror is a <em>smart mirror</em> with an embedded display screen,
+displaying the current time and date, weather for your area, and personal Google Calendar reminders.
+It even features a motion sensor, turning off the display to save power when a user isn&rsquo;t detected.</p>
+<h2 id="how-does-it-work">How does it work?</h2>
+<figure class="middle"><img src="Software.png"
+         alt="image"/><figcaption>
+            <p>The software side of myMirror</p>
+        </figcaption>
+</figure>
+
+<p>On the software side, myMirror is essentially a specialized website. It&rsquo;s written in pure Javascript, HTML, and CSS.
+It utilizes the Open Weather Maps and Google Calendar APIs to display this information to the user.
+The mirror itself is a pane of one-way glass with a 3.5&quot; display is mounted behind it.
+A modified Raspberry Pi drives the display and handles the power management alongside the motion sensor.</p>
+<h3 id="what-did-you-do">What did you do?</h3>
+<p>myMirror was my idea, so I ended up leading the charge to get this project finished in 24 hours.
+As the team lead, I had to check in with others, keep morale up, and delegate tasks where I wasn&rsquo;t the best person for the job.
+But I did quite a bit of programming myself! I handled the hardware side of myMirror.
+This included:</p>
+<ul>
+<li>Modifying the pi to drive a display with non-standard resolution and aspect ratios</li>
+<li>Programming a daemon that interfaces with xScreenSaver to unblank the screen when motion is detected</li>
+<li>Automating the execution of the program in case of power loss or a hard reboot</li>
+</ul>
+<h2 id="whats-next-for-mymirror">What&rsquo;s next for myMirror?</h2>
+<p>There are a few upgrades we&rsquo;re considering implementing.</p>
+<ul>
+<li>
+<p>First off, we want a serious codebase refresh. Anything written in 24 hours could stand to be written again in a cleaner, more concise way.</p>
+</li>
+<li>
+<p>Next, a bigger display. 3.5&quot;x2&quot; is just too small for any sizeable mirror.
+The next step will most likely be the Raspberry Pi Foundation&rsquo;s own official 7&quot; display.</p>
+</li>
+<li>
+<p>More Information! With great display space comes great responsibility: to fill that space with relevant data!
+Some ideas:</p>
+<ul>
+<li>Texas A&amp;M Bus Schedule - Either using code swiped from Buswarn or the Texas A&amp;M Transport website.
+myMirror could display what time the next bus arrives at your stop, or it the transport map itself!</li>
+<li>Spotify - This could be as simple as a progress bar with information about the current song you&rsquo;re listening to.</li>
+</ul>
+</li>
+</ul>
+<figure class="middle"><img src="demo.jpg"
+         alt="image"/><figcaption>
+            <p>myMirror in action! (feat: me)</p>
+        </figcaption>
+</figure>
+
+<h2 id="who-contributed">Who contributed?</h2>
+<ul>
+<li>Me! (<a href="https://www.linkedin.com/in/ethancope">Ethan Cope</a>) - Director, hardware, and scripting</li>
+<li><a href="https://www.linkedin.com/in/alexander-anderson43d/">Alex Anderson</a> - Frontend and weather integration</li>
+<li><a href="https://www.linkedin.com/in/claytonkristiansen/">Clayton Kristiansen</a> - Google Calendar integration</li>
+<li><a href="">Alexandria Garcia</a> - API integration and documentation</li>
+</ul>
+<p><em>Notably: none of these guys are computer science majors! We learned most of this Web Development stuff on the fly!</em></p>
+<h2 id="where--when">Where / When?</h2>
+<p>TamuHack 2022, Jan 29-30 2022.
+TamuHack is a Hackathon, a contest where teams of 4 engineers have 24 hours to design, implement, and present a product to industry judges.</p>
+<h2 id="takeaways">Takeaways</h2>
+<p>myMirror won first place in the novice division at TamuHack 2022.
+But I walked away from this competition with more than just newfound pride and acute sleep deprivation.
+As the team lead, I didn&rsquo;t really have time to hunker down and work on my own thing, which was a new experience for me.
+But through this process I learned to sit back and trust people to do their work well.
+When a small team of skilled people all play to their strengths, crazy ideas like myMirror can actually come to life!</p>
+<p>Thanks for tuning in!</p>
+]]></content>
+		</item>
 		
 		<item>
 			<title>Spelling Test Auto-Grader for Catch Up and Read</title>
@@ -121,7 +208,7 @@ But besides the nostalgia factor, why bother with CDs?</p>
 <li>CD players are cheap, and most modern vehicles still have them. Unlike a phone, your favorite mixtape won&rsquo;t run out of battery!</li>
 <li>If you have an artistic bent, you can make CD art with nothing more than a few sharpie markers, like this!</li>
 </ul>
-<figure class="big"><img src="https://i.redd.it/mnz4x8mxc5iz.jpg"
+<figure class="middle"><img src="https://i.redd.it/mnz4x8mxc5iz.jpg"
          alt="image"/><figcaption>
             <p>Note: not my art, belongs to reddit user <a href="https://www.reddit.com/r/themurlocs/comments/6w8470/sometimes_i_get_carried_away_with_my_burnt_cd/">mddecker</a></p>
         </figcaption>
@@ -257,7 +344,9 @@ Here&rsquo;s the <a href="https://github.com/ethan-cope/pybuswarn">Github Repo</
 <h2 id="future-changes">Future Changes</h2>
 <p><em>in order from least to most difficult to implement</em></p>
 <ul>
-<li>The Nokia 5110 display (seen above, next to the 7-segs) is a much cleaner display for this purpose, and would be more visible in the event of an outdoor installation. I&rsquo;ve had issues with getting it working on the Pi, so it&rsquo;s currently on the drawing board.</li>
+<li>The Nokia 5110 display suits this project much better than 7-segments.
+The 5110 is a 84x48 px lcd display with a backlight, which consumes less power and is much more visible in high-brightness environments.
+I&rsquo;ve been having problems getting it to work on the Pi, so it&rsquo;s currently on the drawing board.</li>
 <li>A classic engineering problem: it works, but it&rsquo;s not exactly pretty. even a 3d printed enclosure would go a long way to make it more presentable.</li>
 <li>I&rsquo;d love to eventually build these as low-power self-contained nodes in a LORA mesh. This would allow these stations to be installed at any bus station that has sunlight, no internet or power required.
 I&rsquo;ll explore this possibility when I delve more into my self-contained LORA mesh project.</li>
