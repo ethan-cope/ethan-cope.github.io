@@ -12,7 +12,7 @@
  Physical media is back. vinyl and cassette sales are through the roof, and why shouldn&rsquo;t they be?"><meta itemprop="datePublished" content="2022-01-04T13:55:04-05:00" />
 <meta itemprop="dateModified" content="2022-01-04T13:55:04-05:00" />
 <meta itemprop="wordCount" content="1142">
-<meta itemprop="keywords" content="Linux,Audio,CD," /><meta property="og:title" content="Professional CD Crafting with CDRDAO" />
+<meta itemprop="keywords" content="linux,audio,jD," /><meta property="og:title" content="Professional CD Crafting with CDRDAO" />
 <meta property="og:description" content="All digital music listeners are equal. Acquisition is painless. Taste is irrelevant. It is pointless to boast about your iTunes collection, or the quality of your playlists on a streaming service. Music became data, one more set of 1&rsquo;s and 0&rsquo;s lurking in your hard drive, invisible to see and impossible to touch. Nothing is less cool than data. ~ David Sax
  Physical media is back. vinyl and cassette sales are through the roof, and why shouldn&rsquo;t they be?" />
 <meta property="og:type" content="article" />
@@ -123,21 +123,21 @@ Here&rsquo;s how to use it:</p>
 <ol>
 <li>in <code>convertToWav.sh</code>, modify the <code>FILES</code> variable to reflect the file type you&rsquo;re converting from. For example:</li>
 </ol>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="nv">FILES</span><span class="o">=</span>*.m4a <span class="c1"># this will convert all .m4a files in the directory to .wav files</span>
-
-<span class="nv">FILES</span><span class="o">=</span>*.mp3 <span class="c1"># this will convert all .mp3 files in the directory to .wav files</span>
-
-<span class="nv">FILES</span><span class="o">=</span>*.&lt;extension type&gt; 
-<span class="c1"># this will convert all .&lt;extension type&gt; files in the directory to .wav files</span>
-</code></pre></div><ol start="2">
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nv">FILES</span><span class="o">=</span>*.m4a <span class="c1"># this will convert all .m4a files in the directory to .wav files</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nv">FILES</span><span class="o">=</span>*.mp3 <span class="c1"># this will convert all .mp3 files in the directory to .wav files</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nv">FILES</span><span class="o">=</span>*.&lt;extension type&gt; 
+</span></span><span class="line"><span class="cl"><span class="c1"># this will convert all .&lt;extension type&gt; files in the directory to .wav files</span>
+</span></span></code></pre></div><ol start="2">
 <li>Run the program specifying the source directory as follows below:</li>
 </ol>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">convertToWav.sh ../Music/Crime_of_the_Century 
-<span class="c1">#this will convert all audio files in ../Music/Crime_of_the_Century into .wav files</span>
-
-convertToWav.sh &lt;path to <span class="nb">source</span> directory&gt; 
-<span class="c1">#this will convert all audio files in &lt;source directory&gt; to .wav files</span>
-</code></pre></div><p><strong>NOTE:</strong> Not all .wav files are created equal! Some don&rsquo;t work with cdrdao due to encoding issues.
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">convertToWav.sh ../Music/Crime_of_the_Century 
+</span></span><span class="line"><span class="cl"><span class="c1">#this will convert all audio files in ../Music/Crime_of_the_Century into .wav files</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">convertToWav.sh &lt;path to <span class="nb">source</span> directory&gt; 
+</span></span><span class="line"><span class="cl"><span class="c1">#this will convert all audio files in &lt;source directory&gt; to .wav files</span>
+</span></span></code></pre></div><p><strong>NOTE:</strong> Not all .wav files are created equal! Some don&rsquo;t work with cdrdao due to encoding issues.
 to work around this, change the extension to <code>.wav</code>, and run the conversion program!</p>
 <h2 id="song-number-shifting">Song Number Shifting<a href="#song-number-shifting" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
 <p>When burning with CDRDAO, all your tracks need to be in the same directory.
@@ -148,15 +148,15 @@ But if you&rsquo;re putting multiple songs from the same source on a disc, this 
 and <code>Mixtape</code>, which will hold the final album .wav files in the correct order.
 Let&rsquo;s say we want to put Album2 after Album1, and Album1 is 8 tracks long.
 Then we&rsquo;ll run the program like this.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">songShift.sh &lt;path to Album2&gt; <span class="m">8</span> <span class="c1">#shifting all track numbers by 8</span>
-cp &lt;path to Album2&gt;/*.wav &lt;path to Mixtape&gt; <span class="c1"># copying all the shifted songs to the Mixtape dir.</span>
-</code></pre></div><h2 id="generating-toc">Generating TOC<a href="#generating-toc" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">songShift.sh &lt;path to Album2&gt; <span class="m">8</span> <span class="c1">#shifting all track numbers by 8</span>
+</span></span><span class="line"><span class="cl">cp &lt;path to Album2&gt;/*.wav &lt;path to Mixtape&gt; <span class="c1"># copying all the shifted songs to the Mixtape dir.</span>
+</span></span></code></pre></div><h2 id="generating-toc">Generating TOC<a href="#generating-toc" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
 <p>Cdrdao uses a TOC (or Table Of Contents) file as a template for the contents of the CD. This file contains the track listings, and is used to burn the CD with pretty track names.
 Full documentation for TOC files is found <a href="https://tldp.org/HOWTO/MP3-CD-Burning/dao-burning.html">here</a>.
 I wrote a script to take some of the tedium out of generating these TOC files.
 Simply run the program as follows!</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">genToc.sh &lt;path to directory with .tracks&gt;
-</code></pre></div><h2 id="burning-cd">Burning CD<a href="#burning-cd" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">genToc.sh &lt;path to directory with .tracks&gt;
+</span></span></code></pre></div><h2 id="burning-cd">Burning CD<a href="#burning-cd" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
 <p>The next step is simulating the CD burn, which allows you to catch any errors before actually burning the CD.
 Just run <code>cdrdao simulate</code> in the same directory as the TOC file and .wav files. If this doesn&rsquo;t spit out any errors, you&rsquo;re ready to burn!
 Run the following command to burn the CD!</p>
@@ -176,7 +176,7 @@ Don&rsquo;t believe me? Check out <a href="https://www.soundguys.com/high-bitrat
 			<hr class="post-end">
 			<footer class="post-info">
 				<p>
-					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://ethan-cope.github.io/tags/linux">Linux</a></span><span class="tag"><a href="https://ethan-cope.github.io/tags/audio">Audio</a></span><span class="tag"><a href="https://ethan-cope.github.io/tags/cd">CD</a></span>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://ethan-cope.github.io/tags/linux">linux</a></span><span class="tag"><a href="https://ethan-cope.github.io/tags/audio">audio</a></span><span class="tag"><a href="https://ethan-cope.github.io/tags/jd">jD</a></span>
 				</p>
 				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>1142 Words</p>
 				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2022-01-04 12:55 -0600</p>
@@ -186,8 +186,8 @@ Don&rsquo;t believe me? Check out <a href="https://www.soundguys.com/high-bitrat
 			<a class="next-post" href="https://ethan-cope.github.io/posts/auto-grader/">
 				<span class="post-nav-label"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>&nbsp;Newer</span><br><span>Spelling Test Auto-Grader for Catch Up and Read</span>
 			</a>
-			<a class="prev-post" href="https://ethan-cope.github.io/posts/buswarn/">
-				<span class="post-nav-label">Older&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span><br><span>Buswarn: RasPi-based Transit Bus Tracking</span>
+			<a class="prev-post" href="https://ethan-cope.github.io/posts/echo-matic_special/">
+				<span class="post-nav-label">Older&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span><br><span>Echo-Matic Deluxe (Part 1): Marantz-based DIY Tape Echo</span>
 			</a>
 		</div>
 		<div id="comments" class="thin">
@@ -203,7 +203,7 @@ Don&rsquo;t believe me? Check out <a href="https://www.soundguys.com/high-bitrat
 
 
 
-	<script src="https://ethan-cope.github.io/js/bundle.min.7d8545daa55d62427355498dd8da13f98ff79a7938ce7d2a5e2ae1ec0de3beb8.js" integrity="sha256-fYVF2qVdYkJzVUmN2NoT+Y/3mnk4zn0qXirh7A3jvrg=" crossorigin="anonymous"></script>
+	<script src="https://ethan-cope.github.io/js/bundle.min.8256b8724b9578bbdf6d6f04c894255bc760e78e8a2d60ec0a91ea993acd3b77.js" integrity="sha256-gla4ckuVeLvfbW8EyJQlW8dg546KLWDsCpHqmTrNO3c=" crossorigin="anonymous"></script>
 	
 
 </body>

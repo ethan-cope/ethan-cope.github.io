@@ -14,7 +14,7 @@
       <pubDate>Wed, 02 Feb 2022 13:28:52 -0600</pubDate>
       
       <guid>https://ethan-cope.github.io/posts/mymirror/</guid>
-      <description>Note: More information about myMirror can be found on the project&amp;rsquo;s devpost. Check there for other peoples&#39; contributions!
+      <description>Note: More information about myMirror can be found on the project&amp;rsquo;s devpost. Check there for other peoples&amp;rsquo; contributions!
 Why myMirror? When I wake up in the morning, there&amp;rsquo;s a lot I know I probably should do. For example, I should probably prepare for the day ahead by checking the weather and my daily calendar. But often times, I just don&amp;rsquo;t. For situations like this, myMirror is here to help.
 myMirror solves the above dilemma by integrating this crucial information into your everyday bathroom mirror.</description>
     </item>
@@ -51,6 +51,15 @@ The Problem The problem in question is that of third-grade spelling tests.</desc
 I currently live in College Station, Texas, where I study electrical engineering and mix live audio.
 This site is intended to capture the life cycles of my many side-projects. Most of these projects lie somewhere on the broad spectrum of engineering, from open source software to album reviews to DIY electronics.
 So why am I documenting my projects in excruciating detail?</description>
+    </item>
+    
+    <item>
+      <title>Echo-Matic Deluxe (Part 1): Marantz-based DIY Tape Echo</title>
+      <link>https://ethan-cope.github.io/posts/echo-matic_special/</link>
+      <pubDate>Fri, 15 Oct 2021 13:07:50 -0500</pubDate>
+      
+      <guid>https://ethan-cope.github.io/posts/echo-matic_special/</guid>
+      <description>Back in 2019, I saw the influential space-rock group Wand live. It was an amazing set of mostly new tunes, but I was a tad distracted by their lead guitarist. He was fiddling with a battered green box for the whole set, and doing so sent his guitar part soaring over the rest of the band in the most atmospheric, gooey wash imaginable. This was my first introduction to the weird, wonderful world of tape echo, and I wanted one!</description>
     </item>
     
     <item>

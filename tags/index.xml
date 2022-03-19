@@ -9,7 +9,7 @@
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Wed, 02 Feb 2022 13:28:52 -0600</lastBuildDate><atom:link href="https://ethan-cope.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hackathon</title>
+      <title>hackathon</title>
       <link>https://ethan-cope.github.io/tags/hackathon/</link>
       <pubDate>Wed, 02 Feb 2022 13:28:52 -0600</pubDate>
       
@@ -18,7 +18,25 @@
     </item>
     
     <item>
-      <title>Winner</title>
+      <title>raspberryPi</title>
+      <link>https://ethan-cope.github.io/tags/raspberrypi/</link>
+      <pubDate>Wed, 02 Feb 2022 13:28:52 -0600</pubDate>
+      
+      <guid>https://ethan-cope.github.io/tags/raspberrypi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>webDevelopment</title>
+      <link>https://ethan-cope.github.io/tags/webdevelopment/</link>
+      <pubDate>Wed, 02 Feb 2022 13:28:52 -0600</pubDate>
+      
+      <guid>https://ethan-cope.github.io/tags/webdevelopment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>winner</title>
       <link>https://ethan-cope.github.io/tags/winner/</link>
       <pubDate>Wed, 02 Feb 2022 13:28:52 -0600</pubDate>
       
@@ -36,16 +54,7 @@
     </item>
     
     <item>
-      <title>webDevelopment</title>
-      <link>https://ethan-cope.github.io/tags/webdevelopment/</link>
-      <pubDate>Wed, 12 Jan 2022 18:21:31 -0600</pubDate>
-      
-      <guid>https://ethan-cope.github.io/tags/webdevelopment/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Audio</title>
+      <title>audio</title>
       <link>https://ethan-cope.github.io/tags/audio/</link>
       <pubDate>Tue, 04 Jan 2022 13:55:04 -0500</pubDate>
       
@@ -54,16 +63,16 @@
     </item>
     
     <item>
-      <title>CD</title>
-      <link>https://ethan-cope.github.io/tags/cd/</link>
+      <title>jD</title>
+      <link>https://ethan-cope.github.io/tags/jd/</link>
       <pubDate>Tue, 04 Jan 2022 13:55:04 -0500</pubDate>
       
-      <guid>https://ethan-cope.github.io/tags/cd/</guid>
+      <guid>https://ethan-cope.github.io/tags/jd/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Linux</title>
+      <title>linux</title>
       <link>https://ethan-cope.github.io/tags/linux/</link>
       <pubDate>Tue, 04 Jan 2022 13:55:04 -0500</pubDate>
       
@@ -72,20 +81,20 @@
     </item>
     
     <item>
-      <title>EmbeddedSystems</title>
-      <link>https://ethan-cope.github.io/tags/embeddedsystems/</link>
-      <pubDate>Mon, 27 Sep 2021 12:53:34 -0500</pubDate>
+      <title>untagged</title>
+      <link>https://ethan-cope.github.io/tags/untagged/</link>
+      <pubDate>Fri, 15 Oct 2021 13:07:50 -0500</pubDate>
       
-      <guid>https://ethan-cope.github.io/tags/embeddedsystems/</guid>
+      <guid>https://ethan-cope.github.io/tags/untagged/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>RaspberryPi</title>
-      <link>https://ethan-cope.github.io/tags/raspberrypi/</link>
+      <title>embeddedSystems</title>
+      <link>https://ethan-cope.github.io/tags/embeddedsystems/</link>
       <pubDate>Mon, 27 Sep 2021 12:53:34 -0500</pubDate>
       
-      <guid>https://ethan-cope.github.io/tags/raspberrypi/</guid>
+      <guid>https://ethan-cope.github.io/tags/embeddedsystems/</guid>
       <description></description>
     </item>
     

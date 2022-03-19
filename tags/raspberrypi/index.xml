@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>RaspberryPi on Hey, I&#39;m Ethan.</title>
+    <title>raspberryPi on Hey, I&#39;m Ethan.</title>
     <link>https://ethan-cope.github.io/tags/raspberrypi/</link>
-    <description>Recent content in RaspberryPi on Hey, I&#39;m Ethan.</description>
+    <description>Recent content in raspberryPi on Hey, I&#39;m Ethan.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Mon, 27 Sep 2021 12:53:34 -0500</lastBuildDate><atom:link href="https://ethan-cope.github.io/tags/raspberrypi/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 02 Feb 2022 13:28:52 -0600</lastBuildDate><atom:link href="https://ethan-cope.github.io/tags/raspberrypi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🏆 MyMirror: a Google-integrated Smart Mirror</title>
+      <link>https://ethan-cope.github.io/posts/mymirror/</link>
+      <pubDate>Wed, 02 Feb 2022 13:28:52 -0600</pubDate>
+      
+      <guid>https://ethan-cope.github.io/posts/mymirror/</guid>
+      <description>Note: More information about myMirror can be found on the project&amp;rsquo;s devpost. Check there for other peoples&amp;rsquo; contributions!
+Why myMirror? When I wake up in the morning, there&amp;rsquo;s a lot I know I probably should do. For example, I should probably prepare for the day ahead by checking the weather and my daily calendar. But often times, I just don&amp;rsquo;t. For situations like this, myMirror is here to help.
+myMirror solves the above dilemma by integrating this crucial information into your everyday bathroom mirror.</description>
+    </item>
+    
     <item>
       <title>Buswarn: RasPi-based Transit Bus Tracking</title>
       <link>https://ethan-cope.github.io/posts/buswarn/</link>

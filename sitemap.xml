@@ -11,7 +11,13 @@
     <loc>https://ethan-cope.github.io/posts/</loc>
     <lastmod>2022-02-02T13:28:52-06:00</lastmod>
   </url><url>
+    <loc>https://ethan-cope.github.io/tags/raspberrypi/</loc>
+    <lastmod>2022-02-02T13:28:52-06:00</lastmod>
+  </url><url>
     <loc>https://ethan-cope.github.io/tags/</loc>
+    <lastmod>2022-02-02T13:28:52-06:00</lastmod>
+  </url><url>
+    <loc>https://ethan-cope.github.io/tags/webdevelopment/</loc>
     <lastmod>2022-02-02T13:28:52-06:00</lastmod>
   </url><url>
     <loc>https://ethan-cope.github.io/tags/winner/</loc>
@@ -26,13 +32,10 @@
     <loc>https://ethan-cope.github.io/posts/auto-grader/</loc>
     <lastmod>2022-01-12T18:21:31-06:00</lastmod>
   </url><url>
-    <loc>https://ethan-cope.github.io/tags/webdevelopment/</loc>
-    <lastmod>2022-01-12T18:21:31-06:00</lastmod>
-  </url><url>
     <loc>https://ethan-cope.github.io/tags/audio/</loc>
     <lastmod>2022-01-04T13:55:04-05:00</lastmod>
   </url><url>
-    <loc>https://ethan-cope.github.io/tags/cd/</loc>
+    <loc>https://ethan-cope.github.io/tags/jd/</loc>
     <lastmod>2022-01-04T13:55:04-05:00</lastmod>
   </url><url>
     <loc>https://ethan-cope.github.io/tags/linux/</loc>
@@ -44,13 +47,16 @@
     <loc>https://ethan-cope.github.io/aboutme/</loc>
     <lastmod>2021-12-29T13:58:37-06:00</lastmod>
   </url><url>
+    <loc>https://ethan-cope.github.io/posts/echo-matic_special/</loc>
+    <lastmod>2021-10-15T13:07:50-05:00</lastmod>
+  </url><url>
+    <loc>https://ethan-cope.github.io/tags/untagged/</loc>
+    <lastmod>2021-10-15T13:07:50-05:00</lastmod>
+  </url><url>
     <loc>https://ethan-cope.github.io/posts/buswarn/</loc>
     <lastmod>2021-09-27T12:53:34-05:00</lastmod>
   </url><url>
     <loc>https://ethan-cope.github.io/tags/embeddedsystems/</loc>
-    <lastmod>2021-09-27T12:53:34-05:00</lastmod>
-  </url><url>
-    <loc>https://ethan-cope.github.io/tags/raspberrypi/</loc>
     <lastmod>2021-09-27T12:53:34-05:00</lastmod>
   </url><url>
     <loc>https://ethan-cope.github.io/about-hugo/</loc>

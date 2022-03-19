@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>jD on Hey, I&#39;m Ethan.</title>
+    <link>https://ethan-cope.github.io/tags/jd/</link>
+    <description>Recent content in jD on Hey, I&#39;m Ethan.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Tue, 04 Jan 2022 13:55:04 -0500</lastBuildDate><atom:link href="https://ethan-cope.github.io/tags/jd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Professional CD Crafting with CDRDAO</title>
+      <link>https://ethan-cope.github.io/posts/cdrdao/</link>
+      <pubDate>Tue, 04 Jan 2022 13:55:04 -0500</pubDate>
+      
+      <guid>https://ethan-cope.github.io/posts/cdrdao/</guid>
+      <description>All digital music listeners are equal. Acquisition is painless. Taste is irrelevant. It is pointless to boast about your iTunes collection, or the quality of your playlists on a streaming service. Music became data, one more set of 1&amp;rsquo;s and 0&amp;rsquo;s lurking in your hard drive, invisible to see and impossible to touch. Nothing is less cool than data. ~ David Sax
+ Physical media is back. vinyl and cassette sales are through the roof, and why shouldn&amp;rsquo;t they be?</description>
+    </item>
+    
+  </channel>
+</rss>

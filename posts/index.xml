@@ -15,11 +15,11 @@
 			<pubDate>Wed, 02 Feb 2022 13:28:52 -0600</pubDate>
 			
 			<guid>https://ethan-cope.github.io/posts/mymirror/</guid>
-			<description>Note: More information about myMirror can be found on the project&amp;rsquo;s devpost. Check there for other peoples&#39; contributions!
+			<description>Note: More information about myMirror can be found on the project&amp;rsquo;s devpost. Check there for other peoples&amp;rsquo; contributions!
 Why myMirror? When I wake up in the morning, there&amp;rsquo;s a lot I know I probably should do. For example, I should probably prepare for the day ahead by checking the weather and my daily calendar. But often times, I just don&amp;rsquo;t. For situations like this, myMirror is here to help.
 myMirror solves the above dilemma by integrating this crucial information into your everyday bathroom mirror.</description>
 			<content type="html"><![CDATA[<p><em>Note: More information about myMirror can be found on <a href="https://devpost.com/software/mymirror">the project&rsquo;s devpost</a>.</em>
-<em>Check there for other peoples' contributions!</em></p>
+<em>Check there for other peoples&rsquo; contributions!</em></p>
 <h2 id="why-mymirror">Why myMirror?</h2>
 <p>When I wake up in the morning, there&rsquo;s a lot I know I probably should do.
 For example, I should probably prepare for the day ahead by checking the weather and my daily calendar.
@@ -161,7 +161,7 @@ meaning that one mistaken chunk won&rsquo;t affect the validity of other chunks 
 
 <p><em>Word Analysis</em></p>
 <ul>
-<li>&ldquo;blayde&rdquo; marks both &lsquo;a&rsquo; and &lsquo;e&rsquo; incorrect because together they form an incorrect long vowel.</li>
+<li>&ldquo;blayde&rdquo; marks both &lsquo;a&rsquo; and &rsquo;e&rsquo; incorrect because together they form an incorrect long vowel.</li>
 <li>when the program doesn&rsquo;t have enough chunks to work with, as is the case with &ldquo;kat&rdquo;, it gracefully marks these chunks incorrect.</li>
 </ul>
 <p><figure class="right"><img src="ChunkAnalysis.png"
@@ -245,21 +245,21 @@ Here&rsquo;s how to use it:</p>
 <ol>
 <li>in <code>convertToWav.sh</code>, modify the <code>FILES</code> variable to reflect the file type you&rsquo;re converting from. For example:</li>
 </ol>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="nv">FILES</span><span class="o">=</span>*.m4a <span class="c1"># this will convert all .m4a files in the directory to .wav files</span>
-
-<span class="nv">FILES</span><span class="o">=</span>*.mp3 <span class="c1"># this will convert all .mp3 files in the directory to .wav files</span>
-
-<span class="nv">FILES</span><span class="o">=</span>*.&lt;extension type&gt; 
-<span class="c1"># this will convert all .&lt;extension type&gt; files in the directory to .wav files</span>
-</code></pre></div><ol start="2">
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nv">FILES</span><span class="o">=</span>*.m4a <span class="c1"># this will convert all .m4a files in the directory to .wav files</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nv">FILES</span><span class="o">=</span>*.mp3 <span class="c1"># this will convert all .mp3 files in the directory to .wav files</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nv">FILES</span><span class="o">=</span>*.&lt;extension type&gt; 
+</span></span><span class="line"><span class="cl"><span class="c1"># this will convert all .&lt;extension type&gt; files in the directory to .wav files</span>
+</span></span></code></pre></div><ol start="2">
 <li>Run the program specifying the source directory as follows below:</li>
 </ol>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">convertToWav.sh ../Music/Crime_of_the_Century 
-<span class="c1">#this will convert all audio files in ../Music/Crime_of_the_Century into .wav files</span>
-
-convertToWav.sh &lt;path to <span class="nb">source</span> directory&gt; 
-<span class="c1">#this will convert all audio files in &lt;source directory&gt; to .wav files</span>
-</code></pre></div><p><strong>NOTE:</strong> Not all .wav files are created equal! Some don&rsquo;t work with cdrdao due to encoding issues.
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">convertToWav.sh ../Music/Crime_of_the_Century 
+</span></span><span class="line"><span class="cl"><span class="c1">#this will convert all audio files in ../Music/Crime_of_the_Century into .wav files</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">convertToWav.sh &lt;path to <span class="nb">source</span> directory&gt; 
+</span></span><span class="line"><span class="cl"><span class="c1">#this will convert all audio files in &lt;source directory&gt; to .wav files</span>
+</span></span></code></pre></div><p><strong>NOTE:</strong> Not all .wav files are created equal! Some don&rsquo;t work with cdrdao due to encoding issues.
 to work around this, change the extension to <code>.wav</code>, and run the conversion program!</p>
 <h2 id="song-number-shifting">Song Number Shifting</h2>
 <p>When burning with CDRDAO, all your tracks need to be in the same directory.
@@ -270,15 +270,15 @@ But if you&rsquo;re putting multiple songs from the same source on a disc, this 
 and <code>Mixtape</code>, which will hold the final album .wav files in the correct order.
 Let&rsquo;s say we want to put Album2 after Album1, and Album1 is 8 tracks long.
 Then we&rsquo;ll run the program like this.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">songShift.sh &lt;path to Album2&gt; <span class="m">8</span> <span class="c1">#shifting all track numbers by 8</span>
-cp &lt;path to Album2&gt;/*.wav &lt;path to Mixtape&gt; <span class="c1"># copying all the shifted songs to the Mixtape dir.</span>
-</code></pre></div><h2 id="generating-toc">Generating TOC</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">songShift.sh &lt;path to Album2&gt; <span class="m">8</span> <span class="c1">#shifting all track numbers by 8</span>
+</span></span><span class="line"><span class="cl">cp &lt;path to Album2&gt;/*.wav &lt;path to Mixtape&gt; <span class="c1"># copying all the shifted songs to the Mixtape dir.</span>
+</span></span></code></pre></div><h2 id="generating-toc">Generating TOC</h2>
 <p>Cdrdao uses a TOC (or Table Of Contents) file as a template for the contents of the CD. This file contains the track listings, and is used to burn the CD with pretty track names.
 Full documentation for TOC files is found <a href="https://tldp.org/HOWTO/MP3-CD-Burning/dao-burning.html">here</a>.
 I wrote a script to take some of the tedium out of generating these TOC files.
 Simply run the program as follows!</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">genToc.sh &lt;path to directory with .tracks&gt;
-</code></pre></div><h2 id="burning-cd">Burning CD</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">genToc.sh &lt;path to directory with .tracks&gt;
+</span></span></code></pre></div><h2 id="burning-cd">Burning CD</h2>
 <p>The next step is simulating the CD burn, which allows you to catch any errors before actually burning the CD.
 Just run <code>cdrdao simulate</code> in the same directory as the TOC file and .wav files. If this doesn&rsquo;t spit out any errors, you&rsquo;re ready to burn!
 Run the following command to burn the CD!</p>
@@ -293,6 +293,86 @@ Run the following command to burn the CD!</p>
 and that <em>they</em> can hear the difference between low and high bitrate music.
 While this indeed used to be the case (with <em>extremely</em> low bitrate music), it is no longer true.
 Don&rsquo;t believe me? Check out <a href="https://www.soundguys.com/high-bitrate-audio-is-overkill-cd-quality-is-still-great-16518/">this article</a>!</p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>Echo-Matic Deluxe (Part 1): Marantz-based DIY Tape Echo</title>
+			<link>https://ethan-cope.github.io/posts/echo-matic_special/</link>
+			<pubDate>Fri, 15 Oct 2021 13:07:50 -0500</pubDate>
+			
+			<guid>https://ethan-cope.github.io/posts/echo-matic_special/</guid>
+			<description>Back in 2019, I saw the influential space-rock group Wand live. It was an amazing set of mostly new tunes, but I was a tad distracted by their lead guitarist. He was fiddling with a battered green box for the whole set, and doing so sent his guitar part soaring over the rest of the band in the most atmospheric, gooey wash imaginable. This was my first introduction to the weird, wonderful world of tape echo, and I wanted one!</description>
+			<content type="html"><![CDATA[<p><img src="https://img.audiofanzine.com/images/u/product/normal/roland-re-201-space-echo-6085.jpg" alt="thing"></p>
+<p>Back in 2019, I saw the influential space-rock group <a href="https://www.youtube.com/watch?v=h9PcHA5Ievk">Wand</a> live.
+It was an amazing set of mostly new tunes, but I was a tad distracted by their lead guitarist.
+He was fiddling with a battered green box for the whole set, and doing so sent his guitar part soaring over the rest of the band in the most atmospheric, gooey wash imaginable.
+This was my first introduction to the weird, wonderful world of tape echo, and I wanted one!</p>
+<p>Sadly, vintage tape echoes (such as the Roland RE201 Cory was using that night) go for
+<em><strong><a href="https://reverb.com/p/roland-space-echo-re-201">thousands</a></strong></em>
+on the used market, and are notoriously finnicky to maintain.
+Cheaper digital emulations unsurprisingly fail to capture the warm, fuzzy magic of these complex analog devices.
+But one day I stumbled on a <a href="https://www.youtube.com/watch?v=ABU-psBnmxk">youtube video</a> demonstrating a DIY tape echo built from nothing more than a few analog components and a tape deck, and I knew I had to make one!</p>
+<h2 id="the-theory">The Theory</h2>
+<p>Conceptually, tape echo is pretty simple. Consider a tape deck with 3 heads: a record head, a monitor head, and an erase head.
+When recording on a 3-head deck, the signal that&rsquo;s just been recorded to the tape by the record head is captured and sent out via the playback head.
+But when you send this monitor output signal directly back into the line-in jack, a feedback loop is created,
+and your original sound is repeated.
+From there, all you need are controls!</p>
+<ul>
+<li>Varying the speed of the tape deck motor changes the speed of the tape, which in turn controls the delay time.</li>
+<li>Adding a resistance in the feedback loop controls the amount of signal fed back into the unit, which in turn varies the number of delay repeats.</li>
+<li>Add a potentiometer to control the wet/dry mix and a volume output knob, and you have a tape delay!</li>
+</ul>
+<h2 id="the-circuit">The Circuit</h2>
+<p>The circuit I&rsquo;m utilizing is a modified version of <a href="https://proto-schlock.blogspot.com/2015/04/echo-matic-diy-tape-delay.html">Proto-Schlock&rsquo;s</a>, who in turn got it from Boscorelli&rsquo;s <em>the StompBox Cookbook</em>.</p>
+<ul>
+<li>My most notable modification is the addition of a reverb module from BYOC, to simulate the orginal RE201 unit&rsquo;s spring reverb. If you don&rsquo;t want to do this, just connect <code>TO_RV</code> and <code>FROM_RV</code> with a jumper wire.</li>
+<li>I also added a low-pass filter to the feedback loop, since high frequencies tend to make my unit self-oscillate.
+you should experiment with different filters and filter designs here!</li>
+</ul>
+<figure class="big"><img src="schematic.png"
+         alt="image"/><figcaption>
+            <p>the modified schematic</p>
+        </figcaption>
+</figure>
+
+<h2 id="the-materials">The Materials</h2>
+<p>Ebay is a wonderful place. One where you can get a late 70&rsquo;s 3-head stereo tape recorder for $40 + shipping.
+These old Marantz 3-head decks still have a pretty devoted following, so this unit was an absolute steal!
+I already had a DIY spring reverb pedal from <a href="https://buildyourownclone.com/">BYOC</a> lying around, which would emulate the gooey reverb of the original unit without having to buy a separate reverb tank.
+The rest of the parts for this project were relatively easy to source at <a href="https://smallbear-electronics.mybigcommerce.com/">Small Bear</a>, my go-to for quality guitar pedal components. I&rsquo;ve included a BOM for the project in the Github Repo.</p>
+<h2 id="the-build">The Build</h2>
+<h3 id="prototyping">Prototyping</h3>
+<p>After acquiring all the parts, it was prototyping time!</p>
+<figure><img src="breadboard1.jpeg"
+         alt="image"/><figcaption>
+            <p>not the cleanest, I&rsquo;ll be the first to admit</p>
+        </figcaption>
+</figure>
+
+<p>Despite the circuit&rsquo;s complexity, breadboarding wasn&rsquo;t all that bad.
+I hooked it up to the tape deck and&hellip; it worked! In retrospect, I&rsquo;m really glad I tested this on the breadboard first.
+Doing so let me experiment with a few different high-pass filter designs before I decided on the one in the schematic.</p>
+<h3 id="motor-control">Motor Control</h3>
+<p>Next step: modifying the motor controller. Some tape units have this functionality built-in, but mine didn&rsquo;t. to work around this, I coupled the motor to it&rsquo;s power source via a PWM controller.
+It&rsquo;s ideal to have this PWM frequency above the audio range (greater than 20 kHz).</p>
+<p>or&hellip; at least it would. For some reason, my PWM controllers didn&rsquo;t want to play nice with the tape deck&rsquo;s motor.
+I ended up going the analog route of putting a potentiometer inline with the motor to control the motor speed.
+Every motor is different, but mine stalled at any resistance over 50 Ohms.</p>
+<figure class="right"><img src="board.png"
+         alt="image"/><figcaption>
+            <p>the finished board</p>
+        </figcaption>
+</figure>
+
+<h3 id="manufacturing">Manufacturing</h3>
+<p>Finally, it was time to manufacture.
+If you want to make this project yourself, I&rsquo;ve provided the Autodesk Eagle .brd files in the Github repo. Note that this is the first time I&rsquo;ve designed a pcb, so it may not be perfect! I manufactured it with <a href="https://aisler.net/">Aisler</a>,
+and only paid $10 for 3 boards!</p>
+<h2 id="part-1-thoughts">Part 1 Thoughts</h2>
+<p>It&rsquo;s going to be a while before I get back on this project.
+Aisler takes about a month to manufacture, and junior year is starting up. Stay tuned for a part 2!</p>
 ]]></content>
 		</item>
 		
