@@ -27,8 +27,8 @@ myMirror solves the above dilemma by integrating this crucial information into y
       <guid>https://ethan-cope.github.io/posts/auto-grader/</guid>
       <description>&amp;ldquo;Automation is good, so long as you know exactly where to put the machine.&amp;rdquo;
 ~ Eliyahu Goldratt
- One perk of being a programmer is my ability to automate boring, repetitive tasks I do daily. But what&amp;rsquo;s even more rewarding is the opportunity to help non-programmers with their data analysis drudgery. Such is the case with this project.
-The Problem The problem in question is that of third-grade spelling tests.</description>
+One perk of being a programmer is my ability to automate boring, repetitive tasks I do daily. But what&amp;rsquo;s even more rewarding is the opportunity to help non-programmers with their data analysis drudgery. Such is the case with this project.
+The Problem The problem in question is that of third-grade spelling tests. By analyzing patterns of how a student misspells words, a smart teacher can determine what concepts that student struggles with and modify their lesson plan accordingly.</description>
     </item>
     
   </channel>
