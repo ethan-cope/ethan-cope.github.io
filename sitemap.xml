@@ -2,10 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ethan-cope.github.io/tags/album/</loc>
-    <lastmod>2022-12-17T10:20:53-05:00</lastmod>
+    <loc>https://ethan-cope.github.io/tags/grading/</loc>
+    <lastmod>2022-12-23T15:36:55-06:00</lastmod>
   </url><url>
     <loc>https://ethan-cope.github.io/</loc>
+    <lastmod>2022-12-23T15:36:55-06:00</lastmod>
+  </url><url>
+    <loc>https://ethan-cope.github.io/tags/javascript/</loc>
+    <lastmod>2022-12-23T15:36:55-06:00</lastmod>
+  </url><url>
+    <loc>https://ethan-cope.github.io/tags/nonprofit/</loc>
+    <lastmod>2022-12-23T15:36:55-06:00</lastmod>
+  </url><url>
+    <loc>https://ethan-cope.github.io/posts/</loc>
+    <lastmod>2022-12-23T15:36:55-06:00</lastmod>
+  </url><url>
+    <loc>https://ethan-cope.github.io/posts/auto-grader-update/</loc>
+    <lastmod>2022-12-23T15:36:55-06:00</lastmod>
+  </url><url>
+    <loc>https://ethan-cope.github.io/tags/</loc>
+    <lastmod>2022-12-23T15:36:55-06:00</lastmod>
+  </url><url>
+    <loc>https://ethan-cope.github.io/tags/webdevelopment/</loc>
+    <lastmod>2022-12-23T15:36:55-06:00</lastmod>
+  </url><url>
+    <loc>https://ethan-cope.github.io/tags/album/</loc>
     <lastmod>2022-12-17T10:20:53-05:00</lastmod>
   </url><url>
     <loc>https://ethan-cope.github.io/posts/congratulations/</loc>
@@ -14,13 +35,7 @@
     <loc>https://ethan-cope.github.io/tags/music/</loc>
     <lastmod>2022-12-17T10:20:53-05:00</lastmod>
   </url><url>
-    <loc>https://ethan-cope.github.io/posts/</loc>
-    <lastmod>2022-12-17T10:20:53-05:00</lastmod>
-  </url><url>
     <loc>https://ethan-cope.github.io/tags/review/</loc>
-    <lastmod>2022-12-17T10:20:53-05:00</lastmod>
-  </url><url>
-    <loc>https://ethan-cope.github.io/tags/</loc>
     <lastmod>2022-12-17T10:20:53-05:00</lastmod>
   </url><url>
     <loc>https://ethan-cope.github.io/posts/mymirror/</loc>
@@ -32,14 +47,8 @@
     <loc>https://ethan-cope.github.io/tags/raspberrypi/</loc>
     <lastmod>2022-02-02T13:28:52-06:00</lastmod>
   </url><url>
-    <loc>https://ethan-cope.github.io/tags/webdevelopment/</loc>
-    <lastmod>2022-02-02T13:28:52-06:00</lastmod>
-  </url><url>
     <loc>https://ethan-cope.github.io/tags/winner/</loc>
     <lastmod>2022-02-02T13:28:52-06:00</lastmod>
-  </url><url>
-    <loc>https://ethan-cope.github.io/tags/javascript/</loc>
-    <lastmod>2022-01-12T18:21:31-06:00</lastmod>
   </url><url>
     <loc>https://ethan-cope.github.io/posts/auto-grader/</loc>
     <lastmod>2022-01-12T18:21:31-06:00</lastmod>

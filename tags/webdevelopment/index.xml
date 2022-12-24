@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Wed, 02 Feb 2022 13:28:52 -0600</lastBuildDate><atom:link href="https://ethan-cope.github.io/tags/webdevelopment/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 23 Dec 2022 15:36:55 -0600</lastBuildDate><atom:link href="https://ethan-cope.github.io/tags/webdevelopment/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spelling Test Grader [UPDATE]</title>
+      <link>https://ethan-cope.github.io/posts/auto-grader-update/</link>
+      <pubDate>Fri, 23 Dec 2022 15:36:55 -0600</pubDate>
+      
+      <guid>https://ethan-cope.github.io/posts/auto-grader-update/</guid>
+      <description>One in six children who are not reading proficiently in third grade fail to graduate from high school on time, four times the rate for children with proficient third-grade reading skills. &amp;ndash; &amp;quot;Double Jeopardy&amp;quot;, Annie E. Casey Foundation
+Since rolling out my spelling test grader, Catch Up and Read (CAR) has asked for more grading automation! Here&amp;rsquo;s a quick update on the new grader, the Phonics Survey.
+What is a Phonics Survey?</description>
+    </item>
+    
     <item>
       <title>🏆 MyMirror: a Google-integrated Smart Mirror</title>
       <link>https://ethan-cope.github.io/posts/mymirror/</link>
@@ -27,8 +38,8 @@ myMirror solves the above dilemma by integrating this crucial information into y
       <guid>https://ethan-cope.github.io/posts/auto-grader/</guid>
       <description>&amp;ldquo;Automation is good, so long as you know exactly where to put the machine.&amp;rdquo;
 ~ Eliyahu Goldratt
-One perk of being a programmer is my ability to automate boring, repetitive tasks I do daily. But what&amp;rsquo;s even more rewarding is the opportunity to help non-programmers with their data analysis drudgery. Such is the case with this project.
-The Problem The problem in question is that of third-grade spelling tests. By analyzing patterns of how a student misspells words, a smart teacher can determine what concepts that student struggles with and modify their lesson plan accordingly.</description>
+One perk of being a programmer is the ability to automate boring, repetitive tasks to ease my workload. But what&amp;rsquo;s even more rewarding is the opportunity to help non-programmers with their data analysis drudgery. Such is the case with this project.
+The Problem My mom works for Catch Up and Read, a Dallas non-profit that helps below-reading-level students catch up before third grade.</description>
     </item>
     
   </channel>

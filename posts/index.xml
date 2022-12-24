@@ -6,8 +6,66 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-		<lastBuildDate>Sat, 17 Dec 2022 10:20:53 -0500</lastBuildDate>
+		<lastBuildDate>Fri, 23 Dec 2022 15:36:55 -0600</lastBuildDate>
 		<atom:link href="https://ethan-cope.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Spelling Test Grader [UPDATE]</title>
+			<link>https://ethan-cope.github.io/posts/auto-grader-update/</link>
+			<pubDate>Fri, 23 Dec 2022 15:36:55 -0600</pubDate>
+			
+			<guid>https://ethan-cope.github.io/posts/auto-grader-update/</guid>
+			<description>One in six children who are not reading proficiently in third grade fail to graduate from high school on time, four times the rate for children with proficient third-grade reading skills. &amp;ndash; &amp;quot;Double Jeopardy&amp;quot;, Annie E. Casey Foundation
+Since rolling out my spelling test grader, Catch Up and Read (CAR) has asked for more grading automation! Here&amp;rsquo;s a quick update on the new grader, the Phonics Survey.
+What is a Phonics Survey?</description>
+			<content type="html"><![CDATA[<blockquote>
+<p>One in six children who are not reading proficiently in third grade fail to graduate from high school on time, four times the rate for children with proficient third-grade reading skills. &ndash; <!-- raw HTML omitted -->&quot;<a href="https://www.aecf.org/resources/double-jeopardy">Double Jeopardy</a>&quot;, Annie E. Casey Foundation<!-- raw HTML omitted --></p>
+</blockquote>
+<p>Since rolling out my spelling test grader, Catch Up and Read (CAR) has asked for more grading automation!
+Here&rsquo;s a quick update on the new grader, the <em>Phonics Survey</em>.</p>
+<h2 id="what-is-a-phonics-survey">What is a Phonics Survey?</h2>
+<p>Throughout the span of the CAR program, students need to be benchmarked. The phonics survey determines which consonant-vowel blend types a student struggles with. By asking students to read words aloud, teachers mark down which words they struggle with, and tally up the number of incorrect words per section. They then use this data to plan their lessons around words that students have trouble with.</p>
+<figure class="middle"><img src="PhonicsSurveyExample.png"
+         alt="phonics survey example section"/><figcaption>
+            <p>phonics survey example section</p>
+        </figcaption>
+</figure>
+
+<p>Phonics surveys were historically administered through paper tests: a teacher would manually tally incorrect words, identify problem sections, and enter student information into a spreadsheet. Phonics surveys aren&rsquo;t particularly labor-intensive, but as CAR began supporting more schools, it became obvious that this solution wouldn&rsquo;t scale. Hence, automation!</p>
+<h2 id="getting-online">Getting Online</h2>
+<p>The biggest annoyance with the first iteration of the auto-grader was that it was a locally-saved HTML file. This worked fine from an implementation standpoint, but many users complained. To non-tech people, the concept of a local file also being an interactable webpage is a bit obtuse, so I decided to bite the bullet and roll it out to the World Wide Web. <a href="https://www.netlify.com/">Netlify</a> made this easier than it had any right being: if any changes have been pushed to the main branch of the project&rsquo;s Github, Netlify rolls these changes out to the production website. Their free tier offers <strong>more</strong> than enough bandwidth (100 GB!) for this project&rsquo;s use case.</p>
+<h2 id="phonics-survey-implementation">Phonics Survey Implementation</h2>
+<p>I wish I could make this glorified matching form sound sexy, but I can&rsquo;t. There&rsquo;s no algorithm, like the previous test. It just tallies the number of words that the user clicks, does a little formatting magic, and prints the page as a PDF. Regardless, there are still some interesting details I&rsquo;d like to point out.</p>
+<figure class="middle"><img src="WebsiteUsage.png"
+         alt="website example"/><figcaption>
+            <p>website example</p>
+        </figcaption>
+</figure>
+
+<ul>
+<li>A PDF can&rsquo;t be saved unless the student&rsquo;s name, grade, and school are entered. This plaintext goes in the filename for easy recollection of data.</li>
+<li>By pulling the current date, the program can automatically mark each test as <code>[Beginning, Middle, or End of Year]</code>. This is also referenced in the filename, easing recordkeeping.</li>
+<li>The Save button automatically saves the webpage as a PDF <em>with</em> the colors encoded.</li>
+</ul>
+<figure class="middle"><img src="PDFexample.png"
+         alt="generated PDF example"/><figcaption>
+            <p>generated PDF example</p>
+        </figcaption>
+</figure>
+
+<h2 id="so-what">So What?</h2>
+<p>Look, this isn&rsquo;t rocket surgery. In truth, even posting something something this trivial feels a bit juvenile, especially in comparison to how much cool stuff goes down on <a href="https://hackaday.com/2022/11/21/reverse-engineering-the-seven-words-and-more-you-cant-say-on-tv/">Hackaday</a>. But instead of focusing on the technology, I&rsquo;d like to focus on the application and outcome.</p>
+<p>Engineers love efficient solutions. But in pursuit of this efficiency, usability can be the first thing to go by the wayside. If a user doesn&rsquo;t use your tool because they can&rsquo;t figure it out, then it&rsquo;s not a good tool. My first version of this program was an objectively better solution: It used less memory, the data integrated with Excel, and it had a login system planned that allowed it to store student information to a MongoDB backend. When I showed it to users, all time-crunched and technically-challenged teachers, it was obvious over-optimization was holding back widespread adoption.</p>
+<p>Around this time, I read a lot of posts from user-experience blog <a href="https://www.mobilespoon.net/2022/12/forms-completion-rates-statistics-and-takeaways.html">The Mobile Spoon</a> when working on this project, which led to an epiphany of user-central design. So I rebuilt the form, creating what amounted to an online version of the existing paper tests. I nixed the integrations, opting to instead generate a PDF which would be saved locally. I made the PDF generation idiot-proof: hitting &ldquo;Save&rdquo; names the PDF with the student&rsquo;s information and date, skips all dialog boxes, and automatically downloads to the Downloads folder.</p>
+<h2 id="outcomes">Outcomes</h2>
+<p>This updated program immediately began pulling it&rsquo;s weight: tests that used to take 30 minutes to grade were cut down to 5. Since CAR just hit 1000 students this year, this program (conservatively!) saved over 400 man-hours of manual test grading. Nearly every literacy coach organically mentioned this tool as a massive improvement in their end-of-year reflections. With the new consistency of data gathered, teachers were able to better identify student gaps, plan data-driven lessons, and push students to read on grade level.</p>
+<h2 id="takeaways">Takeaways</h2>
+<ol>
+<li>Keep It Simple, Stupid! (KISS) This mantra has continued to ring true throughout every project I&rsquo;ve undertaken. Complexity has it&rsquo;s place, but it&rsquo;s better to have something bulletproof and simple than something flashy but unreliable.</li>
+<li>Think of the user: Users won&rsquo;t necessarily appreciate that your program has O(n) space complexity. But they do appreciate being able to use your tools without an instruction manual or a degree in compsci.</li>
+</ol>
+]]></content>
+		</item>
 		
 		<item>
 			<title>MGMT&#39;s Anti-Breakout Album: Congratulations</title>
@@ -186,23 +244,25 @@ When a small team of skilled people all play to their strengths, crazy ideas lik
 			<guid>https://ethan-cope.github.io/posts/auto-grader/</guid>
 			<description>&amp;ldquo;Automation is good, so long as you know exactly where to put the machine.&amp;rdquo;
 ~ Eliyahu Goldratt
-One perk of being a programmer is my ability to automate boring, repetitive tasks I do daily. But what&amp;rsquo;s even more rewarding is the opportunity to help non-programmers with their data analysis drudgery. Such is the case with this project.
-The Problem The problem in question is that of third-grade spelling tests. By analyzing patterns of how a student misspells words, a smart teacher can determine what concepts that student struggles with and modify their lesson plan accordingly.</description>
+One perk of being a programmer is the ability to automate boring, repetitive tasks to ease my workload. But what&amp;rsquo;s even more rewarding is the opportunity to help non-programmers with their data analysis drudgery. Such is the case with this project.
+The Problem My mom works for Catch Up and Read, a Dallas non-profit that helps below-reading-level students catch up before third grade.</description>
 			<content type="html"><![CDATA[<blockquote>
 <p>&ldquo;Automation is good, so long as you know exactly where to put the machine.&rdquo;<br>
 ~ Eliyahu Goldratt</p>
 </blockquote>
-<p>One perk of being a programmer is my ability to automate boring, repetitive tasks I do daily.
+<p>One perk of being a programmer is the ability to automate boring, repetitive tasks to ease my workload.
 But what&rsquo;s even more rewarding is the opportunity to help non-programmers with their data analysis drudgery.
 Such is the case with this project.</p>
 <h2 id="the-problem">The Problem</h2>
-<p>The problem in question is that of third-grade spelling tests.
+<p>My mom works for <a href="https://www.catchupandread.org/">Catch Up and Read</a>, a Dallas non-profit that helps below-reading-level
+students catch up before third grade.
+Their problem was quickly and easily grading third-grade spelling tests.
 By analyzing patterns of how a student misspells words,
 a smart teacher can determine what concepts that student struggles with and modify their lesson plan accordingly.
 This analysis is tedious, requires a fair amount of calculation, and if you&rsquo;ve made it this far you know where this is going.
 <strong>Automation!!</strong></p>
 <h2 id="constraints">Constraints</h2>
-<p>While the logic of this problem already makes it more than interesting to tackle, additional constraints added to the challenge.</p>
+<p>This program had an interesting soup of additional constraints that made it especially fun to write:</p>
 <ul>
 <li>The program must be intuitive - Any teacher should be able to walk up and use it without training. This means the program needs to be extremely robust and have a very pretty user interface.</li>
 <li>The program must be easily distributable - It can&rsquo;t require installing a program or programming language onto the user&rsquo;s computer</li>
@@ -221,20 +281,28 @@ Doing so would allow me to distribute an HTML file containing the program to tea
 Teachers normally go through each word the child has misspelled and determine which chunks have been missed.
 They then tally up each of these incorrect chunks and highlight the most missed chunks on the sheet seen above.</p>
 <p>In order to mimic this behavior, my program splits the word into &ldquo;runs&rdquo; of vowels and consonants.
-Using Regex, it handles vowel-consonant pairs on a special case-by case basis.
-For the intents and purposes of this program (and the English language, for that matter) these chunks are vowels.</p>
+English also has more complex chunks made up of vowels and consonants: the program uses Regex to handle these special cases.
+For the intents and purposes of this program (and the English language, for that matter) these special-case chunks are vowels.</p>
 <h3 id="an-example">An example</h3>
 <p>Let&rsquo;s consider the word <strong>fright</strong></p>
 <ul>
 <li>The first match is <strong>fr</strong>, a run of 2 consonants</li>
-<li>Next, it matches <strong>igh</strong>, a special case called a Long Vowel</li>
+<li>Next, it matches <strong>igh</strong>, a special case chunk called a Long Vowel</li>
 <li>Finally, the program matches t, a single consonant</li>
 </ul>
-<p>So, this word chunked up is <code>['fr', 'igh', 't']</code></p>
-<p>In order to grade the incorrect word, it&rsquo;s chunks need to be compared to the chunks of the correct word.
-The comparison method compares based on the vowel-consonant pattern of the correct word,
-meaning that one mistaken chunk won&rsquo;t affect the validity of other chunks in the word</p>
-<p>let&rsquo;s see this in action!</p>
+<p>So, this word chunked up is <code>['fr', 'igh', 't']</code>
+Below is an example of how the program grades a student who entered &lsquo;freit&rsquo; instead of fright.</p>
+<figure class="middle"><img src="diagram.png"
+         alt="grading &amp;lsquo;freit&amp;rsquo;"/><figcaption>
+            <p>grading &lsquo;freit&rsquo;</p>
+        </figcaption>
+</figure>
+
+<p>In order to grade the incorrect word, we need to chunk-ify the correct word and compare the two.
+We first (1) determine the vowel-consonant pattern of the valid word: for &lsquo;fright&rsquo;, this pattern is <code>[consonant, vowel, consonant]</code>.
+Then, we (2) split each word&rsquo;s chunks into two queues: one for vowels, and the other for consonants. (step 2)
+We then use this pattern to (3) dequeue the vowels and consonants in the correct order
+and determine if they match. Finally, we (4) count up every incorrect chunk and display it back to the user.</p>
 <figure class="middle"><img src="ChunkExample.png"
          alt="word analysis section of program"/><figcaption>
             <p>word analysis section of program</p>
@@ -244,24 +312,26 @@ meaning that one mistaken chunk won&rsquo;t affect the validity of other chunks 
 <p><em>Word Analysis</em></p>
 <ul>
 <li>&ldquo;blayde&rdquo; marks both &lsquo;a&rsquo; and &rsquo;e&rsquo; incorrect because together they form an incorrect long vowel.</li>
-<li>when the program doesn&rsquo;t have enough chunks to work with, as is the case with &ldquo;kat&rdquo;, it gracefully marks these chunks incorrect.</li>
+<li>when the program doesn&rsquo;t have enough chunks to work with, as is the case with &ldquo;kat&rdquo; being entered for the word &ldquo;camped&rdquo;, it marks these extra chunks as incorrect.</li>
 </ul>
 <p><figure class="right"><img src="ChunkAnalysis.png"
-         alt="chunk analysis section of program"/><figcaption>
-            <p>chunk analysis section of program</p>
+         alt="chunk analysis program section"/><figcaption>
+            <p>chunk analysis program section</p>
         </figcaption>
 </figure>
 
 <em>Chunk Analysis</em></p>
 <ul>
-<li>The analysis section shows teachers what chunks the student has particular problems with.</li>
-<li>If the program incorrectly marks a chunk as wrong, that specific chunk can be clicked here to factor it out of the calculation.</li>
+<li>The analysis section displays which chunks a student has had repeated issues with.</li>
+<li>If the student&rsquo;s answer differs greatly from the vowel-consonant pattern of the correct word,
+the program can mark chunks as wrong, even if they were correct in their own context.
+By clicking on these wrongly-marked chunks, they can be factored out of the calculations.</li>
 </ul>
 <h2 id="takeaways">Takeaways</h2>
 <p>Outside of the core program, the difficulty of this this project lay in the sheer number of edge cases.
 Word endings, long vowels, and unmatching vowel-consonant patterns all had to be handled gracefully.
-While it would have been great to deploy this to a website to show it off, saving the file locally just made more sense.
-I guess the best solution also happens to be the easiest one in this case!</p>
+<del>While it would have been great to deploy this to a website to show it off, saving the file locally just made more sense.</del>
+The webapp is now up and running, hosted on <a href="https://www.netlify.com/">Netlify</a>! See the <a href="">update</a> here.</p>
 <p>In the future, I&rsquo;d love to expand this program to work with the Spanish-language tests as well.
 Doing so would be a slog (mo chunks, mo problems). If anyone wants to take a crack at decoding Spanish, here&rsquo;s the
 <a href="https://github.com/ethan-cope/ChunkGrader">Github Repo</a>.</p>
