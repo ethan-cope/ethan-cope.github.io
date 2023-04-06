@@ -6,8 +6,125 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-		<lastBuildDate>Fri, 23 Dec 2022 15:36:55 -0600</lastBuildDate>
+		<lastBuildDate>Tue, 27 Dec 2022 15:06:31 -0600</lastBuildDate>
 		<atom:link href="https://ethan-cope.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Boss Pedal Switching Issues? Try This! (Boss GE-7 Modding)</title>
+			<link>https://ethan-cope.github.io/posts/ge7/</link>
+			<pubDate>Tue, 27 Dec 2022 15:06:31 -0600</pubDate>
+			
+			<guid>https://ethan-cope.github.io/posts/ge7/</guid>
+			<description>Post-Mod GE-7
+The Mod If you just want to skip to the fix, head to this section.
+At the advice of Brian Wampler, I caved and bought a minty used Boss GE-7. Imagine my surprise as I realized that moving any of the EQ sliders introduced very noticeable noise! How could you, Boss? Apparently, when the GE-7 was first designed, battery life and price point were more important than audio fidelity.</description>
+			<content type="html"><![CDATA[<figure><img src="ge7pic.jpg"
+         alt="image"/><figcaption>
+            <p>Post-Mod GE-7</p>
+        </figcaption>
+</figure>
+
+<h1 id="the-mod">The Mod</h1>
+<p>If you just want to skip to the fix, head to <a href="#the-fix">this section</a>.</p>
+<p>At the advice of <a href="https://www.youtube.com/watch?v=hypn6uA6RPs">Brian Wampler</a>, I caved and bought a minty used Boss GE-7.
+Imagine my surprise as I realized that moving any of the EQ sliders introduced very noticeable noise! How could you, Boss? Apparently, when the GE-7 was first designed, battery life and price point were more important than audio fidelity. As a result, any pedals made from 1981 to 2017 use the <code>TL022</code> dual op-amp chips. These outdated chips are surpassed in every aspect of audio performance by the more recent <code>NE5532</code> dual op-amps, despite drawing more current.
+<em>(<a href="https://www.ti.com/lit/ds/symlink/ne5532.pdf">38 mA</a> vs <a href="https://www.ti.com/lit/ds/symlink/tl022.pdf?ts=1672127917081">6 mA</a> in output short-circuit condition. <a href="https://www.physics.unlv.edu/~bill/PHYS483/op_amp_datasheet.pdf">This is a good read</a> if you need a refresher on op-amp datasheet deciphering)</em>.</p>
+<p>Boss also used cheapo-ceramic capacitors in the signal path of the GE-7. Ceramics can be microphonic due to the piezoelectric effect: this is quite possibly the worst type of non-ideality an audio component can have. Subsitituting these for film capacitors would drastically improve audio fidelity. Since my pedal was an older model, I decided to replace all of the electrolytic capacitors as well. These caps have most likely dried out after 40+ years of use.</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Not in the mood to source parts for myself in the middle of a rabid chip market (Even through-hole parts are getting hard to find!), I opted for the <a href="https://fromelelectronics.com/products/ge7-mods">Fromel mod kit</a>.</p>
+<p>This pedal was manufactured back when manufacturers cared about repairability, and it shows. The GE-7 was very easy to disassemble. After socketing and soldering the new op-amps, I tried to fire the pedal up. There was no sound.</p>
+<h1 id="the-problem">The Problem</h1>
+<p>The broken pedal behaved as follows:</p>
+<ul>
+<li>If the switch was held down, the clean (bypass) signal could be heard clearly</li>
+<li>If the switch wasn&rsquo;t held down, an extremely loud buzzing could be heard</li>
+<li>The wet (equalized) signal could not be heard, regardless of switch position</li>
+<li>The LED never turned on</li>
+</ul>
+<p>The buzzing noise sounded a bit like a ground loop, which is often caused by grounding issues. Using a continuity checker, I discovered that the switch ground wasn&rsquo;t connected to the power jack&rsquo;s ground. But the pedal worked before I took it apart: what could have changed??</p>
+<h1 id="the-fix">The Fix</h1>
+<figure class="left"><img src="inside1.jpg"
+         alt="image"/><figcaption>
+            <p>GE-7 Gutshot</p>
+        </figcaption>
+</figure>
+
+<p>Taking a closer look at the switch grounding revealed all! See how the switch&rsquo;s ground (black wire) is attached to the output jack, and nothing else? The switch will only be grounded if output jack is attached to the enclosure. The enclosure itself needs to be grounded as well: The ground output from the 9v input connection to the input jack handles this. All this means that the pedal will only switch properly if the input and output jacks are electrically connected to the enclosure! After alligator-clipping the grounds together, and plugging my guitar in, it worked like a charm!</p>
+<p>If you&rsquo;ve been having this issue, check 2 things:</p>
+<ul>
+<li>Use a continuity checker (most multimeters should have one) to see if all of the grounds are connected</li>
+<li>Make sure a 1/4&quot; cable is plugged into the pedal&rsquo;s <em>input</em> jack. If nothing is plugged in, the pedal won&rsquo;t activate.</li>
+</ul>
+<h1 id="the-takeaway">The Takeaway</h1>
+<p>While I&rsquo;ve been told to <a href="https://www.coda-effects.com/2017/07/ground-loops-and-guitar-pedals.html">always ground the enclosure</a>, this is the first time I&rsquo;ve seen an entire pedal&rsquo;s functionality rely on this rule of thumb. Doing so saves exactly 2 wires, but those are 2 less wires to potentially break, 2 less wires to pay for.
+In 1981, Boss couldn&rsquo;t rest on the laurels of being a legendary effects manufacturer: it had to build a reputation, which it did by offering invincible pedals at an unbeatable price point.
+Even using the enclosure as a ground plane speaks to the dual priorities of build quality and cost that continue to make Boss pedals so ubiquitous, even today.</p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>💡 DIY Connected Lanterns with MQTT, Adafruit Feather</title>
+			<link>https://ethan-cope.github.io/posts/thinking-of-you/</link>
+			<pubDate>Sun, 25 Dec 2022 19:04:34 -0600</pubDate>
+			
+			<guid>https://ethan-cope.github.io/posts/thinking-of-you/</guid>
+			<description>Faced with the tradition of family Christmas gift giving, I was thoroughly stumped. I knew I wanted to do something maker-related: I&amp;rsquo;m the only engineer in the family, which tends to amplify the wow factor of any techncal projects :)
+After my fallback plan (a Chemex coffee maker) fell through, I knew I had to build these!
+the finished product!
+These are long-distance friendship lanterns. The idea is, sometimes you want to let a distant friend or family member know that you&amp;rsquo;re thinking of them, even if you don&amp;rsquo;t necessarily want to shoot them a text.</description>
+			<content type="html"><![CDATA[<p>Faced with the tradition of family Christmas gift giving, I was thoroughly stumped.
+I knew I wanted to do something maker-related: I&rsquo;m the only engineer in the family, which tends to amplify the wow factor of any techncal projects :)</p>
+<p>After my fallback plan (a Chemex coffee maker) fell through, I knew I had to build these!</p>
+<figure><img src="boximg.jpg"
+         alt="image"/><figcaption>
+            <p>the finished product!</p>
+        </figcaption>
+</figure>
+
+<p>These are <a href="https://www.instructables.com/DIY-Long-Distance-Best-Friend-Lights/">long-distance friendship lanterns</a>. The idea is, sometimes you want to let a distant friend or family member know that you&rsquo;re thinking of them, even if you don&rsquo;t necessarily want to shoot them a text. The lanterns couldn&rsquo;t be simpler to use: turning on your lantern will also turns on your friends&rsquo; lantern, no matter where they are in the world.</p>
+<h2 id="the-code">The Code</h2>
+<h3 id="mqtt">MQTT</h3>
+<p>I knew that <a href="https://mqtt.org/">MQTT</a> would be a great fit for this project: it even bills itself as &ldquo;The standard for IoT messaging&rdquo;. It&rsquo;s lightweight, bidirectional, and requires minimal infrastructure. The protocol has a central server, but the devices themselves handle which messages they receive through a process called <strong>subscription</strong>. Without getting too into the weeds, every message, or <strong>post</strong>, is published to a <strong>topic</strong>. Once a message is published to a topic, all other devices subscribed to the same topic receive the new message. By making a topic for each box, anyone can order a box to turn on by posting to that box&rsquo;s topic.</p>
+<p>Of course, this system still requires a central server, called a broker, to make sure messages get where they&rsquo;re sent. Luckily, <a href="https://console.hivemq.cloud/">HiveMQ</a> is one such server with a generous free tier that this project&rsquo;s constraints fall well within. It also <em>HAD</em> a <a href="https://console.hivemq.cloud/clients/arduino-esp8266?uuid=c689cd9ab0cf406bbc142988277304d9">super neat tutorial</a> for getting started on an Arduino, but the page seems to be broken. Either way, my implementation is based on their sample publish-receive code.</p>
+<h3 id="arduino">Arduino</h3>
+<p>Everyone and their mother knows that Arduino is the way to go for simple MCU programming. Abundant libraries handle all of the hard stuff, all you have to do is bring the logic. Besides some Linux issues (Manjaro didn&rsquo;t seem to like my UDEV rules, solution <a href="https://playground.arduino.cc/Linux/All/#Permission">here</a>), everything was simple to set up.</p>
+<p>As for libraries, I utilized <a href="https://github.com/FastLED/FastLED/wiki/Basic-usage">FastLED</a> to program simple light animations in the Neopixel strip. ESP8266WiFi is obviously needed to connect the device to the network, and other boilerplate libraries such as <a href="">PubSubClient</a> and <a href="https://www.arduino.cc/reference/en/libraries/littlefs_esp32/">LittleFS</a> (used to authenticate with the HiveMQ server) where used as well.</p>
+<h2 id="parts-selection">Parts Selection</h2>
+<figure><img src="feather.png"
+         alt="image"/><figcaption>
+            <p>Feather Board (image credit to Adafruit)</p>
+        </figcaption>
+</figure>
+
+<p>I am blessed to live within driving distance of Micro Center, a legendary PC superstore with a sizeable maker section.
+I knew I needed an Arduino board with wifi support, and Micro Center had the <a href="https://www.adafruit.com/product/2821">Adafruit Feather Huzzah</a> in stock.
+This board&rsquo;s specs are overkill for this application, but it definitely does the job.
+Also from the Micro Center haul was a strip of NeoPixels, and some push-button switches for control.
+Add in a clear case from the container store, and we&rsquo;re ready to rock!</p>
+<ul>
+<li><a href="https://www.adafruit.com/product/2821">Adafruit Feather Huzzah ESP8266</a></li>
+<li><a href="https://www.microcenter.com/product/459723/adafruit-industries-neopixel-digital-rgb-led-strip-white-60-led">Adafruit NeoPixel RGB LED Strip</a></li>
+<li>Any momentary push-button switches</li>
+<li><a href="https://www.containerstore.com/s/gift-packaging/gift-boxes/clear-amac-boxes/12d?productId=10003497">Clear AMAC enclosure</a></li>
+</ul>
+<h2 id="logic">Logic</h2>
+<p>As mentioned earlier, this project has multiple boxes, all of which can send &ldquo;thinking of you&rdquo; messages to each other. For example, if I&rsquo;m currently thinking about my dad, I can make his box light up from my box! But how does he know it&rsquo;s me that&rsquo;s thinking of him, and not someone else? To solve this, each box is assigned a color, which is associated with the box owner. So when I send a message to my dad, his box will become my color. To send a message, I can press the push button, which cycles through all the possible colors to send to. Not pressing the button for 2 seconds will send the message, lighting up the senders&rsquo; and receivers&rsquo; box for 2 hours. Confusing? I made a diagram.</p>
+<figure><img src="box.drawio.png"
+         alt="image"/><figcaption>
+            <p>Feather Board (image credit to Adafruit)</p>
+        </figcaption>
+</figure>
+
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/nyXzglq0ATc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="Quick Demo of Signalbox"></iframe>
+</div>
+
+<h2 id="does-it-work">Does it work?</h2>
+<p>In short, yeah! The only issues I&rsquo;ve run into are logging related. When I rolled these boxes out, I didn&rsquo;t include any method of logging messages. This makes it very difficult to troubleshoot the boxes, since I simply don&rsquo;t know what&rsquo;s happening at any given time. Throw in the fact that I have no method of remotely updating the boxes, even small logic bugs are difficult to fix. But after being rolled out for 3 months, all the reported issues can be fixed just by power cycling the device, so I&rsquo;d call this a win! If you find any issues with my programming, don&rsquo;t hesitate to hit me with a pull request!</p>
+]]></content>
+		</item>
 		
 		<item>
 			<title>Spelling Test Grader [UPDATE]</title>

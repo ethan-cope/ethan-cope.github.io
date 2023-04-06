@@ -7,7 +7,30 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Fri, 23 Dec 2022 15:36:55 -0600</lastBuildDate><atom:link href="https://ethan-cope.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Dec 2022 15:06:31 -0600</lastBuildDate><atom:link href="https://ethan-cope.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Boss Pedal Switching Issues? Try This! (Boss GE-7 Modding)</title>
+      <link>https://ethan-cope.github.io/posts/ge7/</link>
+      <pubDate>Tue, 27 Dec 2022 15:06:31 -0600</pubDate>
+      
+      <guid>https://ethan-cope.github.io/posts/ge7/</guid>
+      <description>Post-Mod GE-7
+The Mod If you just want to skip to the fix, head to this section.
+At the advice of Brian Wampler, I caved and bought a minty used Boss GE-7. Imagine my surprise as I realized that moving any of the EQ sliders introduced very noticeable noise! How could you, Boss? Apparently, when the GE-7 was first designed, battery life and price point were more important than audio fidelity.</description>
+    </item>
+    
+    <item>
+      <title>💡 DIY Connected Lanterns with MQTT, Adafruit Feather</title>
+      <link>https://ethan-cope.github.io/posts/thinking-of-you/</link>
+      <pubDate>Sun, 25 Dec 2022 19:04:34 -0600</pubDate>
+      
+      <guid>https://ethan-cope.github.io/posts/thinking-of-you/</guid>
+      <description>Faced with the tradition of family Christmas gift giving, I was thoroughly stumped. I knew I wanted to do something maker-related: I&amp;rsquo;m the only engineer in the family, which tends to amplify the wow factor of any techncal projects :)
+After my fallback plan (a Chemex coffee maker) fell through, I knew I had to build these!
+the finished product!
+These are long-distance friendship lanterns. The idea is, sometimes you want to let a distant friend or family member know that you&amp;rsquo;re thinking of them, even if you don&amp;rsquo;t necessarily want to shoot them a text.</description>
+    </item>
+    
     <item>
       <title>Spelling Test Grader [UPDATE]</title>
       <link>https://ethan-cope.github.io/posts/auto-grader-update/</link>
@@ -91,17 +114,6 @@ So why am I documenting my projects in excruciating detail?</description>
       <guid>https://ethan-cope.github.io/posts/buswarn/</guid>
       <description>Public transportation is like a magnifying glass that shows you civilization up close. ~ Chris Gethard
 What is Buswarn? During the COVID year, I moved off-campus. I didn&amp;rsquo;t realize at the time, but my only lifeline to my in-person classes, study rooms, and meals would be the Texas A&amp;amp;M Bus Transit System. Problems manifested themselves quickly. Buses ran at seemingly random intervals, and the website that displayed the schedule often had errors rendering on my mobile phone.</description>
-    </item>
-    
-    <item>
-      <title>About Hugo</title>
-      <link>https://ethan-cope.github.io/about-hugo/</link>
-      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://ethan-cope.github.io/about-hugo/</guid>
-      <description>Hugo is the world’s fastest framework for building websites. It is written in Go.
-It makes use of a variety of open source projects including:
-https://github.com/russross/blackfriday https://github.com/alecthomas/chroma https://github.com/muesli/smartcrop https://github.com/spf13/cobra https://github.com/spf13/viper Learn more and contribute on GitHub.</description>
     </item>
     
   </channel>
