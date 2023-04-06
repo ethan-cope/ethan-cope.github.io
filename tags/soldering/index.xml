@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>audio on Hey, I&#39;m Ethan.</title>
-    <link>https://ethan-cope.github.io/tags/audio/</link>
-    <description>Recent content in audio on Hey, I&#39;m Ethan.</description>
+    <title>soldering on Hey, I&#39;m Ethan.</title>
+    <link>https://ethan-cope.github.io/tags/soldering/</link>
+    <description>Recent content in soldering on Hey, I&#39;m Ethan.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Tue, 27 Dec 2022 15:06:31 -0600</lastBuildDate><atom:link href="https://ethan-cope.github.io/tags/audio/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Dec 2022 15:06:31 -0600</lastBuildDate><atom:link href="https://ethan-cope.github.io/tags/soldering/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Boss Pedal Switching Issues? Try This! (Boss GE-7 Modding)</title>
       <link>https://ethan-cope.github.io/posts/ge7/</link>
@@ -17,26 +17,6 @@
       <description>Post-Mod GE-7
 The Mod If you just want to skip to the fix, head to this section.
 At the advice of Brian Wampler, I caved and bought a minty used Boss GE-7. Imagine my surprise after moving any of the EQ sliders introduced very noticeable noise! How could you, Boss? Apparently, when the GE-7 was first designed, battery life and price point were more important considerations than audio fidelity. As a result, any GE-7s made from 1981 to 2017 use the TL022 dual op-amp chips.</description>
-    </item>
-    
-    <item>
-      <title>MGMT&#39;s Anti-Breakout Album: Congratulations</title>
-      <link>https://ethan-cope.github.io/posts/congratulations/</link>
-      <pubDate>Sat, 17 Dec 2022 10:20:53 -0500</pubDate>
-      
-      <guid>https://ethan-cope.github.io/posts/congratulations/</guid>
-      <description>We are absolutely dead serious about music-making, and that’s what we want people to understand, that there’s no joke in it. We’re not intentionally trying to f*ck with people, we’re actually making this music that we love and we want people to hear it.1 ~ Ben Goldwasser
-You may not be familiar with MGMT, but anyone who had a pulse in the late 2000&amp;rsquo;s has most likely heard their work.</description>
-    </item>
-    
-    <item>
-      <title>Professional CD Crafting with CDRDAO</title>
-      <link>https://ethan-cope.github.io/posts/cdrdao/</link>
-      <pubDate>Tue, 04 Jan 2022 13:55:04 -0500</pubDate>
-      
-      <guid>https://ethan-cope.github.io/posts/cdrdao/</guid>
-      <description>All digital music listeners are equal. Acquisition is painless. Taste is irrelevant. It is pointless to boast about your iTunes collection, or the quality of your playlists on a streaming service. Music became data, one more set of 1&amp;rsquo;s and 0&amp;rsquo;s lurking in your hard drive, invisible to see and impossible to touch. Nothing is less cool than data. ~ David Sax
-Physical media is back. vinyl and cassette sales are through the roof, and why shouldn&amp;rsquo;t they be?</description>
     </item>
     
     <item>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PCB on Hey, I&#39;m Ethan.</title>
+    <link>https://ethan-cope.github.io/tags/pcb/</link>
+    <description>Recent content in PCB on Hey, I&#39;m Ethan.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Fri, 15 Oct 2021 13:07:50 -0500</lastBuildDate><atom:link href="https://ethan-cope.github.io/tags/pcb/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Echo-Matic Deluxe (Part 1): Marantz-based DIY Tape Echo</title>
+      <link>https://ethan-cope.github.io/posts/echo-matic_special/</link>
+      <pubDate>Fri, 15 Oct 2021 13:07:50 -0500</pubDate>
+      
+      <guid>https://ethan-cope.github.io/posts/echo-matic_special/</guid>
+      <description>Back in 2019, I saw the influential space-rock group Wand live. It was an amazing set of mostly new tunes, but I was a tad distracted by their lead guitarist. He was fiddling with a battered green box for the whole set, and doing so sent his guitar part soaring over the rest of the band in the most atmospheric, gooey wash imaginable. This was my first introduction to the weird, wonderful world of tape echo, and I wanted one!</description>
+    </item>
+    
+  </channel>
+</rss>

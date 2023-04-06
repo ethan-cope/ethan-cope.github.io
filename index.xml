@@ -16,11 +16,11 @@
       <guid>https://ethan-cope.github.io/posts/ge7/</guid>
       <description>Post-Mod GE-7
 The Mod If you just want to skip to the fix, head to this section.
-At the advice of Brian Wampler, I caved and bought a minty used Boss GE-7. Imagine my surprise as I realized that moving any of the EQ sliders introduced very noticeable noise! How could you, Boss? Apparently, when the GE-7 was first designed, battery life and price point were more important than audio fidelity.</description>
+At the advice of Brian Wampler, I caved and bought a minty used Boss GE-7. Imagine my surprise after moving any of the EQ sliders introduced very noticeable noise! How could you, Boss? Apparently, when the GE-7 was first designed, battery life and price point were more important considerations than audio fidelity. As a result, any GE-7s made from 1981 to 2017 use the TL022 dual op-amp chips.</description>
     </item>
     
     <item>
-      <title>💡 DIY Connected Lanterns with MQTT, Adafruit Feather</title>
+      <title>💡 SignalBox: DIY Connected Lanterns with MQTT, Adafruit Feather</title>
       <link>https://ethan-cope.github.io/posts/thinking-of-you/</link>
       <pubDate>Sun, 25 Dec 2022 19:04:34 -0600</pubDate>
       

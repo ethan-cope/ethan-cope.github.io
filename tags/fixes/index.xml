@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>fixes on Hey, I&#39;m Ethan.</title>
+    <link>https://ethan-cope.github.io/tags/fixes/</link>
+    <description>Recent content in fixes on Hey, I&#39;m Ethan.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Tue, 27 Dec 2022 15:06:31 -0600</lastBuildDate><atom:link href="https://ethan-cope.github.io/tags/fixes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Boss Pedal Switching Issues? Try This! (Boss GE-7 Modding)</title>
+      <link>https://ethan-cope.github.io/posts/ge7/</link>
+      <pubDate>Tue, 27 Dec 2022 15:06:31 -0600</pubDate>
+      
+      <guid>https://ethan-cope.github.io/posts/ge7/</guid>
+      <description>Post-Mod GE-7
+The Mod If you just want to skip to the fix, head to this section.
+At the advice of Brian Wampler, I caved and bought a minty used Boss GE-7. Imagine my surprise after moving any of the EQ sliders introduced very noticeable noise! How could you, Boss? Apparently, when the GE-7 was first designed, battery life and price point were more important considerations than audio fidelity. As a result, any GE-7s made from 1981 to 2017 use the TL022 dual op-amp chips.</description>
+    </item>
+    
+  </channel>
+</rss>
