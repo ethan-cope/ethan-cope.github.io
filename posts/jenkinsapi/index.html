@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="theme-color" content="#494f5c">
+	<meta name="msapplication-TileColor" content="#494f5c">
+<meta itemprop="name" content="A sane mini-tutorial for the Jenkins Javascript API">
+<meta itemprop="description" content="Holy moly, the Jenkins documentation is bad. At the very least, it isn&rsquo;t very user-friendly, especially for beginners. For someone who has little-to-no experience in web development, doing something as simple as getting some job data from a Node program is the equivalent of pulling teeth. After spending hours in rabbit holes, I finally stumbled on a configuration that works. This mini-writeup will hopefully help those webdev-challenged folks such as myself in the quest for Jenkins API usage."><meta itemprop="datePublished" content="2023-02-03T14:51:34-06:00" />
+<meta itemprop="dateModified" content="2023-02-03T14:51:34-06:00" />
+<meta itemprop="wordCount" content="601">
+<meta itemprop="keywords" content="javascript,webDevelopment,Jenkins,fixes,tutorial," /><meta property="og:title" content="A sane mini-tutorial for the Jenkins Javascript API" />
+<meta property="og:description" content="Holy moly, the Jenkins documentation is bad. At the very least, it isn&rsquo;t very user-friendly, especially for beginners. For someone who has little-to-no experience in web development, doing something as simple as getting some job data from a Node program is the equivalent of pulling teeth. After spending hours in rabbit holes, I finally stumbled on a configuration that works. This mini-writeup will hopefully help those webdev-challenged folks such as myself in the quest for Jenkins API usage." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ethan-cope.github.io/posts/jenkinsapi/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-02-03T14:51:34-06:00" />
+<meta property="article:modified_time" content="2023-02-03T14:51:34-06:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="A sane mini-tutorial for the Jenkins Javascript API"/>
+<meta name="twitter:description" content="Holy moly, the Jenkins documentation is bad. At the very least, it isn&rsquo;t very user-friendly, especially for beginners. For someone who has little-to-no experience in web development, doing something as simple as getting some job data from a Node program is the equivalent of pulling teeth. After spending hours in rabbit holes, I finally stumbled on a configuration that works. This mini-writeup will hopefully help those webdev-challenged folks such as myself in the quest for Jenkins API usage."/>
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="">
+	<link rel="shortcut icon" href="/favicon.ico">
+
+	<title>A sane mini-tutorial for the Jenkins Javascript API</title>
+	<link rel="stylesheet" href="https://ethan-cope.github.io/css/style.min.037b6ee8f8c1baab6a3d0a9da11c3ff18a7552471f16c59fd98538d5ce99208b.css" integrity="sha256-A3tu6PjBuqtqPQqdoRw/8Yp1UkcfFsWf2YU41c6ZIIs=" crossorigin="anonymous">
+	
+</head>
+
+<body id="page">
+	
+	<header id="site-header" class="animated slideInUp">
+		<div class="hdr-wrapper section-inner">
+			<div class="hdr-left">
+				<div class="site-branding">
+					<a href="https://ethan-cope.github.io">Hey, I&#39;m Ethan.</a>
+				</div>
+				<nav class="site-nav hide-in-mobile">
+					
+				<a href="https://ethan-cope.github.io/posts/">Posts</a>
+				<a href="https://ethan-cope.github.io/aboutme/">About</a>
+
+				</nav>
+			</div>
+			<div class="hdr-right hdr-icons">
+				<span class="hdr-social hide-in-mobile"><a href="https://github.com/ethan-cope" target="_blank" rel="noopener me" title="Github"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a><a href="https://www.linkedin.com/in/ethancope/" target="_blank" rel="noopener me" title="Linkedin"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a><a href="https://twitter.com/" target="_blank" rel="noopener me" title="Email"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg></a></span><button id="menu-btn" class="hdr-btn" title="Menu"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button>
+			</div>
+		</div>
+	</header>
+	<div id="mobile-menu" class="animated fast">
+		<ul>
+			<li><a href="https://ethan-cope.github.io/posts/">Posts</a></li>
+			<li><a href="https://ethan-cope.github.io/aboutme/">About</a></li>
+		</ul>
+	</div>
+
+
+	<main class="site-main section-inner animated fadeIn faster">
+		<article class="thin">
+			<header class="post-header">
+				<div class="post-meta"><span>Feb 3, 2023</span></div>
+				<h1>A sane mini-tutorial for the Jenkins Javascript API</h1>
+			</header>
+			<div class="content">
+				<p>Holy moly, the Jenkins documentation is bad. At the very least, it isn&rsquo;t very user-friendly, especially for beginners.
+For someone who has little-to-no experience in web development, doing something as simple as getting some job data from a Node program is the equivalent of pulling teeth. After spending hours in rabbit holes, I finally stumbled on a configuration that works. This mini-writeup will hopefully help those webdev-challenged folks such as myself in the quest for Jenkins API usage.</p>
+<p>My goal for this project was pulling real-time job data from Jenkins, so I won&rsquo;t dive into more advanced stuff like creating jobs and triggering builds. But the Jenkins API does support those actions, so keep that in mind.</p>
+<h2 id="api-points-of-interest">API Points of Interest<a href="#api-points-of-interest" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p>The Jenkins API is REST-like: information about what data you want to fetch is encoded directly into the url the fetch request is sent to. Since Jenkins doesn&rsquo;t have a list of which URLs actually contain useful data, I&rsquo;ve <del>copied</del> <strong>compiled and expanded upon</strong> <a href="https://gist.github.com/justlaputa/5634984">justlaputa&rsquo;s Github gist</a> of useful api URLs.</p>
+<p><em>Note</em> that <code>jenkins_url</code> is the link to your Jenkins controller instance: it may need to include a port number as well.</p>
+<ul>
+<li>List all jobs on Jenkins: <code>jenkins_url</code>+<code>/api/json?tree=jobs[name,color]</code></li>
+<li>List all builds for a job named <code>${job_name}</code>: <code>jenkins_url</code>+<code>/job/${job_name}/lastBuild/api/json?tree=builds[number,status,timestamp,id,result]</code></li>
+<li>List last build info for a job named <code>${job_name}</code>: <code>jenkins_url</code>+<code>/job/${job_name}/lastBuild/api/json</code></li>
+<li>List build progress for a job named <code>${job_name}</code>: <code>jenkins_url</code>+<code>/job/${job_name}/lastBuild/api/json?tree=result,timestamp,estimatedDuration</code></li>
+</ul>
+<h2 id="authentication">Authentication<a href="#authentication" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p>The Jenkins API states that it uses BASIC authentication to allow API access. There are exactly 0 examples about using BASIC authentication in the API, so I&rsquo;ve taken it upon myself to provide some sample code.</p>
+<h3 id="the-api-token">The API Token<a href="#the-api-token" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+<p>To access Jenkins from an API, you&rsquo;ll have to generate an API token. To do so, click the <em>Configure</em> button under the username in the top right corner.
+<figure class="big"><img src="TokenGen1.png"
+         alt="image"/><figcaption>
+            <p>Configure option under username</p>
+        </figcaption>
+</figure>
+
+Then click <em>Add new Token</em> under the <em>API Token</em> heading.
+<figure class="big"><img src="TokenGen2.png"
+         alt="image"/><figcaption>
+            <p>Add token Button</p>
+        </figcaption>
+</figure>
+</p>
+<p>This will generate a new token, which looks like a string of random text. Copy it somewhere safe, because you won&rsquo;t be able to see it again!</p>
+<h3 id="the-code">The Code<a href="#the-code" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+<p>I&rsquo;m not a Javascript programmer, so I can&rsquo;t go in-depth and explain how this authentication works. But I <em>can</em> tell you that this code does work.</p>
+<pre tabindex="0"><code>let JENKINS_URL = &#34;localhost:8080&#34; // replace with url of your Jenkins server
+let JENKINS_UNAME = &#34;Jenkins-User&#34; // replace with username you generated token for
+let JENKINS_JOB = &#34;BuildWebsite&#34;   // replace with name of job you want to pull data from
+let API_TOKEN   = &#34;gobbedygook000000letters00000and0000numbers&#34; // replace with API token you generated above
+
+function JobData(jobName){
+    // fill this string with the information found in API Points of Interest
+    // here, I pull information on the most recently run job.
+	const url = `http://${JENKINS_URL}/job/${jobName}/lastBuild/api/json?pretty=true`
+
+	return fetch ( url, {
+        // authorization for fetch request
+		method: &#34;GET&#34;,
+		headers:{
+			Authorization :
+			&#34;Basic &#34; + 
+			Buffer.from(`${JENKINS_UNAME}:${API_TOKEN}`).toString(&#34;base64&#34;)
+		},
+
+	}).then((res, req) =&gt; {
+		return res.json()
+        //this function returns the job information.
+	})
+}
+</code></pre><h2 id="cross-site-request-forgery">Cross Site Request Forgery<a href="#cross-site-request-forgery" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p>It is important to note that while Javascript can be run from both the frontend or the backend, API calls must be made from a backend to prevent <em>Cross-Site Request Forgeries.</em> So, there&rsquo;s really no way to make API calls from <code>&lt;script&gt;</code> tags embedded in an HTML file. You&rsquo;ll need to make a backend that serves the Jenkins data to the frontend, and host it on the internet (with something like <a href="https://www.heroku.com/">Heroku</a>) or locally (with <a href="https://www.phusionpassenger.com/library/walkthroughs/deploy/nodejs/">Passenger</a> or something similar).</p>
+<p>That&rsquo;s pretty much it. This is a super short article, but something like this would have saved me about 10 hours of googling. Hopefully this will help some of you aspiring Jenkins-wranglers learn something new!</p>
+
+			</div>
+			<hr class="post-end">
+			<footer class="post-info">
+				<p>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://ethan-cope.github.io/tags/javascript">javascript</a></span><span class="tag"><a href="https://ethan-cope.github.io/tags/webdevelopment">webDevelopment</a></span><span class="tag"><a href="https://ethan-cope.github.io/tags/jenkins">Jenkins</a></span><span class="tag"><a href="https://ethan-cope.github.io/tags/fixes">fixes</a></span><span class="tag"><a href="https://ethan-cope.github.io/tags/tutorial">tutorial</a></span>
+				</p>
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>601 Words</p>
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2023-02-03 14:51 -0600</p>
+			</footer>
+		</article>
+		<div class="post-nav thin">
+			<a class="next-post" href="https://ethan-cope.github.io/posts/pws/">
+				<span class="post-nav-label"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>&nbsp;Newer</span><br><span>🏆 Battery Recycling: The Dark Side of an All-EV Future (2nd place, Problems Worth Solving Competition 2023)</span>
+			</a>
+			<a class="prev-post" href="https://ethan-cope.github.io/posts/ge7/">
+				<span class="post-nav-label">Older&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span><br><span>Boss Pedal Switching Issues? Try This! (Boss GE-7 Modding)</span>
+			</a>
+		</div>
+		<div id="comments" class="thin">
+</div>
+	</main>
+
+	<footer id="site-footer" class="section-inner thin animated fadeIn faster">
+		<p>&copy; 2023 <a href="https://ethan-cope.github.io">Ethan Cope</a> &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></p>
+		<p>
+			Made with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> &#183; Theme <a href="https://github.com/Track3/hermit" target="_blank" rel="noopener">Hermit</a> &#183; <a href="https://ethan-cope.github.io/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
+		</p>
+	</footer>
+
+
+
+	<script src="https://ethan-cope.github.io/js/bundle.min.580988ed2982bcbb74a1773c7abea97b43e4c43b9324e10cda0813ec6ec4bb67.js" integrity="sha256-WAmI7SmCvLt0oXc8er6pe0PkxDuTJOEM2ggT7G7Eu2c=" crossorigin="anonymous"></script>
+	
+
+</body>
+
+</html>

@@ -7,7 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Tue, 27 Dec 2022 15:06:31 -0600</lastBuildDate><atom:link href="https://ethan-cope.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Apr 2023 17:30:30 -0500</lastBuildDate><atom:link href="https://ethan-cope.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🏆 Battery Recycling: The Dark Side of an All-EV Future (2nd place, Problems Worth Solving Competition 2023)</title>
+      <link>https://ethan-cope.github.io/posts/pws/</link>
+      <pubDate>Sun, 30 Apr 2023 17:30:30 -0500</pubDate>
+      
+      <guid>https://ethan-cope.github.io/posts/pws/</guid>
+      <description>You&amp;rsquo;ve got to start with the customer experience and work back toward the technology, not the other way around. ~ Steve Jobs
+Last weekend I had the opportunity to participate in Problems Worth Solving: Texas A&amp;amp;M&amp;rsquo;s first and only entrepreneurship competition that outright bans solutions.
+Great businesses arise from an intimate understanding of your customers&amp;rsquo; needs. PWS emphasizes this critical step of entrepreneurship by focusing entrepreneurs on the problem, not the solution.</description>
+    </item>
+    
+    <item>
+      <title>A sane mini-tutorial for the Jenkins Javascript API</title>
+      <link>https://ethan-cope.github.io/posts/jenkinsapi/</link>
+      <pubDate>Fri, 03 Feb 2023 14:51:34 -0600</pubDate>
+      
+      <guid>https://ethan-cope.github.io/posts/jenkinsapi/</guid>
+      <description>Holy moly, the Jenkins documentation is bad. At the very least, it isn&amp;rsquo;t very user-friendly, especially for beginners. For someone who has little-to-no experience in web development, doing something as simple as getting some job data from a Node program is the equivalent of pulling teeth. After spending hours in rabbit holes, I finally stumbled on a configuration that works. This mini-writeup will hopefully help those webdev-challenged folks such as myself in the quest for Jenkins API usage.</description>
+    </item>
+    
     <item>
       <title>Boss Pedal Switching Issues? Try This! (Boss GE-7 Modding)</title>
       <link>https://ethan-cope.github.io/posts/ge7/</link>
@@ -93,27 +113,8 @@ Physical media is back. vinyl and cassette sales are through the roof, and why s
       <guid>https://ethan-cope.github.io/aboutme/</guid>
       <description>Hi! I&amp;rsquo;m Ethan Cope, an electrical engineer, multi-instrumentalist, and mac-and-cheese connoisseur.
 I currently live in College Station, Texas, where I study electrical engineering and mix live audio.
-This site is intended to capture the life cycles of my many side-projects. Most of these projects lie somewhere on the broad spectrum of engineering, from open source software to album reviews to DIY electronics.
+This site is intended to capture the life cycles of some of my side-projects. Most of these projects lie somewhere on the broad spectrum of engineering, from open source software to album reviews to DIY electronics.
 So why am I documenting my projects in excruciating detail?</description>
-    </item>
-    
-    <item>
-      <title>Echo-Matic Deluxe (Part 1): Marantz-based DIY Tape Echo</title>
-      <link>https://ethan-cope.github.io/posts/echo-matic_special/</link>
-      <pubDate>Fri, 15 Oct 2021 13:07:50 -0500</pubDate>
-      
-      <guid>https://ethan-cope.github.io/posts/echo-matic_special/</guid>
-      <description>Back in 2019, I saw the influential space-rock group Wand live. It was an amazing set of mostly new tunes, but I was a tad distracted by their lead guitarist. He was fiddling with a battered green box for the whole set, and doing so sent his guitar part soaring over the rest of the band in the most atmospheric, gooey wash imaginable. This was my first introduction to the weird, wonderful world of tape echo, and I wanted one!</description>
-    </item>
-    
-    <item>
-      <title>Buswarn: RasPi-based Transit Bus Tracking</title>
-      <link>https://ethan-cope.github.io/posts/buswarn/</link>
-      <pubDate>Mon, 27 Sep 2021 12:53:34 -0500</pubDate>
-      
-      <guid>https://ethan-cope.github.io/posts/buswarn/</guid>
-      <description>Public transportation is like a magnifying glass that shows you civilization up close. ~ Chris Gethard
-What is Buswarn? During the COVID year, I moved off-campus. I didn&amp;rsquo;t realize at the time, but my only lifeline to my in-person classes, study rooms, and meals would be the Texas A&amp;amp;M Bus Transit System. Problems manifested themselves quickly. Buses ran at seemingly random intervals, and the website that displayed the schedule often had errors rendering on my mobile phone.</description>
     </item>
     
   </channel>

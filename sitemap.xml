@@ -2,6 +2,45 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://ethan-cope.github.io/posts/pws/</loc>
+    <lastmod>2023-04-30T17:30:30-05:00</lastmod>
+  </url><url>
+    <loc>https://ethan-cope.github.io/</loc>
+    <lastmod>2023-04-30T17:30:30-05:00</lastmod>
+  </url><url>
+    <loc>https://ethan-cope.github.io/posts/</loc>
+    <lastmod>2023-04-30T17:30:30-05:00</lastmod>
+  </url><url>
+    <loc>https://ethan-cope.github.io/tags/presentation/</loc>
+    <lastmod>2023-04-30T17:30:30-05:00</lastmod>
+  </url><url>
+    <loc>https://ethan-cope.github.io/tags/</loc>
+    <lastmod>2023-04-30T17:30:30-05:00</lastmod>
+  </url><url>
+    <loc>https://ethan-cope.github.io/tags/transportation/</loc>
+    <lastmod>2023-04-30T17:30:30-05:00</lastmod>
+  </url><url>
+    <loc>https://ethan-cope.github.io/tags/winner/</loc>
+    <lastmod>2023-04-30T17:30:30-05:00</lastmod>
+  </url><url>
+    <loc>https://ethan-cope.github.io/posts/jenkinsapi/</loc>
+    <lastmod>2023-02-03T14:51:34-06:00</lastmod>
+  </url><url>
+    <loc>https://ethan-cope.github.io/tags/fixes/</loc>
+    <lastmod>2023-02-03T14:51:34-06:00</lastmod>
+  </url><url>
+    <loc>https://ethan-cope.github.io/tags/javascript/</loc>
+    <lastmod>2023-02-03T14:51:34-06:00</lastmod>
+  </url><url>
+    <loc>https://ethan-cope.github.io/tags/jenkins/</loc>
+    <lastmod>2023-02-03T14:51:34-06:00</lastmod>
+  </url><url>
+    <loc>https://ethan-cope.github.io/tags/tutorial/</loc>
+    <lastmod>2023-02-03T14:51:34-06:00</lastmod>
+  </url><url>
+    <loc>https://ethan-cope.github.io/tags/webdevelopment/</loc>
+    <lastmod>2023-02-03T14:51:34-06:00</lastmod>
+  </url><url>
     <loc>https://ethan-cope.github.io/tags/audio/</loc>
     <lastmod>2022-12-27T15:06:31-06:00</lastmod>
   </url><url>
@@ -11,22 +50,10 @@
     <loc>https://ethan-cope.github.io/tags/electronics/</loc>
     <lastmod>2022-12-27T15:06:31-06:00</lastmod>
   </url><url>
-    <loc>https://ethan-cope.github.io/tags/fixes/</loc>
-    <lastmod>2022-12-27T15:06:31-06:00</lastmod>
-  </url><url>
     <loc>https://ethan-cope.github.io/tags/guitar/</loc>
     <lastmod>2022-12-27T15:06:31-06:00</lastmod>
   </url><url>
-    <loc>https://ethan-cope.github.io/</loc>
-    <lastmod>2022-12-27T15:06:31-06:00</lastmod>
-  </url><url>
-    <loc>https://ethan-cope.github.io/posts/</loc>
-    <lastmod>2022-12-27T15:06:31-06:00</lastmod>
-  </url><url>
     <loc>https://ethan-cope.github.io/tags/soldering/</loc>
-    <lastmod>2022-12-27T15:06:31-06:00</lastmod>
-  </url><url>
-    <loc>https://ethan-cope.github.io/tags/</loc>
     <lastmod>2022-12-27T15:06:31-06:00</lastmod>
   </url><url>
     <loc>https://ethan-cope.github.io/posts/thinking-of-you/</loc>
@@ -44,16 +71,10 @@
     <loc>https://ethan-cope.github.io/tags/grading/</loc>
     <lastmod>2022-12-23T15:36:55-06:00</lastmod>
   </url><url>
-    <loc>https://ethan-cope.github.io/tags/javascript/</loc>
-    <lastmod>2022-12-23T15:36:55-06:00</lastmod>
-  </url><url>
     <loc>https://ethan-cope.github.io/tags/nonprofit/</loc>
     <lastmod>2022-12-23T15:36:55-06:00</lastmod>
   </url><url>
     <loc>https://ethan-cope.github.io/posts/auto-grader-update/</loc>
-    <lastmod>2022-12-23T15:36:55-06:00</lastmod>
-  </url><url>
-    <loc>https://ethan-cope.github.io/tags/webdevelopment/</loc>
     <lastmod>2022-12-23T15:36:55-06:00</lastmod>
   </url><url>
     <loc>https://ethan-cope.github.io/tags/album/</loc>
@@ -75,9 +96,6 @@
     <lastmod>2022-02-02T13:28:52-06:00</lastmod>
   </url><url>
     <loc>https://ethan-cope.github.io/tags/raspberrypi/</loc>
-    <lastmod>2022-02-02T13:28:52-06:00</lastmod>
-  </url><url>
-    <loc>https://ethan-cope.github.io/tags/winner/</loc>
     <lastmod>2022-02-02T13:28:52-06:00</lastmod>
   </url><url>
     <loc>https://ethan-cope.github.io/posts/auto-grader/</loc>

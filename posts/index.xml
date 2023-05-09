@@ -6,8 +6,107 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-		<lastBuildDate>Tue, 27 Dec 2022 15:06:31 -0600</lastBuildDate>
+		<lastBuildDate>Sun, 30 Apr 2023 17:30:30 -0500</lastBuildDate>
 		<atom:link href="https://ethan-cope.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>🏆 Battery Recycling: The Dark Side of an All-EV Future (2nd place, Problems Worth Solving Competition 2023)</title>
+			<link>https://ethan-cope.github.io/posts/pws/</link>
+			<pubDate>Sun, 30 Apr 2023 17:30:30 -0500</pubDate>
+			
+			<guid>https://ethan-cope.github.io/posts/pws/</guid>
+			<description>You&amp;rsquo;ve got to start with the customer experience and work back toward the technology, not the other way around. ~ Steve Jobs
+Last weekend I had the opportunity to participate in Problems Worth Solving: Texas A&amp;amp;M&amp;rsquo;s first and only entrepreneurship competition that outright bans solutions.
+Great businesses arise from an intimate understanding of your customers&amp;rsquo; needs. PWS emphasizes this critical step of entrepreneurship by focusing entrepreneurs on the problem, not the solution.</description>
+			<content type="html"><![CDATA[<blockquote>
+<p>You&rsquo;ve got to start with the customer experience and work back toward the technology, not the other way around. ~ Steve Jobs</p>
+</blockquote>
+<p>Last weekend I had the opportunity to participate in <a href="https://engineering.tamu.edu/student-life/eep/problems-worth-solving-competition.html">Problems Worth Solving</a>:
+Texas A&amp;M&rsquo;s first and only entrepreneurship competition that outright <em>bans</em> solutions.</p>
+<p>Great businesses arise from an intimate understanding of your customers&rsquo; needs.
+PWS emphasizes this critical step of entrepreneurship by focusing entrepreneurs on the problem, <strong>not</strong> the solution.
+The competition was 5 minutes of presenting in-depth on an important problem that many face, and 5 minutes of Q&amp;A with industry judges.</p>
+<p>I chose to present on EV battery recycling. Current legislation aims to get more people into Electric Vehicles for the good of the climate and the environment.
+But our current solutions to recycle EV batteries are inefficient, expensive, and environmentally detrimental.
+I emphasized the need solutions for battery supply chains, recycling processes, and repairability that are cost-effective and scalable.</p>
+<p>The whole experience was great! I ended up getting second place with this presentation.
+If you want to watch the presentation, check it out below!</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/i1K0a1xEk7c" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="My PWS Presentation!"></iframe>
+</div>
+
+]]></content>
+		</item>
+		
+		<item>
+			<title>A sane mini-tutorial for the Jenkins Javascript API</title>
+			<link>https://ethan-cope.github.io/posts/jenkinsapi/</link>
+			<pubDate>Fri, 03 Feb 2023 14:51:34 -0600</pubDate>
+			
+			<guid>https://ethan-cope.github.io/posts/jenkinsapi/</guid>
+			<description>Holy moly, the Jenkins documentation is bad. At the very least, it isn&amp;rsquo;t very user-friendly, especially for beginners. For someone who has little-to-no experience in web development, doing something as simple as getting some job data from a Node program is the equivalent of pulling teeth. After spending hours in rabbit holes, I finally stumbled on a configuration that works. This mini-writeup will hopefully help those webdev-challenged folks such as myself in the quest for Jenkins API usage.</description>
+			<content type="html"><![CDATA[<p>Holy moly, the Jenkins documentation is bad. At the very least, it isn&rsquo;t very user-friendly, especially for beginners.
+For someone who has little-to-no experience in web development, doing something as simple as getting some job data from a Node program is the equivalent of pulling teeth. After spending hours in rabbit holes, I finally stumbled on a configuration that works. This mini-writeup will hopefully help those webdev-challenged folks such as myself in the quest for Jenkins API usage.</p>
+<p>My goal for this project was pulling real-time job data from Jenkins, so I won&rsquo;t dive into more advanced stuff like creating jobs and triggering builds. But the Jenkins API does support those actions, so keep that in mind.</p>
+<h2 id="api-points-of-interest">API Points of Interest</h2>
+<p>The Jenkins API is REST-like: information about what data you want to fetch is encoded directly into the url the fetch request is sent to. Since Jenkins doesn&rsquo;t have a list of which URLs actually contain useful data, I&rsquo;ve <del>copied</del> <strong>compiled and expanded upon</strong> <a href="https://gist.github.com/justlaputa/5634984">justlaputa&rsquo;s Github gist</a> of useful api URLs.</p>
+<p><em>Note</em> that <code>jenkins_url</code> is the link to your Jenkins controller instance: it may need to include a port number as well.</p>
+<ul>
+<li>List all jobs on Jenkins: <code>jenkins_url</code>+<code>/api/json?tree=jobs[name,color]</code></li>
+<li>List all builds for a job named <code>${job_name}</code>: <code>jenkins_url</code>+<code>/job/${job_name}/lastBuild/api/json?tree=builds[number,status,timestamp,id,result]</code></li>
+<li>List last build info for a job named <code>${job_name}</code>: <code>jenkins_url</code>+<code>/job/${job_name}/lastBuild/api/json</code></li>
+<li>List build progress for a job named <code>${job_name}</code>: <code>jenkins_url</code>+<code>/job/${job_name}/lastBuild/api/json?tree=result,timestamp,estimatedDuration</code></li>
+</ul>
+<h2 id="authentication">Authentication</h2>
+<p>The Jenkins API states that it uses BASIC authentication to allow API access. There are exactly 0 examples about using BASIC authentication in the API, so I&rsquo;ve taken it upon myself to provide some sample code.</p>
+<h3 id="the-api-token">The API Token</h3>
+<p>To access Jenkins from an API, you&rsquo;ll have to generate an API token. To do so, click the <em>Configure</em> button under the username in the top right corner.
+<figure class="big"><img src="TokenGen1.png"
+         alt="image"/><figcaption>
+            <p>Configure option under username</p>
+        </figcaption>
+</figure>
+
+Then click <em>Add new Token</em> under the <em>API Token</em> heading.
+<figure class="big"><img src="TokenGen2.png"
+         alt="image"/><figcaption>
+            <p>Add token Button</p>
+        </figcaption>
+</figure>
+</p>
+<p>This will generate a new token, which looks like a string of random text. Copy it somewhere safe, because you won&rsquo;t be able to see it again!</p>
+<h3 id="the-code">The Code</h3>
+<p>I&rsquo;m not a Javascript programmer, so I can&rsquo;t go in-depth and explain how this authentication works. But I <em>can</em> tell you that this code does work.</p>
+<pre tabindex="0"><code>let JENKINS_URL = &#34;localhost:8080&#34; // replace with url of your Jenkins server
+let JENKINS_UNAME = &#34;Jenkins-User&#34; // replace with username you generated token for
+let JENKINS_JOB = &#34;BuildWebsite&#34;   // replace with name of job you want to pull data from
+let API_TOKEN   = &#34;gobbedygook000000letters00000and0000numbers&#34; // replace with API token you generated above
+
+function JobData(jobName){
+    // fill this string with the information found in API Points of Interest
+    // here, I pull information on the most recently run job.
+	const url = `http://${JENKINS_URL}/job/${jobName}/lastBuild/api/json?pretty=true`
+
+	return fetch ( url, {
+        // authorization for fetch request
+		method: &#34;GET&#34;,
+		headers:{
+			Authorization :
+			&#34;Basic &#34; + 
+			Buffer.from(`${JENKINS_UNAME}:${API_TOKEN}`).toString(&#34;base64&#34;)
+		},
+
+	}).then((res, req) =&gt; {
+		return res.json()
+        //this function returns the job information.
+	})
+}
+</code></pre><h2 id="cross-site-request-forgery">Cross Site Request Forgery</h2>
+<p>It is important to note that while Javascript can be run from both the frontend or the backend, API calls must be made from a backend to prevent <em>Cross-Site Request Forgeries.</em> So, there&rsquo;s really no way to make API calls from <code>&lt;script&gt;</code> tags embedded in an HTML file. You&rsquo;ll need to make a backend that serves the Jenkins data to the frontend, and host it on the internet (with something like <a href="https://www.heroku.com/">Heroku</a>) or locally (with <a href="https://www.phusionpassenger.com/library/walkthroughs/deploy/nodejs/">Passenger</a> or something similar).</p>
+<p>That&rsquo;s pretty much it. This is a super short article, but something like this would have saved me about 10 hours of googling. Hopefully this will help some of you aspiring Jenkins-wranglers learn something new!</p>
+]]></content>
+		</item>
 		
 		<item>
 			<title>Boss Pedal Switching Issues? Try This! (Boss GE-7 Modding)</title>
