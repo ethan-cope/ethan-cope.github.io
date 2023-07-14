@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sun, 30 Apr 2023 17:30:30 -0500</lastBuildDate><atom:link href="https://ethan-cope.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 Jul 2023 01:00:15 -0500</lastBuildDate><atom:link href="https://ethan-cope.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Japan&#39;s Most Iconic Model Cars Come Out Of Vending Machines</title>
+      <link>https://ethan-cope.github.io/posts/gacha/</link>
+      <pubDate>Fri, 14 Jul 2023 01:00:15 -0500</pubDate>
+      
+      <guid>https://ethan-cope.github.io/posts/gacha/</guid>
+      <description>Remember those 25-cent gumball machines? The ones where you could trade a quarter for a gumball older than the dotcom crash? Imagine that, but instead of a chunk of crusty candy, you win a random 1/64th scale model car. That&amp;rsquo;s essentially Gachapon!
+Bandai Namco&amp;rsquo;s toy vending machines are addictively simple. Insert cash (1), twist dial (2), and collect model (3). Since the 1970&amp;rsquo;s, Gachapon machines have dispensed billions of anime figurines, sushi keychains, and (most notably), tiny scale vehicles.</description>
+    </item>
+    
     <item>
       <title>🏆 Battery Recycling: The Dark Side of an All-EV Future (2nd place, Problems Worth Solving Competition 2023)</title>
       <link>https://ethan-cope.github.io/posts/pws/</link>
@@ -103,18 +113,6 @@ The Problem My mom works for Catch Up and Read, a Dallas non-profit that helps b
       <guid>https://ethan-cope.github.io/posts/cdrdao/</guid>
       <description>All digital music listeners are equal. Acquisition is painless. Taste is irrelevant. It is pointless to boast about your iTunes collection, or the quality of your playlists on a streaming service. Music became data, one more set of 1&amp;rsquo;s and 0&amp;rsquo;s lurking in your hard drive, invisible to see and impossible to touch. Nothing is less cool than data. ~ David Sax
 Physical media is back. vinyl and cassette sales are through the roof, and why shouldn&amp;rsquo;t they be?</description>
-    </item>
-    
-    <item>
-      <title>Ethan Cope, Briefly</title>
-      <link>https://ethan-cope.github.io/aboutme/</link>
-      <pubDate>Wed, 29 Dec 2021 13:58:37 -0600</pubDate>
-      
-      <guid>https://ethan-cope.github.io/aboutme/</guid>
-      <description>Hi! I&amp;rsquo;m Ethan Cope, an electrical engineer, multi-instrumentalist, and mac-and-cheese connoisseur.
-I currently live in College Station, Texas, where I study electrical engineering and mix live audio.
-This site is intended to capture the life cycles of some of my side-projects. Most of these projects lie somewhere on the broad spectrum of engineering, from open source software to album reviews to DIY electronics.
-So why am I documenting my projects in excruciating detail?</description>
     </item>
     
   </channel>
