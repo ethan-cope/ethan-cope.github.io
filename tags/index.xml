@@ -7,22 +7,40 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sun, 30 Apr 2023 17:30:30 -0500</lastBuildDate><atom:link href="https://ethan-cope.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 31 May 2023 01:00:15 -0500</lastBuildDate><atom:link href="https://ethan-cope.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>presentation</title>
-      <link>https://ethan-cope.github.io/tags/presentation/</link>
-      <pubDate>Sun, 30 Apr 2023 17:30:30 -0500</pubDate>
+      <title>automotive</title>
+      <link>https://ethan-cope.github.io/tags/automotive/</link>
+      <pubDate>Wed, 31 May 2023 01:00:15 -0500</pubDate>
       
-      <guid>https://ethan-cope.github.io/tags/presentation/</guid>
+      <guid>https://ethan-cope.github.io/tags/automotive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Japan</title>
+      <link>https://ethan-cope.github.io/tags/japan/</link>
+      <pubDate>Wed, 31 May 2023 01:00:15 -0500</pubDate>
+      
+      <guid>https://ethan-cope.github.io/tags/japan/</guid>
       <description></description>
     </item>
     
     <item>
       <title>transportation</title>
       <link>https://ethan-cope.github.io/tags/transportation/</link>
-      <pubDate>Sun, 30 Apr 2023 17:30:30 -0500</pubDate>
+      <pubDate>Wed, 31 May 2023 01:00:15 -0500</pubDate>
       
       <guid>https://ethan-cope.github.io/tags/transportation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>presentation</title>
+      <link>https://ethan-cope.github.io/tags/presentation/</link>
+      <pubDate>Sun, 30 Apr 2023 17:30:30 -0500</pubDate>
+      
+      <guid>https://ethan-cope.github.io/tags/presentation/</guid>
       <description></description>
     </item>
     
@@ -77,24 +95,6 @@
       <pubDate>Fri, 03 Feb 2023 14:51:34 -0600</pubDate>
       
       <guid>https://ethan-cope.github.io/tags/webdevelopment/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>audio</title>
-      <link>https://ethan-cope.github.io/tags/audio/</link>
-      <pubDate>Tue, 27 Dec 2022 15:06:31 -0600</pubDate>
-      
-      <guid>https://ethan-cope.github.io/tags/audio/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>electronics</title>
-      <link>https://ethan-cope.github.io/tags/electronics/</link>
-      <pubDate>Tue, 27 Dec 2022 15:06:31 -0600</pubDate>
-      
-      <guid>https://ethan-cope.github.io/tags/electronics/</guid>
       <description></description>
     </item>
     
