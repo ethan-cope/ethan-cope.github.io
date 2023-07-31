@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Fri, 14 Jul 2023 01:00:15 -0500</lastBuildDate><atom:link href="https://ethan-cope.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 31 Jul 2023 01:00:07 -0500</lastBuildDate><atom:link href="https://ethan-cope.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Japan&#39;s Early-2000&#39;s Architectural Nostalgia</title>
+      <link>https://ethan-cope.github.io/posts/japanarch/</link>
+      <pubDate>Mon, 31 Jul 2023 01:00:07 -0500</pubDate>
+      
+      <guid>https://ethan-cope.github.io/posts/japanarch/</guid>
+      <description>The architectural definition of &amp;ldquo;modern&amp;rdquo;1 has always been a moving target. Every year, once &amp;ldquo;stylistically cutting-edge&amp;rdquo; buildings slip into the realm of &amp;ldquo;dated&amp;rdquo; and &amp;ldquo;cliche&amp;rdquo;. And the other day, I finally stumbled on across a building that proved this point. Nagoya&amp;rsquo;s Sasashima-Ribu station is totally representative of a particular architectural style; one that, at the time of it&amp;rsquo;s construction, was synonymous with &amp;ldquo;modern architecture&amp;rdquo;. But a quarter of a century has separated innovation from trend, revealing a slew of early 2000&amp;rsquo;s quintessential quirks.</description>
+    </item>
+    
     <item>
       <title>Japan&#39;s Most Iconic Model Cars Come Out Of Vending Machines</title>
       <link>https://ethan-cope.github.io/posts/gacha/</link>
@@ -103,16 +112,6 @@ myMirror solves the above dilemma by integrating this crucial information into y
 ~ Eliyahu Goldratt
 One perk of being a programmer is the ability to automate boring, repetitive tasks to ease my workload. But what&amp;rsquo;s even more rewarding is the opportunity to help non-programmers with their data analysis drudgery. Such is the case with this project.
 The Problem My mom works for Catch Up and Read, a Dallas non-profit that helps below-reading-level students catch up before third grade.</description>
-    </item>
-    
-    <item>
-      <title>Professional CD Crafting with CDRDAO</title>
-      <link>https://ethan-cope.github.io/posts/cdrdao/</link>
-      <pubDate>Tue, 04 Jan 2022 13:55:04 -0500</pubDate>
-      
-      <guid>https://ethan-cope.github.io/posts/cdrdao/</guid>
-      <description>All digital music listeners are equal. Acquisition is painless. Taste is irrelevant. It is pointless to boast about your iTunes collection, or the quality of your playlists on a streaming service. Music became data, one more set of 1&amp;rsquo;s and 0&amp;rsquo;s lurking in your hard drive, invisible to see and impossible to touch. Nothing is less cool than data. ~ David Sax
-Physical media is back. vinyl and cassette sales are through the roof, and why shouldn&amp;rsquo;t they be?</description>
     </item>
     
   </channel>

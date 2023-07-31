@@ -7,37 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Tue, 27 Dec 2022 15:06:31 -0600</lastBuildDate><atom:link href="https://ethan-cope.github.io/tags/untagged/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Jul 2023 01:00:07 -0500</lastBuildDate><atom:link href="https://ethan-cope.github.io/tags/untagged/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Boss Pedal Switching Issues? Try This! (Boss GE-7 Modding)</title>
-      <link>https://ethan-cope.github.io/posts/ge7/</link>
-      <pubDate>Tue, 27 Dec 2022 15:06:31 -0600</pubDate>
+      <title>Japan&#39;s Early-2000&#39;s Architectural Nostalgia</title>
+      <link>https://ethan-cope.github.io/posts/japanarch/</link>
+      <pubDate>Mon, 24 Jul 2023 01:00:07 -0500</pubDate>
       
-      <guid>https://ethan-cope.github.io/posts/ge7/</guid>
-      <description>Post-Mod GE-7
-The Mod If you just want to skip to the fix, head to this section.
-At the advice of Brian Wampler, I caved and bought a minty used Boss GE-7. Imagine my surprise as I realized that moving any of the EQ sliders introduced very noticeable noise! How could you, Boss? Apparently, when the GE-7 was first designed, battery life and price point were more important than audio fidelity.</description>
-    </item>
-    
-    <item>
-      <title>💡 DIY Connected Lanterns with MQTT, Adafruit Feather</title>
-      <link>https://ethan-cope.github.io/posts/thinking-of-you/</link>
-      <pubDate>Sun, 25 Dec 2022 19:04:34 -0600</pubDate>
-      
-      <guid>https://ethan-cope.github.io/posts/thinking-of-you/</guid>
-      <description>Faced with the tradition of family Christmas gift giving, I was thoroughly stumped. I knew I wanted to do something maker-related: I&amp;rsquo;m the only engineer in the family, which tends to amplify the wow factor of any techncal projects :)
-After my fallback plan (a Chemex coffee maker) fell through, I knew I had to build these!
-the finished product!
-These are long-distance friendship lanterns. The idea is, sometimes you want to let a distant friend or family member know that you&amp;rsquo;re thinking of them, even if you don&amp;rsquo;t necessarily want to shoot them a text.</description>
-    </item>
-    
-    <item>
-      <title>Echo-Matic Deluxe (Part 1): Marantz-based DIY Tape Echo</title>
-      <link>https://ethan-cope.github.io/posts/echo-matic_special/</link>
-      <pubDate>Fri, 15 Oct 2021 13:07:50 -0500</pubDate>
-      
-      <guid>https://ethan-cope.github.io/posts/echo-matic_special/</guid>
-      <description>Back in 2019, I saw the influential space-rock group Wand live. It was an amazing set of mostly new tunes, but I was a tad distracted by their lead guitarist. He was fiddling with a battered green box for the whole set, and doing so sent his guitar part soaring over the rest of the band in the most atmospheric, gooey wash imaginable. This was my first introduction to the weird, wonderful world of tape echo, and I wanted one!</description>
+      <guid>https://ethan-cope.github.io/posts/japanarch/</guid>
+      <description>The architectural definition of &amp;ldquo;modern&amp;rdquo;1 has always been a moving target. Every year, once &amp;ldquo;stylistically cutting-edge&amp;rdquo; buildings slip into the realm of &amp;ldquo;dated&amp;rdquo; and &amp;ldquo;cliche&amp;rdquo;. And the other day, I finally stumbled on across a building that proved this point. Nagoya&amp;rsquo;s Sasashima-Ribu station is totally representative of a particular architectural style; one that, at the time of it&amp;rsquo;s construction, was synonymous with &amp;ldquo;modern architecture&amp;rdquo;. But a quarter of a century has separated innovation from trend, revealing a slew of early 2000&amp;rsquo;s quintessential quirks.</description>
     </item>
     
   </channel>

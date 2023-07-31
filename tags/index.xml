@@ -7,22 +7,49 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Fri, 14 Jul 2023 01:00:15 -0500</lastBuildDate><atom:link href="https://ethan-cope.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 31 Jul 2023 01:00:07 -0500</lastBuildDate><atom:link href="https://ethan-cope.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>automotive</title>
-      <link>https://ethan-cope.github.io/tags/automotive/</link>
-      <pubDate>Fri, 14 Jul 2023 01:00:15 -0500</pubDate>
+      <title>architecture</title>
+      <link>https://ethan-cope.github.io/tags/architecture/</link>
+      <pubDate>Mon, 31 Jul 2023 01:00:07 -0500</pubDate>
       
-      <guid>https://ethan-cope.github.io/tags/automotive/</guid>
+      <guid>https://ethan-cope.github.io/tags/architecture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>article</title>
+      <link>https://ethan-cope.github.io/tags/article/</link>
+      <pubDate>Mon, 31 Jul 2023 01:00:07 -0500</pubDate>
+      
+      <guid>https://ethan-cope.github.io/tags/article/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>future</title>
+      <link>https://ethan-cope.github.io/tags/future/</link>
+      <pubDate>Mon, 31 Jul 2023 01:00:07 -0500</pubDate>
+      
+      <guid>https://ethan-cope.github.io/tags/future/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Japan</title>
       <link>https://ethan-cope.github.io/tags/japan/</link>
-      <pubDate>Fri, 14 Jul 2023 01:00:15 -0500</pubDate>
+      <pubDate>Mon, 31 Jul 2023 01:00:07 -0500</pubDate>
       
       <guid>https://ethan-cope.github.io/tags/japan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>automotive</title>
+      <link>https://ethan-cope.github.io/tags/automotive/</link>
+      <pubDate>Fri, 14 Jul 2023 01:00:15 -0500</pubDate>
+      
+      <guid>https://ethan-cope.github.io/tags/automotive/</guid>
       <description></description>
     </item>
     
@@ -68,33 +95,6 @@
       <pubDate>Fri, 03 Feb 2023 14:51:34 -0600</pubDate>
       
       <guid>https://ethan-cope.github.io/tags/javascript/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Jenkins</title>
-      <link>https://ethan-cope.github.io/tags/jenkins/</link>
-      <pubDate>Fri, 03 Feb 2023 14:51:34 -0600</pubDate>
-      
-      <guid>https://ethan-cope.github.io/tags/jenkins/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tutorial</title>
-      <link>https://ethan-cope.github.io/tags/tutorial/</link>
-      <pubDate>Fri, 03 Feb 2023 14:51:34 -0600</pubDate>
-      
-      <guid>https://ethan-cope.github.io/tags/tutorial/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>webDevelopment</title>
-      <link>https://ethan-cope.github.io/tags/webdevelopment/</link>
-      <pubDate>Fri, 03 Feb 2023 14:51:34 -0600</pubDate>
-      
-      <guid>https://ethan-cope.github.io/tags/webdevelopment/</guid>
       <description></description>
     </item>
     
