@@ -7,7 +7,43 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Mon, 31 Jul 2023 01:00:07 -0500</lastBuildDate><atom:link href="https://ethan-cope.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 27 Aug 2023 15:39:53 -0500</lastBuildDate><atom:link href="https://ethan-cope.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>audio</title>
+      <link>https://ethan-cope.github.io/tags/audio/</link>
+      <pubDate>Sun, 27 Aug 2023 15:39:53 -0500</pubDate>
+      
+      <guid>https://ethan-cope.github.io/tags/audio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>electronics</title>
+      <link>https://ethan-cope.github.io/tags/electronics/</link>
+      <pubDate>Sun, 27 Aug 2023 15:39:53 -0500</pubDate>
+      
+      <guid>https://ethan-cope.github.io/tags/electronics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PCB</title>
+      <link>https://ethan-cope.github.io/tags/pcb/</link>
+      <pubDate>Sun, 27 Aug 2023 15:39:53 -0500</pubDate>
+      
+      <guid>https://ethan-cope.github.io/tags/pcb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>soldering</title>
+      <link>https://ethan-cope.github.io/tags/soldering/</link>
+      <pubDate>Sun, 27 Aug 2023 15:39:53 -0500</pubDate>
+      
+      <guid>https://ethan-cope.github.io/tags/soldering/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>architecture</title>
       <link>https://ethan-cope.github.io/tags/architecture/</link>
@@ -59,42 +95,6 @@
       <pubDate>Fri, 14 Jul 2023 01:00:15 -0500</pubDate>
       
       <guid>https://ethan-cope.github.io/tags/transportation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>presentation</title>
-      <link>https://ethan-cope.github.io/tags/presentation/</link>
-      <pubDate>Sun, 30 Apr 2023 17:30:30 -0500</pubDate>
-      
-      <guid>https://ethan-cope.github.io/tags/presentation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>winner</title>
-      <link>https://ethan-cope.github.io/tags/winner/</link>
-      <pubDate>Sun, 30 Apr 2023 17:30:30 -0500</pubDate>
-      
-      <guid>https://ethan-cope.github.io/tags/winner/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>fixes</title>
-      <link>https://ethan-cope.github.io/tags/fixes/</link>
-      <pubDate>Fri, 03 Feb 2023 14:51:34 -0600</pubDate>
-      
-      <guid>https://ethan-cope.github.io/tags/fixes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>javascript</title>
-      <link>https://ethan-cope.github.io/tags/javascript/</link>
-      <pubDate>Fri, 03 Feb 2023 14:51:34 -0600</pubDate>
-      
-      <guid>https://ethan-cope.github.io/tags/javascript/</guid>
       <description></description>
     </item>
     
