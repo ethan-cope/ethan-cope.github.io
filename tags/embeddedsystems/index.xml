@@ -1,34 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>embeddedSystems on Hey, I&#39;m Ethan.</title>
+    <title>EmbeddedSystems on Hey, I&#39;m Ethan.</title>
     <link>https://ethan-cope.github.io/tags/embeddedsystems/</link>
-    <description>Recent content in embeddedSystems on Hey, I&#39;m Ethan.</description>
+    <description>Recent content in EmbeddedSystems on Hey, I&#39;m Ethan.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sun, 25 Dec 2022 19:04:34 -0600</lastBuildDate><atom:link href="https://ethan-cope.github.io/tags/embeddedsystems/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 25 Dec 2022 19:04:34 -0600</lastBuildDate>
+    <atom:link href="https://ethan-cope.github.io/tags/embeddedsystems/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>💡 SignalBox: DIY Connected Lanterns with MQTT, Adafruit Feather</title>
       <link>https://ethan-cope.github.io/posts/thinking-of-you/</link>
       <pubDate>Sun, 25 Dec 2022 19:04:34 -0600</pubDate>
-      
       <guid>https://ethan-cope.github.io/posts/thinking-of-you/</guid>
-      <description>Faced with the tradition of family Christmas gift giving, I was thoroughly stumped. I knew I wanted to do something maker-related: I&amp;rsquo;m the only engineer in the family, which tends to amplify the wow factor of any techncal projects :)
-After my fallback plan (a Chemex coffee maker) fell through, I knew I had to build these!
-the finished product!
-These are long-distance friendship lanterns. The idea is, sometimes you want to let a distant friend or family member know that you&amp;rsquo;re thinking of them, even if you don&amp;rsquo;t necessarily want to shoot them a text.</description>
+      <description>Faced with the tradition of family Christmas gift giving, I was thoroughly stumped. I knew I wanted to do something maker-related: I&amp;rsquo;m the only engineer in the family, which tends to amplify the wow factor of any techncal projects :)&#xA;After my fallback plan (a Chemex coffee maker) fell through, I knew I had to build these!&#xA;the finished product!&#xA;These are long-distance friendship lanterns. The idea is, sometimes you want to let a distant friend or family member know that you&amp;rsquo;re thinking of them, even if you don&amp;rsquo;t necessarily want to shoot them a text.</description>
     </item>
-    
     <item>
       <title>Buswarn: RasPi-based Transit Bus Tracking</title>
       <link>https://ethan-cope.github.io/posts/buswarn/</link>
       <pubDate>Mon, 27 Sep 2021 12:53:34 -0500</pubDate>
-      
       <guid>https://ethan-cope.github.io/posts/buswarn/</guid>
-      <description>Public transportation is like a magnifying glass that shows you civilization up close. ~ Chris Gethard
-What is Buswarn? During the COVID year, I moved off-campus. I didn&amp;rsquo;t realize at the time, but my only lifeline to my in-person classes, study rooms, and meals would be the Texas A&amp;amp;M Bus Transit System. Problems manifested themselves quickly. Buses ran at seemingly random intervals, and the website that displayed the schedule often had errors rendering on my mobile phone.</description>
+      <description>Public transportation is like a magnifying glass that shows you civilization up close. ~ Chris Gethard&#xA;What is Buswarn? During the COVID year, I moved off-campus. I didn&amp;rsquo;t realize at the time, but my only lifeline to my in-person classes, study rooms, and meals would be the Texas A&amp;amp;M Bus Transit System. Problems manifested themselves quickly. Buses ran at seemingly random intervals, and the website that displayed the schedule often had errors rendering on my mobile phone.</description>
     </item>
-    
   </channel>
 </rss>

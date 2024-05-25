@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>untagged on Hey, I&#39;m Ethan.</title>
+    <title>Untagged on Hey, I&#39;m Ethan.</title>
     <link>https://ethan-cope.github.io/tags/untagged/</link>
-    <description>Recent content in untagged on Hey, I&#39;m Ethan.</description>
+    <description>Recent content in Untagged on Hey, I&#39;m Ethan.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Mon, 24 Jul 2023 01:00:07 -0500</lastBuildDate><atom:link href="https://ethan-cope.github.io/tags/untagged/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Apr 2024 16:32:24 -0500</lastBuildDate>
+    <atom:link href="https://ethan-cope.github.io/tags/untagged/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Japan&#39;s Early-2000&#39;s Architectural Nostalgia</title>
-      <link>https://ethan-cope.github.io/posts/japanarch/</link>
-      <pubDate>Mon, 24 Jul 2023 01:00:07 -0500</pubDate>
-      
-      <guid>https://ethan-cope.github.io/posts/japanarch/</guid>
-      <description>The architectural definition of &amp;ldquo;modern&amp;rdquo;1 has always been a moving target. Every year, once &amp;ldquo;stylistically cutting-edge&amp;rdquo; buildings slip into the realm of &amp;ldquo;dated&amp;rdquo; and &amp;ldquo;cliche&amp;rdquo;. And the other day, I finally stumbled on across a building that proved this point. Nagoya&amp;rsquo;s Sasashima-Ribu station is totally representative of a particular architectural style; one that, at the time of it&amp;rsquo;s construction, was synonymous with &amp;ldquo;modern architecture&amp;rdquo;. But a quarter of a century has separated innovation from trend, revealing a slew of early 2000&amp;rsquo;s quintessential quirks.</description>
+      <title>Exploring Las Colinas&#39; Mothballed Monorail</title>
+      <link>https://ethan-cope.github.io/posts/irvingapt/</link>
+      <pubDate>Sat, 20 Apr 2024 16:32:24 -0500</pubDate>
+      <guid>https://ethan-cope.github.io/posts/irvingapt/</guid>
+      <description>Sign at the entrance of the APT&#xA;On the surface, Dallas looks like just another cookie-cutter commuter city. Compared to Austin&amp;rsquo;s booming tech industry and laid-back vibe, Dallas&amp;rsquo; historic hyperfocus on sprawling office parks has always felt a bit clinical. But the combination of this all-work all-the-time culture and a early 80&amp;rsquo;s real-estate boom led to some crazy planning experiments, and none were as crazy as the Las Colinas Area Personal Transit system.</description>
     </item>
-    
   </channel>
 </rss>
