@@ -6,8 +6,93 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-		<lastBuildDate>Sat, 20 Apr 2024 16:32:24 -0500</lastBuildDate>
+		<lastBuildDate>Thu, 07 Nov 2024 21:55:31 -0800</lastBuildDate>
 		<atom:link href="https://ethan-cope.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>☕ Introducing CafeMatrix</title>
+			<link>https://ethan-cope.github.io/posts/cafematrix/</link>
+			<pubDate>Thu, 07 Nov 2024 21:55:31 -0800</pubDate>
+			
+			<guid>https://ethan-cope.github.io/posts/cafematrix/</guid>
+			<description>The internet has undoubtedly anxiously awaited this next installment of my personal blog. Having revolutionized the spheres of architecture and education alike, what worlds are left to conquer? The answer is the flashy, cutthroat realm of restaurant ranking. A world that as of November 17, 2024, will never be the same. Introducing the new, paradigm-shifting CafeMatrix!
+Note: please read the above paragraph with a heavy dose of sarcasm
+The Problem Sweet Eugene&amp;rsquo;s (image from Yelp)</description>
+			<content type="html"><![CDATA[<p>The internet has undoubtedly anxiously awaited this next installment of my personal blog. Having revolutionized the spheres of <a href="/posts/japanarch/">architecture</a> and <a href="/posts/auto-grader-update/">education</a> alike, what worlds are left to conquer? The answer is the flashy, cutthroat realm of restaurant ranking. A world that as of November 17, 2024, will never be the same. Introducing the new, paradigm-shifting <a href="http://cafematrix.net">CafeMatrix</a>!</p>
+<p><em>Note: please read the above paragraph with a heavy dose of sarcasm</em></p>
+<h2 id="the-problem">The Problem</h2>
+<figure class="right"><img src="/posts/cafematrix/eugenes.jpg"
+    alt="image"><figcaption>
+      <p>Sweet Eugene&rsquo;s (image from <a href="https://www.yelp.com/biz/sweet-eugenes-house-of-java-college-station">Yelp</a>)</p>
+    </figcaption>
+</figure>
+
+<p>Where I went to college, there was (and likely still is) a cafe called <em>Sweet Eugene&rsquo;s</em>. <em>Sweet&rsquo;s</em> was an otherwise normal cafe, but with an interior like a garage sale on acid. Couches and tables shared floor space with renaissance busts and industrial equipment. Throw in a closing time of 2:00 AM and plenty of seating, and you have a seemingly perfect cafe. And yet, Sweet Eugene&rsquo;s had an Achilles heel: their WiFi was abysmal. After one unsuccessful attempt to study at Sweet&rsquo;s, I came to a revelation - <strong>the 0-5 star scale is woefully inadequate for reviewing this (or any) cafe.</strong></p>
+<p>Think about it: depending on a variety of factors, a cafe may be perfect for studying but horrible for hanging out! Or the opposite, or neither, or both! But what if we identified these individual factors (i.e. seating availability, Wi-Fi, coffee cost, etc.) and used them to calculate a cafe&rsquo;s &ldquo;study rating&rdquo; or a &ldquo;hangout rating&rdquo;? This was the seed that eventually grew into my newest and nerdiest project, <a href="http://cafematrix.net/">CafeMatrix</a>.</p>
+<h2 id="common-criteria--usage-for-cafematrix">Common Criteria / Usage for CafeMatrix</h2>
+<p>How <em>can</em> we rate a cafe, then? I normally go to a cafe for 2 reasons - to get work done, or to hang out with friends. My third decision factor is <em>value for money</em> - whether the experience is worth what I&rsquo;m paying for or not.
+And wouldn&rsquo;t you know it, CafeMatrix ranks each cafe on 3 criteria - <em>Ambiance</em>, <em>Study Suitability</em>, and <em>Value / Money</em>. Then, each criteria (or in CafeMatrix lingo, <em>index</em>) is plotted as an axis of a 3d plot, giving you an at-a-glance rating of that cafe&rsquo;s rating.</p>
+<figure class="small"><img src="/posts/cafematrix/cafeMatrix.png"
+    alt="image"><figcaption>
+      <p>CafeMatrix landing page!</p>
+    </figcaption>
+</figure>
+
+<figure class="right"><img src="/posts/cafematrix/SubMatrixBars.jpeg"
+    alt="image"><figcaption>
+      <p>SubMatrix breakdown for one of my favs, Water &amp; Coffee Lab</p>
+    </figcaption>
+</figure>
+
+<p>But let&rsquo;s get more granular! How do we know <em>why</em> a cafe scored what it did? Every index&rsquo;s score is calculated from 3 sub-indices, which describe specific pros and cons of each cafe (i.e. internet speed, menu). So three factors will contribute to a cafe&rsquo;s ambiance score, another three for Value, and a final three for Study Suitability. See a description of these below:</p>
+<h3 id="1-ambiance-index">1. Ambiance Index</h3>
+<ul>
+<li>Vibe - Is the decor / vibe good?</li>
+<li>Seating Availability - Are seats easy to find and the cafe generally non-crowded?</li>
+<li>Spark - Anything special about this place? Nice baristas? tabletop games? Becomes a bar at night? Active part of community?</li>
+</ul>
+<h3 id="2-value-index">2. Value Index</h3>
+<ul>
+<li>Taste - How good are the drinks here?</li>
+<li>Cost - How expensive are the drinks here?</li>
+<li>Menu - Do they have cool specials? Do they roast or sell their own beans? Good food / cocktails too? All that goes here.</li>
+</ul>
+<h3 id="3-study-index">3. Study Index</h3>
+<ul>
+<li>Space Suitability - How good is the space for studying? Big tables with room to spread out?</li>
+<li>Tech-Friendliness - How fast is the inte here? Are there lots of charging outlets?</li>
+<li>Accessibility - How long does it stay open? Is it easy to park at or get to?</li>
+</ul>
+<p>SubMatricies are probably the coolest thing CafeMatrix does. With SubMatrices, users can rate cafes however they like, and use those ratings to make intelligent decisions beyond a 1-5 star rating. <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<figure class="left"><img src="/posts/cafematrix/SubMatrixHitsMisses.jpeg"
+    alt="image"><figcaption>
+      <p>At-a-glance pros/cons on the home screen!</p>
+    </figcaption>
+</figure>
+
+<h2 id="the-making-of-cafematrix">The Making of CafeMatrix</h2>
+<p>As the longest-running project I&rsquo;ve worked on (2+ years off and on!), CafeMatrix has evolved a LOT since it&rsquo;s initial concept. As with all of my projects, the end goal is to learn something new while solving a real problem. But since the beginning, CafeMatrix three philosophical foundations:</p>
+<h3 id="foundation-1-cafematrix-should-be-easy-to-use">Foundation 1. CafeMatrix <strong>should be easy to use</strong></h3>
+<p>I fully believe that this project is too nerdy to every attain mass appeal. I still wanted to make CafeMatrix so simple that my Mom could use it. So many websites accidentally (<a href="https://www.mobilespoon/2019/06/20-dark-patterns-to-avoid-in-products.html">or even purposefully</a>!) kneecap user experience to drive profit. The fun challenge for CafeMatrix was continually re-vamping interfaces and backends to make user interactions as simple as humanly possible!</p>
+<h3 id="foundation-2-cafematrix-should-not-use-a-login-system--database-backend">Foundation 2. CafeMatrix <strong>should not use a login system / database backend</strong></h3>
+<p>Backstory time! The browser game <em><a href="https://www.coolmathgames.com/0-blacksmith-lab">Blacksmith Lab</a></em> blew my mind as a kid, simply because it always remembered my progress after I closed the tab! No logins, no two-factor authentication, just good ol&rsquo; cookies! My biggest challenge by far was implementing a similar system in CafeMatrix. In an age where every site you visit needs your email, phone number, and social to provide basic functionality, I wanted CafeMatrix to be a breath of fresh air. <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<h3 id="foundation-3-cafematrix-should-be-mobile-first">Foundation 3. CafeMatrix <strong>should be mobile-first</strong></h3>
+<p>As the project evolved, I found myself using CafeMatrix on my phone far more than on my laptop. This eventually led to an entire UI redesign around the bootstrap library, allowing dynamic re-sizing of windows to prioritize mobile without inconveniencing laptop users.</p>
+<h2 id="whats-next-for-cafematrix">What&rsquo;s next for CafeMatrix?</h2>
+<p>I&rsquo;m writing another article about CafeMatrix soon, about all of the things I learned from this project. After all, this is the first time I&rsquo;ve self-hosted a website! It&rsquo;s also the first time I&rsquo;ve built a website purely for public usage. I don&rsquo;t have any current plans to update CafeMatrix beyond it&rsquo;s current state, but if there&rsquo;s enough interest I may add HTTPS. It&rsquo;s up to you!</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Anticipated Question: How can we possibly rate something on criteria subjective as &ldquo;vibe&rdquo; or &ldquo;spark&rdquo;? The short answer is, embrace the subjectivity! Does Starbucks taste like a 1 to you? Is your favorite coffee joint a 5? Then put that in the matrix! These rankings aren&rsquo;t meant to be objective truth - they&rsquo;re meant to be a resource to help decide where <em>you</em> want to study / hang out. Go wild!&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>The clunkiest part of CafeMatrix is undoubtedly the .tsv backup process, but this is a direct result of the internet&rsquo;s evolution path. <a href="https://www.joelonsoftware.com/2004/06/13/how-microsoft-lost-the-api-war/">Joel Spolsky predicted this back in in 2004</a>: an increasing number of programs people use aren&rsquo;t installed onto their PC, they&rsquo;re on the web. Webapps like CafeMatrix use usernames and passwords to store user data in the cloud, historically for security (good) and more recently to sell this data to advertising companies (bad). The alternative to this is storing user data on the user&rsquo;s computer (CafeMatrix&rsquo;s approach), which has potential to be even more convenient than the cloud approach (imagine - no passwords!). Local storage access for web apps is improving (see the <a href="https://developer.mozilla.org/en-US/docs/Web/API/File_System_API">File System API</a> - maybe more websites will move this direction in the future!&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+]]></content>
+		</item>
 		
 		<item>
 			<title>🚝 Exploring Las Colinas&#39; Mothballed Monorail</title>

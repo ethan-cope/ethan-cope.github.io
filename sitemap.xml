@@ -2,13 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://ethan-cope.github.io/posts/cafematrix/</loc>
+    <lastmod>2024-11-07T21:55:31-08:00</lastmod>
+  </url><url>
+    <loc>https://ethan-cope.github.io/tags/article/</loc>
+    <lastmod>2024-11-07T21:55:31-08:00</lastmod>
+  </url><url>
+    <loc>https://ethan-cope.github.io/tags/bootstrap/</loc>
+    <lastmod>2024-11-07T21:55:31-08:00</lastmod>
+  </url><url>
+    <loc>https://ethan-cope.github.io/tags/cafe/</loc>
+    <lastmod>2024-11-07T21:55:31-08:00</lastmod>
+  </url><url>
+    <loc>https://ethan-cope.github.io/tags/coffee/</loc>
+    <lastmod>2024-11-07T21:55:31-08:00</lastmod>
+  </url><url>
+    <loc>https://ethan-cope.github.io/</loc>
+    <lastmod>2024-11-07T21:55:31-08:00</lastmod>
+  </url><url>
+    <loc>https://ethan-cope.github.io/posts/</loc>
+    <lastmod>2024-11-07T21:55:31-08:00</lastmod>
+  </url><url>
+    <loc>https://ethan-cope.github.io/tags/python/</loc>
+    <lastmod>2024-11-07T21:55:31-08:00</lastmod>
+  </url><url>
+    <loc>https://ethan-cope.github.io/tags/</loc>
+    <lastmod>2024-11-07T21:55:31-08:00</lastmod>
+  </url><url>
+    <loc>https://ethan-cope.github.io/tags/webdevelopment/</loc>
+    <lastmod>2024-11-07T21:55:31-08:00</lastmod>
+  </url><url>
     <loc>https://ethan-cope.github.io/posts/irvingapt/</loc>
     <lastmod>2024-04-20T16:32:24-05:00</lastmod>
   </url><url>
     <loc>https://ethan-cope.github.io/tags/architecture/</loc>
-    <lastmod>2024-04-20T16:32:24-05:00</lastmod>
-  </url><url>
-    <loc>https://ethan-cope.github.io/tags/article/</loc>
     <lastmod>2024-04-20T16:32:24-05:00</lastmod>
   </url><url>
     <loc>https://ethan-cope.github.io/tags/dallas/</loc>
@@ -20,16 +47,7 @@
     <loc>https://ethan-cope.github.io/tags/future/</loc>
     <lastmod>2024-04-20T16:32:24-05:00</lastmod>
   </url><url>
-    <loc>https://ethan-cope.github.io/</loc>
-    <lastmod>2024-04-20T16:32:24-05:00</lastmod>
-  </url><url>
-    <loc>https://ethan-cope.github.io/posts/</loc>
-    <lastmod>2024-04-20T16:32:24-05:00</lastmod>
-  </url><url>
     <loc>https://ethan-cope.github.io/tags/review/</loc>
-    <lastmod>2024-04-20T16:32:24-05:00</lastmod>
-  </url><url>
-    <loc>https://ethan-cope.github.io/tags/</loc>
     <lastmod>2024-04-20T16:32:24-05:00</lastmod>
   </url><url>
     <loc>https://ethan-cope.github.io/tags/transportation/</loc>
@@ -84,9 +102,6 @@
     <lastmod>2023-02-03T14:51:34-06:00</lastmod>
   </url><url>
     <loc>https://ethan-cope.github.io/tags/tutorial/</loc>
-    <lastmod>2023-02-03T14:51:34-06:00</lastmod>
-  </url><url>
-    <loc>https://ethan-cope.github.io/tags/webdevelopment/</loc>
     <lastmod>2023-02-03T14:51:34-06:00</lastmod>
   </url><url>
     <loc>https://ethan-cope.github.io/posts/ge7/</loc>

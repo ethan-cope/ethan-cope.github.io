@@ -7,20 +7,55 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sat, 20 Apr 2024 16:32:24 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 07 Nov 2024 21:55:31 -0800</lastBuildDate>
     <atom:link href="https://ethan-cope.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Architecture</title>
-      <link>https://ethan-cope.github.io/tags/architecture/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ethan-cope.github.io/tags/architecture/</guid>
-      <description></description>
-    </item>
     <item>
       <title>Article</title>
       <link>https://ethan-cope.github.io/tags/article/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ethan-cope.github.io/tags/article/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bootstrap</title>
+      <link>https://ethan-cope.github.io/tags/bootstrap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ethan-cope.github.io/tags/bootstrap/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cafe</title>
+      <link>https://ethan-cope.github.io/tags/cafe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ethan-cope.github.io/tags/cafe/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Coffee</title>
+      <link>https://ethan-cope.github.io/tags/coffee/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ethan-cope.github.io/tags/coffee/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>https://ethan-cope.github.io/tags/python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ethan-cope.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>WebDevelopment</title>
+      <link>https://ethan-cope.github.io/tags/webdevelopment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ethan-cope.github.io/tags/webdevelopment/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Architecture</title>
+      <link>https://ethan-cope.github.io/tags/architecture/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ethan-cope.github.io/tags/architecture/</guid>
       <description></description>
     </item>
     <item>
@@ -42,41 +77,6 @@
       <link>https://ethan-cope.github.io/tags/future/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ethan-cope.github.io/tags/future/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Review</title>
-      <link>https://ethan-cope.github.io/tags/review/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ethan-cope.github.io/tags/review/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Transportation</title>
-      <link>https://ethan-cope.github.io/tags/transportation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ethan-cope.github.io/tags/transportation/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Audio</title>
-      <link>https://ethan-cope.github.io/tags/audio/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ethan-cope.github.io/tags/audio/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Electronics</title>
-      <link>https://ethan-cope.github.io/tags/electronics/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ethan-cope.github.io/tags/electronics/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>PCB</title>
-      <link>https://ethan-cope.github.io/tags/pcb/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ethan-cope.github.io/tags/pcb/</guid>
       <description></description>
     </item>
   </channel>
