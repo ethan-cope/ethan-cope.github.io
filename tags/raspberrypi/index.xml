@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>RaspberryPi on Hey, I&#39;m Ethan.</title>
-    <link>http://localhost:1313/tags/raspberrypi/</link>
+    <link>https://ethan-cope.github.io/tags/raspberrypi/</link>
     <description>Recent content in RaspberryPi on Hey, I&#39;m Ethan.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Wed, 02 Feb 2022 13:28:52 -0600</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/raspberrypi/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ethan-cope.github.io/tags/raspberrypi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>🏆 MyMirror: a Google-integrated Smart Mirror</title>
-      <link>http://localhost:1313/posts/mymirror/</link>
+      <link>https://ethan-cope.github.io/posts/mymirror/</link>
       <pubDate>Wed, 02 Feb 2022 13:28:52 -0600</pubDate>
-      <guid>http://localhost:1313/posts/mymirror/</guid>
+      <guid>https://ethan-cope.github.io/posts/mymirror/</guid>
       <description>&lt;p&gt;&lt;em&gt;Note: More information about myMirror can be found on &lt;a href=&#34;https://devpost.com/software/mymirror&#34;&gt;the project&amp;rsquo;s devpost&lt;/a&gt;.&lt;/em&gt;&#xA;&lt;em&gt;Check there for other peoples&amp;rsquo; contributions!&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-mymirror&#34;&gt;Why myMirror?&lt;/h2&gt;&#xA;&lt;p&gt;When I wake up in the morning, there&amp;rsquo;s a lot I know I probably should do.&#xA;For example, I should probably prepare for the day ahead by checking the weather and my daily calendar.&#xA;But often times, &lt;strong&gt;I just don&amp;rsquo;t&lt;/strong&gt;. For situations like this, myMirror is here to help.&lt;/p&gt;&#xA;&lt;p&gt;myMirror solves the above dilemma by integrating this crucial information into your everyday bathroom mirror.&#xA;myMirror is a &lt;em&gt;smart mirror&lt;/em&gt; with an embedded display screen,&#xA;displaying the current time and date, weather for your area, and personal Google Calendar reminders.&#xA;It even features a motion sensor, turning off the display to save power when a user isn&amp;rsquo;t detected.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Buswarn: RasPi-based Transit Bus Tracking</title>
-      <link>http://localhost:1313/posts/buswarn/</link>
+      <link>https://ethan-cope.github.io/posts/buswarn/</link>
       <pubDate>Mon, 27 Sep 2021 12:53:34 -0500</pubDate>
-      <guid>http://localhost:1313/posts/buswarn/</guid>
+      <guid>https://ethan-cope.github.io/posts/buswarn/</guid>
       <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Public transportation is like a magnifying glass that shows you civilization up close. ~ Chris Gethard&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;what-is-buswarn&#34;&gt;What is Buswarn?&lt;/h2&gt;&#xA;&lt;p&gt;During the COVID year, I moved off-campus. I didn&amp;rsquo;t realize at the time, but my only lifeline to my in-person classes, study rooms, and meals would be the Texas A&amp;amp;M Bus Transit System.&#xA;Problems manifested themselves quickly. Buses ran at seemingly random intervals, and the website that displayed the schedule often had errors rendering on my mobile phone.&#xA;What I needed was a simple device that displayed how many minutes I had to wait until the next bus arrived at my apartment.&#xA;This device wouldn&amp;rsquo;t require me to have the foresight of googling the schedule and doing mental math to determine what time to leave my apartment in order to make the next bus.&#xA;Armed with these design goals, I set to work with a Raspberry Pi and few 7-segment displays I had lying around.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Soldering on Hey, I&#39;m Ethan.</title>
-    <link>http://localhost:1313/tags/soldering/</link>
+    <link>https://ethan-cope.github.io/tags/soldering/</link>
     <description>Recent content in Soldering on Hey, I&#39;m Ethan.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Sun, 27 Aug 2023 15:39:53 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/soldering/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ethan-cope.github.io/tags/soldering/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>On Personal Projects and Giving Up (Echo-Matic Deluxe Update)</title>
-      <link>http://localhost:1313/posts/echo-matic_special2/</link>
+      <link>https://ethan-cope.github.io/posts/echo-matic_special2/</link>
       <pubDate>Sun, 27 Aug 2023 15:39:53 -0500</pubDate>
-      <guid>http://localhost:1313/posts/echo-matic_special2/</guid>
+      <guid>https://ethan-cope.github.io/posts/echo-matic_special2/</guid>
       <description>&lt;p&gt;Personal projects often feel like a weird limbo between work and play.&#xA;Starting a project motivated by nothing but passion and a willingness to learn is great.&#xA;Even if the initial enthusiasm fades, it&amp;rsquo;s still worth it to power through. A finished project is often its own satisfaction.&#xA;But when all personal interest in the project evaporates, even the most simple tasks become tedious.&#xA;Every time I think about my gutted Marantz tape deck project, I find myself caring less and less.&#xA;My recent move to Santa Clara was the final excuse I needed; I&amp;rsquo;m no longer working on the DIY tape echo project.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Boss Pedal Switching Issues? Try This! (Boss GE-7 Modding)</title>
-      <link>http://localhost:1313/posts/ge7/</link>
+      <link>https://ethan-cope.github.io/posts/ge7/</link>
       <pubDate>Tue, 27 Dec 2022 15:06:31 -0600</pubDate>
-      <guid>http://localhost:1313/posts/ge7/</guid>
-      <description>&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/posts/ge7/ge7pic.jpg&#34;&#xA;    alt=&#34;image&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Post-Mod GE-7&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;h1 id=&#34;the-mod&#34;&gt;The Mod&lt;/h1&gt;&#xA;&lt;p&gt;If you just want to skip to the fix, head to &lt;a href=&#34;#the-fix&#34;&gt;this section&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;At the advice of &lt;a href=&#34;https://www.youtube.com/watch?v=hypn6uA6RPs&#34;&gt;Brian Wampler&lt;/a&gt;, I caved and bought a minty used Boss GE-7.&#xA;Imagine my surprise after moving any of the EQ sliders introduced very noticeable noise! How could you, Boss? Apparently, when the GE-7 was first designed, battery life and price point were more important considerations than audio fidelity.&#xA;As a result, any GE-7s made from 1981 to 2017 use the &lt;code&gt;TL022&lt;/code&gt; dual op-amp chips. These outdated chips are surpassed in every aspect of audio performance by the more recent &lt;code&gt;NE5532&lt;/code&gt; dual op-amps, despite drawing more current.&#xA;&lt;em&gt;(&lt;a href=&#34;https://www.ti.com/lit/ds/symlink/ne5532.pdf&#34;&gt;38 mA&lt;/a&gt; vs &lt;a href=&#34;https://www.ti.com/lit/ds/symlink/tl022.pdf?ts=1672127917081&#34;&gt;6 mA&lt;/a&gt; in output short-circuit condition. &lt;a href=&#34;https://www.physics.unlv.edu/~bill/PHYS483/op_amp_datasheet.pdf&#34;&gt;This is a good read&lt;/a&gt; if you need a refresher on op-amp datasheet deciphering)&lt;/em&gt;.&lt;/p&gt;</description>
+      <guid>https://ethan-cope.github.io/posts/ge7/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;https://ethan-cope.github.io/posts/ge7/ge7pic.jpg&#34;&#xA;    alt=&#34;image&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Post-Mod GE-7&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;h1 id=&#34;the-mod&#34;&gt;The Mod&lt;/h1&gt;&#xA;&lt;p&gt;If you just want to skip to the fix, head to &lt;a href=&#34;#the-fix&#34;&gt;this section&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;At the advice of &lt;a href=&#34;https://www.youtube.com/watch?v=hypn6uA6RPs&#34;&gt;Brian Wampler&lt;/a&gt;, I caved and bought a minty used Boss GE-7.&#xA;Imagine my surprise after moving any of the EQ sliders introduced very noticeable noise! How could you, Boss? Apparently, when the GE-7 was first designed, battery life and price point were more important considerations than audio fidelity.&#xA;As a result, any GE-7s made from 1981 to 2017 use the &lt;code&gt;TL022&lt;/code&gt; dual op-amp chips. These outdated chips are surpassed in every aspect of audio performance by the more recent &lt;code&gt;NE5532&lt;/code&gt; dual op-amps, despite drawing more current.&#xA;&lt;em&gt;(&lt;a href=&#34;https://www.ti.com/lit/ds/symlink/ne5532.pdf&#34;&gt;38 mA&lt;/a&gt; vs &lt;a href=&#34;https://www.ti.com/lit/ds/symlink/tl022.pdf?ts=1672127917081&#34;&gt;6 mA&lt;/a&gt; in output short-circuit condition. &lt;a href=&#34;https://www.physics.unlv.edu/~bill/PHYS483/op_amp_datasheet.pdf&#34;&gt;This is a good read&lt;/a&gt; if you need a refresher on op-amp datasheet deciphering)&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Echo-Matic Deluxe (Part 1): Marantz-based DIY Tape Echo</title>
-      <link>http://localhost:1313/posts/echo-matic_special/</link>
+      <link>https://ethan-cope.github.io/posts/echo-matic_special/</link>
       <pubDate>Fri, 15 Oct 2021 13:07:50 -0500</pubDate>
-      <guid>http://localhost:1313/posts/echo-matic_special/</guid>
+      <guid>https://ethan-cope.github.io/posts/echo-matic_special/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://img.audiofanzine.com/images/u/product/normal/roland-re-201-space-echo-6085.jpg&#34; alt=&#34;thing&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Back in 2019, I saw the influential space-rock group &lt;a href=&#34;https://www.youtube.com/watch?v=h9PcHA5Ievk&#34;&gt;Wand&lt;/a&gt; live.&#xA;It was an amazing set of mostly new tunes, but I was a tad distracted by their lead guitarist.&#xA;He was fiddling with a battered green box for the whole set, and doing so sent his guitar part soaring over the rest of the band in the most atmospheric, gooey wash imaginable.&#xA;This was my first introduction to the weird, wonderful world of tape echo, and I wanted one!&lt;/p&gt;</description>
     </item>
   </channel>
