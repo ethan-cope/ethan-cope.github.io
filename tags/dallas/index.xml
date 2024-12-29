@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dallas on Hey, I&#39;m Ethan.</title>
-    <link>https://ethan-cope.github.io/tags/dallas/</link>
+    <link>http://localhost:1313/tags/dallas/</link>
     <description>Recent content in Dallas on Hey, I&#39;m Ethan.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Sat, 20 Apr 2024 16:32:24 -0500</lastBuildDate>
-    <atom:link href="https://ethan-cope.github.io/tags/dallas/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/dallas/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>🚝 Exploring Las Colinas&#39; Mothballed Monorail</title>
-      <link>https://ethan-cope.github.io/posts/irvingapt/</link>
+      <link>http://localhost:1313/posts/irvingapt/</link>
       <pubDate>Sat, 20 Apr 2024 16:32:24 -0500</pubDate>
-      <guid>https://ethan-cope.github.io/posts/irvingapt/</guid>
-      <description>&lt;figure class=&#34;center&#34;&gt;&lt;img src=&#34;https://ethan-cope.github.io/posts/irvingapt/APTSign.jpg&#34;&#xA;    alt=&#34;Sign for the entrance of the APT&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Sign at the entrance of the APT&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;On the surface, Dallas looks like just another cookie-cutter commuter city. Compared to Austin&amp;rsquo;s booming tech industry and laid-back vibe, Dallas&amp;rsquo; historic hyperfocus on sprawling office parks has always felt a bit clinical. But the combination of this all-work all-the-time culture and a early 80&amp;rsquo;s real-estate boom led to some crazy planning experiments, and none were as crazy as the Irving&amp;rsquo;s Las Colinas district. Real estate mogul Ben Carpenter&amp;rsquo;s original plan was to transform his family&amp;rsquo;s ranch (&lt;em&gt;El Ranchito de Las Colinas&lt;/em&gt;) into a master-planned community. No expense was spared - Las Colinas was a place where (&lt;a href=&#34;https://web.archive.org/web/20220712160053/https://www.dmagazine.com/publications/d-magazine/1987/august/magnificent-obsession/&#34;&gt;as D Magazine put it in 1987&lt;/a&gt;): &lt;em&gt;&amp;ldquo;you could gaze out your office window past a sparkling Lake Carolyn&amp;hellip; watch shoppers take a water taxi down the canals to lunch; where you could walk out of your office and be on one of four championship golf courses in ten minutes&amp;hellip; never leaving the manicured environs of Las Colinas.&amp;rdquo;&lt;/em&gt; But Las Colinas&amp;rsquo; boldest stroke was indisputably its &lt;strong&gt;Area Personal Transit&lt;/strong&gt; system.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/irvingapt/</guid>
+      <description>&lt;figure class=&#34;center&#34;&gt;&lt;img src=&#34;http://localhost:1313/posts/irvingapt/APTSign.jpg&#34;&#xA;    alt=&#34;Sign for the entrance of the APT&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Sign at the entrance of the APT&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;On the surface, Dallas looks like just another cookie-cutter commuter city. Compared to Austin&amp;rsquo;s booming tech industry and laid-back vibe, Dallas&amp;rsquo; historic hyperfocus on sprawling office parks has always felt a bit clinical. But the combination of this all-work all-the-time culture and a early 80&amp;rsquo;s real-estate boom led to some crazy planning experiments, and none were as crazy as the Irving&amp;rsquo;s Las Colinas district. Real estate mogul Ben Carpenter&amp;rsquo;s original plan was to transform his family&amp;rsquo;s ranch (&lt;em&gt;El Ranchito de Las Colinas&lt;/em&gt;) into a master-planned community. No expense was spared - Las Colinas was a place where (&lt;a href=&#34;https://web.archive.org/web/20220712160053/https://www.dmagazine.com/publications/d-magazine/1987/august/magnificent-obsession/&#34;&gt;as D Magazine put it in 1987&lt;/a&gt;): &lt;em&gt;&amp;ldquo;you could gaze out your office window past a sparkling Lake Carolyn&amp;hellip; watch shoppers take a water taxi down the canals to lunch; where you could walk out of your office and be on one of four championship golf courses in ten minutes&amp;hellip; never leaving the manicured environs of Las Colinas.&amp;rdquo;&lt;/em&gt; But Las Colinas&amp;rsquo; boldest stroke was indisputably its &lt;strong&gt;Area Personal Transit&lt;/strong&gt; system.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cafe on Hey, I&#39;m Ethan.</title>
-    <link>https://ethan-cope.github.io/tags/cafe/</link>
+    <link>http://localhost:1313/tags/cafe/</link>
     <description>Recent content in Cafe on Hey, I&#39;m Ethan.</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <lastBuildDate>Thu, 07 Nov 2024 21:55:31 -0800</lastBuildDate>
-    <atom:link href="https://ethan-cope.github.io/tags/cafe/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/cafe/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>☕ Introducing CafeMatrix</title>
-      <link>https://ethan-cope.github.io/posts/cafematrix/</link>
+      <link>http://localhost:1313/posts/cafematrix/</link>
       <pubDate>Thu, 07 Nov 2024 21:55:31 -0800</pubDate>
-      <guid>https://ethan-cope.github.io/posts/cafematrix/</guid>
-      <description>&lt;p&gt;The internet has undoubtedly anxiously awaited this next installment of my personal blog. Having revolutionized the spheres of &lt;a href=&#34;https://ethan-cope.github.io/posts/japanarch/&#34;&gt;architecture&lt;/a&gt; and &lt;a href=&#34;https://ethan-cope.github.io/posts/auto-grader-update/&#34;&gt;education&lt;/a&gt; alike, what worlds are left to conquer? The answer is the flashy, cutthroat realm of restaurant ranking. A world that as of December 28, 2024, will never be the same. Introducing the new, paradigm-shifting &lt;a href=&#34;http://cafematrix.net&#34;&gt;CafeMatrix&lt;/a&gt;!&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Note: please read the above paragraph with a heavy dose of sarcasm&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-problem&#34;&gt;The Problem&lt;/h2&gt;&#xA;&lt;figure class=&#34;right&#34;&gt;&lt;img src=&#34;https://ethan-cope.github.io/posts/cafematrix/eugenes.jpg&#34;&#xA;    alt=&#34;image&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Sweet Eugene&amp;rsquo;s (image from &lt;a href=&#34;https://www.yelp.com/biz/sweet-eugenes-house-of-java-college-station&#34;&gt;Yelp&lt;/a&gt;)&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/cafematrix/</guid>
+      <description>&lt;p&gt;The internet has undoubtedly anxiously awaited this next installment of my personal blog. Having revolutionized the spheres of &lt;a href=&#34;http://localhost:1313/posts/japanarch/&#34;&gt;architecture&lt;/a&gt; and &lt;a href=&#34;http://localhost:1313/posts/auto-grader-update/&#34;&gt;education&lt;/a&gt; alike, what worlds are left to conquer? The answer is the flashy, cutthroat realm of restaurant ranking. A world that as of December 28, 2024, will never be the same. Introducing the new, paradigm-shifting &lt;a href=&#34;http://cafematrix.net&#34;&gt;CafeMatrix&lt;/a&gt;!&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Note: please read the above paragraph with a heavy dose of sarcasm&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-problem&#34;&gt;The Problem&lt;/h2&gt;&#xA;&lt;figure class=&#34;right&#34;&gt;&lt;img src=&#34;http://localhost:1313/posts/cafematrix/eugenes.jpg&#34;&#xA;    alt=&#34;image&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;p&gt;Sweet Eugene&amp;rsquo;s (image from &lt;a href=&#34;https://www.yelp.com/biz/sweet-eugenes-house-of-java-college-station&#34;&gt;Yelp&lt;/a&gt;)&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

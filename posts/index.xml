@@ -1,24 +1,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Posts on Hey, I&#39;m Ethan.</title>
-		<link>https://ethan-cope.github.io/posts/</link>
+		<link>http://localhost:1313/posts/</link>
 		<description>Recent content in Posts on Hey, I&#39;m Ethan.</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
 		<lastBuildDate>Thu, 07 Nov 2024 21:55:31 -0800</lastBuildDate>
-		<atom:link href="https://ethan-cope.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
 		
 		<item>
 			<title>☕ Introducing CafeMatrix</title>
-			<link>https://ethan-cope.github.io/posts/cafematrix/</link>
+			<link>http://localhost:1313/posts/cafematrix/</link>
 			<pubDate>Thu, 07 Nov 2024 21:55:31 -0800</pubDate>
 			
-			<guid>https://ethan-cope.github.io/posts/cafematrix/</guid>
-			<description>&lt;p&gt;The internet has undoubtedly anxiously awaited this next installment of my personal blog. Having revolutionized the spheres of &lt;a href=&#34;https://ethan-cope.github.io/posts/japanarch/&#34;&gt;architecture&lt;/a&gt; and &lt;a href=&#34;https://ethan-cope.github.io/posts/auto-grader-update/&#34;&gt;education&lt;/a&gt; alike, what worlds are left to conquer? The answer is the flashy, cutthroat realm of restaurant ranking. A world that as of December 28, 2024, will never be the same. Introducing the new, paradigm-shifting &lt;a href=&#34;http://cafematrix.net&#34;&gt;CafeMatrix&lt;/a&gt;!&lt;/p&gt;
+			<guid>http://localhost:1313/posts/cafematrix/</guid>
+			<description>&lt;p&gt;The internet has undoubtedly anxiously awaited this next installment of my personal blog. Having revolutionized the spheres of &lt;a href=&#34;http://localhost:1313/posts/japanarch/&#34;&gt;architecture&lt;/a&gt; and &lt;a href=&#34;http://localhost:1313/posts/auto-grader-update/&#34;&gt;education&lt;/a&gt; alike, what worlds are left to conquer? The answer is the flashy, cutthroat realm of restaurant ranking. A world that as of December 28, 2024, will never be the same. Introducing the new, paradigm-shifting &lt;a href=&#34;http://cafematrix.net&#34;&gt;CafeMatrix&lt;/a&gt;!&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Note: please read the above paragraph with a heavy dose of sarcasm&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id=&#34;the-problem&#34;&gt;The Problem&lt;/h2&gt;
-&lt;figure class=&#34;right&#34;&gt;&lt;img src=&#34;https://ethan-cope.github.io/posts/cafematrix/eugenes.jpg&#34;
+&lt;figure class=&#34;right&#34;&gt;&lt;img src=&#34;http://localhost:1313/posts/cafematrix/eugenes.jpg&#34;
     alt=&#34;image&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Sweet Eugene&amp;rsquo;s (image from &lt;a href=&#34;https://www.yelp.com/biz/sweet-eugenes-house-of-java-college-station&#34;&gt;Yelp&lt;/a&gt;)&lt;/p&gt;</description>
 			<content type="html"><![CDATA[<p>The internet has undoubtedly anxiously awaited this next installment of my personal blog. Having revolutionized the spheres of <a href="/posts/japanarch/">architecture</a> and <a href="/posts/auto-grader-update/">education</a> alike, what worlds are left to conquer? The answer is the flashy, cutthroat realm of restaurant ranking. A world that as of December 28, 2024, will never be the same. Introducing the new, paradigm-shifting <a href="http://cafematrix.net">CafeMatrix</a>!</p>
@@ -99,11 +99,11 @@ And wouldn&rsquo;t you know it, CafeMatrix ranks each cafe on 3 criteria - <em>A
 		
 		<item>
 			<title>🚝 Exploring Las Colinas&#39; Mothballed Monorail</title>
-			<link>https://ethan-cope.github.io/posts/irvingapt/</link>
+			<link>http://localhost:1313/posts/irvingapt/</link>
 			<pubDate>Sat, 20 Apr 2024 16:32:24 -0500</pubDate>
 			
-			<guid>https://ethan-cope.github.io/posts/irvingapt/</guid>
-			<description>&lt;figure class=&#34;center&#34;&gt;&lt;img src=&#34;https://ethan-cope.github.io/posts/irvingapt/APTSign.jpg&#34;
+			<guid>http://localhost:1313/posts/irvingapt/</guid>
+			<description>&lt;figure class=&#34;center&#34;&gt;&lt;img src=&#34;http://localhost:1313/posts/irvingapt/APTSign.jpg&#34;
     alt=&#34;Sign for the entrance of the APT&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Sign at the entrance of the APT&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -279,10 +279,10 @@ And wouldn&rsquo;t you know it, CafeMatrix ranks each cafe on 3 criteria - <em>A
 		
 		<item>
 			<title>On Personal Projects and Giving Up (Echo-Matic Deluxe Update)</title>
-			<link>https://ethan-cope.github.io/posts/echo-matic_special2/</link>
+			<link>http://localhost:1313/posts/echo-matic_special2/</link>
 			<pubDate>Sun, 27 Aug 2023 15:39:53 -0500</pubDate>
 			
-			<guid>https://ethan-cope.github.io/posts/echo-matic_special2/</guid>
+			<guid>http://localhost:1313/posts/echo-matic_special2/</guid>
 			<description>&lt;p&gt;Personal projects often feel like a weird limbo between work and play.
 Starting a project motivated by nothing but passion and a willingness to learn is great.
 Even if the initial enthusiasm fades, it&amp;rsquo;s still worth it to power through. A finished project is often its own satisfaction.
@@ -328,10 +328,10 @@ I just wanted to move on.</p>
 		
 		<item>
 			<title>Japan&#39;s Early-2000&#39;s Architectural Nostalgia</title>
-			<link>https://ethan-cope.github.io/posts/japanarch/</link>
+			<link>http://localhost:1313/posts/japanarch/</link>
 			<pubDate>Mon, 31 Jul 2023 01:00:07 -0500</pubDate>
 			
-			<guid>https://ethan-cope.github.io/posts/japanarch/</guid>
+			<guid>http://localhost:1313/posts/japanarch/</guid>
 			<description>&lt;p&gt;The architectural definition of &amp;ldquo;modern&amp;rdquo;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; has always been a moving target.
 Every year, once &amp;ldquo;stylistically cutting-edge&amp;rdquo; buildings slip into the realm of &amp;ldquo;dated&amp;rdquo; and &amp;ldquo;cliche&amp;rdquo;.
 And the other day, I finally stumbled on across a building that proved this point.
@@ -430,15 +430,15 @@ Every time I see one, I&rsquo;m reminded that the future doesn&rsquo;t have to b
 		
 		<item>
 			<title>Japan&#39;s Most Iconic Model Cars Come Out Of Vending Machines</title>
-			<link>https://ethan-cope.github.io/posts/gacha/</link>
+			<link>http://localhost:1313/posts/gacha/</link>
 			<pubDate>Fri, 14 Jul 2023 01:00:15 -0500</pubDate>
 			
-			<guid>https://ethan-cope.github.io/posts/gacha/</guid>
+			<guid>http://localhost:1313/posts/gacha/</guid>
 			<description>&lt;p&gt;Remember those 25-cent gumball machines?
 The ones where you could trade a quarter for a gumball older than the dotcom crash?
 Imagine that, but instead of a chunk of crusty candy, you win a random 1/64th scale model car.
 That&amp;rsquo;s essentially Gachapon!&lt;/p&gt;
-&lt;figure class=&#34;left&#34;&gt;&lt;img src=&#34;https://ethan-cope.github.io/posts/gacha/machExample.jpg&#34;
+&lt;figure class=&#34;left&#34;&gt;&lt;img src=&#34;http://localhost:1313/posts/gacha/machExample.jpg&#34;
     alt=&#34;image&#34;&gt;
 &lt;/figure&gt;
 
@@ -692,10 +692,10 @@ Thanks for bearing with the diversion from my usual format, and let me know if y
 		
 		<item>
 			<title>🏆 Battery Recycling: The Dark Side of an All-EV Future (2nd place, Problems Worth Solving Competition 2023)</title>
-			<link>https://ethan-cope.github.io/posts/pws/</link>
+			<link>http://localhost:1313/posts/pws/</link>
 			<pubDate>Sun, 30 Apr 2023 17:30:30 -0500</pubDate>
 			
-			<guid>https://ethan-cope.github.io/posts/pws/</guid>
+			<guid>http://localhost:1313/posts/pws/</guid>
 			<description>&lt;blockquote&gt;
 &lt;p&gt;You&amp;rsquo;ve got to start with the customer experience and work back toward the technology, not the other way around. ~ Steve Jobs&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -730,10 +730,10 @@ If you want to watch the presentation, check it out below!</p>
 		
 		<item>
 			<title>A sane mini-tutorial for the Jenkins Javascript API</title>
-			<link>https://ethan-cope.github.io/posts/jenkinsapi/</link>
+			<link>http://localhost:1313/posts/jenkinsapi/</link>
 			<pubDate>Fri, 03 Feb 2023 14:51:34 -0600</pubDate>
 			
-			<guid>https://ethan-cope.github.io/posts/jenkinsapi/</guid>
+			<guid>http://localhost:1313/posts/jenkinsapi/</guid>
 			<description>&lt;p&gt;Holy moly, the Jenkins documentation is bad. At the very least, it isn&amp;rsquo;t very user-friendly, especially for beginners.
 For someone who has little-to-no experience in web development, doing something as simple as getting some job data from a Node program is the equivalent of pulling teeth. After spending hours in rabbit holes, I finally stumbled on a configuration that works. This mini-writeup will hopefully help those webdev-challenged folks such as myself in the quest for Jenkins API usage.&lt;/p&gt;</description>
 			<content type="html"><![CDATA[<p>Holy moly, the Jenkins documentation is bad. At the very least, it isn&rsquo;t very user-friendly, especially for beginners.
@@ -800,11 +800,11 @@ function JobData(jobName){
 		
 		<item>
 			<title>Boss Pedal Switching Issues? Try This! (Boss GE-7 Modding)</title>
-			<link>https://ethan-cope.github.io/posts/ge7/</link>
+			<link>http://localhost:1313/posts/ge7/</link>
 			<pubDate>Tue, 27 Dec 2022 15:06:31 -0600</pubDate>
 			
-			<guid>https://ethan-cope.github.io/posts/ge7/</guid>
-			<description>&lt;figure&gt;&lt;img src=&#34;https://ethan-cope.github.io/posts/ge7/ge7pic.jpg&#34;
+			<guid>http://localhost:1313/posts/ge7/</guid>
+			<description>&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/posts/ge7/ge7pic.jpg&#34;
     alt=&#34;image&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;Post-Mod GE-7&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -865,14 +865,14 @@ Even using the enclosure as a ground plane speaks to the dual priorities of buil
 		
 		<item>
 			<title>💡 SignalBox: DIY Connected Lanterns with MQTT, Adafruit Feather</title>
-			<link>https://ethan-cope.github.io/posts/thinking-of-you/</link>
+			<link>http://localhost:1313/posts/thinking-of-you/</link>
 			<pubDate>Sun, 25 Dec 2022 19:04:34 -0600</pubDate>
 			
-			<guid>https://ethan-cope.github.io/posts/thinking-of-you/</guid>
+			<guid>http://localhost:1313/posts/thinking-of-you/</guid>
 			<description>&lt;p&gt;Faced with the tradition of family Christmas gift giving, I was thoroughly stumped.
 I knew I wanted to do something maker-related: I&amp;rsquo;m the only engineer in the family, which tends to amplify the wow factor of any techncal projects :)&lt;/p&gt;
 &lt;p&gt;After my fallback plan (a Chemex coffee maker) fell through, I knew I had to build these!&lt;/p&gt;
-&lt;figure&gt;&lt;img src=&#34;https://ethan-cope.github.io/posts/thinking-of-you/boximg.jpg&#34;
+&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/posts/thinking-of-you/boximg.jpg&#34;
     alt=&#34;image&#34;&gt;&lt;figcaption&gt;
       &lt;p&gt;the finished product!&lt;/p&gt;
     &lt;/figcaption&gt;
@@ -937,10 +937,10 @@ Add in a clear case from the container store, and we&rsquo;re ready to rock!</p>
 		
 		<item>
 			<title>Spelling Test Grader [UPDATE]</title>
-			<link>https://ethan-cope.github.io/posts/auto-grader-update/</link>
+			<link>http://localhost:1313/posts/auto-grader-update/</link>
 			<pubDate>Fri, 23 Dec 2022 15:36:55 -0600</pubDate>
 			
-			<guid>https://ethan-cope.github.io/posts/auto-grader-update/</guid>
+			<guid>http://localhost:1313/posts/auto-grader-update/</guid>
 			<description>&lt;blockquote&gt;
 &lt;p&gt;One in six children who are not reading proficiently in third grade fail to graduate from high school on time, four times the rate for children with proficient third-grade reading skills. &amp;ndash; &lt;!-- raw HTML omitted --&gt;&amp;quot;&lt;a href=&#34;https://www.aecf.org/resources/double-jeopardy&#34;&gt;Double Jeopardy&lt;/a&gt;&amp;quot;, Annie E. Casey Foundation&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -997,10 +997,10 @@ Here&rsquo;s a quick update on the new grader, the <em>Phonics Survey</em>.</p>
 		
 		<item>
 			<title>MGMT&#39;s Anti-Breakout Album: Congratulations</title>
-			<link>https://ethan-cope.github.io/posts/congratulations/</link>
+			<link>http://localhost:1313/posts/congratulations/</link>
 			<pubDate>Sat, 17 Dec 2022 10:20:53 -0500</pubDate>
 			
-			<guid>https://ethan-cope.github.io/posts/congratulations/</guid>
+			<guid>http://localhost:1313/posts/congratulations/</guid>
 			<description>&lt;blockquote&gt;
 &lt;p&gt;We are absolutely dead serious about music-making, and that’s what we want people to understand, that there’s no joke in it. We’re not intentionally trying to f*ck with people, we’re actually making this music that we love and we want people to hear it.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; ~ Ben Goldwasser&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -1082,10 +1082,10 @@ This album stands as a musical reminder that but it takes real boldness to step 
 		
 		<item>
 			<title>🏆 MyMirror: a Google-integrated Smart Mirror</title>
-			<link>https://ethan-cope.github.io/posts/mymirror/</link>
+			<link>http://localhost:1313/posts/mymirror/</link>
 			<pubDate>Wed, 02 Feb 2022 13:28:52 -0600</pubDate>
 			
-			<guid>https://ethan-cope.github.io/posts/mymirror/</guid>
+			<guid>http://localhost:1313/posts/mymirror/</guid>
 			<description>&lt;p&gt;&lt;em&gt;Note: More information about myMirror can be found on &lt;a href=&#34;https://devpost.com/software/mymirror&#34;&gt;the project&amp;rsquo;s devpost&lt;/a&gt;.&lt;/em&gt;
 &lt;em&gt;Check there for other peoples&amp;rsquo; contributions!&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id=&#34;why-mymirror&#34;&gt;Why myMirror?&lt;/h2&gt;
@@ -1176,10 +1176,10 @@ When a small team of skilled people all play to their strengths, crazy ideas lik
 		
 		<item>
 			<title>Spelling Test Auto-Grader for Catch Up and Read</title>
-			<link>https://ethan-cope.github.io/posts/auto-grader/</link>
+			<link>http://localhost:1313/posts/auto-grader/</link>
 			<pubDate>Wed, 12 Jan 2022 18:21:31 -0600</pubDate>
 			
-			<guid>https://ethan-cope.github.io/posts/auto-grader/</guid>
+			<guid>http://localhost:1313/posts/auto-grader/</guid>
 			<description>&lt;blockquote&gt;
 &lt;p&gt;&amp;ldquo;Automation is good, so long as you know exactly where to put the machine.&amp;rdquo;&lt;br&gt;
 ~ Eliyahu Goldratt&lt;/p&gt;
@@ -1289,10 +1289,10 @@ Doing so would be a slog (mo chunks, mo problems). If anyone wants to take a cra
 		
 		<item>
 			<title>Professional CD Crafting with CDRDAO</title>
-			<link>https://ethan-cope.github.io/posts/cdrdao/</link>
+			<link>http://localhost:1313/posts/cdrdao/</link>
 			<pubDate>Tue, 04 Jan 2022 13:55:04 -0500</pubDate>
 			
-			<guid>https://ethan-cope.github.io/posts/cdrdao/</guid>
+			<guid>http://localhost:1313/posts/cdrdao/</guid>
 			<description>&lt;blockquote&gt;
 &lt;p&gt;All digital music listeners are equal. Acquisition is painless. Taste is irrelevant. It is pointless to boast about your iTunes collection, or the quality of your playlists on a streaming service. Music became data, one more set of 1&amp;rsquo;s and 0&amp;rsquo;s lurking in your hard drive, invisible to see and impossible to touch. Nothing is less cool than data. ~ David Sax&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -1402,10 +1402,10 @@ Don&rsquo;t believe me? Check out <a href="https://www.soundguys.com/high-bitrat
 		
 		<item>
 			<title>Echo-Matic Deluxe (Part 1): Marantz-based DIY Tape Echo</title>
-			<link>https://ethan-cope.github.io/posts/echo-matic_special/</link>
+			<link>http://localhost:1313/posts/echo-matic_special/</link>
 			<pubDate>Fri, 15 Oct 2021 13:07:50 -0500</pubDate>
 			
-			<guid>https://ethan-cope.github.io/posts/echo-matic_special/</guid>
+			<guid>http://localhost:1313/posts/echo-matic_special/</guid>
 			<description>&lt;p&gt;&lt;img src=&#34;https://img.audiofanzine.com/images/u/product/normal/roland-re-201-space-echo-6085.jpg&#34; alt=&#34;thing&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Back in 2019, I saw the influential space-rock group &lt;a href=&#34;https://www.youtube.com/watch?v=h9PcHA5Ievk&#34;&gt;Wand&lt;/a&gt; live.
 It was an amazing set of mostly new tunes, but I was a tad distracted by their lead guitarist.
@@ -1486,10 +1486,10 @@ Aisler takes about a month to manufacture, and junior year is starting up. Stay 
 		
 		<item>
 			<title>Buswarn: RasPi-based Transit Bus Tracking</title>
-			<link>https://ethan-cope.github.io/posts/buswarn/</link>
+			<link>http://localhost:1313/posts/buswarn/</link>
 			<pubDate>Mon, 27 Sep 2021 12:53:34 -0500</pubDate>
 			
-			<guid>https://ethan-cope.github.io/posts/buswarn/</guid>
+			<guid>http://localhost:1313/posts/buswarn/</guid>
 			<description>&lt;blockquote&gt;
 &lt;p&gt;Public transportation is like a magnifying glass that shows you civilization up close. ~ Chris Gethard&lt;/p&gt;
 &lt;/blockquote&gt;
