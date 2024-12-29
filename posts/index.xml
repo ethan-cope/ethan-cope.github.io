@@ -15,10 +15,13 @@
 			<pubDate>Thu, 07 Nov 2024 21:55:31 -0800</pubDate>
 			
 			<guid>https://ethan-cope.github.io/posts/cafematrix/</guid>
-			<description>The internet has undoubtedly anxiously awaited this next installment of my personal blog. Having revolutionized the spheres of architecture and education alike, what worlds are left to conquer? The answer is the flashy, cutthroat realm of restaurant ranking. A world that as of November 17, 2024, will never be the same. Introducing the new, paradigm-shifting CafeMatrix!
-Note: please read the above paragraph with a heavy dose of sarcasm
-The Problem Sweet Eugene&amp;rsquo;s (image from Yelp)</description>
-			<content type="html"><![CDATA[<p>The internet has undoubtedly anxiously awaited this next installment of my personal blog. Having revolutionized the spheres of <a href="/posts/japanarch/">architecture</a> and <a href="/posts/auto-grader-update/">education</a> alike, what worlds are left to conquer? The answer is the flashy, cutthroat realm of restaurant ranking. A world that as of November 17, 2024, will never be the same. Introducing the new, paradigm-shifting <a href="http://cafematrix.net">CafeMatrix</a>!</p>
+			<description>&lt;p&gt;The internet has undoubtedly anxiously awaited this next installment of my personal blog. Having revolutionized the spheres of &lt;a href=&#34;https://ethan-cope.github.io/posts/japanarch/&#34;&gt;architecture&lt;/a&gt; and &lt;a href=&#34;https://ethan-cope.github.io/posts/auto-grader-update/&#34;&gt;education&lt;/a&gt; alike, what worlds are left to conquer? The answer is the flashy, cutthroat realm of restaurant ranking. A world that as of December 28, 2024, will never be the same. Introducing the new, paradigm-shifting &lt;a href=&#34;http://cafematrix.net&#34;&gt;CafeMatrix&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Note: please read the above paragraph with a heavy dose of sarcasm&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;the-problem&#34;&gt;The Problem&lt;/h2&gt;
+&lt;figure class=&#34;right&#34;&gt;&lt;img src=&#34;https://ethan-cope.github.io/posts/cafematrix/eugenes.jpg&#34;
+    alt=&#34;image&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Sweet Eugene&amp;rsquo;s (image from &lt;a href=&#34;https://www.yelp.com/biz/sweet-eugenes-house-of-java-college-station&#34;&gt;Yelp&lt;/a&gt;)&lt;/p&gt;</description>
+			<content type="html"><![CDATA[<p>The internet has undoubtedly anxiously awaited this next installment of my personal blog. Having revolutionized the spheres of <a href="/posts/japanarch/">architecture</a> and <a href="/posts/auto-grader-update/">education</a> alike, what worlds are left to conquer? The answer is the flashy, cutthroat realm of restaurant ranking. A world that as of December 28, 2024, will never be the same. Introducing the new, paradigm-shifting <a href="http://cafematrix.net">CafeMatrix</a>!</p>
 <p><em>Note: please read the above paragraph with a heavy dose of sarcasm</em></p>
 <h2 id="the-problem">The Problem</h2>
 <figure class="right"><img src="/posts/cafematrix/eugenes.jpg"
@@ -27,7 +30,7 @@ The Problem Sweet Eugene&amp;rsquo;s (image from Yelp)</description>
     </figcaption>
 </figure>
 
-<p>Where I went to college, there was (and likely still is) a cafe called <em>Sweet Eugene&rsquo;s</em>. <em>Sweet&rsquo;s</em> was an otherwise normal cafe, but with an interior like a garage sale on acid. Couches and tables shared floor space with renaissance busts and industrial equipment. Throw in a closing time of 2:00 AM and plenty of seating, and you have a seemingly perfect cafe. And yet, Sweet Eugene&rsquo;s had an Achilles heel: their WiFi was abysmal. After one unsuccessful attempt to study at Sweet&rsquo;s, I came to a revelation - <strong>the 0-5 star scale is woefully inadequate for reviewing this (or any) cafe.</strong></p>
+<p>Where I went to college, there was (and likely still is) a cafe called <em>Sweet Eugene&rsquo;s</em>. <em>Sweet&rsquo;s</em> was an otherwise normal cafe, but with an interior like a garage sale on acid. Couches and tables shared floor space with renaissance busts and industrial equipment. Throw in a closing time of 2:00 AM and plenty of seating, and you have a seemingly perfect cafe. And yet, Sweet Eugene&rsquo;s had an Achilles heel: their WiFi was abysmal. After yet another unsuccessful attempt to study at Sweet&rsquo;s, I came to a revelation - <strong>the 0-5 star scale is woefully inadequate for reviewing this (or any) cafe.</strong></p>
 <p>Think about it: depending on a variety of factors, a cafe may be perfect for studying but horrible for hanging out! Or the opposite, or neither, or both! But what if we identified these individual factors (i.e. seating availability, Wi-Fi, coffee cost, etc.) and used them to calculate a cafe&rsquo;s &ldquo;study rating&rdquo; or a &ldquo;hangout rating&rdquo;? This was the seed that eventually grew into my newest and nerdiest project, <a href="http://cafematrix.net/">CafeMatrix</a>.</p>
 <h2 id="common-criteria--usage-for-cafematrix">Common Criteria / Usage for CafeMatrix</h2>
 <p>How <em>can</em> we rate a cafe, then? I normally go to a cafe for 2 reasons - to get work done, or to hang out with friends. My third decision factor is <em>value for money</em> - whether the experience is worth what I&rsquo;m paying for or not.
@@ -71,15 +74,15 @@ And wouldn&rsquo;t you know it, CafeMatrix ranks each cafe on 3 criteria - <em>A
 </figure>
 
 <h2 id="the-making-of-cafematrix">The Making of CafeMatrix</h2>
-<p>As the longest-running project I&rsquo;ve worked on (2+ years off and on!), CafeMatrix has evolved a LOT since it&rsquo;s initial concept. As with all of my projects, the end goal is to learn something new while solving a real problem. But since the beginning, CafeMatrix three philosophical foundations:</p>
+<p>As the longest-running project I&rsquo;ve worked on (about a year, off and on!), CafeMatrix has evolved a LOT since it&rsquo;s initial concept. As with all of my projects, the end goal is to learn something new while solving a real problem. But since the beginning, CafeMatrix three philosophical foundations:</p>
 <h3 id="foundation-1-cafematrix-should-be-easy-to-use">Foundation 1. CafeMatrix <strong>should be easy to use</strong></h3>
-<p>I fully believe that this project is too nerdy to every attain mass appeal. I still wanted to make CafeMatrix so simple that my Mom could use it. So many websites accidentally (<a href="https://www.mobilespoon/2019/06/20-dark-patterns-to-avoid-in-products.html">or even purposefully</a>!) kneecap user experience to drive profit. The fun challenge for CafeMatrix was continually re-vamping interfaces and backends to make user interactions as simple as humanly possible!</p>
+<p>I&rsquo;m pretty sure this project is too nerdy to every attain mass appeal. But one of my goals for CafeMatrix was a radically simple user experience. So many websites accidentally (<a href="https://www.mobilespoon/2019/06/20-dark-patterns-to-avoid-in-products.html">or even purposefully</a>!) kneecap user experience. The fun part of CafeMatrix was building a webapp as they should be - simple, intuitive, and user-respecting.</p>
 <h3 id="foundation-2-cafematrix-should-not-use-a-login-system--database-backend">Foundation 2. CafeMatrix <strong>should not use a login system / database backend</strong></h3>
-<p>Backstory time! The browser game <em><a href="https://www.coolmathgames.com/0-blacksmith-lab">Blacksmith Lab</a></em> blew my mind as a kid, simply because it always remembered my progress after I closed the tab! No logins, no two-factor authentication, just good ol&rsquo; cookies! My biggest challenge by far was implementing a similar system in CafeMatrix. In an age where every site you visit needs your email, phone number, and social to provide basic functionality, I wanted CafeMatrix to be a breath of fresh air. <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<p>Quick backstory on this one: The browser game <em><a href="https://www.coolmathgames.com/0-blacksmith-lab">Blacksmith Lab</a></em> blew my mind as a kid, simply because it remembered my progress after I closed the tab! No logins, no two-factor authentication, just good ol&rsquo; cookies! I knew I had to do something similar with CafeMatrix. In an age where every site you visit needs your email, phone number, and social security number to provide basic functionality, I wanted CafeMatrix to be a breath of fresh air. <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
 <h3 id="foundation-3-cafematrix-should-be-mobile-first">Foundation 3. CafeMatrix <strong>should be mobile-first</strong></h3>
-<p>As the project evolved, I found myself using CafeMatrix on my phone far more than on my laptop. This eventually led to an entire UI redesign around the bootstrap library, allowing dynamic re-sizing of windows to prioritize mobile without inconveniencing laptop users.</p>
+<p>As the project evolved, I found myself using CafeMatrix on my phone far more than on my laptop. This eventually led to an entire UI redesign around <a href="https://dash-bootstrap-components.opensource.faculty.ai/">bootstrap</a>, allowing dynamic re-sizing of windows to prioritize mobile without inconveniencing laptop users.</p>
 <h2 id="whats-next-for-cafematrix">What&rsquo;s next for CafeMatrix?</h2>
-<p>I&rsquo;m writing another article about CafeMatrix soon, about all of the things I learned from this project. After all, this is the first time I&rsquo;ve self-hosted a website! It&rsquo;s also the first time I&rsquo;ve built a website purely for public usage. I don&rsquo;t have any current plans to update CafeMatrix beyond it&rsquo;s current state, but if there&rsquo;s enough interest I may add HTTPS. It&rsquo;s up to you!</p>
+<p>I&rsquo;m writing another article about CafeMatrix soon, about all of the things I learned from this project. After all, this is the first time I&rsquo;ve self-hosted a website! It&rsquo;s also the first time I&rsquo;ve built a website purely for public usage. I don&rsquo;t have any current plans to update CafeMatrix beyond it&rsquo;s current state, but if there&rsquo;s enough interest I may add HTTPS. I put that &ldquo;buy me a coffee&rdquo; link on as a joke, but if there&rsquo;s enough interest, who knows what will happen! 🙃</p>
 <div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
@@ -87,7 +90,7 @@ And wouldn&rsquo;t you know it, CafeMatrix ranks each cafe on 3 criteria - <em>A
 <p>Anticipated Question: How can we possibly rate something on criteria subjective as &ldquo;vibe&rdquo; or &ldquo;spark&rdquo;? The short answer is, embrace the subjectivity! Does Starbucks taste like a 1 to you? Is your favorite coffee joint a 5? Then put that in the matrix! These rankings aren&rsquo;t meant to be objective truth - they&rsquo;re meant to be a resource to help decide where <em>you</em> want to study / hang out. Go wild!&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:2">
-<p>The clunkiest part of CafeMatrix is undoubtedly the .tsv backup process, but this is a direct result of the internet&rsquo;s evolution path. <a href="https://www.joelonsoftware.com/2004/06/13/how-microsoft-lost-the-api-war/">Joel Spolsky predicted this back in in 2004</a>: an increasing number of programs people use aren&rsquo;t installed onto their PC, they&rsquo;re on the web. Webapps like CafeMatrix use usernames and passwords to store user data in the cloud, historically for security (good) and more recently to sell this data to advertising companies (bad). The alternative to this is storing user data on the user&rsquo;s computer (CafeMatrix&rsquo;s approach), which has potential to be even more convenient than the cloud approach (imagine - no passwords!). Local storage access for web apps is improving (see the <a href="https://developer.mozilla.org/en-US/docs/Web/API/File_System_API">File System API</a> - maybe more websites will move this direction in the future!&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>The clunkiest part of CafeMatrix is undoubtedly the .tsv backup process, but this is a direct result of the internet&rsquo;s evolution path. <a href="https://www.joelonsoftware.com/2004/06/13/how-microsoft-lost-the-api-war/">Joel Spolsky predicted this back in in 2004</a>: an increasing number of programs people use aren&rsquo;t installed onto their PC, they&rsquo;re on the web. Webapps typically store user data in the cloud, historically for security (good) and more recently for ad tracking and targeting (bad). The alternative to this is storing user data on the user&rsquo;s computer (CafeMatrix&rsquo;s approach), which has potential to be even more convenient than the cloud approach (imagine - no passwords!). Local storage access for web apps is improving (see the <a href="https://developer.mozilla.org/en-US/docs/Web/API/File_System_API">File System API</a> - maybe more websites will move this direction in the future!&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div>
@@ -100,8 +103,13 @@ And wouldn&rsquo;t you know it, CafeMatrix ranks each cafe on 3 criteria - <em>A
 			<pubDate>Sat, 20 Apr 2024 16:32:24 -0500</pubDate>
 			
 			<guid>https://ethan-cope.github.io/posts/irvingapt/</guid>
-			<description>Sign at the entrance of the APT
-On the surface, Dallas looks like just another cookie-cutter commuter city. Compared to Austin&amp;rsquo;s booming tech industry and laid-back vibe, Dallas&amp;rsquo; historic hyperfocus on sprawling office parks has always felt a bit clinical. But the combination of this all-work all-the-time culture and a early 80&amp;rsquo;s real-estate boom led to some crazy planning experiments, and none were as crazy as the Irving&amp;rsquo;s Las Colinas district.</description>
+			<description>&lt;figure class=&#34;center&#34;&gt;&lt;img src=&#34;https://ethan-cope.github.io/posts/irvingapt/APTSign.jpg&#34;
+    alt=&#34;Sign for the entrance of the APT&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Sign at the entrance of the APT&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;On the surface, Dallas looks like just another cookie-cutter commuter city. Compared to Austin&amp;rsquo;s booming tech industry and laid-back vibe, Dallas&amp;rsquo; historic hyperfocus on sprawling office parks has always felt a bit clinical. But the combination of this all-work all-the-time culture and a early 80&amp;rsquo;s real-estate boom led to some crazy planning experiments, and none were as crazy as the Irving&amp;rsquo;s Las Colinas district. Real estate mogul Ben Carpenter&amp;rsquo;s original plan was to transform his family&amp;rsquo;s ranch (&lt;em&gt;El Ranchito de Las Colinas&lt;/em&gt;) into a master-planned community. No expense was spared - Las Colinas was a place where (&lt;a href=&#34;https://web.archive.org/web/20220712160053/https://www.dmagazine.com/publications/d-magazine/1987/august/magnificent-obsession/&#34;&gt;as D Magazine put it in 1987&lt;/a&gt;): &lt;em&gt;&amp;ldquo;you could gaze out your office window past a sparkling Lake Carolyn&amp;hellip; watch shoppers take a water taxi down the canals to lunch; where you could walk out of your office and be on one of four championship golf courses in ten minutes&amp;hellip; never leaving the manicured environs of Las Colinas.&amp;rdquo;&lt;/em&gt; But Las Colinas&amp;rsquo; boldest stroke was indisputably its &lt;strong&gt;Area Personal Transit&lt;/strong&gt; system.&lt;/p&gt;</description>
 			<content type="html"><![CDATA[<figure class="center"><img src="/posts/irvingapt/APTSign.jpg"
     alt="Sign for the entrance of the APT"><figcaption>
       <p>Sign at the entrance of the APT</p>
@@ -132,7 +140,7 @@ On the surface, Dallas looks like just another cookie-cutter commuter city. Comp
 
 <p>Of course, more stations were originally planned. What exists today is just a small subset of the intended 5.5 mile loop. But around the time APT started rolling, things in Las Colinas took a turn for the worse. <a href="https://www.bloomberg.com/news/features/2023-12-06/at-50-the-texas-business-hub-of-las-colinas-looks-beyond-office-space">Oil prices dropped and investment dried up</a>, turning Las Colinas&rsquo; densest office complexes into a ghost towns. Without commuters to move, the APT was deemed &ldquo;too expensive&rdquo; and mothballed in 1993. In 2013, the Dallas Area Rapid Transit (DART) Orange Line opened nearby, giving the APT a second lease on life. While the automation system didn&rsquo;t survive, the APT saw decent utilization until Covid-19 gave the city an excuse to kill the project again.</p>
 <figure class="center"><img src="/posts/irvingapt/StonehengeSupports.jpg"
-    alt="Stonehenge-like guideway supports for the cancelled red line expansion. (Photo credit: Jon Bell&amp;rsquo;s transit blog)"><figcaption>
+    alt="Stonehenge-like guideway supports for the cancelled red line expansion. (Photo credit: Jon Bell&rsquo;s transit blog)"><figcaption>
       <p>Stonehenge-like guideway supports for the cancelled red line expansion. (Photo credit: <a href="http://www.jtbell.net/transit/images/Irving/Supports.jpg">Jon Bell&rsquo;s transit blog</a>)</p>
     </figcaption>
 </figure>
@@ -154,48 +162,48 @@ On the surface, Dallas looks like just another cookie-cutter commuter city. Comp
 
 <p>I was even able to enter Bell Tower Station, which looks pretty good (considering its technically been closed for 4 years)!</p>
 <table>
-<thead>
-<tr>
-<th style="text-align:center"><img src="BellTowerStaircase.jpg" alt=""></th>
-<th style="text-align:center"><img src="BellTowerHallway.jpg" alt=""></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center"><em>Bell Tower Station&rsquo;s ground-level staircase</em></td>
-<td style="text-align:center"><em>Platform access hallway. The slightly raised tile flooring on the right likely hosted ticket machines.</em></td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: center"><img src="BellTowerStaircase.jpg" alt=""></th>
+          <th style="text-align: center"><img src="BellTowerHallway.jpg" alt=""></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center"><em>Bell Tower Station&rsquo;s ground-level staircase</em></td>
+          <td style="text-align: center"><em>Platform access hallway. The slightly raised tile flooring on the right likely hosted ticket machines.</em></td>
+      </tr>
+  </tbody>
 </table>
 <p>I got as far as the former turnstile station, where access to the platform was blocked by foreboding steel shutters.</p>
 <table>
-<thead>
-<tr>
-<th style="text-align:center"><img src="BellTowerInteriorEthan.jpg" alt=""></th>
-<th style="text-align:center"><img src="BellTowerInteriorJONBELL.jpg" alt=""></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center"><em>Platform waiting area, sadly blocked off since the system&rsquo;s closure in 2020</em></td>
-<td style="text-align:center"><em>Platform waiting area circa 2002 (<a href="http://www.jtbell.net/transit/Irving/">from Jon Bell&rsquo;s blog</a>)</em></td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: center"><img src="BellTowerInteriorEthan.jpg" alt=""></th>
+          <th style="text-align: center"><img src="BellTowerInteriorJONBELL.jpg" alt=""></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center"><em>Platform waiting area, sadly blocked off since the system&rsquo;s closure in 2020</em></td>
+          <td style="text-align: center"><em>Platform waiting area circa 2002 (<a href="http://www.jtbell.net/transit/Irving/">from Jon Bell&rsquo;s blog</a>)</em></td>
+      </tr>
+  </tbody>
 </table>
 <p>Bell Tower Station was a sort of central station for the APT, handling traffic from both the red and blue lines.</p>
 <table>
-<thead>
-<tr>
-<th style="text-align:center"><img src="Downline.jpg" alt=""></th>
-<th style="text-align:center"><img src="Upline.jpg" alt=""></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center"><em>Downline from Bell Tower Station, towards 600 Las Colinas Blvd. (Previously Cigna Tower)</em></td>
-<td style="text-align:center"><em>Upline towards DART connection and Urban Towers, through another Venice-inspired canal</em></td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: center"><img src="Downline.jpg" alt=""></th>
+          <th style="text-align: center"><img src="Upline.jpg" alt=""></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center"><em>Downline from Bell Tower Station, towards 600 Las Colinas Blvd. (Previously Cigna Tower)</em></td>
+          <td style="text-align: center"><em>Upline towards DART connection and Urban Towers, through another Venice-inspired canal</em></td>
+      </tr>
+  </tbody>
 </table>
 <h2 id="tower-909-and-dart-connection">Tower 909 and DART Connection</h2>
 <figure class="center"><img src="/posts/irvingapt/Tower909.jpg"
@@ -206,33 +214,33 @@ On the surface, Dallas looks like just another cookie-cutter commuter city. Comp
 
 <p>In 2013, the Tower 909 APT station added a pedestrian bridge and elevator service to the then-new DART orange line. According to Jon Bell, this led to <a href="http://www.jtbell.net/transit/Irving/">an increase in &ldquo;commuter-type riders&rdquo;</a>, improving ridership numbers. Today, the pedestrian bridge is still open, but the platform is once again fenced off.</p>
 <table>
-<thead>
-<tr>
-<th style="text-align:center"><img src="BridgePlusDart.jpg" alt=""></th>
-<th style="text-align:center"><img src="DartAptSign.jpg" alt=""></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center"><em>Another view of the pedestrian bridge, flanked by DART&rsquo;s Urban Center station.</em></td>
-<td style="text-align:center"><em>Even the DART&rsquo;s artwork (Dartwork?) references the APT!</em></td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: center"><img src="BridgePlusDart.jpg" alt=""></th>
+          <th style="text-align: center"><img src="DartAptSign.jpg" alt=""></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center"><em>Another view of the pedestrian bridge, flanked by DART&rsquo;s Urban Center station.</em></td>
+          <td style="text-align: center"><em>Even the DART&rsquo;s artwork (Dartwork?) references the APT!</em></td>
+      </tr>
+  </tbody>
 </table>
 <p>This seems like a massive oversight; DART built their elevator tower right in the path of the APT tracks, <strong>actively blocking</strong> any further extension of the blue line! Was Las Colinas really that pessimistic about post-renovation ridership?</p>
 <table>
-<thead>
-<tr>
-<th style="text-align:center"><img src="909Platform1.jpg" alt=""></th>
-<th style="text-align:center"><img src="909Platform2.jpg" alt=""></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center"><em>Tower 909&rsquo;s APT platform. It didn&rsquo;t even run on weekends!</em></td>
-<td style="text-align:center"><em>APT tracks to nowhere. The footbridge this picture was taken from blocks the blue line from expanding further east</em></td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: center"><img src="909Platform1.jpg" alt=""></th>
+          <th style="text-align: center"><img src="909Platform2.jpg" alt=""></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center"><em>Tower 909&rsquo;s APT platform. It didn&rsquo;t even run on weekends!</em></td>
+          <td style="text-align: center"><em>APT tracks to nowhere. The footbridge this picture was taken from blocks the blue line from expanding further east</em></td>
+      </tr>
+  </tbody>
 </table>
 <h2 id="urban-towers">Urban Towers</h2>
 <figure class="center"><img src="/posts/irvingapt/UrbanTowers.jpg"
@@ -243,18 +251,18 @@ On the surface, Dallas looks like just another cookie-cutter commuter city. Comp
 
 <p>One company was so invested in the APT that they built a station at the heart of their headquarters! That company was <a href="https://www.dallasnews.com/business/real-estate/2013/09/03/california-investor-buys-las-colinas-tower-complex/">Xerox</a>, who abandoned the complex sometime after its construction in 1984. Their former Xerox Center is now called &ldquo;Urban Towers&rdquo;, which still <a href="http://urban-towers.com/home.axis">advertises the APT</a> as an amenity despite the system&rsquo;s 2020 closure.</p>
 <table>
-<thead>
-<tr>
-<th style="text-align:center"><img src="UrbanTowersExpansion.jpg" alt=""></th>
-<th style="text-align:center"><img src="UrbanTowersApt.png" alt=""></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center"><em>The APT planned on expanding north of Urban Towers, too. (Photo credit: <a href="http://www.jtbell.net/transit/Irving/">Jon Bell&rsquo;s Blog</a>)</em></td>
-<td style="text-align:center"><em>Interior of Urban Towers&rsquo; APT station, from <a href="http://urban-towers.com/home.axis">Urban Towers&rsquo; marketing vid</a>.</em></td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: center"><img src="UrbanTowersExpansion.jpg" alt=""></th>
+          <th style="text-align: center"><img src="UrbanTowersApt.png" alt=""></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center"><em>The APT planned on expanding north of Urban Towers, too. (Photo credit: <a href="http://www.jtbell.net/transit/Irving/">Jon Bell&rsquo;s Blog</a>)</em></td>
+          <td style="text-align: center"><em>Interior of Urban Towers&rsquo; APT station, from <a href="http://urban-towers.com/home.axis">Urban Towers&rsquo; marketing vid</a>.</em></td>
+      </tr>
+  </tbody>
 </table>
 <h2 id="the-future-of-the-apt">The Future of the APT?</h2>
 <p>Will the APT reopen? I&rsquo;d love to be optimistic, but things look pretty bleak. A <a href="https://www.bloomberg.com/news/features/2023-12-06/at-50-the-texas-business-hub-of-las-colinas-looks-beyond-office-space">flurry of new development</a> has been built over the planned APT right-of-way. New tracks could be added, but would never be as organically integrated as the first-gen sections. Besides, any expansion seems unthinkable to the city. In their eyes, the APT is an eyesore, a footnote. As it stands, the APT is <a href="https://web.archive.org/web/20210422164803/https://dcurd.org/apt-system/">closed indefinitely</a>.</p>
@@ -275,7 +283,12 @@ On the surface, Dallas looks like just another cookie-cutter commuter city. Comp
 			<pubDate>Sun, 27 Aug 2023 15:39:53 -0500</pubDate>
 			
 			<guid>https://ethan-cope.github.io/posts/echo-matic_special2/</guid>
-			<description>Personal projects often feel like a weird limbo between work and play. Starting a project motivated by nothing but passion and a willingness to learn is great. Even if the initial enthusiasm fades, it&amp;rsquo;s still worth it to power through. A finished project is often its own satisfaction. But when all personal interest in the project evaporates, even the most simple tasks become tedious. Every time I think about my gutted Marantz tape deck project, I find myself caring less and less.</description>
+			<description>&lt;p&gt;Personal projects often feel like a weird limbo between work and play.
+Starting a project motivated by nothing but passion and a willingness to learn is great.
+Even if the initial enthusiasm fades, it&amp;rsquo;s still worth it to power through. A finished project is often its own satisfaction.
+But when all personal interest in the project evaporates, even the most simple tasks become tedious.
+Every time I think about my gutted Marantz tape deck project, I find myself caring less and less.
+My recent move to Santa Clara was the final excuse I needed; I&amp;rsquo;m no longer working on the DIY tape echo project.&lt;/p&gt;</description>
 			<content type="html"><![CDATA[<p>Personal projects often feel like a weird limbo between work and play.
 Starting a project motivated by nothing but passion and a willingness to learn is great.
 Even if the initial enthusiasm fades, it&rsquo;s still worth it to power through. A finished project is often its own satisfaction.
@@ -319,7 +332,12 @@ I just wanted to move on.</p>
 			<pubDate>Mon, 31 Jul 2023 01:00:07 -0500</pubDate>
 			
 			<guid>https://ethan-cope.github.io/posts/japanarch/</guid>
-			<description>The architectural definition of &amp;ldquo;modern&amp;rdquo;1 has always been a moving target. Every year, once &amp;ldquo;stylistically cutting-edge&amp;rdquo; buildings slip into the realm of &amp;ldquo;dated&amp;rdquo; and &amp;ldquo;cliche&amp;rdquo;. And the other day, I finally stumbled on across a building that proved this point. Nagoya&amp;rsquo;s Sasashima-Ribu station is totally representative of a particular architectural style; one that, at the time of it&amp;rsquo;s construction, was synonymous with &amp;ldquo;modern architecture&amp;rdquo;. But a quarter of a century has separated innovation from trend, revealing a slew of early 2000&amp;rsquo;s quintessential quirks.</description>
+			<description>&lt;p&gt;The architectural definition of &amp;ldquo;modern&amp;rdquo;&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; has always been a moving target.
+Every year, once &amp;ldquo;stylistically cutting-edge&amp;rdquo; buildings slip into the realm of &amp;ldquo;dated&amp;rdquo; and &amp;ldquo;cliche&amp;rdquo;.
+And the other day, I finally stumbled on across a building that proved this point.
+Nagoya&amp;rsquo;s Sasashima-Ribu station is totally representative of a particular architectural style; one that, at the time of it&amp;rsquo;s construction, was synonymous with &amp;ldquo;modern architecture&amp;rdquo;.
+But a quarter of a century has separated innovation from trend, revealing a slew of early 2000&amp;rsquo;s quintessential quirks.
+So let&amp;rsquo;s examine a building that the &amp;ldquo;architecturally modern&amp;rdquo; has since evolved past.&lt;/p&gt;</description>
 			<content type="html"><![CDATA[<p>The architectural definition of &ldquo;modern&rdquo;<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> has always been a moving target.
 Every year, once &ldquo;stylistically cutting-edge&rdquo; buildings slip into the realm of &ldquo;dated&rdquo; and &ldquo;cliche&rdquo;.
 And the other day, I finally stumbled on across a building that proved this point.
@@ -416,8 +434,21 @@ Every time I see one, I&rsquo;m reminded that the future doesn&rsquo;t have to b
 			<pubDate>Fri, 14 Jul 2023 01:00:15 -0500</pubDate>
 			
 			<guid>https://ethan-cope.github.io/posts/gacha/</guid>
-			<description>Remember those 25-cent gumball machines? The ones where you could trade a quarter for a gumball older than the dotcom crash? Imagine that, but instead of a chunk of crusty candy, you win a random 1/64th scale model car. That&amp;rsquo;s essentially Gachapon!
-Bandai Namco&amp;rsquo;s toy vending machines are addictively simple. Insert cash (1), twist dial (2), and collect model (3). Since the 1970&amp;rsquo;s, Gachapon machines have dispensed billions of anime figurines, sushi keychains, and (most notably), tiny scale vehicles.</description>
+			<description>&lt;p&gt;Remember those 25-cent gumball machines?
+The ones where you could trade a quarter for a gumball older than the dotcom crash?
+Imagine that, but instead of a chunk of crusty candy, you win a random 1/64th scale model car.
+That&amp;rsquo;s essentially Gachapon!&lt;/p&gt;
+&lt;figure class=&#34;left&#34;&gt;&lt;img src=&#34;https://ethan-cope.github.io/posts/gacha/machExample.jpg&#34;
+    alt=&#34;image&#34;&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Bandai Namco&amp;rsquo;s toy vending machines are addictively simple.
+Insert cash &lt;strong&gt;(1)&lt;/strong&gt;, twist dial &lt;strong&gt;(2)&lt;/strong&gt;, and collect model &lt;strong&gt;(3)&lt;/strong&gt;.
+Since the 1970&amp;rsquo;s, Gachapon machines have dispensed billions of anime figurines, sushi keychains, and (most notably), tiny scale vehicles.
+For vehicle Gacha, each machine is dedicated to a specific make and model.
+Certain things are randomized: you may win one with a body kit, rare paint color, or a specific trim level.
+Whole subcultures exist around the trading and collecting of these tiny models.
+When I first came to Japan, it didn&amp;rsquo;t take long for these miniature machines to steal my heart - I was hooked!&lt;/p&gt;</description>
 			<content type="html"><![CDATA[<p>Remember those 25-cent gumball machines?
 The ones where you could trade a quarter for a gumball older than the dotcom crash?
 Imagine that, but instead of a chunk of crusty candy, you win a random 1/64th scale model car.
@@ -494,18 +525,18 @@ It&rsquo;s mid-engine layout meant no trunk, and the tiny frunk could barely fit
 Mazda didn&rsquo;t even come close to it&rsquo;s sales target of 800 units per month, and by 1994, the AZ-1 was dead.
 And yet, it&rsquo;s legacy lives on in Gashapon machines and the hearts of short-statured enthusiasts everywhere!</p>
 <table>
-<thead>
-<tr>
-<th style="text-align:center"><img src="az1frontquarter.jpg" alt=""></th>
-<th style="text-align:center"><img src="az1front.jpg" alt=""></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center"><em>front quarter view</em></td>
-<td style="text-align:center"><em>front view</em></td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: center"><img src="az1frontquarter.jpg" alt=""></th>
+          <th style="text-align: center"><img src="az1front.jpg" alt=""></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center"><em>front quarter view</em></td>
+          <td style="text-align: center"><em>front view</em></td>
+      </tr>
+  </tbody>
 </table>
 <h2 id="subaru-360-1958-1971">Subaru 360 (1958-1971)</h2>
 <figure class="left"><img src="/posts/gacha/subarumach.jpg"
@@ -532,20 +563,20 @@ Maligned in the States, the Subaru 360 is nonetheless celebrated across the Paci
 Today, &ldquo;the ladybug&rdquo; is still seen as a symbol of Japan&rsquo;s technical and societal reconstruction after the destruction of WWII.
 $3.50 was a steal for this replica of Japanese car culture&rsquo;s roots!</p>
 <table>
-<thead>
-<tr>
-<th style="text-align:center"><img src="subaruparts.jpg" alt=""></th>
-<th style="text-align:center"><img src="subarufront.jpg" alt=""></th>
-<th style="text-align:center"><img src="subaruback.jpg" alt=""></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center"><em>parts assembly</em></td>
-<td style="text-align:center"><em>front quarter view</em></td>
-<td style="text-align:center"><em>rear view</em></td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: center"><img src="subaruparts.jpg" alt=""></th>
+          <th style="text-align: center"><img src="subarufront.jpg" alt=""></th>
+          <th style="text-align: center"><img src="subaruback.jpg" alt=""></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center"><em>parts assembly</em></td>
+          <td style="text-align: center"><em>front quarter view</em></td>
+          <td style="text-align: center"><em>rear view</em></td>
+      </tr>
+  </tbody>
 </table>
 <h2 id="nissan-s-cargo-1989-1991">Nissan S-Cargo (1989-1991)</h2>
 <figure class="left"><img src="/posts/gacha/scargomach.jpg"
@@ -577,20 +608,20 @@ Powertrain-wise, it was essentially a Nissan Pulsar, which meant a wheezy <a hre
 I also can&rsquo;t imagine that the downward-sloping roofline helped cargo capacity, but Nissan claims<a href="https://web.archive.org/web/20160703050240/http://www.nissan-global.com/EN/HERITAGE/s_cargo_230.html"> &ldquo;the high roof of the cargo area was especially popular&rdquo;.</a>
 Maybe I don&rsquo;t get the hype - if you want an iconic Japanese delivery vehicle, there&rsquo;s a much more obvious choice&hellip;</p>
 <table>
-<thead>
-<tr>
-<th style="text-align:center"><img src="scargoparts.jpg" alt=""></th>
-<th style="text-align:center"><img src="scargofront.jpg" alt=""></th>
-<th style="text-align:center"><img src="scargoback.jpg" alt=""></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center"><em>parts assembly</em></td>
-<td style="text-align:center"><em>front quarter view</em></td>
-<td style="text-align:center"><em>side view</em></td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: center"><img src="scargoparts.jpg" alt=""></th>
+          <th style="text-align: center"><img src="scargofront.jpg" alt=""></th>
+          <th style="text-align: center"><img src="scargoback.jpg" alt=""></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center"><em>parts assembly</em></td>
+          <td style="text-align: center"><em>front quarter view</em></td>
+          <td style="text-align: center"><em>side view</em></td>
+      </tr>
+  </tbody>
 </table>
 <h2 id="honorable-mention-ae86-corolla">Honorable Mention: AE86 Corolla</h2>
 <figure class="right"><img src="/posts/gacha/ae86mach.jpg"
@@ -639,20 +670,20 @@ But if you look closely at <a href="https://www.suzuki.co.jp/release/a/2022/0620
 This modularity makes the Jimny a common choice for overlanding builds, which seem just as popular in Japan as in the states.
 The Gacha model actually came with multiple bumpers, so you can choose whether you want a bone-stock Jimny or a rock-crawling powerhouse!</p>
 <table>
-<thead>
-<tr>
-<th style="text-align:center"><img src="jimnyparts.jpg" alt=""></th>
-<th style="text-align:center"><img src="jimnyfront.jpg" alt=""></th>
-<th style="text-align:center"><img src="jimnyback.jpg" alt=""></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center"><em>parts assembly</em></td>
-<td style="text-align:center"><em>front quarter view</em></td>
-<td style="text-align:center"><em>rear 3/4 view</em></td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th style="text-align: center"><img src="jimnyparts.jpg" alt=""></th>
+          <th style="text-align: center"><img src="jimnyfront.jpg" alt=""></th>
+          <th style="text-align: center"><img src="jimnyback.jpg" alt=""></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center"><em>parts assembly</em></td>
+          <td style="text-align: center"><em>front quarter view</em></td>
+          <td style="text-align: center"><em>rear 3/4 view</em></td>
+      </tr>
+  </tbody>
 </table>
 <p>That&rsquo;s it for the roundup! There were a few more vehicles I wanted to get to - but if I don&rsquo;t end this somewhere I never will.
 Thanks for bearing with the diversion from my usual format, and let me know if you&rsquo;re interested in more articles like this!</p>
@@ -665,9 +696,14 @@ Thanks for bearing with the diversion from my usual format, and let me know if y
 			<pubDate>Sun, 30 Apr 2023 17:30:30 -0500</pubDate>
 			
 			<guid>https://ethan-cope.github.io/posts/pws/</guid>
-			<description>You&amp;rsquo;ve got to start with the customer experience and work back toward the technology, not the other way around. ~ Steve Jobs
-Last weekend I had the opportunity to participate in Problems Worth Solving: Texas A&amp;amp;M&amp;rsquo;s first and only entrepreneurship competition that outright bans solutions.
-Great businesses arise from an intimate understanding of your customers&amp;rsquo; needs. PWS emphasizes this critical step of entrepreneurship by focusing entrepreneurs on the problem, not the solution.</description>
+			<description>&lt;blockquote&gt;
+&lt;p&gt;You&amp;rsquo;ve got to start with the customer experience and work back toward the technology, not the other way around. ~ Steve Jobs&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Last weekend I had the opportunity to participate in &lt;a href=&#34;https://engineering.tamu.edu/student-life/eep/problems-worth-solving-competition.html&#34;&gt;Problems Worth Solving&lt;/a&gt;:
+Texas A&amp;amp;M&amp;rsquo;s first and only entrepreneurship competition that outright &lt;em&gt;bans&lt;/em&gt; solutions.&lt;/p&gt;
+&lt;p&gt;Great businesses arise from an intimate understanding of your customers&amp;rsquo; needs.
+PWS emphasizes this critical step of entrepreneurship by focusing entrepreneurs on the problem, &lt;strong&gt;not&lt;/strong&gt; the solution.
+The competition was 5 minutes of presenting in-depth on an important problem that many face, and 5 minutes of Q&amp;amp;A with industry judges.&lt;/p&gt;</description>
 			<content type="html"><![CDATA[<blockquote>
 <p>You&rsquo;ve got to start with the customer experience and work back toward the technology, not the other way around. ~ Steve Jobs</p>
 </blockquote>
@@ -698,7 +734,8 @@ If you want to watch the presentation, check it out below!</p>
 			<pubDate>Fri, 03 Feb 2023 14:51:34 -0600</pubDate>
 			
 			<guid>https://ethan-cope.github.io/posts/jenkinsapi/</guid>
-			<description>Holy moly, the Jenkins documentation is bad. At the very least, it isn&amp;rsquo;t very user-friendly, especially for beginners. For someone who has little-to-no experience in web development, doing something as simple as getting some job data from a Node program is the equivalent of pulling teeth. After spending hours in rabbit holes, I finally stumbled on a configuration that works. This mini-writeup will hopefully help those webdev-challenged folks such as myself in the quest for Jenkins API usage.</description>
+			<description>&lt;p&gt;Holy moly, the Jenkins documentation is bad. At the very least, it isn&amp;rsquo;t very user-friendly, especially for beginners.
+For someone who has little-to-no experience in web development, doing something as simple as getting some job data from a Node program is the equivalent of pulling teeth. After spending hours in rabbit holes, I finally stumbled on a configuration that works. This mini-writeup will hopefully help those webdev-challenged folks such as myself in the quest for Jenkins API usage.&lt;/p&gt;</description>
 			<content type="html"><![CDATA[<p>Holy moly, the Jenkins documentation is bad. At the very least, it isn&rsquo;t very user-friendly, especially for beginners.
 For someone who has little-to-no experience in web development, doing something as simple as getting some job data from a Node program is the equivalent of pulling teeth. After spending hours in rabbit holes, I finally stumbled on a configuration that works. This mini-writeup will hopefully help those webdev-challenged folks such as myself in the quest for Jenkins API usage.</p>
 <p>My goal for this project was pulling real-time job data from Jenkins, so I won&rsquo;t dive into more advanced stuff like creating jobs and triggering builds. But the Jenkins API does support those actions, so keep that in mind.</p>
@@ -767,9 +804,18 @@ function JobData(jobName){
 			<pubDate>Tue, 27 Dec 2022 15:06:31 -0600</pubDate>
 			
 			<guid>https://ethan-cope.github.io/posts/ge7/</guid>
-			<description>Post-Mod GE-7
-The Mod If you just want to skip to the fix, head to this section.
-At the advice of Brian Wampler, I caved and bought a minty used Boss GE-7. Imagine my surprise after moving any of the EQ sliders introduced very noticeable noise! How could you, Boss? Apparently, when the GE-7 was first designed, battery life and price point were more important considerations than audio fidelity. As a result, any GE-7s made from 1981 to 2017 use the TL022 dual op-amp chips.</description>
+			<description>&lt;figure&gt;&lt;img src=&#34;https://ethan-cope.github.io/posts/ge7/ge7pic.jpg&#34;
+    alt=&#34;image&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;Post-Mod GE-7&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h1 id=&#34;the-mod&#34;&gt;The Mod&lt;/h1&gt;
+&lt;p&gt;If you just want to skip to the fix, head to &lt;a href=&#34;#the-fix&#34;&gt;this section&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;At the advice of &lt;a href=&#34;https://www.youtube.com/watch?v=hypn6uA6RPs&#34;&gt;Brian Wampler&lt;/a&gt;, I caved and bought a minty used Boss GE-7.
+Imagine my surprise after moving any of the EQ sliders introduced very noticeable noise! How could you, Boss? Apparently, when the GE-7 was first designed, battery life and price point were more important considerations than audio fidelity.
+As a result, any GE-7s made from 1981 to 2017 use the &lt;code&gt;TL022&lt;/code&gt; dual op-amp chips. These outdated chips are surpassed in every aspect of audio performance by the more recent &lt;code&gt;NE5532&lt;/code&gt; dual op-amps, despite drawing more current.
+&lt;em&gt;(&lt;a href=&#34;https://www.ti.com/lit/ds/symlink/ne5532.pdf&#34;&gt;38 mA&lt;/a&gt; vs &lt;a href=&#34;https://www.ti.com/lit/ds/symlink/tl022.pdf?ts=1672127917081&#34;&gt;6 mA&lt;/a&gt; in output short-circuit condition. &lt;a href=&#34;https://www.physics.unlv.edu/~bill/PHYS483/op_amp_datasheet.pdf&#34;&gt;This is a good read&lt;/a&gt; if you need a refresher on op-amp datasheet deciphering)&lt;/em&gt;.&lt;/p&gt;</description>
 			<content type="html"><![CDATA[<figure><img src="/posts/ge7/ge7pic.jpg"
     alt="image"><figcaption>
       <p>Post-Mod GE-7</p>
@@ -823,10 +869,16 @@ Even using the enclosure as a ground plane speaks to the dual priorities of buil
 			<pubDate>Sun, 25 Dec 2022 19:04:34 -0600</pubDate>
 			
 			<guid>https://ethan-cope.github.io/posts/thinking-of-you/</guid>
-			<description>Faced with the tradition of family Christmas gift giving, I was thoroughly stumped. I knew I wanted to do something maker-related: I&amp;rsquo;m the only engineer in the family, which tends to amplify the wow factor of any techncal projects :)
-After my fallback plan (a Chemex coffee maker) fell through, I knew I had to build these!
-the finished product!
-These are long-distance friendship lanterns. The idea is, sometimes you want to let a distant friend or family member know that you&amp;rsquo;re thinking of them, even if you don&amp;rsquo;t necessarily want to shoot them a text.</description>
+			<description>&lt;p&gt;Faced with the tradition of family Christmas gift giving, I was thoroughly stumped.
+I knew I wanted to do something maker-related: I&amp;rsquo;m the only engineer in the family, which tends to amplify the wow factor of any techncal projects :)&lt;/p&gt;
+&lt;p&gt;After my fallback plan (a Chemex coffee maker) fell through, I knew I had to build these!&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;https://ethan-cope.github.io/posts/thinking-of-you/boximg.jpg&#34;
+    alt=&#34;image&#34;&gt;&lt;figcaption&gt;
+      &lt;p&gt;the finished product!&lt;/p&gt;
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;These are &lt;a href=&#34;https://www.instructables.com/DIY-Long-Distance-Best-Friend-Lights/&#34;&gt;long-distance friendship lanterns&lt;/a&gt;. The idea is, sometimes you want to let a distant friend or family member know that you&amp;rsquo;re thinking of them, even if you don&amp;rsquo;t necessarily want to shoot them a text. The lanterns couldn&amp;rsquo;t be simpler to use: turning on your lantern also turns on your friends&amp;rsquo; lantern, no matter where they are in the world.&lt;/p&gt;</description>
 			<content type="html"><![CDATA[<p>Faced with the tradition of family Christmas gift giving, I was thoroughly stumped.
 I knew I wanted to do something maker-related: I&rsquo;m the only engineer in the family, which tends to amplify the wow factor of any techncal projects :)</p>
 <p>After my fallback plan (a Chemex coffee maker) fell through, I knew I had to build these!</p>
@@ -889,9 +941,11 @@ Add in a clear case from the container store, and we&rsquo;re ready to rock!</p>
 			<pubDate>Fri, 23 Dec 2022 15:36:55 -0600</pubDate>
 			
 			<guid>https://ethan-cope.github.io/posts/auto-grader-update/</guid>
-			<description>One in six children who are not reading proficiently in third grade fail to graduate from high school on time, four times the rate for children with proficient third-grade reading skills. &amp;ndash; &amp;quot;Double Jeopardy&amp;quot;, Annie E. Casey Foundation
-Since rolling out my spelling test grader, Catch Up and Read (CAR) has asked for more grading automation! Here&amp;rsquo;s a quick update on the new grader, the Phonics Survey.
-What is a Phonics Survey?</description>
+			<description>&lt;blockquote&gt;
+&lt;p&gt;One in six children who are not reading proficiently in third grade fail to graduate from high school on time, four times the rate for children with proficient third-grade reading skills. &amp;ndash; &lt;!-- raw HTML omitted --&gt;&amp;quot;&lt;a href=&#34;https://www.aecf.org/resources/double-jeopardy&#34;&gt;Double Jeopardy&lt;/a&gt;&amp;quot;, Annie E. Casey Foundation&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Since rolling out my spelling test grader, Catch Up and Read (CAR) has asked for more grading automation!
+Here&amp;rsquo;s a quick update on the new grader, the &lt;em&gt;Phonics Survey&lt;/em&gt;.&lt;/p&gt;</description>
 			<content type="html"><![CDATA[<blockquote>
 <p>One in six children who are not reading proficiently in third grade fail to graduate from high school on time, four times the rate for children with proficient third-grade reading skills. &ndash; <!-- raw HTML omitted -->&quot;<a href="https://www.aecf.org/resources/double-jeopardy">Double Jeopardy</a>&quot;, Annie E. Casey Foundation<!-- raw HTML omitted --></p>
 </blockquote>
@@ -947,8 +1001,11 @@ Here&rsquo;s a quick update on the new grader, the <em>Phonics Survey</em>.</p>
 			<pubDate>Sat, 17 Dec 2022 10:20:53 -0500</pubDate>
 			
 			<guid>https://ethan-cope.github.io/posts/congratulations/</guid>
-			<description>We are absolutely dead serious about music-making, and that’s what we want people to understand, that there’s no joke in it. We’re not intentionally trying to f*ck with people, we’re actually making this music that we love and we want people to hear it.1 ~ Ben Goldwasser
-You may not be familiar with MGMT, but anyone who had a pulse in the late 2000&amp;rsquo;s has most likely heard their work.</description>
+			<description>&lt;blockquote&gt;
+&lt;p&gt;We are absolutely dead serious about music-making, and that’s what we want people to understand, that there’s no joke in it. We’re not intentionally trying to f*ck with people, we’re actually making this music that we love and we want people to hear it.&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt; ~ Ben Goldwasser&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;You may not be familiar with MGMT, but anyone who had a pulse in the late 2000&amp;rsquo;s has most likely heard their work.
+Don&amp;rsquo;t believe me? Give this a listen and tell me it doesn&amp;rsquo;t ring a bell.&lt;/p&gt;</description>
 			<content type="html"><![CDATA[<blockquote>
 <p>We are absolutely dead serious about music-making, and that’s what we want people to understand, that there’s no joke in it. We’re not intentionally trying to f*ck with people, we’re actually making this music that we love and we want people to hear it.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> ~ Ben Goldwasser</p>
 </blockquote>
@@ -1029,9 +1086,16 @@ This album stands as a musical reminder that but it takes real boldness to step 
 			<pubDate>Wed, 02 Feb 2022 13:28:52 -0600</pubDate>
 			
 			<guid>https://ethan-cope.github.io/posts/mymirror/</guid>
-			<description>Note: More information about myMirror can be found on the project&amp;rsquo;s devpost. Check there for other peoples&amp;rsquo; contributions!
-Why myMirror? When I wake up in the morning, there&amp;rsquo;s a lot I know I probably should do. For example, I should probably prepare for the day ahead by checking the weather and my daily calendar. But often times, I just don&amp;rsquo;t. For situations like this, myMirror is here to help.
-myMirror solves the above dilemma by integrating this crucial information into your everyday bathroom mirror.</description>
+			<description>&lt;p&gt;&lt;em&gt;Note: More information about myMirror can be found on &lt;a href=&#34;https://devpost.com/software/mymirror&#34;&gt;the project&amp;rsquo;s devpost&lt;/a&gt;.&lt;/em&gt;
+&lt;em&gt;Check there for other peoples&amp;rsquo; contributions!&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;why-mymirror&#34;&gt;Why myMirror?&lt;/h2&gt;
+&lt;p&gt;When I wake up in the morning, there&amp;rsquo;s a lot I know I probably should do.
+For example, I should probably prepare for the day ahead by checking the weather and my daily calendar.
+But often times, &lt;strong&gt;I just don&amp;rsquo;t&lt;/strong&gt;. For situations like this, myMirror is here to help.&lt;/p&gt;
+&lt;p&gt;myMirror solves the above dilemma by integrating this crucial information into your everyday bathroom mirror.
+myMirror is a &lt;em&gt;smart mirror&lt;/em&gt; with an embedded display screen,
+displaying the current time and date, weather for your area, and personal Google Calendar reminders.
+It even features a motion sensor, turning off the display to save power when a user isn&amp;rsquo;t detected.&lt;/p&gt;</description>
 			<content type="html"><![CDATA[<p><em>Note: More information about myMirror can be found on <a href="https://devpost.com/software/mymirror">the project&rsquo;s devpost</a>.</em>
 <em>Check there for other peoples&rsquo; contributions!</em></p>
 <h2 id="why-mymirror">Why myMirror?</h2>
@@ -1116,10 +1180,21 @@ When a small team of skilled people all play to their strengths, crazy ideas lik
 			<pubDate>Wed, 12 Jan 2022 18:21:31 -0600</pubDate>
 			
 			<guid>https://ethan-cope.github.io/posts/auto-grader/</guid>
-			<description>&amp;ldquo;Automation is good, so long as you know exactly where to put the machine.&amp;rdquo;
-~ Eliyahu Goldratt
-One perk of being a programmer is the ability to automate boring, repetitive tasks to ease my workload. But what&amp;rsquo;s even more rewarding is the opportunity to help non-programmers with their data analysis drudgery. Such is the case with this project.
-The Problem My mom works for Catch Up and Read, a Dallas non-profit that helps below-reading-level students catch up before third grade.</description>
+			<description>&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Automation is good, so long as you know exactly where to put the machine.&amp;rdquo;&lt;br&gt;
+~ Eliyahu Goldratt&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;One perk of being a programmer is the ability to automate boring, repetitive tasks to ease my workload.
+But what&amp;rsquo;s even more rewarding is the opportunity to help non-programmers with their data analysis drudgery.
+Such is the case with this project.&lt;/p&gt;
+&lt;h2 id=&#34;the-problem&#34;&gt;The Problem&lt;/h2&gt;
+&lt;p&gt;My mom works for &lt;a href=&#34;https://www.catchupandread.org/&#34;&gt;Catch Up and Read&lt;/a&gt;, a Dallas non-profit that helps below-reading-level
+students catch up before third grade.
+Their problem was quickly and easily grading third-grade spelling tests.
+By analyzing patterns of how a student misspells words,
+a smart teacher can determine what concepts that student struggles with and modify their lesson plan accordingly.
+This analysis is tedious, requires a fair amount of calculation, and if you&amp;rsquo;ve made it this far you know where this is going.
+&lt;strong&gt;Automation!!&lt;/strong&gt;&lt;/p&gt;</description>
 			<content type="html"><![CDATA[<blockquote>
 <p>&ldquo;Automation is good, so long as you know exactly where to put the machine.&rdquo;<br>
 ~ Eliyahu Goldratt</p>
@@ -1167,7 +1242,7 @@ For the intents and purposes of this program (and the English language, for that
 <p>So, this word chunked up is <code>['fr', 'igh', 't']</code>
 Below is an example of how the program grades a student who entered &lsquo;freit&rsquo; instead of fright.</p>
 <figure class="middle"><img src="/posts/auto-grader/diagram.png"
-    alt="grading &amp;lsquo;freit&amp;rsquo;"><figcaption>
+    alt="grading &lsquo;freit&rsquo;"><figcaption>
       <p>grading &lsquo;freit&rsquo;</p>
     </figcaption>
 </figure>
@@ -1218,8 +1293,11 @@ Doing so would be a slog (mo chunks, mo problems). If anyone wants to take a cra
 			<pubDate>Tue, 04 Jan 2022 13:55:04 -0500</pubDate>
 			
 			<guid>https://ethan-cope.github.io/posts/cdrdao/</guid>
-			<description>All digital music listeners are equal. Acquisition is painless. Taste is irrelevant. It is pointless to boast about your iTunes collection, or the quality of your playlists on a streaming service. Music became data, one more set of 1&amp;rsquo;s and 0&amp;rsquo;s lurking in your hard drive, invisible to see and impossible to touch. Nothing is less cool than data. ~ David Sax
-Physical media is back. vinyl and cassette sales are through the roof, and why shouldn&amp;rsquo;t they be?</description>
+			<description>&lt;blockquote&gt;
+&lt;p&gt;All digital music listeners are equal. Acquisition is painless. Taste is irrelevant. It is pointless to boast about your iTunes collection, or the quality of your playlists on a streaming service. Music became data, one more set of 1&amp;rsquo;s and 0&amp;rsquo;s lurking in your hard drive, invisible to see and impossible to touch. Nothing is less cool than data. ~ David Sax&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Physical media is back. vinyl and cassette sales are through the roof, and why shouldn&amp;rsquo;t they be? Digital music services have deprived us of that tactile feel of dropping a needle onto a well-worn album, and the intimate experience of pulling a record from its sleeve.&lt;br&gt;
+But today I&amp;rsquo;m focusing on the least flashy member of the physical media family: CDs.&lt;/p&gt;</description>
 			<content type="html"><![CDATA[<blockquote>
 <p>All digital music listeners are equal. Acquisition is painless. Taste is irrelevant. It is pointless to boast about your iTunes collection, or the quality of your playlists on a streaming service. Music became data, one more set of 1&rsquo;s and 0&rsquo;s lurking in your hard drive, invisible to see and impossible to touch. Nothing is less cool than data. ~ David Sax</p>
 </blockquote>
@@ -1328,7 +1406,11 @@ Don&rsquo;t believe me? Check out <a href="https://www.soundguys.com/high-bitrat
 			<pubDate>Fri, 15 Oct 2021 13:07:50 -0500</pubDate>
 			
 			<guid>https://ethan-cope.github.io/posts/echo-matic_special/</guid>
-			<description>Back in 2019, I saw the influential space-rock group Wand live. It was an amazing set of mostly new tunes, but I was a tad distracted by their lead guitarist. He was fiddling with a battered green box for the whole set, and doing so sent his guitar part soaring over the rest of the band in the most atmospheric, gooey wash imaginable. This was my first introduction to the weird, wonderful world of tape echo, and I wanted one!</description>
+			<description>&lt;p&gt;&lt;img src=&#34;https://img.audiofanzine.com/images/u/product/normal/roland-re-201-space-echo-6085.jpg&#34; alt=&#34;thing&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Back in 2019, I saw the influential space-rock group &lt;a href=&#34;https://www.youtube.com/watch?v=h9PcHA5Ievk&#34;&gt;Wand&lt;/a&gt; live.
+It was an amazing set of mostly new tunes, but I was a tad distracted by their lead guitarist.
+He was fiddling with a battered green box for the whole set, and doing so sent his guitar part soaring over the rest of the band in the most atmospheric, gooey wash imaginable.
+This was my first introduction to the weird, wonderful world of tape echo, and I wanted one!&lt;/p&gt;</description>
 			<content type="html"><![CDATA[<p><img src="https://img.audiofanzine.com/images/u/product/normal/roland-re-201-space-echo-6085.jpg" alt="thing"></p>
 <p>Back in 2019, I saw the influential space-rock group <a href="https://www.youtube.com/watch?v=h9PcHA5Ievk">Wand</a> live.
 It was an amazing set of mostly new tunes, but I was a tad distracted by their lead guitarist.
@@ -1408,8 +1490,15 @@ Aisler takes about a month to manufacture, and junior year is starting up. Stay 
 			<pubDate>Mon, 27 Sep 2021 12:53:34 -0500</pubDate>
 			
 			<guid>https://ethan-cope.github.io/posts/buswarn/</guid>
-			<description>Public transportation is like a magnifying glass that shows you civilization up close. ~ Chris Gethard
-What is Buswarn? During the COVID year, I moved off-campus. I didn&amp;rsquo;t realize at the time, but my only lifeline to my in-person classes, study rooms, and meals would be the Texas A&amp;amp;M Bus Transit System. Problems manifested themselves quickly. Buses ran at seemingly random intervals, and the website that displayed the schedule often had errors rendering on my mobile phone.</description>
+			<description>&lt;blockquote&gt;
+&lt;p&gt;Public transportation is like a magnifying glass that shows you civilization up close. ~ Chris Gethard&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;what-is-buswarn&#34;&gt;What is Buswarn?&lt;/h2&gt;
+&lt;p&gt;During the COVID year, I moved off-campus. I didn&amp;rsquo;t realize at the time, but my only lifeline to my in-person classes, study rooms, and meals would be the Texas A&amp;amp;M Bus Transit System.
+Problems manifested themselves quickly. Buses ran at seemingly random intervals, and the website that displayed the schedule often had errors rendering on my mobile phone.
+What I needed was a simple device that displayed how many minutes I had to wait until the next bus arrived at my apartment.
+This device wouldn&amp;rsquo;t require me to have the foresight of googling the schedule and doing mental math to determine what time to leave my apartment in order to make the next bus.
+Armed with these design goals, I set to work with a Raspberry Pi and few 7-segment displays I had lying around.&lt;/p&gt;</description>
 			<content type="html"><![CDATA[<blockquote>
 <p>Public transportation is like a magnifying glass that shows you civilization up close. ~ Chris Gethard</p>
 </blockquote>

@@ -14,21 +14,21 @@
       <link>https://ethan-cope.github.io/posts/jenkinsapi/</link>
       <pubDate>Fri, 03 Feb 2023 14:51:34 -0600</pubDate>
       <guid>https://ethan-cope.github.io/posts/jenkinsapi/</guid>
-      <description>Holy moly, the Jenkins documentation is bad. At the very least, it isn&amp;rsquo;t very user-friendly, especially for beginners. For someone who has little-to-no experience in web development, doing something as simple as getting some job data from a Node program is the equivalent of pulling teeth. After spending hours in rabbit holes, I finally stumbled on a configuration that works. This mini-writeup will hopefully help those webdev-challenged folks such as myself in the quest for Jenkins API usage.</description>
+      <description>&lt;p&gt;Holy moly, the Jenkins documentation is bad. At the very least, it isn&amp;rsquo;t very user-friendly, especially for beginners.&#xA;For someone who has little-to-no experience in web development, doing something as simple as getting some job data from a Node program is the equivalent of pulling teeth. After spending hours in rabbit holes, I finally stumbled on a configuration that works. This mini-writeup will hopefully help those webdev-challenged folks such as myself in the quest for Jenkins API usage.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Spelling Test Grader [UPDATE]</title>
       <link>https://ethan-cope.github.io/posts/auto-grader-update/</link>
       <pubDate>Fri, 23 Dec 2022 15:36:55 -0600</pubDate>
       <guid>https://ethan-cope.github.io/posts/auto-grader-update/</guid>
-      <description>One in six children who are not reading proficiently in third grade fail to graduate from high school on time, four times the rate for children with proficient third-grade reading skills. &amp;ndash; &amp;quot;Double Jeopardy&amp;quot;, Annie E. Casey Foundation&#xA;Since rolling out my spelling test grader, Catch Up and Read (CAR) has asked for more grading automation! Here&amp;rsquo;s a quick update on the new grader, the Phonics Survey.&#xA;What is a Phonics Survey?</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;One in six children who are not reading proficiently in third grade fail to graduate from high school on time, four times the rate for children with proficient third-grade reading skills. &amp;ndash; &lt;!-- raw HTML omitted --&gt;&amp;quot;&lt;a href=&#34;https://www.aecf.org/resources/double-jeopardy&#34;&gt;Double Jeopardy&lt;/a&gt;&amp;quot;, Annie E. Casey Foundation&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Since rolling out my spelling test grader, Catch Up and Read (CAR) has asked for more grading automation!&#xA;Here&amp;rsquo;s a quick update on the new grader, the &lt;em&gt;Phonics Survey&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Spelling Test Auto-Grader for Catch Up and Read</title>
       <link>https://ethan-cope.github.io/posts/auto-grader/</link>
       <pubDate>Wed, 12 Jan 2022 18:21:31 -0600</pubDate>
       <guid>https://ethan-cope.github.io/posts/auto-grader/</guid>
-      <description>&amp;ldquo;Automation is good, so long as you know exactly where to put the machine.&amp;rdquo;&#xA;~ Eliyahu Goldratt&#xA;One perk of being a programmer is the ability to automate boring, repetitive tasks to ease my workload. But what&amp;rsquo;s even more rewarding is the opportunity to help non-programmers with their data analysis drudgery. Such is the case with this project.&#xA;The Problem My mom works for Catch Up and Read, a Dallas non-profit that helps below-reading-level students catch up before third grade.</description>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Automation is good, so long as you know exactly where to put the machine.&amp;rdquo;&lt;br&gt;&#xA;~ Eliyahu Goldratt&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;One perk of being a programmer is the ability to automate boring, repetitive tasks to ease my workload.&#xA;But what&amp;rsquo;s even more rewarding is the opportunity to help non-programmers with their data analysis drudgery.&#xA;Such is the case with this project.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-problem&#34;&gt;The Problem&lt;/h2&gt;&#xA;&lt;p&gt;My mom works for &lt;a href=&#34;https://www.catchupandread.org/&#34;&gt;Catch Up and Read&lt;/a&gt;, a Dallas non-profit that helps below-reading-level&#xA;students catch up before third grade.&#xA;Their problem was quickly and easily grading third-grade spelling tests.&#xA;By analyzing patterns of how a student misspells words,&#xA;a smart teacher can determine what concepts that student struggles with and modify their lesson plan accordingly.&#xA;This analysis is tedious, requires a fair amount of calculation, and if you&amp;rsquo;ve made it this far you know where this is going.&#xA;&lt;strong&gt;Automation!!&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
