@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Automotive on Hey, I&#39;m Ethan.</title>
+    <title>automotive on Hey, I&#39;m Ethan.</title>
     <link>https://ethan-cope.github.io/tags/automotive/</link>
-    <description>Recent content in Automotive on Hey, I&#39;m Ethan.</description>
-    <generator>Hugo</generator>
+    <description>Recent content in automotive on Hey, I&#39;m Ethan.</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Fri, 14 Jul 2023 01:00:15 -0500</lastBuildDate>
-    <atom:link href="https://ethan-cope.github.io/tags/automotive/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 Jul 2023 01:00:15 -0500</lastBuildDate><atom:link href="https://ethan-cope.github.io/tags/automotive/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Japan&#39;s Most Iconic Model Cars Come Out Of Vending Machines</title>
       <link>https://ethan-cope.github.io/posts/gacha/</link>
       <pubDate>Fri, 14 Jul 2023 01:00:15 -0500</pubDate>
+      
       <guid>https://ethan-cope.github.io/posts/gacha/</guid>
-      <description>&lt;p&gt;Remember those 25-cent gumball machines?&#xA;The ones where you could trade a quarter for a gumball older than the dotcom crash?&#xA;Imagine that, but instead of a chunk of crusty candy, you win a random 1/64th scale model car.&#xA;That&amp;rsquo;s essentially Gachapon!&lt;/p&gt;&#xA;&lt;figure class=&#34;left&#34;&gt;&lt;img src=&#34;https://ethan-cope.github.io/posts/gacha/machExample.jpg&#34;&#xA;    alt=&#34;image&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;Bandai Namco&amp;rsquo;s toy vending machines are addictively simple.&#xA;Insert cash &lt;strong&gt;(1)&lt;/strong&gt;, twist dial &lt;strong&gt;(2)&lt;/strong&gt;, and collect model &lt;strong&gt;(3)&lt;/strong&gt;.&#xA;Since the 1970&amp;rsquo;s, Gachapon machines have dispensed billions of anime figurines, sushi keychains, and (most notably), tiny scale vehicles.&#xA;For vehicle Gacha, each machine is dedicated to a specific make and model.&#xA;Certain things are randomized: you may win one with a body kit, rare paint color, or a specific trim level.&#xA;Whole subcultures exist around the trading and collecting of these tiny models.&#xA;When I first came to Japan, it didn&amp;rsquo;t take long for these miniature machines to steal my heart - I was hooked!&lt;/p&gt;</description>
+      <description>Remember those 25-cent gumball machines? The ones where you could trade a quarter for a gumball older than the dotcom crash? Imagine that, but instead of a chunk of crusty candy, you win a random 1/64th scale model car. That&amp;rsquo;s essentially Gachapon!
+ Bandai Namco&amp;rsquo;s toy vending machines are addictively simple. Insert cash (1), twist dial (2), and collect model (3). Since the 1970&amp;rsquo;s, Gachapon machines have dispensed billions of anime figurines, sushi keychains, and (most notably), tiny scale vehicles.</description>
     </item>
+    
   </channel>
 </rss>

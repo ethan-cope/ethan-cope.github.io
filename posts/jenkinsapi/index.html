@@ -7,30 +7,20 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<meta name="theme-color" content="#494f5c">
 	<meta name="msapplication-TileColor" content="#494f5c">
+<meta itemprop="name" content="A sane mini-tutorial for the Jenkins Javascript API">
+<meta itemprop="description" content="Holy moly, the Jenkins documentation is bad. At the very least, it isn&rsquo;t very user-friendly, especially for beginners. For someone who has little-to-no experience in web development, doing something as simple as getting some job data from a Node program is the equivalent of pulling teeth. After spending hours in rabbit holes, I finally stumbled on a configuration that works. This mini-writeup will hopefully help those webdev-challenged folks such as myself in the quest for Jenkins API usage."><meta itemprop="datePublished" content="2023-02-03T14:51:34-06:00" />
+<meta itemprop="dateModified" content="2023-02-03T14:51:34-06:00" />
+<meta itemprop="wordCount" content="601">
+<meta itemprop="keywords" content="javascript,webDevelopment,Jenkins,fixes,tutorial," /><meta property="og:title" content="A sane mini-tutorial for the Jenkins Javascript API" />
+<meta property="og:description" content="Holy moly, the Jenkins documentation is bad. At the very least, it isn&rsquo;t very user-friendly, especially for beginners. For someone who has little-to-no experience in web development, doing something as simple as getting some job data from a Node program is the equivalent of pulling teeth. After spending hours in rabbit holes, I finally stumbled on a configuration that works. This mini-writeup will hopefully help those webdev-challenged folks such as myself in the quest for Jenkins API usage." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ethan-cope.github.io/posts/jenkinsapi/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-02-03T14:51:34-06:00" />
+<meta property="article:modified_time" content="2023-02-03T14:51:34-06:00" />
 
-  <meta itemprop="name" content="A sane mini-tutorial for the Jenkins Javascript API">
-  <meta itemprop="description" content="Holy moly, the Jenkins documentation is bad. At the very least, it isn’t very user-friendly, especially for beginners. For someone who has little-to-no experience in web development, doing something as simple as getting some job data from a Node program is the equivalent of pulling teeth. After spending hours in rabbit holes, I finally stumbled on a configuration that works. This mini-writeup will hopefully help those webdev-challenged folks such as myself in the quest for Jenkins API usage.">
-  <meta itemprop="datePublished" content="2023-02-03T14:51:34-06:00">
-  <meta itemprop="dateModified" content="2023-02-03T14:51:34-06:00">
-  <meta itemprop="wordCount" content="601">
-  <meta itemprop="keywords" content="Javascript,WebDevelopment,Jenkins,Fixes,Tutorial"><meta property="og:url" content="https://ethan-cope.github.io/posts/jenkinsapi/">
-  <meta property="og:site_name" content="Hey, I&#39;m Ethan.">
-  <meta property="og:title" content="A sane mini-tutorial for the Jenkins Javascript API">
-  <meta property="og:description" content="Holy moly, the Jenkins documentation is bad. At the very least, it isn’t very user-friendly, especially for beginners. For someone who has little-to-no experience in web development, doing something as simple as getting some job data from a Node program is the equivalent of pulling teeth. After spending hours in rabbit holes, I finally stumbled on a configuration that works. This mini-writeup will hopefully help those webdev-challenged folks such as myself in the quest for Jenkins API usage.">
-  <meta property="og:locale" content="en_us">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2023-02-03T14:51:34-06:00">
-    <meta property="article:modified_time" content="2023-02-03T14:51:34-06:00">
-    <meta property="article:tag" content="Javascript">
-    <meta property="article:tag" content="WebDevelopment">
-    <meta property="article:tag" content="Jenkins">
-    <meta property="article:tag" content="Fixes">
-    <meta property="article:tag" content="Tutorial">
-
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="A sane mini-tutorial for the Jenkins Javascript API">
-  <meta name="twitter:description" content="Holy moly, the Jenkins documentation is bad. At the very least, it isn’t very user-friendly, especially for beginners. For someone who has little-to-no experience in web development, doing something as simple as getting some job data from a Node program is the equivalent of pulling teeth. After spending hours in rabbit holes, I finally stumbled on a configuration that works. This mini-writeup will hopefully help those webdev-challenged folks such as myself in the quest for Jenkins API usage.">
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="A sane mini-tutorial for the Jenkins Javascript API"/>
+<meta name="twitter:description" content="Holy moly, the Jenkins documentation is bad. At the very least, it isn&rsquo;t very user-friendly, especially for beginners. For someone who has little-to-no experience in web development, doing something as simple as getting some job data from a Node program is the equivalent of pulling teeth. After spending hours in rabbit holes, I finally stumbled on a configuration that works. This mini-writeup will hopefully help those webdev-challenged folks such as myself in the quest for Jenkins API usage."/>
 
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -50,7 +40,7 @@
 		<div class="hdr-wrapper section-inner">
 			<div class="hdr-left">
 				<div class="site-branding">
-					<a href="https://ethan-cope.github.io/">Hey, I&#39;m Ethan.</a>
+					<a href="https://ethan-cope.github.io">Hey, I&#39;m Ethan.</a>
 				</div>
 				<nav class="site-nav hide-in-mobile">
 					
@@ -95,26 +85,26 @@ For someone who has little-to-no experience in web development, doing something 
 <p>The Jenkins API states that it uses BASIC authentication to allow API access. There are exactly 0 examples about using BASIC authentication in the API, so I&rsquo;ve taken it upon myself to provide some sample code.</p>
 <h3 id="the-api-token">The API Token<a href="#the-api-token" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
 <p>To access Jenkins from an API, you&rsquo;ll have to generate an API token. To do so, click the <em>Configure</em> button under the username in the top right corner.
-<figure class="big"><img src="/posts/jenkinsapi/TokenGen1.png"
-    alt="image"><figcaption>
-      <p>Configure option under username</p>
-    </figcaption>
+<figure class="big"><img src="TokenGen1.png"
+         alt="image"/><figcaption>
+            <p>Configure option under username</p>
+        </figcaption>
 </figure>
 
 Then click <em>Add new Token</em> under the <em>API Token</em> heading.
-<figure class="big"><img src="/posts/jenkinsapi/TokenGen2.png"
-    alt="image"><figcaption>
-      <p>Add token Button</p>
-    </figcaption>
+<figure class="big"><img src="TokenGen2.png"
+         alt="image"/><figcaption>
+            <p>Add token Button</p>
+        </figcaption>
 </figure>
 </p>
 <p>This will generate a new token, which looks like a string of random text. Copy it somewhere safe, because you won&rsquo;t be able to see it again!</p>
 <h3 id="the-code">The Code<a href="#the-code" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
 <p>I&rsquo;m not a Javascript programmer, so I can&rsquo;t go in-depth and explain how this authentication works. But I <em>can</em> tell you that this code does work.</p>
-<pre tabindex="0"><code>let JENKINS_URL = &#34;localhost:8080&#34; // replace with url of your Jenkins server
-let JENKINS_UNAME = &#34;Jenkins-User&#34; // replace with username you generated token for
-let JENKINS_JOB = &#34;BuildWebsite&#34;   // replace with name of job you want to pull data from
-let API_TOKEN   = &#34;gobbedygook000000letters00000and0000numbers&#34; // replace with API token you generated above
+<pre tabindex="0"><code>let JENKINS_URL = &quot;localhost:8080&quot; // replace with url of your Jenkins server
+let JENKINS_UNAME = &quot;Jenkins-User&quot; // replace with username you generated token for
+let JENKINS_JOB = &quot;BuildWebsite&quot;   // replace with name of job you want to pull data from
+let API_TOKEN   = &quot;gobbedygook000000letters00000and0000numbers&quot; // replace with API token you generated above
 
 function JobData(jobName){
     // fill this string with the information found in API Points of Interest
@@ -123,11 +113,11 @@ function JobData(jobName){
 
 	return fetch ( url, {
         // authorization for fetch request
-		method: &#34;GET&#34;,
+		method: &quot;GET&quot;,
 		headers:{
 			Authorization :
-			&#34;Basic &#34; + 
-			Buffer.from(`${JENKINS_UNAME}:${API_TOKEN}`).toString(&#34;base64&#34;)
+			&quot;Basic &quot; + 
+			Buffer.from(`${JENKINS_UNAME}:${API_TOKEN}`).toString(&quot;base64&quot;)
 		},
 
 	}).then((res, req) =&gt; {
@@ -135,6 +125,7 @@ function JobData(jobName){
         //this function returns the job information.
 	})
 }
+
 </code></pre><h2 id="cross-site-request-forgery">Cross Site Request Forgery<a href="#cross-site-request-forgery" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
 <p>It is important to note that while Javascript can be run from both the frontend or the backend, API calls must be made from a backend to prevent <em>Cross-Site Request Forgeries.</em> So, there&rsquo;s really no way to make API calls from <code>&lt;script&gt;</code> tags embedded in an HTML file. You&rsquo;ll need to make a backend that serves the Jenkins data to the frontend, and host it on the internet (with something like <a href="https://www.heroku.com/">Heroku</a>) or locally (with <a href="https://www.phusionpassenger.com/library/walkthroughs/deploy/nodejs/">Passenger</a> or something similar).</p>
 <p>That&rsquo;s pretty much it. This is a super short article, but something like this would have saved me about 10 hours of googling. Hopefully this will help some of you aspiring Jenkins-wranglers learn something new!</p>
@@ -161,7 +152,7 @@ function JobData(jobName){
 	</main>
 
 	<footer id="site-footer" class="section-inner thin animated fadeIn faster">
-		<p>&copy; 2024 <a href="https://ethan-cope.github.io/"></a> &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></p>
+		<p>&copy; 2025 <a href="https://ethan-cope.github.io"></a> &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></p>
 		<p>
 			Made with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> &#183; Theme <a href="https://github.com/Track3/hermit" target="_blank" rel="noopener">Hermit</a> &#183; <a href="https://ethan-cope.github.io/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
 		</p>
@@ -169,7 +160,7 @@ function JobData(jobName){
 
 
 
-	<script src="https://ethan-cope.github.io/js/bundle.min.580988ed2982bcbb74a1773c7abea97b43e4c43b9324e10cda0813ec6ec4bb67.js" integrity="sha256-WAmI7SmCvLt0oXc8er6pe0PkxDuTJOEM2ggT7G7Eu2c=" crossorigin="anonymous"></script>
+	<script src="https://ethan-cope.github.io/js/bundle.min.7d8545daa55d62427355498dd8da13f98ff79a7938ce7d2a5e2ae1ec0de3beb8.js" integrity="sha256-fYVF2qVdYkJzVUmN2NoT+Y/3mnk4zn0qXirh7A3jvrg=" crossorigin="anonymous"></script>
 	
 </body>
 

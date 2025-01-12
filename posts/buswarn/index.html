@@ -7,31 +7,23 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<meta name="theme-color" content="#494f5c">
 	<meta name="msapplication-TileColor" content="#494f5c">
+<meta itemprop="name" content="Buswarn: RasPi-based Transit Bus Tracking">
+<meta itemprop="description" content="Public transportation is like a magnifying glass that shows you civilization up close. ~ Chris Gethard
+ What is Buswarn? During the COVID year, I moved off-campus. I didn&rsquo;t realize at the time, but my only lifeline to my in-person classes, study rooms, and meals would be the Texas A&amp;M Bus Transit System. Problems manifested themselves quickly. Buses ran at seemingly random intervals, and the website that displayed the schedule often had errors rendering on my mobile phone."><meta itemprop="datePublished" content="2021-09-27T12:53:34-05:00" />
+<meta itemprop="dateModified" content="2021-09-27T12:53:34-05:00" />
+<meta itemprop="wordCount" content="577">
+<meta itemprop="keywords" content="raspberryPi,embeddedSystems,linux," /><meta property="og:title" content="Buswarn: RasPi-based Transit Bus Tracking" />
+<meta property="og:description" content="Public transportation is like a magnifying glass that shows you civilization up close. ~ Chris Gethard
+ What is Buswarn? During the COVID year, I moved off-campus. I didn&rsquo;t realize at the time, but my only lifeline to my in-person classes, study rooms, and meals would be the Texas A&amp;M Bus Transit System. Problems manifested themselves quickly. Buses ran at seemingly random intervals, and the website that displayed the schedule often had errors rendering on my mobile phone." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ethan-cope.github.io/posts/buswarn/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-09-27T12:53:34-05:00" />
+<meta property="article:modified_time" content="2021-09-27T12:53:34-05:00" />
 
-  <meta itemprop="name" content="Buswarn: RasPi-based Transit Bus Tracking">
-  <meta itemprop="description" content="Public transportation is like a magnifying glass that shows you civilization up close. ~ Chris Gethard
-What is Buswarn? During the COVID year, I moved off-campus. I didn’t realize at the time, but my only lifeline to my in-person classes, study rooms, and meals would be the Texas A&amp;M Bus Transit System. Problems manifested themselves quickly. Buses ran at seemingly random intervals, and the website that displayed the schedule often had errors rendering on my mobile phone. What I needed was a simple device that displayed how many minutes I had to wait until the next bus arrived at my apartment. This device wouldn’t require me to have the foresight of googling the schedule and doing mental math to determine what time to leave my apartment in order to make the next bus. Armed with these design goals, I set to work with a Raspberry Pi and few 7-segment displays I had lying around.">
-  <meta itemprop="datePublished" content="2021-09-27T12:53:34-05:00">
-  <meta itemprop="dateModified" content="2021-09-27T12:53:34-05:00">
-  <meta itemprop="wordCount" content="577">
-  <meta itemprop="keywords" content="RaspberryPi,EmbeddedSystems,Linux"><meta property="og:url" content="https://ethan-cope.github.io/posts/buswarn/">
-  <meta property="og:site_name" content="Hey, I&#39;m Ethan.">
-  <meta property="og:title" content="Buswarn: RasPi-based Transit Bus Tracking">
-  <meta property="og:description" content="Public transportation is like a magnifying glass that shows you civilization up close. ~ Chris Gethard
-What is Buswarn? During the COVID year, I moved off-campus. I didn’t realize at the time, but my only lifeline to my in-person classes, study rooms, and meals would be the Texas A&amp;M Bus Transit System. Problems manifested themselves quickly. Buses ran at seemingly random intervals, and the website that displayed the schedule often had errors rendering on my mobile phone. What I needed was a simple device that displayed how many minutes I had to wait until the next bus arrived at my apartment. This device wouldn’t require me to have the foresight of googling the schedule and doing mental math to determine what time to leave my apartment in order to make the next bus. Armed with these design goals, I set to work with a Raspberry Pi and few 7-segment displays I had lying around.">
-  <meta property="og:locale" content="en_us">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2021-09-27T12:53:34-05:00">
-    <meta property="article:modified_time" content="2021-09-27T12:53:34-05:00">
-    <meta property="article:tag" content="RaspberryPi">
-    <meta property="article:tag" content="EmbeddedSystems">
-    <meta property="article:tag" content="Linux">
-
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Buswarn: RasPi-based Transit Bus Tracking">
-  <meta name="twitter:description" content="Public transportation is like a magnifying glass that shows you civilization up close. ~ Chris Gethard
-What is Buswarn? During the COVID year, I moved off-campus. I didn’t realize at the time, but my only lifeline to my in-person classes, study rooms, and meals would be the Texas A&amp;M Bus Transit System. Problems manifested themselves quickly. Buses ran at seemingly random intervals, and the website that displayed the schedule often had errors rendering on my mobile phone. What I needed was a simple device that displayed how many minutes I had to wait until the next bus arrived at my apartment. This device wouldn’t require me to have the foresight of googling the schedule and doing mental math to determine what time to leave my apartment in order to make the next bus. Armed with these design goals, I set to work with a Raspberry Pi and few 7-segment displays I had lying around.">
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Buswarn: RasPi-based Transit Bus Tracking"/>
+<meta name="twitter:description" content="Public transportation is like a magnifying glass that shows you civilization up close. ~ Chris Gethard
+ What is Buswarn? During the COVID year, I moved off-campus. I didn&rsquo;t realize at the time, but my only lifeline to my in-person classes, study rooms, and meals would be the Texas A&amp;M Bus Transit System. Problems manifested themselves quickly. Buses ran at seemingly random intervals, and the website that displayed the schedule often had errors rendering on my mobile phone."/>
 
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -51,7 +43,7 @@ What is Buswarn? During the COVID year, I moved off-campus. I didn’t realize a
 		<div class="hdr-wrapper section-inner">
 			<div class="hdr-left">
 				<div class="site-branding">
-					<a href="https://ethan-cope.github.io/">Hey, I&#39;m Ethan.</a>
+					<a href="https://ethan-cope.github.io">Hey, I&#39;m Ethan.</a>
 				</div>
 				<nav class="site-nav hide-in-mobile">
 					
@@ -105,10 +97,10 @@ Armed with these design goals, I set to work with a Raspberry Pi and few 7-segme
 <li>The LCD is controlled by a custom Python library that can be used on using on future projects.</li>
 <li>This is the first project I&rsquo;ve developed entirely remotely through SSH on a headless machine.</li>
 </ul>
-<figure class="big"><img src="/posts/buswarn/operation.gif"
-    alt="image"><figcaption>
-      <p>prototype working fine!</p>
-    </figcaption>
+<figure class="big"><img src="operation.gif"
+         alt="image"/><figcaption>
+            <p>prototype working fine!</p>
+        </figcaption>
 </figure>
 
 <h2 id="constraints-and-challenges">Constraints and Challenges<a href="#constraints-and-challenges" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
@@ -149,7 +141,7 @@ I&rsquo;ll explore this possibility when I delve more into my self-contained LOR
 	</main>
 
 	<footer id="site-footer" class="section-inner thin animated fadeIn faster">
-		<p>&copy; 2024 <a href="https://ethan-cope.github.io/"></a> &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></p>
+		<p>&copy; 2025 <a href="https://ethan-cope.github.io"></a> &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></p>
 		<p>
 			Made with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> &#183; Theme <a href="https://github.com/Track3/hermit" target="_blank" rel="noopener">Hermit</a> &#183; <a href="https://ethan-cope.github.io/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
 		</p>
@@ -157,7 +149,7 @@ I&rsquo;ll explore this possibility when I delve more into my self-contained LOR
 
 
 
-	<script src="https://ethan-cope.github.io/js/bundle.min.580988ed2982bcbb74a1773c7abea97b43e4c43b9324e10cda0813ec6ec4bb67.js" integrity="sha256-WAmI7SmCvLt0oXc8er6pe0PkxDuTJOEM2ggT7G7Eu2c=" crossorigin="anonymous"></script>
+	<script src="https://ethan-cope.github.io/js/bundle.min.7d8545daa55d62427355498dd8da13f98ff79a7938ce7d2a5e2ae1ec0de3beb8.js" integrity="sha256-fYVF2qVdYkJzVUmN2NoT+Y/3mnk4zn0qXirh7A3jvrg=" crossorigin="anonymous"></script>
 	
 </body>
 

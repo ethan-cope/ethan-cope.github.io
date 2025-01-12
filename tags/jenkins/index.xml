@@ -4,17 +4,18 @@
     <title>Jenkins on Hey, I&#39;m Ethan.</title>
     <link>https://ethan-cope.github.io/tags/jenkins/</link>
     <description>Recent content in Jenkins on Hey, I&#39;m Ethan.</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Fri, 03 Feb 2023 14:51:34 -0600</lastBuildDate>
-    <atom:link href="https://ethan-cope.github.io/tags/jenkins/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 Feb 2023 14:51:34 -0600</lastBuildDate><atom:link href="https://ethan-cope.github.io/tags/jenkins/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A sane mini-tutorial for the Jenkins Javascript API</title>
       <link>https://ethan-cope.github.io/posts/jenkinsapi/</link>
       <pubDate>Fri, 03 Feb 2023 14:51:34 -0600</pubDate>
+      
       <guid>https://ethan-cope.github.io/posts/jenkinsapi/</guid>
-      <description>&lt;p&gt;Holy moly, the Jenkins documentation is bad. At the very least, it isn&amp;rsquo;t very user-friendly, especially for beginners.&#xA;For someone who has little-to-no experience in web development, doing something as simple as getting some job data from a Node program is the equivalent of pulling teeth. After spending hours in rabbit holes, I finally stumbled on a configuration that works. This mini-writeup will hopefully help those webdev-challenged folks such as myself in the quest for Jenkins API usage.&lt;/p&gt;</description>
+      <description>Holy moly, the Jenkins documentation is bad. At the very least, it isn&amp;rsquo;t very user-friendly, especially for beginners. For someone who has little-to-no experience in web development, doing something as simple as getting some job data from a Node program is the equivalent of pulling teeth. After spending hours in rabbit holes, I finally stumbled on a configuration that works. This mini-writeup will hopefully help those webdev-challenged folks such as myself in the quest for Jenkins API usage.</description>
     </item>
+    
   </channel>
 </rss>

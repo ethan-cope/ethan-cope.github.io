@@ -1,27 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Winner on Hey, I&#39;m Ethan.</title>
+    <title>winner on Hey, I&#39;m Ethan.</title>
     <link>https://ethan-cope.github.io/tags/winner/</link>
-    <description>Recent content in Winner on Hey, I&#39;m Ethan.</description>
-    <generator>Hugo</generator>
+    <description>Recent content in winner on Hey, I&#39;m Ethan.</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sun, 30 Apr 2023 17:30:30 -0500</lastBuildDate>
-    <atom:link href="https://ethan-cope.github.io/tags/winner/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Apr 2023 17:30:30 -0500</lastBuildDate><atom:link href="https://ethan-cope.github.io/tags/winner/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>🏆 Battery Recycling: The Dark Side of an All-EV Future (2nd place, Problems Worth Solving Competition 2023)</title>
       <link>https://ethan-cope.github.io/posts/pws/</link>
       <pubDate>Sun, 30 Apr 2023 17:30:30 -0500</pubDate>
+      
       <guid>https://ethan-cope.github.io/posts/pws/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;You&amp;rsquo;ve got to start with the customer experience and work back toward the technology, not the other way around. ~ Steve Jobs&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Last weekend I had the opportunity to participate in &lt;a href=&#34;https://engineering.tamu.edu/student-life/eep/problems-worth-solving-competition.html&#34;&gt;Problems Worth Solving&lt;/a&gt;:&#xA;Texas A&amp;amp;M&amp;rsquo;s first and only entrepreneurship competition that outright &lt;em&gt;bans&lt;/em&gt; solutions.&lt;/p&gt;&#xA;&lt;p&gt;Great businesses arise from an intimate understanding of your customers&amp;rsquo; needs.&#xA;PWS emphasizes this critical step of entrepreneurship by focusing entrepreneurs on the problem, &lt;strong&gt;not&lt;/strong&gt; the solution.&#xA;The competition was 5 minutes of presenting in-depth on an important problem that many face, and 5 minutes of Q&amp;amp;A with industry judges.&lt;/p&gt;</description>
+      <description>You&amp;rsquo;ve got to start with the customer experience and work back toward the technology, not the other way around. ~ Steve Jobs
+ Last weekend I had the opportunity to participate in Problems Worth Solving: Texas A&amp;amp;M&amp;rsquo;s first and only entrepreneurship competition that outright bans solutions.
+Great businesses arise from an intimate understanding of your customers&#39; needs. PWS emphasizes this critical step of entrepreneurship by focusing entrepreneurs on the problem, not the solution.</description>
     </item>
+    
     <item>
       <title>🏆 MyMirror: a Google-integrated Smart Mirror</title>
       <link>https://ethan-cope.github.io/posts/mymirror/</link>
       <pubDate>Wed, 02 Feb 2022 13:28:52 -0600</pubDate>
+      
       <guid>https://ethan-cope.github.io/posts/mymirror/</guid>
-      <description>&lt;p&gt;&lt;em&gt;Note: More information about myMirror can be found on &lt;a href=&#34;https://devpost.com/software/mymirror&#34;&gt;the project&amp;rsquo;s devpost&lt;/a&gt;.&lt;/em&gt;&#xA;&lt;em&gt;Check there for other peoples&amp;rsquo; contributions!&lt;/em&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-mymirror&#34;&gt;Why myMirror?&lt;/h2&gt;&#xA;&lt;p&gt;When I wake up in the morning, there&amp;rsquo;s a lot I know I probably should do.&#xA;For example, I should probably prepare for the day ahead by checking the weather and my daily calendar.&#xA;But often times, &lt;strong&gt;I just don&amp;rsquo;t&lt;/strong&gt;. For situations like this, myMirror is here to help.&lt;/p&gt;&#xA;&lt;p&gt;myMirror solves the above dilemma by integrating this crucial information into your everyday bathroom mirror.&#xA;myMirror is a &lt;em&gt;smart mirror&lt;/em&gt; with an embedded display screen,&#xA;displaying the current time and date, weather for your area, and personal Google Calendar reminders.&#xA;It even features a motion sensor, turning off the display to save power when a user isn&amp;rsquo;t detected.&lt;/p&gt;</description>
+      <description>Note: More information about myMirror can be found on the project&amp;rsquo;s devpost. Check there for other peoples&#39; contributions!
+Why myMirror? When I wake up in the morning, there&amp;rsquo;s a lot I know I probably should do. For example, I should probably prepare for the day ahead by checking the weather and my daily calendar. But often times, I just don&amp;rsquo;t. For situations like this, myMirror is here to help.
+myMirror solves the above dilemma by integrating this crucial information into your everyday bathroom mirror.</description>
     </item>
+    
   </channel>
 </rss>
