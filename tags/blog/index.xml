@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>exploration on Hey, I&#39;m Ethan.</title>
-    <link>https://ethan-cope.github.io/tags/exploration/</link>
-    <description>Recent content in exploration on Hey, I&#39;m Ethan.</description>
+    <title>blog on Hey, I&#39;m Ethan.</title>
+    <link>https://ethan-cope.github.io/tags/blog/</link>
+    <description>Recent content in blog on Hey, I&#39;m Ethan.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sat, 01 Feb 2025 19:44:06 -0800</lastBuildDate><atom:link href="https://ethan-cope.github.io/tags/exploration/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Feb 2025 19:44:06 -0800</lastBuildDate><atom:link href="https://ethan-cope.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>🏙️ Is Nagoya Boring?</title>
       <link>https://ethan-cope.github.io/posts/twodaysinnagoya/</link>
@@ -16,16 +16,6 @@
       <guid>https://ethan-cope.github.io/posts/twodaysinnagoya/</guid>
       <description>Recently, it seems like everyone I talk to is either visiting or returning from Japan. This isn&amp;rsquo;t just my observation - according to multiple sources, Japan&amp;rsquo;s post-covid tourism numbers are through the roof. While many plan their trips around the glitz and glamor of Tokyo or the rich culture of Kyoto, there&amp;rsquo;s another city that I&amp;rsquo;ve yet to see on any itinerary - Nagoya.
 Despite being it&amp;rsquo;s third largest metro area, Nagoya is nationally renowned as &amp;ldquo;Japan&amp;rsquo;s most boring city&amp;rdquo;.</description>
-    </item>
-    
-    <item>
-      <title>🚝 Exploring Las Colinas&#39; Mothballed Monorail</title>
-      <link>https://ethan-cope.github.io/posts/irvingapt/</link>
-      <pubDate>Sat, 20 Apr 2024 16:32:24 -0500</pubDate>
-      
-      <guid>https://ethan-cope.github.io/posts/irvingapt/</guid>
-      <description>Sign at the entrance of the APT
-  On the surface, Dallas looks like just another cookie-cutter commuter city. Compared to Austin&amp;rsquo;s booming tech industry and laid-back vibe, Dallas&#39; historic hyperfocus on sprawling office parks has always felt a bit clinical. But the combination of this all-work all-the-time culture and a early 80&amp;rsquo;s real-estate boom led to some crazy planning experiments, and none were as crazy as the Irving&amp;rsquo;s Las Colinas district.</description>
     </item>
     
   </channel>
