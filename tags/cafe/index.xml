@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Thu, 07 Nov 2024 21:55:31 -0800</lastBuildDate><atom:link href="https://ethan-cope.github.io/tags/cafe/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 Feb 2025 22:13:38 -0800</lastBuildDate><atom:link href="https://ethan-cope.github.io/tags/cafe/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>📲 Scope Creep and Personal Projects</title>
+      <link>https://ethan-cope.github.io/posts/scopecreep/</link>
+      <pubDate>Fri, 28 Feb 2025 22:13:38 -0800</pubDate>
+      
+      <guid>https://ethan-cope.github.io/posts/scopecreep/</guid>
+      <description>Some viewers (especially programmers) may find the following image disturbing:
+ Charitably, software gore
+  Ouch. Is that Python or Javascript? And do I spy inline CSS styling? To quote The Talking Heads, &amp;ldquo;How did I get here?&amp;quot; After all, no one ever sets out to write bad code. While bad code can result from laziness or inexperience, I want to spend this article discussing a third source: Scope Creep.</description>
+    </item>
+    
     <item>
       <title>☕ Introducing CafeMatrix</title>
       <link>https://ethan-cope.github.io/posts/cafematrix/</link>

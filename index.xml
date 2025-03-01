@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sat, 01 Feb 2025 19:44:06 -0800</lastBuildDate><atom:link href="https://ethan-cope.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 Feb 2025 22:13:38 -0800</lastBuildDate><atom:link href="https://ethan-cope.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>📲 Scope Creep and Personal Projects</title>
+      <link>https://ethan-cope.github.io/posts/scopecreep/</link>
+      <pubDate>Fri, 28 Feb 2025 22:13:38 -0800</pubDate>
+      
+      <guid>https://ethan-cope.github.io/posts/scopecreep/</guid>
+      <description>Some viewers (especially programmers) may find the following image disturbing:
+ Charitably, software gore
+  Ouch. Is that Python or Javascript? And do I spy inline CSS styling? To quote The Talking Heads, &amp;ldquo;How did I get here?&amp;quot; After all, no one ever sets out to write bad code. While bad code can result from laziness or inexperience, I want to spend this article discussing a third source: Scope Creep.</description>
+    </item>
+    
     <item>
       <title>🏙️ Is Nagoya Boring?</title>
       <link>https://ethan-cope.github.io/posts/twodaysinnagoya/</link>
@@ -96,18 +107,6 @@ Great businesses arise from an intimate understanding of your customers&#39; nee
       <description>Post-Mod GE-7
   The Mod If you just want to skip to the fix, head to this section.
 At the advice of Brian Wampler, I caved and bought a minty used Boss GE-7. Imagine my surprise after moving any of the EQ sliders introduced very noticeable noise! How could you, Boss? Apparently, when the GE-7 was first designed, battery life and price point were more important considerations than audio fidelity.</description>
-    </item>
-    
-    <item>
-      <title>💡 SignalBox: DIY Connected Lanterns with MQTT, Adafruit Feather</title>
-      <link>https://ethan-cope.github.io/posts/thinking-of-you/</link>
-      <pubDate>Sun, 25 Dec 2022 19:04:34 -0600</pubDate>
-      
-      <guid>https://ethan-cope.github.io/posts/thinking-of-you/</guid>
-      <description>Faced with the tradition of family Christmas gift giving, I was thoroughly stumped. I knew I wanted to do something maker-related: I&amp;rsquo;m the only engineer in the family, which tends to amplify the wow factor of any techncal projects :)
-After my fallback plan (a Chemex coffee maker) fell through, I knew I had to build these!
- the finished product!
-  These are long-distance friendship lanterns. The idea is, sometimes you want to let a distant friend or family member know that you&amp;rsquo;re thinking of them, even if you don&amp;rsquo;t necessarily want to shoot them a text.</description>
     </item>
     
   </channel>

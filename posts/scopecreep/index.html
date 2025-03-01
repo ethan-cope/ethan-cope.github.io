@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="theme-color" content="#494f5c">
+	<meta name="msapplication-TileColor" content="#494f5c">
+<meta itemprop="name" content="📲 Scope Creep and Personal Projects">
+<meta itemprop="description" content="Some viewers (especially programmers) may find the following image disturbing:
+ Charitably, software gore
+  Ouch. Is that Python or Javascript? And do I spy inline CSS styling? To quote The Talking Heads, &ldquo;How did I get here?&quot; After all, no one ever sets out to write bad code. While bad code can result from laziness or inexperience, I want to spend this article discussing a third source: Scope Creep."><meta itemprop="datePublished" content="2025-02-28T22:13:38-08:00" />
+<meta itemprop="dateModified" content="2025-02-28T22:13:38-08:00" />
+<meta itemprop="wordCount" content="1460">
+<meta itemprop="keywords" content="article,cafe,bootstrap,python,javascript,webdevelopment,musings,learning," /><meta property="og:title" content="📲 Scope Creep and Personal Projects" />
+<meta property="og:description" content="Some viewers (especially programmers) may find the following image disturbing:
+ Charitably, software gore
+  Ouch. Is that Python or Javascript? And do I spy inline CSS styling? To quote The Talking Heads, &ldquo;How did I get here?&quot; After all, no one ever sets out to write bad code. While bad code can result from laziness or inexperience, I want to spend this article discussing a third source: Scope Creep." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ethan-cope.github.io/posts/scopecreep/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2025-02-28T22:13:38-08:00" />
+<meta property="article:modified_time" content="2025-02-28T22:13:38-08:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="📲 Scope Creep and Personal Projects"/>
+<meta name="twitter:description" content="Some viewers (especially programmers) may find the following image disturbing:
+ Charitably, software gore
+  Ouch. Is that Python or Javascript? And do I spy inline CSS styling? To quote The Talking Heads, &ldquo;How did I get here?&quot; After all, no one ever sets out to write bad code. While bad code can result from laziness or inexperience, I want to spend this article discussing a third source: Scope Creep."/>
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="">
+	<link rel="shortcut icon" href="/favicon.ico">
+
+	<title>📲 Scope Creep and Personal Projects</title>
+	<link rel="stylesheet" href="https://ethan-cope.github.io/css/style.min.037b6ee8f8c1baab6a3d0a9da11c3ff18a7552471f16c59fd98538d5ce99208b.css" integrity="sha256-A3tu6PjBuqtqPQqdoRw/8Yp1UkcfFsWf2YU41c6ZIIs=" crossorigin="anonymous">
+	
+</head>
+
+<body id="page">
+	
+	<header id="site-header" class="animated slideInUp">
+		<div class="hdr-wrapper section-inner">
+			<div class="hdr-left">
+				<div class="site-branding">
+					<a href="https://ethan-cope.github.io">Hey, I&#39;m Ethan.</a>
+				</div>
+				<nav class="site-nav hide-in-mobile">
+					
+				<a href="https://ethan-cope.github.io/posts/">Posts</a>
+				<a href="https://ethan-cope.github.io/aboutme/">About</a>
+
+				</nav>
+			</div>
+			<div class="hdr-right hdr-icons">
+				<span class="hdr-social hide-in-mobile"><a href="https://github.com/ethan-cope" target="_blank" rel="noopener me" title="Github"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a><a href="https://www.linkedin.com/in/ethancope/" target="_blank" rel="noopener me" title="Linkedin"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a><a href="https://twitter.com/" target="_blank" rel="noopener me" title="Email"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg></a></span><button id="menu-btn" class="hdr-btn" title="Menu"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button>
+			</div>
+		</div>
+	</header>
+	<div id="mobile-menu" class="animated fast">
+		<ul>
+			<li><a href="https://ethan-cope.github.io/posts/">Posts</a></li>
+			<li><a href="https://ethan-cope.github.io/aboutme/">About</a></li>
+		</ul>
+	</div>
+
+
+	<main class="site-main section-inner animated fadeIn faster">
+		<article class="thin">
+			<header class="post-header">
+				<div class="post-meta"><span>Feb 28, 2025</span></div>
+				<h1>📲 Scope Creep and Personal Projects</h1>
+			</header>
+			<div class="content">
+				<p>Some viewers (especially programmers) may find the following image disturbing:</p>
+<figure><img src="images/GrossMultiLanguage2.png"
+         alt="image"/><figcaption>
+            <p>Charitably, software gore</p>
+        </figcaption>
+</figure>
+
+<p>Ouch. Is that Python or Javascript? And do I spy inline CSS styling? To quote The Talking Heads, <a href="https://www.youtube.com/watch?v=fR0jgT9UX0Q">&ldquo;How did I get here?&quot;</a> After all, no one ever sets out to write bad code. While bad code can result from laziness or inexperience, I want to spend this article discussing a third source: Scope Creep.</p>
+<p>Scope Creep is what results from changing a project&rsquo;s goals while still in active development. Normally, this looks like adding new features without fully understanding how difficult implementation will be. More often than not, the project&rsquo;s existing codebase has to be hacked into supporting these features, resulting in clunky and non-optimized code. My most recent project, <a href="http://cafematrix.net/">CafeMatrix</a>, is definitely guilty of this! So I thought it&rsquo;d be cool to write an article deconstructing CafeMatrix&rsquo;s code quirks and mapping them to scope creep I encountered during development. This post will be a bit programming-heavy, but I&rsquo;ll try to throw some lifelines to non-technical audience members along the way. Let&rsquo;s get started!</p>
+<h2 id="scope-creep-instance-1-cafematrixs-original-inspiration">Scope Creep, Instance 1: CafeMatrix&rsquo;s original inspiration<a href="#scope-creep-instance-1-cafematrixs-original-inspiration" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<figure><img src="images/class.png"
+         alt="image"/><figcaption>
+            <p>The ShopReview class, which handles review processing.</p>
+        </figcaption>
+</figure>
+
+<p>CafeMatrix was originally inspired by the &ldquo;coffee spreadsheet&rdquo;. Many of my friends track details on their favorite cafes in a spreadsheet. After parsing a few, I noticed each of these (independently developed) spreadsheets were ranking cafes on the same general set of criteria. Coffee taste and cost were obvious, but more abstract fields like &ldquo;cafe vibe&rdquo; and &ldquo;good study spot&rdquo; were well represented too.</p>
+<p>This got me thinking - if there were an agreed-upon set of criteria to rated cafes, it would be much easier to share and compare recommendations with friends! But how to compare cafes? After all, some are great for hanging out, others are geared towards studying, and so on. My solution was the 3-axis system, where every cafe is rated on three separate axes: Study Suitability, Ambiance, and Value (which includes taste). This spikes out each location&rsquo;s strong suits, giving a better indication of what each cafe is all about.</p>
+<figure><img src="images/spreadsheetBackend.png"
+         alt="image"/><figcaption>
+            <p>CafeMatrix&rsquo;s original spreadsheet &ldquo;database&rdquo;</p>
+        </figcaption>
+</figure>
+
+<p>What did this look like on the code side? I initially wanted CafeMatrix to aggregate reviews from different users, each of which would be stored on a central database. But implementing an entire database is a boring first step - I decided to start writing the backend in Python, substituting a spreadsheet for the database in the interim.</p>
+<p>CafeMatrix didn&rsquo;t end up evolving in this direction, and a central database was never added. But the hooks for this initial plan are obvious in the codebase. For example, in the ShopReview class, reviews have both a Shop ID and a Review ID. But CafeMatrix only allows one review per shop - why aren&rsquo;t they the same? The original intent here was to allow multiple reviews be assigned to one shop, from which the shop&rsquo;s final score could be calculated. This class is overkill for it&rsquo;s current purpose,  but it was meant for so much more!</p>
+<p>So, what killed the database idea? I read a <a href="https://apenwarr.ca/log/?m=202312">very interesting article</a> about inaccuracies in emotion-based rating on a 10-point scale. My takeaway was that most people can&rsquo;t be bothered to granularly rate each criteria with any level of consistency. Plus, I would never get a large volume of data with how (admittedly) niche this program is. While the database idea died, it&rsquo;s legacy lives on as another quirk in CafeMatrix&rsquo;s codebase.</p>
+<h2 id="scope-creep-instance-2-how-cafematrix-became-a-webapp">Scope Creep, Instance 2: How CafeMatrix became a Webapp<a href="#scope-creep-instance-2-how-cafematrix-became-a-webapp" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<figure><img src="images/generateMatrix.png"
+         alt="image"/><figcaption>
+            <p>generateMatrix, the method that builds the 3D ratings matrix.</p>
+        </figcaption>
+</figure>
+
+<p>As the backend took shape, another problem crystallized - How was I going to represent this data-dense information to the end user? With nine separate rating indices and user comments, displaying &ldquo;just enough&rdquo; information would be critical. But how to define &ldquo;just enough&rdquo;?</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><img src="images/blueEngineTempLight.jpg" alt=""></th>
+<th style="text-align:center"><img src="images/engineTempGauge.jpg" alt=""></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><em>The blue engine temperature light in question (<a href="https://www.youtube.com/watch?v=BHBjNo1i7MY">source</a>)</em></td>
+<td style="text-align:center"><em>A typical engine temperature gauge (<a href="https://www.lincolncustomauto.com/blog/things-to-know-about-your-car-s-temperature-gauge">source</a>)</em></td>
+</tr>
+</tbody>
+</table>
+<p>Like all good questions, the answer here is &ldquo;it depends&rdquo; - let&rsquo;s look at an extended example. My sister&rsquo;s 2018 Mazda3 is somewhat unusual due to it&rsquo;s engine temperature <em>light</em> - blue if the engine is cold, red if it&rsquo;s hot, and off at normal temperatures. A racing driver would be appalled. On the track, these three options aren&rsquo;t enough to make any meaningful decisions. But my sister isn&rsquo;t lapping <a href="https://weathertechraceway.com/">Laguna Seca</a> in her free time. For her, a full temp readout would just clutter the dashboard. What I&rsquo;m getting at here is that <em>the end usecase establishes information relevancy</em>. Define your usecase clearly (&ldquo;vehicle is not a racecar&rdquo;), and you can cut a lot of info that previously appeared essential (&ldquo;full-fledged temperature gauge&rdquo;).</p>
+<p>With this background, I landed on the following &ldquo;clearly defined end usecase for CafeMatrix&rdquo;.</p>
+<blockquote>
+<p>CafeMatrix exists to <em>track and compare</em> different cafes in common areas like taste, cost, and ambiance. It does so by defining a detailed, shared criteria by which all cafes are rated and contrasted.</p>
+</blockquote>
+<p>After answering this fundamental question, designing CafeMatrix&rsquo;s UI became a lot easier. Each cafe already has a ranking (1-10) for the three axes of Study Suitability, Ambiance, and Value (which includes taste). So each cafe could be a unique point on a scatter plot, like in the example below. The twist here is that, with 3 axes, CafeMatrix would need to be a <strong>3-dimensional</strong> scatter plot. Now I had to find a way to plot pretty 3D scatter plots in Python.</p>
+<figure><img src="images/cafeMatrix.png"
+         alt="image"/><figcaption>
+            <p>The final result!</p>
+        </figcaption>
+</figure>
+
+<p>The <a href="https://community.plotly.com/t/big-data-plotply-js-vs-plotply-py/40446">Plotly.py</a> library seemed a perfect fit, but picking it inadvertently and massively increased this project&rsquo;s scope. As it turns out, Plotly plots are packaged in a website with a fully interactive 3D scatter plot. There was too much meat on the bone to refuse, and the idea of a fully local &ldquo;<a href="https://www.joelonsoftware.com/2004/06/13/how-microsoft-lost-the-api-war/">rich client</a>&rdquo; CafeMatrix died. My minimum viable product was now a webapp with a collision course for the internet.</p>
+<h2 id="scope-creep-instance-3-how-i-ended-up-writing-javascript-in-python">Scope Creep, Instance 3: How I ended up writing Javascript in Python<a href="#scope-creep-instance-3-how-i-ended-up-writing-javascript-in-python" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p>Now that CafeMatrix was a capital-W Website, I suddenly found myself having to care about smartphones. A brief test confirmed the bad news - my UI was beautiful on laptop displays, but marred by disgusting horizontal scrollbars on mobile. I&rsquo;d used the <a href="https://getbootstrap.com/">Bootstrap toolkit</a> to solve similar problems before, but that only works for websites written in HTML. Surely there wasn&rsquo;t a distribution of Bootstrap for my specific flavor of Python, right?</p>
+<figure><img src="images/GrossMultiLanguage2.png"
+         alt="image"/><figcaption>
+            <p>Writing HTML in Python. Square peg, meet round hole.</p>
+        </figcaption>
+</figure>
+
+<p>As it turns out, there was! Thanks to the kind souls at Faculty.ai, I added Bootstrap functionality to Python using the <a href="https://dash-bootstrap-components.opensource.faculty.ai/docs/components/">DBC library</a> - but with caveats. As mentioned, Bootstrap was always intended for websites written in HTML. In HTML, you first add in UI elements (paragraphs, buttons, etc.), then assign Bootstrap &ldquo;classes&rdquo; to each one.
+These classes are what make buttons act like buttons and paragraphs like paragraphs. To replicate this behavior in Python, each Bootstrap class is instead a Python function that you call. This is really clunky, since Python functions don&rsquo;t naturally nest in the way HTML elements do. DBC has to cram sub-elements in as arguments to the function call alongside the actual function arguments themselves. I&rsquo;m impressed by the amount of polish on this library, but this is the programming equivalent of jamming a square peg in a round hole.</p>
+<h2 id="conclusion-and-whats-next">Conclusion (and What&rsquo;s Next)<a href="#conclusion-and-whats-next" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h2>
+<p>But you know what? <em>It works!</em> If I had known CafeMatrix would grow into an interactive app on the world wide web, I absolutely would have started with HTML/Javascript. But that&rsquo;s the thing with personal projects - they <em>evolve</em>. Sure, scope creep leads to some really clunky code. But the <a href="/posts/echo-matic_special2/">best way to murder a project momentum</a> is to go the opposite route and overoptimize before you&rsquo;ve even started. If I tried to tackle this project&rsquo;s whole scope (webapp, hosting, etc.) from the get-go, I&rsquo;m confident CafeMatrix wouldn&rsquo;t be here today.</p>
+<p>So here&rsquo;s my humble takeaway. Just start something. Start working on a big idea and stick with it. It won&rsquo;t always be clean, but the details will work themselves out and you&rsquo;ll learn a lot in the process! CafeMatrix was my first time self-hosting a website, and it was <em>way</em> harder than I was expecting. But I came out the other end with a much better understanding of project management and the internet as a whole. So maybe, for personal projects, scope creep isn&rsquo;t so bad!</p>
+<p>This type of article naturally begs a question - am I going to rewrite CafeMatrix in Javascript to fix all of it&rsquo;s flaws? Resoundingly, no. I try to avoid whatever StackOverflow&rsquo;s creator lists as <a href="https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/">Things You Should Never Do</a>. That being said - imagine if you could cram an entire matrix into an easily shareable 3KB QR code. Hmm&hellip; And so, Scope Creep continues!</p>
+
+			</div>
+			<hr class="post-end">
+			<footer class="post-info">
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-feather"><path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"></path><line x1="16" y1="8" x2="2" y2="22"></line><line x1="17.5" y1="15" x2="9" y2="15"></line></svg>[map[name:Ethan Cope]]</p>
+				<p>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://ethan-cope.github.io/tags/article">article</a></span><span class="tag"><a href="https://ethan-cope.github.io/tags/cafe">cafe</a></span><span class="tag"><a href="https://ethan-cope.github.io/tags/bootstrap">bootstrap</a></span><span class="tag"><a href="https://ethan-cope.github.io/tags/python">python</a></span><span class="tag"><a href="https://ethan-cope.github.io/tags/javascript">javascript</a></span><span class="tag"><a href="https://ethan-cope.github.io/tags/webdevelopment">webdevelopment</a></span><span class="tag"><a href="https://ethan-cope.github.io/tags/musings">musings</a></span><span class="tag"><a href="https://ethan-cope.github.io/tags/learning">learning</a></span>
+				</p>
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>1460 Words</p>
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2025-02-28 22:13 -0800</p>
+			</footer>
+		</article>
+		<div class="post-nav thin">
+			<a class="prev-post" href="https://ethan-cope.github.io/posts/twodaysinnagoya/">
+				<span class="post-nav-label">Older&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span><br><span>🏙️ Is Nagoya Boring?</span>
+			</a>
+		</div>
+	</main>
+
+	<footer id="site-footer" class="section-inner thin animated fadeIn faster">
+		<p>&copy; 2025 <a href="https://ethan-cope.github.io"></a> &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></p>
+		<p>
+			Made with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> &#183; Theme <a href="https://github.com/Track3/hermit" target="_blank" rel="noopener">Hermit</a> &#183; <a href="https://ethan-cope.github.io/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
+		</p>
+	</footer>
+
+
+
+	<script src="https://ethan-cope.github.io/js/bundle.min.7d8545daa55d62427355498dd8da13f98ff79a7938ce7d2a5e2ae1ec0de3beb8.js" integrity="sha256-fYVF2qVdYkJzVUmN2NoT+Y/3mnk4zn0qXirh7A3jvrg=" crossorigin="anonymous"></script>
+	
+</body>
+
+</html>
