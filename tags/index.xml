@@ -7,13 +7,67 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Fri, 28 Feb 2025 22:13:38 -0800</lastBuildDate><atom:link href="https://ethan-cope.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 29 Mar 2025 18:20:02 -0700</lastBuildDate><atom:link href="https://ethan-cope.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>album</title>
+      <link>https://ethan-cope.github.io/tags/album/</link>
+      <pubDate>Sat, 29 Mar 2025 18:20:02 -0700</pubDate>
+      
+      <guid>https://ethan-cope.github.io/tags/album/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>article</title>
       <link>https://ethan-cope.github.io/tags/article/</link>
-      <pubDate>Fri, 28 Feb 2025 22:13:38 -0800</pubDate>
+      <pubDate>Sat, 29 Mar 2025 18:20:02 -0700</pubDate>
       
       <guid>https://ethan-cope.github.io/tags/article/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>audio</title>
+      <link>https://ethan-cope.github.io/tags/audio/</link>
+      <pubDate>Sat, 29 Mar 2025 18:20:02 -0700</pubDate>
+      
+      <guid>https://ethan-cope.github.io/tags/audio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fusion</title>
+      <link>https://ethan-cope.github.io/tags/fusion/</link>
+      <pubDate>Sat, 29 Mar 2025 18:20:02 -0700</pubDate>
+      
+      <guid>https://ethan-cope.github.io/tags/fusion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jazz</title>
+      <link>https://ethan-cope.github.io/tags/jazz/</link>
+      <pubDate>Sat, 29 Mar 2025 18:20:02 -0700</pubDate>
+      
+      <guid>https://ethan-cope.github.io/tags/jazz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mariokart</title>
+      <link>https://ethan-cope.github.io/tags/mariokart/</link>
+      <pubDate>Sat, 29 Mar 2025 18:20:02 -0700</pubDate>
+      
+      <guid>https://ethan-cope.github.io/tags/mariokart/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>music</title>
+      <link>https://ethan-cope.github.io/tags/music/</link>
+      <pubDate>Sat, 29 Mar 2025 18:20:02 -0700</pubDate>
+      
+      <guid>https://ethan-cope.github.io/tags/music/</guid>
       <description></description>
     </item>
     
@@ -41,60 +95,6 @@
       <pubDate>Fri, 28 Feb 2025 22:13:38 -0800</pubDate>
       
       <guid>https://ethan-cope.github.io/tags/javascript/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>learning</title>
-      <link>https://ethan-cope.github.io/tags/learning/</link>
-      <pubDate>Fri, 28 Feb 2025 22:13:38 -0800</pubDate>
-      
-      <guid>https://ethan-cope.github.io/tags/learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>musings</title>
-      <link>https://ethan-cope.github.io/tags/musings/</link>
-      <pubDate>Fri, 28 Feb 2025 22:13:38 -0800</pubDate>
-      
-      <guid>https://ethan-cope.github.io/tags/musings/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>python</title>
-      <link>https://ethan-cope.github.io/tags/python/</link>
-      <pubDate>Fri, 28 Feb 2025 22:13:38 -0800</pubDate>
-      
-      <guid>https://ethan-cope.github.io/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>webDevelopment</title>
-      <link>https://ethan-cope.github.io/tags/webdevelopment/</link>
-      <pubDate>Fri, 28 Feb 2025 22:13:38 -0800</pubDate>
-      
-      <guid>https://ethan-cope.github.io/tags/webdevelopment/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>architecture</title>
-      <link>https://ethan-cope.github.io/tags/architecture/</link>
-      <pubDate>Sat, 01 Feb 2025 19:44:06 -0800</pubDate>
-      
-      <guid>https://ethan-cope.github.io/tags/architecture/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>automotive</title>
-      <link>https://ethan-cope.github.io/tags/automotive/</link>
-      <pubDate>Sat, 01 Feb 2025 19:44:06 -0800</pubDate>
-      
-      <guid>https://ethan-cope.github.io/tags/automotive/</guid>
       <description></description>
     </item>
     

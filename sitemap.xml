@@ -2,16 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://ethan-cope.github.io/tags/album/</loc>
+    <lastmod>2025-03-29T18:20:02-07:00</lastmod>
+  </url><url>
     <loc>https://ethan-cope.github.io/tags/article/</loc>
-    <lastmod>2025-02-28T22:13:38-08:00</lastmod>
+    <lastmod>2025-03-29T18:20:02-07:00</lastmod>
+  </url><url>
+    <loc>https://ethan-cope.github.io/tags/audio/</loc>
+    <lastmod>2025-03-29T18:20:02-07:00</lastmod>
+  </url><url>
+    <loc>https://ethan-cope.github.io/tags/fusion/</loc>
+    <lastmod>2025-03-29T18:20:02-07:00</lastmod>
+  </url><url>
+    <loc>https://ethan-cope.github.io/</loc>
+    <lastmod>2025-03-29T18:20:02-07:00</lastmod>
+  </url><url>
+    <loc>https://ethan-cope.github.io/tags/jazz/</loc>
+    <lastmod>2025-03-29T18:20:02-07:00</lastmod>
+  </url><url>
+    <loc>https://ethan-cope.github.io/tags/mariokart/</loc>
+    <lastmod>2025-03-29T18:20:02-07:00</lastmod>
+  </url><url>
+    <loc>https://ethan-cope.github.io/tags/music/</loc>
+    <lastmod>2025-03-29T18:20:02-07:00</lastmod>
+  </url><url>
+    <loc>https://ethan-cope.github.io/posts/</loc>
+    <lastmod>2025-03-29T18:20:02-07:00</lastmod>
+  </url><url>
+    <loc>https://ethan-cope.github.io/tags/</loc>
+    <lastmod>2025-03-29T18:20:02-07:00</lastmod>
+  </url><url>
+    <loc>https://ethan-cope.github.io/posts/mariokartmusic/</loc>
+    <lastmod>2025-03-29T18:20:02-07:00</lastmod>
   </url><url>
     <loc>https://ethan-cope.github.io/tags/bootstrap/</loc>
     <lastmod>2025-02-28T22:13:38-08:00</lastmod>
   </url><url>
     <loc>https://ethan-cope.github.io/tags/cafe/</loc>
-    <lastmod>2025-02-28T22:13:38-08:00</lastmod>
-  </url><url>
-    <loc>https://ethan-cope.github.io/</loc>
     <lastmod>2025-02-28T22:13:38-08:00</lastmod>
   </url><url>
     <loc>https://ethan-cope.github.io/tags/javascript/</loc>
@@ -23,13 +50,7 @@
     <loc>https://ethan-cope.github.io/tags/musings/</loc>
     <lastmod>2025-02-28T22:13:38-08:00</lastmod>
   </url><url>
-    <loc>https://ethan-cope.github.io/posts/</loc>
-    <lastmod>2025-02-28T22:13:38-08:00</lastmod>
-  </url><url>
     <loc>https://ethan-cope.github.io/tags/python/</loc>
-    <lastmod>2025-02-28T22:13:38-08:00</lastmod>
-  </url><url>
-    <loc>https://ethan-cope.github.io/tags/</loc>
     <lastmod>2025-02-28T22:13:38-08:00</lastmod>
   </url><url>
     <loc>https://ethan-cope.github.io/tags/webdevelopment/</loc>
@@ -79,9 +100,6 @@
   </url><url>
     <loc>https://ethan-cope.github.io/posts/irvingapt/</loc>
     <lastmod>2024-04-20T16:32:24-05:00</lastmod>
-  </url><url>
-    <loc>https://ethan-cope.github.io/tags/audio/</loc>
-    <lastmod>2023-08-27T15:39:53-05:00</lastmod>
   </url><url>
     <loc>https://ethan-cope.github.io/tags/electronics/</loc>
     <lastmod>2023-08-27T15:39:53-05:00</lastmod>
@@ -149,13 +167,7 @@
     <loc>https://ethan-cope.github.io/posts/auto-grader-update/</loc>
     <lastmod>2022-12-23T15:36:55-06:00</lastmod>
   </url><url>
-    <loc>https://ethan-cope.github.io/tags/album/</loc>
-    <lastmod>2022-12-17T10:20:53-05:00</lastmod>
-  </url><url>
     <loc>https://ethan-cope.github.io/posts/congratulations/</loc>
-    <lastmod>2022-12-17T10:20:53-05:00</lastmod>
-  </url><url>
-    <loc>https://ethan-cope.github.io/tags/music/</loc>
     <lastmod>2022-12-17T10:20:53-05:00</lastmod>
   </url><url>
     <loc>https://ethan-cope.github.io/tags/hackathon/</loc>
