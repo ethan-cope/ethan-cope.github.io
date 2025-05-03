@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>musings on Hey, I&#39;m Ethan.</title>
-    <link>https://ethan-cope.github.io/tags/musings/</link>
-    <description>Recent content in musings on Hey, I&#39;m Ethan.</description>
+    <title>trains on Hey, I&#39;m Ethan.</title>
+    <link>https://ethan-cope.github.io/tags/trains/</link>
+    <description>Recent content in trains on Hey, I&#39;m Ethan.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sat, 26 Apr 2025 10:03:08 -0700</lastBuildDate><atom:link href="https://ethan-cope.github.io/tags/musings/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Apr 2025 10:03:08 -0700</lastBuildDate><atom:link href="https://ethan-cope.github.io/tags/trains/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>🚃 On the Train in San Francisco</title>
       <link>https://ethan-cope.github.io/posts/sftransit/</link>
@@ -16,17 +16,6 @@
       <guid>https://ethan-cope.github.io/posts/sftransit/</guid>
       <description>As some may know, I moved to Santa Clara about a year ago. But if a non-Californian asks me where I live, I&amp;rsquo;ve learned to skip the geography lesson and just say San Francisco. Despite how often I use this line, I recently realized I haven&amp;rsquo;t really explored San Francisco yet.
 Sure, I&amp;rsquo;ve driven in for a few concerts - but that&amp;rsquo;s not exploring. Driving is all point-to-point. Pull up to the destination and park in the least sketchy lot you can find.</description>
-    </item>
-    
-    <item>
-      <title>📲 Scope Creep and Personal Projects</title>
-      <link>https://ethan-cope.github.io/posts/scopecreep/</link>
-      <pubDate>Fri, 28 Feb 2025 22:13:38 -0800</pubDate>
-      
-      <guid>https://ethan-cope.github.io/posts/scopecreep/</guid>
-      <description>Some viewers (especially programmers) may find the following image disturbing:
- Charitably, software gore
-  Ouch. Is that Python or Javascript? And do I spy inline CSS styling? To quote The Talking Heads, &amp;ldquo;How did I get here?&amp;quot; After all, no one ever sets out to write bad code. While bad code can result from laziness or inexperience, I want to spend this article discussing a third source: Scope Creep.</description>
     </item>
     
   </channel>

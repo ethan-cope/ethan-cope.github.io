@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sat, 29 Mar 2025 18:20:02 -0700</lastBuildDate><atom:link href="https://ethan-cope.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Apr 2025 10:03:08 -0700</lastBuildDate><atom:link href="https://ethan-cope.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🚃 On the Train in San Francisco</title>
+      <link>https://ethan-cope.github.io/posts/sftransit/</link>
+      <pubDate>Sat, 26 Apr 2025 10:03:08 -0700</pubDate>
+      
+      <guid>https://ethan-cope.github.io/posts/sftransit/</guid>
+      <description>As some may know, I moved to Santa Clara about a year ago. But if a non-Californian asks me where I live, I&amp;rsquo;ve learned to skip the geography lesson and just say San Francisco. Despite how often I use this line, I recently realized I haven&amp;rsquo;t really explored San Francisco yet.
+Sure, I&amp;rsquo;ve driven in for a few concerts - but that&amp;rsquo;s not exploring. Driving is all point-to-point. Pull up to the destination and park in the least sketchy lot you can find.</description>
+    </item>
+    
     <item>
       <title>🏎️ What Genre is Mario Kart Music?</title>
       <link>https://ethan-cope.github.io/posts/mariokartmusic/</link>
@@ -99,15 +109,6 @@ The Problem  Sweet Eugene&amp;rsquo;s (image from Yelp)</description>
       <description>You&amp;rsquo;ve got to start with the customer experience and work back toward the technology, not the other way around. ~ Steve Jobs
  Last weekend I had the opportunity to participate in Problems Worth Solving: Texas A&amp;amp;M&amp;rsquo;s first and only entrepreneurship competition that outright bans solutions.
 Great businesses arise from an intimate understanding of your customers&#39; needs. PWS emphasizes this critical step of entrepreneurship by focusing entrepreneurs on the problem, not the solution.</description>
-    </item>
-    
-    <item>
-      <title>A sane mini-tutorial for the Jenkins Javascript API</title>
-      <link>https://ethan-cope.github.io/posts/jenkinsapi/</link>
-      <pubDate>Fri, 03 Feb 2023 14:51:34 -0600</pubDate>
-      
-      <guid>https://ethan-cope.github.io/posts/jenkinsapi/</guid>
-      <description>Holy moly, the Jenkins documentation is bad. At the very least, it isn&amp;rsquo;t very user-friendly, especially for beginners. For someone who has little-to-no experience in web development, doing something as simple as getting some job data from a Node program is the equivalent of pulling teeth. After spending hours in rabbit holes, I finally stumbled on a configuration that works. This mini-writeup will hopefully help those webdev-challenged folks such as myself in the quest for Jenkins API usage.</description>
     </item>
     
   </channel>
