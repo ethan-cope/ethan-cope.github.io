@@ -7,31 +7,76 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sat, 26 Apr 2025 10:03:08 -0700</lastBuildDate><atom:link href="https://ethan-cope.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 May 2025 09:13:51 -0700</lastBuildDate><atom:link href="https://ethan-cope.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>article</title>
-      <link>https://ethan-cope.github.io/tags/article/</link>
-      <pubDate>Sat, 26 Apr 2025 10:03:08 -0700</pubDate>
+      <title>audio</title>
+      <link>https://ethan-cope.github.io/tags/audio/</link>
+      <pubDate>Wed, 28 May 2025 09:13:51 -0700</pubDate>
       
-      <guid>https://ethan-cope.github.io/tags/article/</guid>
+      <guid>https://ethan-cope.github.io/tags/audio/</guid>
       <description></description>
     </item>
     
     <item>
       <title>blog</title>
       <link>https://ethan-cope.github.io/tags/blog/</link>
-      <pubDate>Sat, 26 Apr 2025 10:03:08 -0700</pubDate>
+      <pubDate>Wed, 28 May 2025 09:13:51 -0700</pubDate>
       
       <guid>https://ethan-cope.github.io/tags/blog/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>essay</title>
+      <link>https://ethan-cope.github.io/tags/essay/</link>
+      <pubDate>Wed, 28 May 2025 09:13:51 -0700</pubDate>
+      
+      <guid>https://ethan-cope.github.io/tags/essay/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>music</title>
+      <link>https://ethan-cope.github.io/tags/music/</link>
+      <pubDate>Wed, 28 May 2025 09:13:51 -0700</pubDate>
+      
+      <guid>https://ethan-cope.github.io/tags/music/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>musings</title>
       <link>https://ethan-cope.github.io/tags/musings/</link>
-      <pubDate>Sat, 26 Apr 2025 10:03:08 -0700</pubDate>
+      <pubDate>Wed, 28 May 2025 09:13:51 -0700</pubDate>
       
       <guid>https://ethan-cope.github.io/tags/musings/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>streaming</title>
+      <link>https://ethan-cope.github.io/tags/streaming/</link>
+      <pubDate>Wed, 28 May 2025 09:13:51 -0700</pubDate>
+      
+      <guid>https://ethan-cope.github.io/tags/streaming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>technology</title>
+      <link>https://ethan-cope.github.io/tags/technology/</link>
+      <pubDate>Wed, 28 May 2025 09:13:51 -0700</pubDate>
+      
+      <guid>https://ethan-cope.github.io/tags/technology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>article</title>
+      <link>https://ethan-cope.github.io/tags/article/</link>
+      <pubDate>Sat, 26 Apr 2025 10:03:08 -0700</pubDate>
+      
+      <guid>https://ethan-cope.github.io/tags/article/</guid>
       <description></description>
     </item>
     
@@ -50,51 +95,6 @@
       <pubDate>Sat, 26 Apr 2025 10:03:08 -0700</pubDate>
       
       <guid>https://ethan-cope.github.io/tags/trains/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>transit</title>
-      <link>https://ethan-cope.github.io/tags/transit/</link>
-      <pubDate>Sat, 26 Apr 2025 10:03:08 -0700</pubDate>
-      
-      <guid>https://ethan-cope.github.io/tags/transit/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>transportation</title>
-      <link>https://ethan-cope.github.io/tags/transportation/</link>
-      <pubDate>Sat, 26 Apr 2025 10:03:08 -0700</pubDate>
-      
-      <guid>https://ethan-cope.github.io/tags/transportation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>travel</title>
-      <link>https://ethan-cope.github.io/tags/travel/</link>
-      <pubDate>Sat, 26 Apr 2025 10:03:08 -0700</pubDate>
-      
-      <guid>https://ethan-cope.github.io/tags/travel/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>album</title>
-      <link>https://ethan-cope.github.io/tags/album/</link>
-      <pubDate>Sat, 29 Mar 2025 18:20:02 -0700</pubDate>
-      
-      <guid>https://ethan-cope.github.io/tags/album/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>audio</title>
-      <link>https://ethan-cope.github.io/tags/audio/</link>
-      <pubDate>Sat, 29 Mar 2025 18:20:02 -0700</pubDate>
-      
-      <guid>https://ethan-cope.github.io/tags/audio/</guid>
       <description></description>
     </item>
     
