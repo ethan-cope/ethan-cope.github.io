@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pomodoro on Hey, I&#39;m Ethan.</title>
+    <link>https://ethan-cope.github.io/tags/pomodoro/</link>
+    <description>Recent content in pomodoro on Hey, I&#39;m Ethan.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Thu, 28 Aug 2025 18:52:38 -0700</lastBuildDate><atom:link href="https://ethan-cope.github.io/tags/pomodoro/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🍅⏰ Using the Pomodoro Technique to make a Pomodoro Timer (Part 1)</title>
+      <link>https://ethan-cope.github.io/posts/pomodorotimer/</link>
+      <pubDate>Thu, 28 Aug 2025 18:52:38 -0700</pubDate>
+      
+      <guid>https://ethan-cope.github.io/posts/pomodorotimer/</guid>
+      <description>first prototype!
+  Using the Pomodoro Technique to make a Pomodoro Timer (Part 1) A famous Henry Ford quote goes: &amp;ldquo;Nothing is particularly hard, if you divide it into small [enough] jobs&amp;rdquo;. One popular way to practically implement this advice is something called the &amp;ldquo;Pomodoro Technique&amp;rdquo;. 1
+The Pomodoro Technique aims to divide the day into bite-sized, productive time chunks. The idea is to set some kind of timer for 25 minutes before you start working.</description>
+    </item>
+    
+  </channel>
+</rss>
