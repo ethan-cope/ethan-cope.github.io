@@ -6,8 +6,104 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-		<lastBuildDate>Mon, 18 Aug 2025 22:05:04 -0700</lastBuildDate>
+		<lastBuildDate>Thu, 28 Aug 2025 18:52:38 -0700</lastBuildDate>
 		<atom:link href="https://ethan-cope.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>🍅⏰ Using the Pomodoro Technique to make a Pomodoro Timer (Part 1)</title>
+			<link>https://ethan-cope.github.io/posts/pomodorotimer/</link>
+			<pubDate>Thu, 28 Aug 2025 18:52:38 -0700</pubDate>
+			
+			<guid>https://ethan-cope.github.io/posts/pomodorotimer/</guid>
+			<description>first prototype!
+  Using the Pomodoro Technique to make a Pomodoro Timer (Part 1) A famous Henry Ford quote goes: &amp;ldquo;Nothing is particularly hard, if you divide it into small [enough] jobs&amp;rdquo;. One popular way to practically implement this advice is something called the &amp;ldquo;Pomodoro Technique&amp;rdquo;. 1
+The Pomodoro Technique aims to divide the day into bite-sized, productive time chunks. The idea is to set some kind of timer for 25 minutes before you start working.</description>
+			<content type="html"><![CDATA[<figure><img src="images/prototype.jpg"
+         alt="image"/><figcaption>
+            <p>first prototype!</p>
+        </figcaption>
+</figure>
+
+<h3 id="using-the-pomodoro-technique-to-make-a-pomodoro-timer-part-1">Using the Pomodoro Technique to make a Pomodoro Timer (Part 1)</h3>
+<p>A famous Henry Ford quote goes: &ldquo;Nothing is particularly hard, if you divide it into small [enough] jobs&rdquo;.
+One popular way to practically implement this advice is something called the &ldquo;Pomodoro Technique&rdquo;. <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p>The Pomodoro Technique aims to divide the day into bite-sized, productive time chunks.
+The idea is to set some kind of timer for 25 minutes before you start working. Once you start work, (i.e. while the timer is running) you can&rsquo;t check your email, look at your phone, or otherwise get distracted.
+Don&rsquo;t worry! At the end of those 25 minutes, you&rsquo;ll take a 5 minute break where you can do all of those things. Then it&rsquo;s time to get started on the next 25 minute chunk.</p>
+<figure><img src="images/pomodoroExplanation.png"
+         alt="image"/><figcaption>
+            <p>A pictorial explanation of the pomodoro timer. <a href="https://www.educba.com/pomodoro-technique/">image credit</a></p>
+        </figcaption>
+</figure>
+
+<p>Intrigued, I wanted to test whether the pomodoro method actually worked.
+But I still needed a benchmark project to apply this method to. What to do?
+Then suddenly came a bolt of inspiration. What if I used the pomodoro technique&hellip; <em><strong>to make a pomodoro timer?</strong></em></p>
+<p>While this may seem less ambitious than some of my <a href="/posts/thinking-of-you/">previous embedded projects</a>, I think it may turn out to be harder.
+For firmware, I wanted to break out of the walled garden of Arduino and use a real microcontroller this time around.
+More than that, I wanted this to be my first time taking a DIY design from concept all the way to production. <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>
+This means firmware and prototyping (this article, part 1), but also PCB design and assembly (next article, part 2)
+I&rsquo;ve done each of these steps in isolation, but combining them together in one project will be the real challenge!</p>
+<p>Finally, since I used a (website-based) pomodoro timer throughout development, I&rsquo;ll break down how using this technique helped this project move along. Let&rsquo;s get started!</p>
+<h2 id="the-concept">The Concept</h2>
+<p>There isn&rsquo;t much that goes into a pomodoro timer. You just need a way to visualize how much time you have left, and a way to reset the timer once it goes off.
+For visualization, I decided to use five LEDs to show the status of the timer. Each LED maps to 5 minutes of the timer&rsquo;s period. So if 10 minutes remain, 2/5 LEDs will be lit. The microcontroller will count down from 25 minutes, turning off each LED in sequence until 25 minutes have passed and all LEDs are off. I made a quick state diagram to clarify below.</p>
+<figure><img src="images/pomodoroStateDiagram.png"
+         alt="image"/>
+</figure>
+
+<p>See the LEDs with the red outline? The LED at the end of the sequence is what I call the &ldquo;active LED&rdquo;. I wanted these to slowly pulse to add some extra flair to the project. This ended up having some pretty serious implications on implementation. more on that later&hellip;</p>
+<p>Finally, how to reset the timer? After kicking around a few ideas (slider with inductive encoding? Adapting a motorized fader from a mixing board?), I settled with the humble button. No need to make more trouble for myself!</p>
+<p>What would the timer look like? My original idea was to make it in the same form factor as an expansion card slot on the <a href="">Framework Laptop</a>. It would be cool to always have access to a pomodoro timer, but I landed on a different idea later in development. But I&rsquo;m saving that as a secret for part 2 ;)</p>
+<h2 id="the-execution">The Execution</h2>
+<p><em>Note: Skip to the conclusion if you don&rsquo;t care about programming / implementation specifics!</em></p>
+<p>Like I mentioned, one of my goals was to use a real MCU. Picking an MCU is no easy feat. I settled on TI&rsquo;s MSPM0G3507 - I happened to have a few lying around and wanted to see if CCS&rsquo;s quirkiness carried over to the new VSCode (technically Theia) CCS IDE.</p>
+<p>One of my biggest gripes with previous-gen (eclipse) CCS was the difficulty of git integration. I always seemed to pollute my repositories with half of an SDK that I didn&rsquo;t need. It looks like this is better in new CCS - following <a href="https://software-dl.ti.com/ccs/esd/documents/sdto_ccs_source-control.html">this &ldquo;list of things to not check in&rdquo;</a> led to a bloat-less repo. CCS&rsquo;s shows its VsCode bones in the super helpful source control tab, too. The jury is still out on whether it will survive a git clone, but for now it seems to be working ok.</p>
+<figure><img src="images/newCCS.png"
+         alt="image"/><figcaption>
+            <p>CCS' new, VSCode/Theia coat of paint.</p>
+        </figcaption>
+</figure>
+
+<p>On to the project, where the first thing to implement was the timer logic itself. We set a hardware timer to trigger an interrupt once every second, checking if five minutes have passed. If so, we do a few things:</p>
+<ol>
+<li>Check to see if the full 25 minutes have passed. If they have, kill the timer.</li>
+<li>Turn off the currently active LED</li>
+<li>Make the next LED in the sequence the active LED</li>
+<li>Continue</li>
+</ol>
+<p>That&rsquo;s really all there is to it! On the other hand, making the active LED pulsing look pretty was more difficult. Pulse Width Modulation (PWM) is the default way to control LED brightness - but PWM percentage and brightness aren&rsquo;t a linear relationship. 50% duty cycle on the LED is actually closer to 75% of the LED&rsquo;s potential brightness, making changes in LED brightness look &ldquo;one-sided&rdquo; or &ldquo;choppy&rdquo;. As <a href="http://www.pyroelectro.com/tutorials/fading_led_pwm/theory2.html">this blog post maintains</a>, LED brightness is closer to a logarithmic curve than a linear one. I used a quick python script to generate a log_10 table from 0 to 256 (my max PWM period value). One lookup table later, and the LEDs pulsed evenly as intended! The video at time <strong>4:06</strong> shows the difference between compensated and non-compensated brightness values.</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/1fKH5PU9eck?t=246" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<p>I was originally going to tie each LED to an individual PWM, but I soon realized there was no need to. The other LEDs don&rsquo;t have to pulse, so they&rsquo;re just set high (100% brightness). If I want to add variable brightness this may have to change, but at this point it&rsquo;s OK. (As a side note, I always seem to forget simple things like enabling interrupts! For this, the <a href="https://dev.ti.com/tirex/explore/node?node=A__AeBsSdJZWfmG963nj3KU1Q__MSPM0-ACADEMY__2f1Egw1__LATEST">M0 academies</a> were really helpful in giving golden reference code and reasoning behind what each line is doing. The <a href="">SDK documentation itself</a> was super helpful too.)</p>
+<p>For the physical prototype, I slapped a few LEDs and resistors onto a breadboard left over from college. (Thanks Dr. Silva!) I was tearing my hair out when two of the LEDs didn&rsquo;t work, before I realized that PA10/11 were jumpered to the external debug probe rather than the GPIO breakout on the devkit. <a href="https://www.ti.com/lit/ug/slau873d/slau873d.pdf?ts=1756612576403">Some schematics</a> quickly showed me the error of my ways.</p>
+<p>Adding the timer reset button was the final step. Annoyingly, I couldn&rsquo;t find a documented list of interrupt handlers in the SDK. Some kind soul on the e2e forum <a href="https://e2e.ti.com/support/microcontrollers/arm-based-microcontrollers-group/arm-based-microcontrollers/f/arm-based-microcontrollers-forum/1396629/mspm0l1105-digital-input-interrupt-to-wake-device">posted a massive list</a>, but I&rsquo;d appreciate more insight on where these handler methods come from / are defined.</p>
+<h2 id="the-conclusion">The Conclusion</h2>
+<p>It works! I even used the prototype while writing this article! See the video below, (note that the time is set to 5 seconds per period, not 5 minutes as it would in production).</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/JLuG-Xfg7Ic" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<p>What&rsquo;s the verdict on the pomodoro method? It&rsquo;s helpful, but not for the reason you may have guessed. You see, I have a lot of difficulty in not getting distracted. This timer soon became my favorite way of handling distractions while working - whenever I felt distracted, I would look at the timer and remind myself I only had to focus for a few more minutes. Filing those thoughts away until I was done with the pomodoro period made me work way more efficiently!</p>
+<p>The pomodoro helped with one other thing, too. Once I focused on a problem, I often went way over the 25 minute period trying to solve it. I see this is a good thing - why interrupt being in &ldquo;the zone&rdquo; because of some arbitrary time constraint? I was originally going to add some flashing lights to the end of the timer period, but found I worked a lot better when the timer unobtrusively fades out. So in a way, the timer is useful because it forces you to just start something, regardless of how long it takes you to finish.</p>
+<p>Overall, I&rsquo;m a fan. What a relief - imagine putting in all of this this effort if I ended up hating it! Next article, I&rsquo;m going to start on my second PCB design ever! You&rsquo;ll hear more about this in part two (coming hopefully before December). See you back here then!</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>The guy who popularized this technique originally used tomato shaped timer, and Pomodoro is just Italian for Tomato. The more you know!&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2" role="doc-endnote">
+<p>Brutally honest note: last time I tried this, <a href="/posts/echo-matic_special2/">I gave up.</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+]]></content>
+		</item>
 		
 		<item>
 			<title>🏭Why Did My College Campus Look So... Depressing?</title>

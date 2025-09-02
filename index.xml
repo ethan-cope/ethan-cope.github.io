@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Mon, 18 Aug 2025 22:05:04 -0700</lastBuildDate><atom:link href="https://ethan-cope.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 28 Aug 2025 18:52:38 -0700</lastBuildDate><atom:link href="https://ethan-cope.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🍅⏰ Using the Pomodoro Technique to make a Pomodoro Timer (Part 1)</title>
+      <link>https://ethan-cope.github.io/posts/pomodorotimer/</link>
+      <pubDate>Thu, 28 Aug 2025 18:52:38 -0700</pubDate>
+      
+      <guid>https://ethan-cope.github.io/posts/pomodorotimer/</guid>
+      <description>first prototype!
+  Using the Pomodoro Technique to make a Pomodoro Timer (Part 1) A famous Henry Ford quote goes: &amp;ldquo;Nothing is particularly hard, if you divide it into small [enough] jobs&amp;rdquo;. One popular way to practically implement this advice is something called the &amp;ldquo;Pomodoro Technique&amp;rdquo;. 1
+The Pomodoro Technique aims to divide the day into bite-sized, productive time chunks. The idea is to set some kind of timer for 25 minutes before you start working.</description>
+    </item>
+    
     <item>
       <title>🏭Why Did My College Campus Look So... Depressing?</title>
       <link>https://ethan-cope.github.io/posts/tamuarch/</link>
@@ -100,15 +111,6 @@ The Problem  Sweet Eugene&amp;rsquo;s (image from Yelp)</description>
       <guid>https://ethan-cope.github.io/posts/irvingapt/</guid>
       <description>Sign at the entrance of the APT
   On the surface, Dallas looks like just another cookie-cutter commuter city. Compared to Austin&amp;rsquo;s booming tech industry and laid-back vibe, Dallas&#39; historic hyperfocus on sprawling office parks has always felt a bit clinical. But the combination of this all-work all-the-time culture and a early 80&amp;rsquo;s real-estate boom led to some crazy planning experiments, and none were as crazy as the Irving&amp;rsquo;s Las Colinas district.</description>
-    </item>
-    
-    <item>
-      <title>On Personal Projects and Giving Up (Echo-Matic Deluxe Update)</title>
-      <link>https://ethan-cope.github.io/posts/echo-matic_special2/</link>
-      <pubDate>Sun, 27 Aug 2023 15:39:53 -0500</pubDate>
-      
-      <guid>https://ethan-cope.github.io/posts/echo-matic_special2/</guid>
-      <description>Personal projects often feel like a weird limbo between work and play. Starting a project motivated by nothing but passion and a willingness to learn is great. Even if the initial enthusiasm fades, it&amp;rsquo;s still worth it to power through. A finished project is often its own satisfaction. But when all personal interest in the project evaporates, even the most simple tasks become tedious. Every time I think about my gutted Marantz tape deck project, I find myself caring less and less.</description>
     </item>
     
   </channel>

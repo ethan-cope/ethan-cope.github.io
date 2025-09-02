@@ -7,7 +7,79 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Mon, 18 Aug 2025 22:05:04 -0700</lastBuildDate><atom:link href="https://ethan-cope.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 28 Aug 2025 18:52:38 -0700</lastBuildDate><atom:link href="https://ethan-cope.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>blog</title>
+      <link>https://ethan-cope.github.io/tags/blog/</link>
+      <pubDate>Thu, 28 Aug 2025 18:52:38 -0700</pubDate>
+      
+      <guid>https://ethan-cope.github.io/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>embeddedSystems</title>
+      <link>https://ethan-cope.github.io/tags/embeddedsystems/</link>
+      <pubDate>Thu, 28 Aug 2025 18:52:38 -0700</pubDate>
+      
+      <guid>https://ethan-cope.github.io/tags/embeddedsystems/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>firmware</title>
+      <link>https://ethan-cope.github.io/tags/firmware/</link>
+      <pubDate>Thu, 28 Aug 2025 18:52:38 -0700</pubDate>
+      
+      <guid>https://ethan-cope.github.io/tags/firmware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>learning</title>
+      <link>https://ethan-cope.github.io/tags/learning/</link>
+      <pubDate>Thu, 28 Aug 2025 18:52:38 -0700</pubDate>
+      
+      <guid>https://ethan-cope.github.io/tags/learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MSPM0</title>
+      <link>https://ethan-cope.github.io/tags/mspm0/</link>
+      <pubDate>Thu, 28 Aug 2025 18:52:38 -0700</pubDate>
+      
+      <guid>https://ethan-cope.github.io/tags/mspm0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pomodoro</title>
+      <link>https://ethan-cope.github.io/tags/pomodoro/</link>
+      <pubDate>Thu, 28 Aug 2025 18:52:38 -0700</pubDate>
+      
+      <guid>https://ethan-cope.github.io/tags/pomodoro/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>productivity</title>
+      <link>https://ethan-cope.github.io/tags/productivity/</link>
+      <pubDate>Thu, 28 Aug 2025 18:52:38 -0700</pubDate>
+      
+      <guid>https://ethan-cope.github.io/tags/productivity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>project</title>
+      <link>https://ethan-cope.github.io/tags/project/</link>
+      <pubDate>Thu, 28 Aug 2025 18:52:38 -0700</pubDate>
+      
+      <guid>https://ethan-cope.github.io/tags/project/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>architecture</title>
       <link>https://ethan-cope.github.io/tags/architecture/</link>
@@ -23,78 +95,6 @@
       <pubDate>Mon, 18 Aug 2025 22:05:04 -0700</pubDate>
       
       <guid>https://ethan-cope.github.io/tags/article/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>blog</title>
-      <link>https://ethan-cope.github.io/tags/blog/</link>
-      <pubDate>Mon, 18 Aug 2025 22:05:04 -0700</pubDate>
-      
-      <guid>https://ethan-cope.github.io/tags/blog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>brutalism</title>
-      <link>https://ethan-cope.github.io/tags/brutalism/</link>
-      <pubDate>Mon, 18 Aug 2025 22:05:04 -0700</pubDate>
-      
-      <guid>https://ethan-cope.github.io/tags/brutalism/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>college</title>
-      <link>https://ethan-cope.github.io/tags/college/</link>
-      <pubDate>Mon, 18 Aug 2025 22:05:04 -0700</pubDate>
-      
-      <guid>https://ethan-cope.github.io/tags/college/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dallas</title>
-      <link>https://ethan-cope.github.io/tags/dallas/</link>
-      <pubDate>Mon, 18 Aug 2025 22:05:04 -0700</pubDate>
-      
-      <guid>https://ethan-cope.github.io/tags/dallas/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>automotive</title>
-      <link>https://ethan-cope.github.io/tags/automotive/</link>
-      <pubDate>Sat, 26 Jul 2025 19:41:09 -0700</pubDate>
-      
-      <guid>https://ethan-cope.github.io/tags/automotive/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Japan</title>
-      <link>https://ethan-cope.github.io/tags/japan/</link>
-      <pubDate>Sat, 26 Jul 2025 19:41:09 -0700</pubDate>
-      
-      <guid>https://ethan-cope.github.io/tags/japan/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>technology</title>
-      <link>https://ethan-cope.github.io/tags/technology/</link>
-      <pubDate>Sat, 26 Jul 2025 19:41:09 -0700</pubDate>
-      
-      <guid>https://ethan-cope.github.io/tags/technology/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>trains</title>
-      <link>https://ethan-cope.github.io/tags/trains/</link>
-      <pubDate>Sat, 26 Jul 2025 19:41:09 -0700</pubDate>
-      
-      <guid>https://ethan-cope.github.io/tags/trains/</guid>
       <description></description>
     </item>
     

@@ -2,13 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://ethan-cope.github.io/tags/blog/</loc>
+    <lastmod>2025-08-28T18:52:38-07:00</lastmod>
+  </url><url>
+    <loc>https://ethan-cope.github.io/tags/embeddedsystems/</loc>
+    <lastmod>2025-08-28T18:52:38-07:00</lastmod>
+  </url><url>
+    <loc>https://ethan-cope.github.io/tags/firmware/</loc>
+    <lastmod>2025-08-28T18:52:38-07:00</lastmod>
+  </url><url>
+    <loc>https://ethan-cope.github.io/</loc>
+    <lastmod>2025-08-28T18:52:38-07:00</lastmod>
+  </url><url>
+    <loc>https://ethan-cope.github.io/tags/learning/</loc>
+    <lastmod>2025-08-28T18:52:38-07:00</lastmod>
+  </url><url>
+    <loc>https://ethan-cope.github.io/tags/mspm0/</loc>
+    <lastmod>2025-08-28T18:52:38-07:00</lastmod>
+  </url><url>
+    <loc>https://ethan-cope.github.io/tags/pomodoro/</loc>
+    <lastmod>2025-08-28T18:52:38-07:00</lastmod>
+  </url><url>
+    <loc>https://ethan-cope.github.io/posts/</loc>
+    <lastmod>2025-08-28T18:52:38-07:00</lastmod>
+  </url><url>
+    <loc>https://ethan-cope.github.io/tags/productivity/</loc>
+    <lastmod>2025-08-28T18:52:38-07:00</lastmod>
+  </url><url>
+    <loc>https://ethan-cope.github.io/tags/project/</loc>
+    <lastmod>2025-08-28T18:52:38-07:00</lastmod>
+  </url><url>
+    <loc>https://ethan-cope.github.io/tags/</loc>
+    <lastmod>2025-08-28T18:52:38-07:00</lastmod>
+  </url><url>
+    <loc>https://ethan-cope.github.io/posts/pomodorotimer/</loc>
+    <lastmod>2025-08-28T18:52:38-07:00</lastmod>
+  </url><url>
     <loc>https://ethan-cope.github.io/tags/architecture/</loc>
     <lastmod>2025-08-18T22:05:04-07:00</lastmod>
   </url><url>
     <loc>https://ethan-cope.github.io/tags/article/</loc>
-    <lastmod>2025-08-18T22:05:04-07:00</lastmod>
-  </url><url>
-    <loc>https://ethan-cope.github.io/tags/blog/</loc>
     <lastmod>2025-08-18T22:05:04-07:00</lastmod>
   </url><url>
     <loc>https://ethan-cope.github.io/tags/brutalism/</loc>
@@ -18,15 +51,6 @@
     <lastmod>2025-08-18T22:05:04-07:00</lastmod>
   </url><url>
     <loc>https://ethan-cope.github.io/tags/dallas/</loc>
-    <lastmod>2025-08-18T22:05:04-07:00</lastmod>
-  </url><url>
-    <loc>https://ethan-cope.github.io/</loc>
-    <lastmod>2025-08-18T22:05:04-07:00</lastmod>
-  </url><url>
-    <loc>https://ethan-cope.github.io/posts/</loc>
-    <lastmod>2025-08-18T22:05:04-07:00</lastmod>
-  </url><url>
-    <loc>https://ethan-cope.github.io/tags/</loc>
     <lastmod>2025-08-18T22:05:04-07:00</lastmod>
   </url><url>
     <loc>https://ethan-cope.github.io/posts/tamuarch/</loc>
@@ -102,9 +126,6 @@
     <lastmod>2025-02-28T22:13:38-08:00</lastmod>
   </url><url>
     <loc>https://ethan-cope.github.io/tags/javascript/</loc>
-    <lastmod>2025-02-28T22:13:38-08:00</lastmod>
-  </url><url>
-    <loc>https://ethan-cope.github.io/tags/learning/</loc>
     <lastmod>2025-02-28T22:13:38-08:00</lastmod>
   </url><url>
     <loc>https://ethan-cope.github.io/tags/python/</loc>
@@ -183,9 +204,6 @@
     <lastmod>2022-12-27T15:06:31-06:00</lastmod>
   </url><url>
     <loc>https://ethan-cope.github.io/tags/arduino/</loc>
-    <lastmod>2022-12-25T19:04:34-06:00</lastmod>
-  </url><url>
-    <loc>https://ethan-cope.github.io/tags/embeddedsystems/</loc>
     <lastmod>2022-12-25T19:04:34-06:00</lastmod>
   </url><url>
     <loc>https://ethan-cope.github.io/tags/iot/</loc>
