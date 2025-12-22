@@ -6,8 +6,137 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-		<lastBuildDate>Thu, 28 Aug 2025 18:52:38 -0700</lastBuildDate>
+		<lastBuildDate>Sun, 07 Sep 2025 18:54:22 -0700</lastBuildDate>
 		<atom:link href="https://ethan-cope.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>🎧 Why I replaced Spotify with a Playstation Portable for a month</title>
+			<link>https://ethan-cope.github.io/posts/psp/</link>
+			<pubDate>Sun, 07 Sep 2025 18:54:22 -0700</pubDate>
+			
+			<guid>https://ethan-cope.github.io/posts/psp/</guid>
+			<description>If you&amp;rsquo;re familiar with my previous essay, you know I have mixed feelings on music streaming. Spotify, with its algorithmic recommendations and &amp;ldquo;gamification&amp;rdquo; of listening hours, seems purpose-built for constant, mindless music consumption. I was sick of it. Would I enjoy music more if I wasn&amp;rsquo;t in the Spotify ecosystem at all? This October, I set out to answer this question - the hard way. I blocked Spotify for the whole month and moved my music over to&amp;hellip; A Playstation Portable!</description>
+			<content type="html"><![CDATA[<p>If you&rsquo;re familiar with <a href="/posts/essay1streamingservices/">my previous essay</a>, you know I have mixed feelings on music streaming. Spotify, with its algorithmic recommendations and <a href="https://www.makeuseof.com/how-to-boost-spotify-listening-hours-spotify-wrapped/">&ldquo;gamification&rdquo; of listening hours</a>, seems purpose-built for constant, mindless music consumption. I was sick of it. Would I enjoy music more if I wasn&rsquo;t in the Spotify ecosystem at all? This October, I set out to answer this question - the hard way. I blocked Spotify for the whole month and moved my music over to&hellip; A Playstation Portable!</p>
+<figure class="big"><img src="images/psp.png"
+         alt="image"/><figcaption>
+            <p>A PSP 3000, similar to the one used for this article. (<a href="https://consolevariations.com/database/sony-psp-x000-series?activeSortLabel=rarity_score&amp;order=asc">image source</a>)</p>
+        </figcaption>
+</figure>
+
+<h2 id="the-setup">The Setup</h2>
+<p>If you resonated with at least some of my first paragraph, your next question is likely &ldquo;Why a PSP?&rdquo;. Many don&rsquo;t know this, but the PSP isn&rsquo;t just a game console - it was also a .mp3 player!
+This was a weird time for Sony.
+Once the top dogs in the portable tape and CD player markets, Sony was seeing the iPod eat away their longstanding dominance.
+But could your iPod play Gran Turismo? Or God of War, or Metal Gear Solid?
+That was the PSP pitch: one device to <a href="https://www.cnet.com/culture/psp-no-one-trick-pony/">replace your Game Boy, your MP3 player, even your DVD player</a>!</p>
+<p>The PSP was Sony at its innovative peak - my expectations for sound quality and user experience were high.
+Plus I had one lying around!
+With the .mp3 player chosen, the next challenge was loading my tunes onto the device.</p>
+<figure><img src="images/UMD.png"
+         alt="image"/><figcaption>
+            <p>Sony developed an adorably small custom disk just for the PSP! It took some crazy engineering to cram a fully functional optical drive into a portable device! (<a href="https://www.theverge.com/2011/11/11/2553875/ps-vita-umd-passport-announcement-release-date">image source</a>)</p>
+        </figcaption>
+</figure>
+
+<h2 id="the-transition">The Transition</h2>
+<p>How hard was it to load music onto to a PSP? It&rsquo;s definitely not as seamless as the iTunes / iPod ecosystem I grew up with. First off, the PSP uses a proprietary memory stick - you&rsquo;ll need a third-party <a href="https://www.amazon.com/Funturbo-MagicGate-Playstation-Portable-Handycam/dp/B07F68FCHD">microSD &lt;&gt; memory stick adapter</a> to hook the card up to a modern PC. There&rsquo;s another catch - many modern audio file formats are <a href="https://manuals.playstation.net/document//en/psp/current/music/filetypes.html">unsupported by the PSP</a>. If your music collection is a mixture of CDs, vinyl, and .wav files from Bandcamp, there&rsquo;s more work to be done to load these up.</p>
+<figure class="right"><img src="images/microSDAdapter.png"
+         alt="image"/><figcaption>
+            <p>One of the many micro-SD adapters for the PSP. (<a href="https://www.skroutz.gr/s/10230007/Memory-Stick-Pro-Duo-Adapter-to-micro-SD-Metatropeas-male-se-female-1tmch.html">image credit</a>)</p>
+        </figcaption>
+</figure>
+
+<p><em>Note - if you don&rsquo;t care about converting between audio formats, (Hi, Mom!) feel free to skip to the next section.</em></p>
+<ul>
+<li>
+<p>CDs: Probably the easiest to convert. Nearly every laptop with a disc drive can (legally!) copy your CD library to a variety of file formats. I&rsquo;ve had good luck with iTunes, which even extracts track and album names. Some standalone CD players also have this functionality. I used my roommate&rsquo;s Sony CDP-500, but regretted the device&rsquo;s 176 kb bitrate which sounded super tinny. I&rsquo;d stick with iTunes or something!</p>
+</li>
+<li>
+<p>Vinyl: This one is tough. Music on vinyl is analog, meaning it&rsquo;s extra work to convert to a computer-readable file. To start, you&rsquo;ll need to play the whole album end-to-end, and record the record player&rsquo;s audio output on your laptop.
+Some record players (see: AT-LP120) hook up directly to your laptop over USB, letting you record with software like Audacity.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>
+Once done, you&rsquo;ll have one ~20-minute audio file for each side of the album. From here, It&rsquo;s on you to <a href="https://manual.audacityteam.org/man/label_tracks.html">split it into tracks</a> and export them as individual songs.</p>
+</li>
+<li>
+<p>Other digital files: Open Source Software to the rescue! <a href="https://www.ffmpeg.org/">FFMPEG</a> is a completely free library to convert from nearly any encoding to .MP3. I wrote a quick script to iterate through a folder, converting each song to .MP3 and numbering them correctly - try it out!</p>
+</li>
+</ul>
+<pre tabindex="0"><code>#NOTE: need to set paths and extension of source file here
+path=&quot;/mnt/c/Users/ethan/Music/Ryo Fukui/SCENERY&quot;
+extension=&quot;flac&quot;
+echo converting files in &quot;$path&quot; from &quot;$extension&quot; to mp3.
+
+for songpath in &quot;$path&quot;/*; do
+	# https://kevinboone.me/clh_tags.html
+    # great resource for mp3 tagging 
+	# update - need to quote variables in bash. i keep forgetting!
+	#echo $(ffprobe -i $song 2&gt;&amp;1 | grep track*)
+
+	# basename command makes this a lot easier! taking slashdot out of filename
+	song=&quot;$(basename &quot;$songpath&quot;)&quot;
+
+	# extract track number from metadata, add leading zero
+	tracknum=$(ffprobe -i &quot;$songpath&quot; 2&gt;&amp;1 | grep track* | awk '{ print $3}')
+	if [[ ${#tracknum} -eq &quot;1&quot; ]]; then
+		tracknum=0&quot;$tracknum&quot;
+	fi
+	echo $tracknum
+
+	#some songs already have track number baked into the song title
+	#for this, just set track number to empty string
+	#tracknum=&quot;&quot;
+
+	sourcefile=&quot;${path}/${song}&quot;
+	destfile=&quot;${path}/${tracknum} ${song%%&quot;$extension&quot;}mp3&quot;
+	echo Creating: $destfile
+	#echo &quot;ffmpeg -i ${sourcefile} -acodec libmp3lame -b:a 320k ${destfile}&quot;
+	ffmpeg -i &quot;${sourcefile}&quot; -acodec libmp3lame -b:a 320k &quot;${destfile}&quot;
+done
+
+</code></pre><p>Once you&rsquo;ve got your tracks, it&rsquo;s relatively simple. Put all of the songs in a folder named after the album title, the put these albums in another folder named after the artist. Dump these artist folders into <code>[MUSIC]</code> folder on the microSD, pop it into your PSP and voila! You&rsquo;ve got 32 gigs of songs in your pocket!</p>
+<h2 id="jamming-like-its-2005">Jamming like it&rsquo;s 2005</h2>
+<p>First and foremost, the PSP is a game console. As a result, there are some quirks that make it a bit of a pain to use as a .mp3 player.</p>
+<ol>
+<li>There are no dedicated play / pause buttons.</li>
+<li>Volume controls are tiny, and nearly impossible to adjust from your pocket.</li>
+<li>On the other hand the track skip buttons are massive, and frustratingly easy to fat-finger. Sony attempts to mitigate this with the &ldquo;input lock&rdquo; switch, preventing any button presses from registering on the PSP.
+But even this is clunky.</li>
+<li>That same input lock switch is shared with the power switch, meaning there&rsquo;s a 50/50 chance you accidentally reboot your PSP instead of cranking up the tunes.</li>
+</ol>
+<figure><img src="images/powerHoldSwitch.png"
+         alt="image"/><figcaption>
+            <p>If the PSP is already in input lock (setting C) and you try to unlock (re-centering the switch) you&rsquo;ll probably reboot it by accident (setting A). From the <a href="https://archive.org/details/sony-psp-3000/page/n9/mode/2up">PSP user&rsquo;s manual.</a></p>
+        </figcaption>
+</figure>
+
+<p>Sound quality wasn&rsquo;t life-changing. Frequency response was flat and consistent through my Moondrop Kato IEMs. High-end clarity left the most to be desired, though. It&rsquo;s easy to point the finger at the .mp3 encoding - after all, these files were only 44100 kHz @ 320 kb/s. Since these same files sounded fine on my laptop, I suspect the PSP&rsquo;s audio chip. Sony developed a bunch of custom chips for the PSP, including a GPU (CXD1876) and CPU (CXD2962). But there&rsquo;s no Sony secret-sauce for audio; they instead opted for an off-the-shelf Wolfson codec.</p>
+<figure><img src="images/wolfsonCodec.png"
+         alt="image"/><figcaption>
+            <p>Datasheet block diagram for the Wolfson Codec found in the PSP3000 (<a href="https://www.alldatasheet.com/datasheet-pdf/download/837353/WOLFSON/WM8973L.html">image source</a>)</p>
+        </figcaption>
+</figure>
+
+<p>The WM8973G (<a href="https://www.alldatasheet.com/datasheet-pdf/download/837353/WOLFSON/WM8973L.html">datasheet</a>) pitches itself as a &ldquo;low-power integrated codec&rdquo; and&hellip; yeah. Trade-offs were definitely made with sound quality here. I can&rsquo;t say I&rsquo;m surprised. The PSP was, first and foremost, a game console. Gamers likely wouldn&rsquo;t have valued higher quality audio if it killed their battery life. Nowadays we&rsquo;re spoiled by <a href="https://www.ifixit.com/News/8448/apple-audio-adapter-teardown">tiny DACs</a> that far outperform audiophile equipment from twenty years ago. Overall, the PSP sound quality isn&rsquo;t great, but to my ears it&rsquo;s definitely enough for portable listening.</p>
+<figure><img src="images/pspSystemArchitecture.png"
+         alt="image"/><figcaption>
+            <p>If you&rsquo;re interested in how Sony put the PSP together, Rodrigo Copetti put together a <a href="https://www.copetti.org/writings/consoles/playstation-portable/">masterclass on the subject</a>. Vector Processing, Memory Mapping, Silicon part numbers - no stone went unturned. Highly recommend!</p>
+        </figcaption>
+</figure>
+
+<p>Side note - an original goal for this article was to upgrade the PSP&rsquo;s audio capability like I did for the <a href="/posts/ge7/">Boss GE-7 a few years ago</a> I was going to blue-wire a newer codec like the <a href="https://www.ti.com/product/TAC5112">TAC5112</a> and A/B test the audio performance. Unfortunately I couldn&rsquo;t find any newer devices that are pin-compatible with the Wolfson codec - if anyone has ideas I&rsquo;d be happy to hear them though!</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Dang, Ethan! Loading songs are a pain, it doesn&rsquo;t sound great, and the user interface is clunky at best. Sounds like you hated this month with the PSP. Nope! In fact, this month away from Spotify <em>utterly changed</em> the way I listen to music. I think it boils down to this.</p>
+<p>When you stream music, the music itself is almost never the focus. Most people, myself included, seem to use Spotify as a &ldquo;background noise generator&rdquo;. We need a constant stream of non-intrusive <em>something</em>, never really caring what that something is.</p>
+<p>But with the PSP, that all changes. A .mp3 player won&rsquo;t force-feed you the same 50 songs until you&rsquo;ve listened them to death. You couldn&rsquo;t doomscroll on a .mp3 player if you tried. These aren&rsquo;t limitations, they&rsquo;re opportunities! Using a .mp3 player forces you to engage with the music, because there&rsquo;s nothing else you CAN be doing! Something funny happened while writing this article. As far as hours listened, I probably heard less music this October. But without Spotify, I definitely <em>listened</em> to more.</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>There have been some debates of late about whether Audacity is spyware. Not going to take a stance here, but since it&rsquo;s the only processing software I&rsquo;m fluent with I&rsquo;m going to stick with it for now. <a href="https://github.com/audacity/audacity">Form your own opinion from the public git repo here:</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+]]></content>
+		</item>
 		
 		<item>
 			<title>🍅⏰ Using the Pomodoro Technique to make a Pomodoro Timer (Part 1)</title>

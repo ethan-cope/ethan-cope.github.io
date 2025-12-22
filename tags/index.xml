@@ -7,94 +7,94 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Thu, 28 Aug 2025 18:52:38 -0700</lastBuildDate><atom:link href="https://ethan-cope.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Sep 2025 18:54:22 -0700</lastBuildDate><atom:link href="https://ethan-cope.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>blog</title>
-      <link>https://ethan-cope.github.io/tags/blog/</link>
-      <pubDate>Thu, 28 Aug 2025 18:52:38 -0700</pubDate>
+      <title>album</title>
+      <link>https://ethan-cope.github.io/tags/album/</link>
+      <pubDate>Sun, 07 Sep 2025 18:54:22 -0700</pubDate>
       
-      <guid>https://ethan-cope.github.io/tags/blog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>embeddedSystems</title>
-      <link>https://ethan-cope.github.io/tags/embeddedsystems/</link>
-      <pubDate>Thu, 28 Aug 2025 18:52:38 -0700</pubDate>
-      
-      <guid>https://ethan-cope.github.io/tags/embeddedsystems/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>firmware</title>
-      <link>https://ethan-cope.github.io/tags/firmware/</link>
-      <pubDate>Thu, 28 Aug 2025 18:52:38 -0700</pubDate>
-      
-      <guid>https://ethan-cope.github.io/tags/firmware/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>learning</title>
-      <link>https://ethan-cope.github.io/tags/learning/</link>
-      <pubDate>Thu, 28 Aug 2025 18:52:38 -0700</pubDate>
-      
-      <guid>https://ethan-cope.github.io/tags/learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>MSPM0</title>
-      <link>https://ethan-cope.github.io/tags/mspm0/</link>
-      <pubDate>Thu, 28 Aug 2025 18:52:38 -0700</pubDate>
-      
-      <guid>https://ethan-cope.github.io/tags/mspm0/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>pomodoro</title>
-      <link>https://ethan-cope.github.io/tags/pomodoro/</link>
-      <pubDate>Thu, 28 Aug 2025 18:52:38 -0700</pubDate>
-      
-      <guid>https://ethan-cope.github.io/tags/pomodoro/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>productivity</title>
-      <link>https://ethan-cope.github.io/tags/productivity/</link>
-      <pubDate>Thu, 28 Aug 2025 18:52:38 -0700</pubDate>
-      
-      <guid>https://ethan-cope.github.io/tags/productivity/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>project</title>
-      <link>https://ethan-cope.github.io/tags/project/</link>
-      <pubDate>Thu, 28 Aug 2025 18:52:38 -0700</pubDate>
-      
-      <guid>https://ethan-cope.github.io/tags/project/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>architecture</title>
-      <link>https://ethan-cope.github.io/tags/architecture/</link>
-      <pubDate>Mon, 18 Aug 2025 22:05:04 -0700</pubDate>
-      
-      <guid>https://ethan-cope.github.io/tags/architecture/</guid>
+      <guid>https://ethan-cope.github.io/tags/album/</guid>
       <description></description>
     </item>
     
     <item>
       <title>article</title>
       <link>https://ethan-cope.github.io/tags/article/</link>
-      <pubDate>Mon, 18 Aug 2025 22:05:04 -0700</pubDate>
+      <pubDate>Sun, 07 Sep 2025 18:54:22 -0700</pubDate>
       
       <guid>https://ethan-cope.github.io/tags/article/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>audio</title>
+      <link>https://ethan-cope.github.io/tags/audio/</link>
+      <pubDate>Sun, 07 Sep 2025 18:54:22 -0700</pubDate>
+      
+      <guid>https://ethan-cope.github.io/tags/audio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blog</title>
+      <link>https://ethan-cope.github.io/tags/blog/</link>
+      <pubDate>Sun, 07 Sep 2025 18:54:22 -0700</pubDate>
+      
+      <guid>https://ethan-cope.github.io/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mp3</title>
+      <link>https://ethan-cope.github.io/tags/mp3/</link>
+      <pubDate>Sun, 07 Sep 2025 18:54:22 -0700</pubDate>
+      
+      <guid>https://ethan-cope.github.io/tags/mp3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>music</title>
+      <link>https://ethan-cope.github.io/tags/music/</link>
+      <pubDate>Sun, 07 Sep 2025 18:54:22 -0700</pubDate>
+      
+      <guid>https://ethan-cope.github.io/tags/music/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>musings</title>
+      <link>https://ethan-cope.github.io/tags/musings/</link>
+      <pubDate>Sun, 07 Sep 2025 18:54:22 -0700</pubDate>
+      
+      <guid>https://ethan-cope.github.io/tags/musings/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>physical media</title>
+      <link>https://ethan-cope.github.io/tags/physical-media/</link>
+      <pubDate>Sun, 07 Sep 2025 18:54:22 -0700</pubDate>
+      
+      <guid>https://ethan-cope.github.io/tags/physical-media/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>project</title>
+      <link>https://ethan-cope.github.io/tags/project/</link>
+      <pubDate>Sun, 07 Sep 2025 18:54:22 -0700</pubDate>
+      
+      <guid>https://ethan-cope.github.io/tags/project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PSP</title>
+      <link>https://ethan-cope.github.io/tags/psp/</link>
+      <pubDate>Sun, 07 Sep 2025 18:54:22 -0700</pubDate>
+      
+      <guid>https://ethan-cope.github.io/tags/psp/</guid>
       <description></description>
     </item>
     
