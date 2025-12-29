@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Sun, 07 Sep 2025 18:54:22 -0700</lastBuildDate><atom:link href="https://ethan-cope.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Dec 2025 11:00:49 -0800</lastBuildDate><atom:link href="https://ethan-cope.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>🚆 Is DART&#39;s New Transit Line Enough to Save It? (Part 1: Context)</title>
+      <link>https://ethan-cope.github.io/posts/silverlinept1/</link>
+      <pubDate>Sat, 27 Dec 2025 11:00:49 -0800</pubDate>
+      
+      <guid>https://ethan-cope.github.io/posts/silverlinept1/</guid>
+      <description>Two trains pulling into the Silver Line station at UTD
+  Dallas Area Rapid Transit serves over 50 million people a year. And in five months, if even one of Dallas&#39; twelve suburbs vote to leave DART, we could lose it for good. At the same time, DART just linked these disgruntled suburbs with its newest rail line. Is the state-of-the-art Silver Line enough to placate Plano and Co.</description>
+    </item>
+    
     <item>
       <title>🎧 Why I replaced Spotify with a Playstation Portable for a month</title>
       <link>https://ethan-cope.github.io/posts/psp/</link>
@@ -99,17 +109,6 @@ Sure, I&amp;rsquo;ve driven in for a few concerts - but that&amp;rsquo;s not exp
       <guid>https://ethan-cope.github.io/posts/twodaysinnagoya/</guid>
       <description>Recently, it seems like everyone I talk to is either visiting or returning from Japan. This isn&amp;rsquo;t just my observation - according to multiple sources, Japan&amp;rsquo;s post-covid tourism numbers are through the roof. While many plan their trips around the glitz and glamor of Tokyo or the rich culture of Kyoto, there&amp;rsquo;s another city that I&amp;rsquo;ve yet to see on any itinerary - Nagoya.
 Despite being it&amp;rsquo;s third largest metro area, Nagoya is nationally renowned as &amp;ldquo;Japan&amp;rsquo;s most boring city&amp;rdquo;.</description>
-    </item>
-    
-    <item>
-      <title>☕ Introducing CafeMatrix</title>
-      <link>https://ethan-cope.github.io/posts/cafematrix/</link>
-      <pubDate>Thu, 07 Nov 2024 21:55:31 -0800</pubDate>
-      
-      <guid>https://ethan-cope.github.io/posts/cafematrix/</guid>
-      <description>The internet has undoubtedly anxiously awaited this next installment of my personal blog. Having revolutionized the spheres of architecture and education alike, what worlds are left to conquer? The answer is the flashy, cutthroat realm of restaurant ranking. A world that as of December 28, 2024, will never be the same. Introducing the new, paradigm-shifting CafeMatrix!
-Note: please read the above paragraph with a heavy dose of sarcasm
-The Problem  Sweet Eugene&amp;rsquo;s (image from Yelp)</description>
     </item>
     
   </channel>

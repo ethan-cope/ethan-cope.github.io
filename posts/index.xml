@@ -6,8 +6,101 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-		<lastBuildDate>Sun, 07 Sep 2025 18:54:22 -0700</lastBuildDate>
+		<lastBuildDate>Sat, 27 Dec 2025 11:00:49 -0800</lastBuildDate>
 		<atom:link href="https://ethan-cope.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>🚆 Is DART&#39;s New Transit Line Enough to Save It? (Part 1: Context)</title>
+			<link>https://ethan-cope.github.io/posts/silverlinept1/</link>
+			<pubDate>Sat, 27 Dec 2025 11:00:49 -0800</pubDate>
+			
+			<guid>https://ethan-cope.github.io/posts/silverlinept1/</guid>
+			<description>Two trains pulling into the Silver Line station at UTD
+  Dallas Area Rapid Transit serves over 50 million people a year. And in five months, if even one of Dallas&#39; twelve suburbs vote to leave DART, we could lose it for good. At the same time, DART just linked these disgruntled suburbs with its newest rail line. Is the state-of-the-art Silver Line enough to placate Plano and Co.</description>
+			<content type="html"><![CDATA[<figure class="big"><img src="images/silverTrain2SCALED.jpg"
+         alt="image"/><figcaption>
+            <p>Two trains pulling into the Silver Line station at UTD</p>
+        </figcaption>
+</figure>
+
+<p>Dallas Area Rapid Transit serves over 50 million people a year. And <a href="https://www.governing.com/transportation/voter-revolt-could-reshape-public-transit-in-north-texas">in five months</a>, if even one of Dallas' twelve suburbs vote to leave DART, we could lose it for good. At the same time, DART <em>just</em> linked these disgruntled suburbs with its newest rail line. Is the state-of-the-art Silver Line enough to placate Plano and Co. - and thereby save DART as we know it?
+Join me in this two-part article as I review the Silver Line, and why it&rsquo;s a critical inflection point for Dallas transit.</p>
+<h2 id="the-origins-of-dart">The Origins of DART</h2>
+<p>Today, no one would argue that DART is efficient. But was it always this way?
+To find out, let&rsquo;s take a look at the unique problem DART had to solve.
+By the 90&rsquo;s, millions and millions of Dallasites were commuting downtown every day.
+Dallas knew that if growth trends continued, rail transit would be the only long-term solution.
+But Dallas is really, really spread out. However you sliced it, people were going to be too far from train stations.</p>
+<figure><img src="images/dartToday.png"
+         alt="image"/><figcaption>
+            <p>DART&rsquo;s current extent, circa December 2025 (<a href="https://dartorgcmsblob.dart.org/prod/docs/default-source/dart-maps/dart-current-and-future-services-map.pdf?sfvrsn=76b4ab16_6">image credit</a>)</p>
+        </figcaption>
+</figure>
+
+<p>To tackle this problem, DART designed their rail lines around an untested but promising &ldquo;Park-and-Ride&rdquo; model.
+The idea was that commuters would drive their own cars to the closest DART station, park there, and take the train downtown.
+Some Park-and-Rides have seen success in the US, <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> but nothing of this scale had ever been attempted.
+Undeterred, DART began scooping up abandoned freight rail lines (for pennies on the dollar) and converting them to passenger rail. By 1996, DART unveiled its first passenger rail lines in Dallas.</p>
+<figure><img src="images/dartEvolution.gif"
+         alt="image"/><figcaption>
+            <p>Really cool animation of DART&rsquo;s evolution (not including the Silver Line) (<a href="https://transitmap.net/dart-timeline-mcelroy/">image credit</a>)</p>
+        </figcaption>
+</figure>
+
+<h2 id="darts-fatal-flaw">Dart&rsquo;s Fatal Flaw</h2>
+<p>DART was built around two assumptions: that commuters would always need to get downtown, and that increasing freeway traffic would soon make these trips untenable.
+But even before DART started construction, these assumptions had begun to unravel.
+Instead of growing, downtowns across the U.S. declined as companies relocated to suburban &ldquo;corporate campuses&rdquo;.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>
+The Internet and COVID only accelerated this trend, and an increasing number of companies today are eschewing office space altogether.
+As a result, commuter congestion in Dallas never hit the critical mass planners were expecting.
+Without this anticipated traffic apocalypse, DART park-and-ride wasn&rsquo;t any faster than driving.</p>
+<figure><img src="images/dartDowntown.jpg"
+         alt="image"/><figcaption>
+            <p>Because of this trendy &ldquo;transit mall&rdquo;, DART has to crawl through Downtown. (<a href="https://www.tripadvisor.com/Attraction_Review-g55711-d10537055-Reviews-DART_Rail_System-Dallas_Texas.html">image credit</a>)</p>
+        </figcaption>
+</figure>
+
+<p>The failure of park-and-ride kneecapped DART&rsquo;s usefulness in other areas, too.
+It&rsquo;s common sense to put stations in high-density, walkable locations.
+Main Street Richardson and Dallas' historic Chinatown fit this description, and both have the Red Line at their front door.
+But in both cases, the closest stations are a ~20 minute walk away! <sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>
+This decision made sense at the time. Stations in lower-density areas could fit more commuters into larger parking lots.
+But today, these useless stations are just baggage from DART&rsquo;s well-meaning but misguided Park-and-Ride obsession.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><img src="images/chinaTownRailSCALED.jpg" alt=""></th>
+<th style="text-align:center"><img src="images/richardsonRailSCALED.jpg" alt=""></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><em>DART to Chinatown - 17 minute walk</em></td>
+<td style="text-align:center"><em>DART to Main Street Richardson - 18 minute walk</em></td>
+</tr>
+</tbody>
+</table>
+<p>The way I see it, 1990&rsquo;s DART was future-proof up until the future changed.
+Designed around an obsolete regional migration pattern, DART now has a dilemma.
+Most existing stations are in low-density locations, no one works downtown, and everyone with a car still drives to work.
+So how can DART provide effective transit, both for now and the future?
+Stay tuned for Part 2, where I&rsquo;ll talk about how the Silver Line addresses these concerns and more!</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>Chicago&rsquo;s <a href="https://subwaynut.com/chicago/yellow_line/index.php">Skokie Swift</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2" role="doc-endnote">
+<p>This trend also birthed Irving&rsquo;s ill-fated APT monorail, <a href="/posts/irvingapt/">which I wrote about here</a>!&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3" role="doc-endnote">
+<p>Also bear in mind - Dallas had <a href="https://www.extremeweatherwatch.com/cities/dallas/yearly-days-of-90-degrees">116 days over 90 F (32 C)</a> last year.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+]]></content>
+		</item>
 		
 		<item>
 			<title>🎧 Why I replaced Spotify with a Playstation Portable for a month</title>
@@ -406,7 +499,7 @@ Just like <a href="/posts/sftransit/">San Francisco</a>, the only lines that sur
 But with smaller cities in Japan (Hiroshima, Fukuoka, Nagasaki) opting to invest further in trams over subways, maybe trams will have their long-delayed resurgence after all.</p>
 <figure><img src="images/enodenTram.png"
          alt="image"/><figcaption>
-            <p>Another tram line, the Eno-Den. This line was so popular with tourists it was re-converted to run full-size trains through the resort town of Enoshima</p>
+            <p>Another tram line, the Eno-Den. This line was so popular with tourists it was re-converted to run full-size trains through the resort town of Enoshima.</p>
         </figcaption>
 </figure>
 
@@ -468,7 +561,7 @@ Because of this, most monorails of this era were essentially vanity projects for
 </figure>
 
 <p>Unsurprisingly, nearly every Japanese market car is built to dodge as many taxes as possible. Case in point, my friend&rsquo;s Toyota Spade. It only weighs 2400 lbs, nearly half that of the RAV4. With a tiny 1.3L engine, it&rsquo;s taxed at only 2/3s what a RAV4 costs.
-Of course, building a usable car this light requires ingenuity, which the Spade has - well - in spades. The Spade is like a two-door, but the passenger door slides open like a minivan! This lets six-footers like my friend to access the (surprisingly large) backseat with ease. The tax metagaming can go even deeper. If my friend wasn&rsquo;t so tall, he could opt for an even smaller, lighter <em>kei-car</em> for maximum tax optimization!</p>
+Of course, building a usable car this light requires ingenuity, which the Spade has - well - in spades. The Spade is like a two-door, but the passenger door slides open like a minivan! This helps six-footers like my friend access the (surprisingly large) backseat with ease. The tax metagaming can go even deeper. If my friend wasn&rsquo;t so tall, he could opt for an even smaller, lighter <em>kei-car</em> for maximum tax optimization!</p>
 <figure><img src="images/mitsuoka.png"
          alt="image"/><figcaption>
             <p>If you want big car styling for small car money, Mitsuoka has you covered. You can buy a 3/4 size Challenger right off of the lot!</p>
