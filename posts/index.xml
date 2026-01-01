@@ -6,8 +6,152 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-		<lastBuildDate>Sat, 27 Dec 2025 11:00:49 -0800</lastBuildDate>
+		<lastBuildDate>Wed, 31 Dec 2025 20:03:05 -0800</lastBuildDate>
 		<atom:link href="https://ethan-cope.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>🗼 What is this weird tower doing in a San Jose Suburb?</title>
+			<link>https://ethan-cope.github.io/posts/longlines/</link>
+			<pubDate>Wed, 31 Dec 2025 20:03:05 -0800</pubDate>
+			
+			<guid>https://ethan-cope.github.io/posts/longlines/</guid>
+			<description>Hey all! Experimenting with a new format - video! Enjoy this brief walk-through of AT&amp;amp;T&amp;rsquo;s long-lines system!
+  </description>
+			<content type="html"><![CDATA[<p>Hey all! Experimenting with a new format - video! Enjoy this brief walk-through of AT&amp;T&rsquo;s long-lines system!</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/4Qps0UIHLc8" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+]]></content>
+		</item>
+		
+		<item>
+			<title>🚆 Is DART&#39;s New Transit Line Enough to Save It? (Part 2: Execution)</title>
+			<link>https://ethan-cope.github.io/posts/silverlinept2/</link>
+			<pubDate>Sat, 27 Dec 2025 11:50:00 -0800</pubDate>
+			
+			<guid>https://ethan-cope.github.io/posts/silverlinept2/</guid>
+			<description>The Silver Line  DART&amp;rsquo;s new Silver Line crossing Central. (image credit)
+  In my first article in this series, I wrote about how DART&amp;rsquo;s well-intentioned but poorly timed bet on park-and-ride led to system-level inefficiencies. But there&amp;rsquo;s good news! The Silver Line fixes a ton of DART&amp;rsquo;s existing issues - let&amp;rsquo;s see how on a map of the line.
+ DART Silver Line&amp;rsquo;s right-of-way.
+  Previous DART lines had lots of stations at regular intervals - more like beefed-up bus lines.</description>
+			<content type="html"><![CDATA[<h2 id="the-silver-line">The Silver Line</h2>
+<figure class="big"><img src="images/silverTrain3.jpg"
+         alt="image"/><figcaption>
+            <p>DART&rsquo;s new Silver Line crossing Central. (<a href="https://www.cor.net/departments/traffic-transportation/cotton-belt-rail-line">image credit</a>)</p>
+        </figcaption>
+</figure>
+
+<p>In <a href="/posts/silverlinept1/">my first article in this series</a>, I wrote about how DART&rsquo;s well-intentioned but poorly timed bet on park-and-ride led to system-level inefficiencies.
+But there&rsquo;s good news!
+The Silver Line fixes a ton of DART&rsquo;s existing issues - let&rsquo;s see how on a map of the line.</p>
+<figure><img src="images/silverROWSCALED.jpg"
+         alt="image"/><figcaption>
+            <p>DART Silver Line&rsquo;s right-of-way.</p>
+        </figcaption>
+</figure>
+
+<p>Previous DART lines had <em>lots of stations</em> at <em>regular intervals</em> - more like beefed-up bus lines. Compare that to the Silver Line, where stations are fewer and further between. This means higher speeds and faster travel times. The Silver Line also has a much tighter focus on stations in high-density areas and points of interest. Here are a few examples:</p>
+<ul>
+<li>DFW, The nation&rsquo;s busiest airport. Highways get so gridlocked here, some travelers hop out and walk along the highway median to their gates!</li>
+<li>UT Dallas, Dallas' largest university (and self-proclaimed &ldquo;MIT of the South&rdquo;)</li>
+<li>Four High-Density mixed-use developments: Addison Center, CityLine, Plano (12th street), and Carrollton <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></li>
+<li>One major shopping center (Knoll Trail)</li>
+</ul>
+<p>So far, so good. But I couldn&rsquo;t just write about the Silver line. I had to ride it for myself! This Thanksgiving I decided to spend the week using DART as much as possible to see if it&rsquo;s truly a game-changer.</p>
+<figure><img src="images/dfwBackupSCALED.jpg"
+         alt="image"/><figcaption>
+            <p>Traffic at DFW airport during the holidays. (<a href="https://www.msn.com/en-us/travel/news/holiday-travelers-causing-traffic-backup-at-dfw-airport/vi-AA1Re0HT">image credit</a>)</p>
+        </figcaption>
+</figure>
+
+<h2 id="dart-to-the-airport">DART to the Airport</h2>
+<p>The Silver Line has an excellent connection to Dallas' airport. Well, Dallas' bigger airport, DFW. Unfortunately, my (rapidly evaporating) loyalty to Southwest Airlines demands that I fly into Dallas' smaller airfield, Love Field. I normally prefer Love Field - it&rsquo;s much closer to the city, and you don&rsquo;t have to pay a toll to get inside. However, flying into Love forces you to take a more&hellip; circuitous DART route. See below.</p>
+<figure><img src="images/airportRoute.jpg"
+         alt="image"/><figcaption>
+            <p>Routing from Love Field to UTD Station</p>
+        </figcaption>
+</figure>
+
+<p>My first connection was a slow bus shuttle to the DART Green line.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> The Green Line uses DART&rsquo;s classic rolling stock - Kinki Sharyo S-LRVs. (The -S apparently stands for &ldquo;Super&rdquo;.) These trains are crazy spacious and comfortable, especially for light rail. The middle car is fully ADA compliant while cars on either end are elevated for additional seating room. There&rsquo;s already an <a href="https://legacy-dartnet.dart.org/webapps/board%20portal/downloadBoardFile.asp?docType=linkedPresentations&amp;FileID=84413">RFP out to replace these</a>, and I&rsquo;ll be sad to see them go.</p>
+<figure><img src="images/greenTrainSCALED.jpg"
+         alt="image"/><figcaption>
+            <p>DART Green Line&rsquo;s Kinki Sharyo S-LRV.</p>
+        </figcaption>
+</figure>
+
+<p>Coming from San Jose&rsquo;s pitiful light rail, I&rsquo;m consistently surprised by how solid DART&rsquo;s infrastructure is. Nearly the whole Green Line is elevated, and trains can reach 65 mph on straightaways. DART&rsquo;s Green Line stations also feature <a href="/posts/japanarch/">early-2000s architectural aesthetic</a> we all know and love. The friendly swoops and creases add some whimsy to an otherwise boring station. On the other hand, the Silver Line stations are all sharp angles and bright lights. Certainly more modern, but certain features like the diffused glass / LED combo probably won&rsquo;t age well.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"><img src="images/greenStationSCALED.jpg" alt=""></th>
+<th style="text-align:center"><img src="images/silverStationSCALED.jpg" alt=""></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><em>Carrollton Green Line station</em></td>
+<td style="text-align:center"><em>Carrollton Silver Line station</em></td>
+</tr>
+</tbody>
+</table>
+<p>But enough on <em>form</em> - what about <em>function</em>? The Silver Line runs less frequently than DART, giving me a long, 20 minute transfer. Maybe DART hasn&rsquo;t worked out the kinks in the transfer schedule yet. Once onboard, you&rsquo;ll notice that the trains are really quiet! The Silver Line&rsquo;s trains are diesel-powered,<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup> but are hardly louder than a washing machine (to my ears, anyway). They&rsquo;re also fast - the Stadler FLIRT locomotives covered the ~15 miles from Carrollton to UTD in just 18 min. We have higher train speeds and fewer stops to thank for that.</p>
+<figure><img src="images/silverTrainSCALED.jpg"
+         alt="image"/><figcaption>
+            <p>DART Silver Line&rsquo;s Stadler FLIRT pulling out of UTD station</p>
+        </figcaption>
+</figure>
+
+<p>As a DFW airport connection, the Silver Line is invaluable. During rush hour or holiday traffic, it&rsquo;s cheaper and likely faster than an Uber. But if you&rsquo;re flying into Love field, I probably wouldn&rsquo;t waste time with DART.
+My 20 minute drive home transformed into a 2.5 hour, three-transfer adventure. But what about DART&rsquo;s primary purpose - commuting?</p>
+<h2 id="commuting-on-dart">Commuting on DART</h2>
+<p>For my second test, I wanted to see if the Silver Line could cut time off of my commute. My office has a great connection to the Red Line, so it was a single transfer from my home base of UTD station. DART was originally built for commuting, so I was optimistic!</p>
+<figure><img src="images/redStationSCALED.jpg"
+         alt="image"/><figcaption>
+            <p>A typical station on the Red Line</p>
+        </figcaption>
+</figure>
+
+<p>I would call my commute on DART a success. End-to-end, my drive to work is normally 20 minutes. Taking DART only grew this to 30 min, and I was able to read the whole time. Trains were clean and on-time, both for the Silver and Red Lines.
+While I had a good commuting experience, your mileage may vary.
+For starters, I&rsquo;m blessed with a DART station relatively close to my house. This is rare for reasons mentioned earlier (i.e. park-and-ride).
+Also, I organically like commuting on the train.
+But DART still has strides to make in <a href="https://www.cbsnews.com/texas/news/deadly-shooting-dart-station-dallas-arrest/">public safety</a> and <a href="https://www.dart.org/about/news-and-events/newsreleases/newsrelease-detail/dart-announces-fall-campaign--live-green-ride-clean--demonstrates-commitment-to-system-cleanliness-and-maintenance">cleanliness</a> to lure disinterested commuters out of their cars.</p>
+<figure class="right"><img src="images/easterEggSCALED.jpg"
+         alt="image"/><figcaption>
+            <p>Most of these early stations had easter eggs hidden in plain sight! This station is near the headquarters of a major microchip manufacturer - hence the circuit board decorations.</p>
+        </figcaption>
+</figure>
+
+<h2 id="will-the-silver-line-save-dart">Will the Silver Line Save DART?</h2>
+<p>Regardless, the Silver Line is a massive leap forward for DART. It marks a welcome change from the outdated Park-and-Ride model, which purposefully placed stations far from population centers. The Silver Line correctly focus stations in areas where driving is inconvenient and expensive. It even expands DART&rsquo;s reach, making the Red and Green lines more useful too.
+One question still stands - is it enough?</p>
+<p>There are stormclouds on the horizon. DART is funded by Dallas' suburbs, each of which have a <a href="https://www.dallasnews.com/news/transportation/2025/11/22/who-pays-for-public-transportation-in-north-texas-how-dart-is-funded-and-governed/">1% sales tax</a> that goes straight to transit. Suburbs vote whether to remain in DART every six years, and the <a href="https://www.governing.com/transportation/voter-revolt-could-reshape-public-transit-in-north-texas">next election is coming up</a>.
+So if you&rsquo;re a cash-strapped suburb, now is the time to <a href="https://www.plano.gov/2345/Transit-in-Plano">raise funding equity concerns</a> and consider leaving DART altogether.
+With the inefficiencies in the current system, I don&rsquo;t completely blame them.</p>
+<p>This is why the Silver Line is so crucial - it proves that DART isn&rsquo;t stuck in the past.
+I hope that as the Silver Line ridership grows, these suburbs will change their tune and see the value DART brings to their communities.
+Because a more connected DFW is one worth fighting for.<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p><a href="https://www.dmagazine.com/commercial-real-estate/2025/09/what-dallas-developers-should-know-about-texas-new-multifamily-law/">Texas&rsquo;s recently passed Senate Bill 840</a> also makes it easier to build multi-family housing, especially in commercially-zoned areas near DART lines.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2" role="doc-endnote">
+<p>This was originally planned as a direct rail connection, but would later be blocked by the <a href="https://www.progressiverailroading.com/rail_industry_trends/news/DART-Green-Line-will-not-include-Dallas-Love-Field-tunnel--12990">Federal Government</a>.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3" role="doc-endnote">
+<p>The Silver Line right-of-way is still shared with an active freight railway making electrification was a non-starter.&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4" role="doc-endnote">
+<p>Semi-related to this article: I found a relic of the old internet. A time-capsule 2000&rsquo;s era website maintained by a light rail mega-fan. <a href="https://www.lightrailnow.org/index.htm">Check it out here</a>:&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+]]></content>
+		</item>
 		
 		<item>
 			<title>🚆 Is DART&#39;s New Transit Line Enough to Save It? (Part 1: Context)</title>
